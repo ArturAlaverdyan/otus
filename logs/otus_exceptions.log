@@ -1,37 +1,171 @@
 
- OTUS  2024-11-27 16:13:38 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [Error] 
- OTUS Call to undefined method Classes\Diagnostic\OtusFileExceptionHandlerLog::testr() (0)
- OTUS /home/c/ca43694/public_html/otus/debug.php:8
+ OTUS  2024-12-28 14:48:23 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\DB\ConnectionException] 
+ OTUS Mysql connect error [localhost]: (2002) Resource temporarily unavailable (400)
+ OTUS /home/c/ca43694/public_html/bitrix/modules/main/lib/db/mysqliconnection.php:86
+ OTUS #0: Bitrix\Main\DB\MysqliConnection->connectInternal()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/data/connection.php:53
+ OTUS #1: Bitrix\Main\Data\Connection->getResource()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/database.php:304
+ OTUS #2: CAllDatabase->DoConnect()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/database.php:712
+ OTUS #3: CAllDatabase->ForSql(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/sqlwhere.php:840
+ OTUS #4: CAllSQLWhere->addStringFilter(array, boolean, string, string, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/sqlwhere.php:405
+ OTUS #5: CAllSQLWhere->GetQueryEx(array, array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/sqlwhere.php:281
+ OTUS #6: CAllSQLWhere->GetQuery(array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:2259
+ OTUS #7: Bitrix\Main\ORM\Query\Query->buildWhere()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:2497
+ OTUS #8: Bitrix\Main\ORM\Query\Query->buildQuery()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:942
+ OTUS #9: Bitrix\Main\ORM\Query\Query->exec()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/data/datamanager.php:499
+ OTUS #10: Bitrix\Main\ORM\Data\DataManager::getList(array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/site.php:152
+ OTUS #11: Bitrix\Main\SiteTable::getByDomain(string, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/httpcontext.php:97
+ OTUS #12: Bitrix\Main\HttpContext->initializeCulture(NULL, NULL)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/include.php:52
+ OTUS #13: require_once(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/include/prolog_before.php:19
+ OTUS #14: require_once(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/include/prolog.php:10
+ OTUS #15: require_once(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/header.php:1
+ OTUS #16: require(string)
+ OTUS 	/home/c/ca43694/public_html/otus/doctors_view.php:2
  OTUS ----------
  OTUS 
  OTUS 
- OTUS  2024-11-27 16:14:19 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [Error] 
- OTUS Call to undefined method Classes\Diagnostic\OtusFileExceptionHandlerLog::testr() (0)
- OTUS /home/c/ca43694/public_html/otus/debug.php:8
+ OTUS  2024-12-28 15:08:00 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [Error] 
+ OTUS Call to undefined function class_exist() (0)
+ OTUS /home/c/ca43694/public_html/otus/doctors_view.php:5
  OTUS ----------
  OTUS 
  OTUS 
- OTUS  2024-11-27 16:15:28 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [Error] 
- OTUS Call to undefined method Classes\Diagnostic\OtusFileExceptionHandlerLog::testr() (0)
- OTUS /home/c/ca43694/public_html/otus/debug.php:8
+ OTUS  2024-12-28 15:22:15 - Host: ca43694.tw1.ru - UNKNOWN - [Bitrix\Main\DB\SqlQueryException] 
+ OTUS Query error: [2006] MySQL server has gone away (400)
+ OTUS 
+ OTUS 			SELECT ID
+ OTUS 			FROM b_timeman_entries
+ OTUS 			WHERE USER_ID = '1'
+ OTUS 			ORDER BY ID DESC
+ OTUS 			LIMIT 1
+ OTUS 		
+ OTUS /home/c/ca43694/public_html/bitrix/modules/main/classes/general/database.php:654
+ OTUS #0: CAllDatabase->Query(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/timeman/classes/mysql/timeman_entry.php:201
+ OTUS #1: CTimeManEntry::_GetLastQuery(integer)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/timeman/classes/general/timeman_entry.php:32
+ OTUS #2: CAllTimeManEntry::GetLast(integer)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/timeman/classes/general/timeman_user.php:1308
+ OTUS #3: CTimeManUser->_GetLastData(boolean)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/timeman/classes/general/timeman_user.php:630
+ OTUS #4: CTimeManUser->isDayExpired()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/timeman/classes/general/timeman_user.php:534
+ OTUS #5: CTimeManUser->State()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/timeman/classes/general/timeman.php:50
+ OTUS #6: CTimeMan::getRuntimeInfo(boolean)
+ OTUS 	/home/c/ca43694/public_html/bitrix/components/bitrix/timeman/component.php:15
+ OTUS #7: include(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:615
+ OTUS #8: CBitrixComponent->__includeComponent()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:692
+ OTUS #9: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/main.php:1188
+ OTUS #10: CAllMain->IncludeComponent(string, string, array, boolean, array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/templates/bitrix24/header.php:216
+ OTUS #11: include_once(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/include/prolog_after.php:88
+ OTUS #12: require(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/include/prolog.php:11
+ OTUS #13: require_once(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/header.php:1
+ OTUS #14: require(string)
+ OTUS 	/home/c/ca43694/public_html/otus/doctors_view.php:2
  OTUS ----------
  OTUS 
  OTUS 
- OTUS  2024-11-27 16:16:21 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [Error] 
- OTUS Call to undefined method Classes\Diagnostic\OtusFileExceptionHandlerLog::testr() (0)
- OTUS /home/c/ca43694/public_html/otus/debug.php:8
+ OTUS  2024-12-28 15:22:15 - Host: ca43694.tw1.ru - UNKNOWN - [Bitrix\Main\DB\SqlQueryException] 
+ OTUS Query error: [2006] MySQL server has gone away (400)
+ OTUS 
+ OTUS 			SELECT
+ OTUS 				D.*,
+ OTUS 				DATE_FORMAT(D.DATE_ENTER, '%d.%m.%Y %H:%i:%s') DATE_ENTER,
+ OTUS 				DATE_FORMAT(D.DATE_MODIFY, '%d.%m.%Y %H:%i:%s') DATE_MODIFY,
+ OTUS 				DATE_FORMAT(D.DATE_LOCK, '%d.%m.%Y %H:%i:%s') DATE_LOCK,
+ OTUS 				concat('(',UM.LOGIN,') ',ifnull(UM.NAME,''),' ',ifnull(UM.LAST_NAME,'')) MUSER_NAME,
+ OTUS 				concat('(',UE.LOGIN,') ',ifnull(UE.NAME,''),' ',ifnull(UE.LAST_NAME,'')) EUSER_NAME,
+ OTUS 				concat('(',UL.LOGIN,') ',ifnull(UL.NAME,''),' ',ifnull(UL.LAST_NAME,'')) LUSER_NAME,
+ OTUS 				S.TITLE STATUS_TITLE,
+ OTUS 				if (D.DATE_LOCK is null, 'green',
+ OTUS 					if(DATE_ADD(D.DATE_LOCK, interval 60 MINUTE)<now(), 'green',
+ OTUS 						if(D.LOCKED_BY=1, 'yellow', 'red'))) LOCK_STATUS
+ OTUS 			FROM
+ OTUS 				b_workflow_document D
+ OTUS 				LEFT JOIN b_user UM ON (UM.ID = D.MODIFIED_BY)
+ OTUS 				LEFT JOIN b_user UE ON (UE.ID = D.ENTERED_BY)
+ OTUS 				LEFT JOIN b_user UL ON (UL.ID = D.LOCKED_BY)
+ OTUS 				LEFT JOIN b_workflow_status S ON (S.ID = D.STATUS_ID)
+ OTUS 			WHERE
+ OTUS 				SITE_ID = 's1'
+ OTUS 				AND D.FILENAME = '/otus/untitled.php'
+ OTUS 				AND 
+ OTUS D.STATUS_ID <> 1
+ OTUS 		
+ OTUS /home/c/ca43694/public_html/bitrix/modules/main/classes/general/database.php:654
+ OTUS #0: CAllDatabase->Query(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/workflow/classes/mysql/workflow.php:323
+ OTUS #1: CWorkflow::GetByFilename(string, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/workflow/classes/general/workflow.php:610
+ OTUS #2: CAllWorkflow::GetEditLink(string, NULL, NULL, string, string, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/workflow/classes/general/workflow.php:14
+ OTUS #3: CAllWorkflow::OnPanelCreate()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/tools.php:5253
+ OTUS #4: ExecuteModuleEventEx(array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/public/top_panel.php:982
+ OTUS #5: CTopPanel::InitPanelIcons()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/public/top_panel.php:1083
+ OTUS #6: CTopPanel::shouldShowPanel()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/public/top_panel.php:1099
+ OTUS #7: CTopPanel::InitPanel()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/tools.php:5246
+ OTUS #8: ExecuteModuleEventEx(array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/main.php:3363
+ OTUS #9: CAllMain->EndBufferContent(string, integer)
+ OTUS 	
+ OTUS #10: ob_end_flush()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/main.php:3648
+ OTUS #11: CAllMain::{closure}()
+ OTUS 	
  OTUS ----------
  OTUS 
  OTUS 
- OTUS  2024-11-27 17:53:58 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [Error] 
- OTUS Call to undefined method Classes\Diagnostic\OtusFileExceptionHandlerLog::testr() (0)
- OTUS /home/c/ca43694/public_html/otus/debug.php:8
+ OTUS  2024-12-28 15:22:53 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
+ OTUS Unknown method `getNext` (0)
+ OTUS /home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:319
+ OTUS #0: Bitrix\Main\ORM\Query\Query->__call(string, array)
+ OTUS 	/home/c/ca43694/public_html/otus/doctors_comp.php:29
+ OTUS #1: DoctorsComp::getDataProcedures()
+ OTUS 	/home/c/ca43694/public_html/otus/doctors_view.php:7
  OTUS ----------
  OTUS 
  OTUS 
- OTUS  2024-12-01 17:43:48 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [Error] 
- OTUS Call to undefined method Classes\Diagnostic\OtusFileExceptionHandlerLog::testr() (0)
- OTUS /home/c/ca43694/public_html/otus/debug.php:8
+ OTUS  2024-12-28 15:22:53 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
+ OTUS Unknown method `getNext` (0)
+ OTUS /home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:319
+ OTUS #0: Bitrix\Main\ORM\Query\Query->__call(string, array)
+ OTUS 	/home/c/ca43694/public_html/otus/doctors_comp.php:29
+ OTUS #1: DoctorsComp::getDataProcedures()
+ OTUS 	/home/c/ca43694/public_html/otus/doctors_view.php:7
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2024-12-28 15:48:49 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [Error] 
+ OTUS Using $this when not in object context (0)
+ OTUS /home/c/ca43694/public_html/otus/doctors_view.php:4
  OTUS ----------
  OTUS 
  OTUS 

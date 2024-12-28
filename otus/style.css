@@ -1,0 +1,73 @@
+/**
+	ДОКТОРА
+*/
+.doctors{
+    padding: 0 1%;
+    font-size: 0;
+    margin: 10px 0 10px 0;
+    visibility: visible;
+}
+.doctors > div{
+    width: 20%;
+    min-width: 400px;
+    max-width: 700px;
+    display: inline-block;
+}
+.doctors a{
+    display: inline-block;
+    margin: 0 10% 4% 0;
+    width: 94%;
+    height: 100px;
+    line-height: 100px;
+    vertical-align: middle;
+    text-align: center;
+    border: 0px solid;
+    border-radius: 14px;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: rgb(246 246 246);
+    color: rgb(86 92 105);
+}
+.doctors a span{
+    line-height: 1.5;
+    display: inline-block;
+}
+.doctors a:hover{
+    color: rgb(40 87 201);
+}
+.addCard{
+    height: 100px;
+}
+.addCard a{
+    height: 40px;
+    line-height:40px;
+    vertical-align: middle;
+    width: 190px;
+    display: inline-block;
+    background-color: rgb(231 231 231);
+    text-align:center;
+}
+.myForm input {
+    margin: 5px 15px;
+    width: 40%;
+    font-size: 16px;
+    border: 1px solid rgb(199 205 210);
+    border-radius: 2px;
+    box-sizing: border-box;
+    padding: 5px 5px;
+}
+.myForm select {
+    margin: 5px 15px;
+    width: 25%;
+    font-size: 16px;
+    border: 1px solid rgb(199 205 210);
+    border-radius: 2px;
+    box-sizing: border-box;
+    padding: 5px 5px;
+}
+.myForm input[type="submit"]:active {
+    background-color: rgb(226 226 226);
+}
+
+
+
