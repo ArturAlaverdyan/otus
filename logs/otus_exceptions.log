@@ -169,3 +169,2281 @@
  OTUS ----------
  OTUS 
  OTUS 
+ OTUS  2025-01-09 15:47:10 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [Error] 
+ OTUS Call to protected method Bitrix\Crm\DealTable::getFactory() from global scope (0)
+ OTUS /home/c/ca43694/public_html/otus/deals.php:11
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-01-10 17:32:08 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [Error] 
+ OTUS Class "Models\Tables\HospitalTable" not found (0)
+ OTUS /home/c/ca43694/public_html/otus/tables.php:6
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-01-10 17:47:17 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [Error] 
+ OTUS Class "Models\Tables\HospitalTable" not found (0)
+ OTUS /home/c/ca43694/public_html/otus/tables.php:6
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-01-10 17:48:38 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [Error] 
+ OTUS Class "Models\Tables\HospitalTable" not found (0)
+ OTUS /home/c/ca43694/public_html/otus/tables.php:6
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-01-10 17:50:36 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [Error] 
+ OTUS Class "Models\Tables\HospitalTable" not found (0)
+ OTUS /home/c/ca43694/public_html/otus/tables.php:6
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-01-10 17:52:21 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [Error] 
+ OTUS Class "Models\Tables\HospitalTable" not found (0)
+ OTUS /home/c/ca43694/public_html/otus/tables.php:6
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-01-10 17:59:37 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
+ OTUS Unknown property `getId` for object `Bitrix\Clients\EO_Hospital` (0)
+ OTUS /home/c/ca43694/public_html/bitrix/modules/main/lib/orm/objectify/entityobject.php:895
+ OTUS #0: Bitrix\Main\ORM\Objectify\EntityObject->__get(string)
+ OTUS 	/home/c/ca43694/public_html/otus/tables.php:14
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-01-13 10:50:06 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [Error] 
+ OTUS Class "Bitrix\Clients\Reference" not found (0)
+ OTUS /home/c/ca43694/public_html/local/models/tables/hospital_clients.php:89
+ OTUS #0: Bitrix\Clients\HospitalTable::getMap()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/entity.php:232
+ OTUS #1: Bitrix\Main\ORM\Entity->initialize(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/entity.php:129
+ OTUS #2: Bitrix\Main\ORM\Entity::getInstanceDirect(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/entity.php:108
+ OTUS #3: Bitrix\Main\ORM\Entity::getInstance(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/data/datamanager.php:70
+ OTUS #4: Bitrix\Main\ORM\Data\DataManager::getEntity()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/data/datamanager.php:548
+ OTUS #5: Bitrix\Main\ORM\Data\DataManager::query()
+ OTUS 	/home/c/ca43694/public_html/otus/tables.php:6
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-01-13 10:50:09 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [Error] 
+ OTUS Class "Bitrix\Clients\Reference" not found (0)
+ OTUS /home/c/ca43694/public_html/local/models/tables/hospital_clients.php:89
+ OTUS #0: Bitrix\Clients\HospitalTable::getMap()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/entity.php:232
+ OTUS #1: Bitrix\Main\ORM\Entity->initialize(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/entity.php:129
+ OTUS #2: Bitrix\Main\ORM\Entity::getInstanceDirect(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/entity.php:108
+ OTUS #3: Bitrix\Main\ORM\Entity::getInstance(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/data/datamanager.php:70
+ OTUS #4: Bitrix\Main\ORM\Data\DataManager::getEntity()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/data/datamanager.php:548
+ OTUS #5: Bitrix\Main\ORM\Data\DataManager::query()
+ OTUS 	/home/c/ca43694/public_html/otus/tables.php:6
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-01-13 10:52:56 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
+ OTUS Unknown field definition `ID` (IBLOCK.ID) for \Models\Tables\Doctors Entity. (100)
+ OTUS /home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/chain.php:346
+ OTUS #0: Bitrix\Main\ORM\Query\Chain::getChainByDefinition(object, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:3498
+ OTUS #1: Bitrix\Main\ORM\Query\Query->getRegisteredChain(string, boolean)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:3177
+ OTUS #2: Bitrix\Main\ORM\Query\Query->prepareJoinFilterReference(object, string, string, string, string, boolean)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:2114
+ OTUS #3: Bitrix\Main\ORM\Query\Query->buildJoinMap()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:2487
+ OTUS #4: Bitrix\Main\ORM\Query\Query->buildQuery()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:942
+ OTUS #5: Bitrix\Main\ORM\Query\Query->exec()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:1052
+ OTUS #6: Bitrix\Main\ORM\Query\Query->fetchCollection()
+ OTUS 	/home/c/ca43694/public_html/otus/tables.php:11
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-01-13 10:54:27 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
+ OTUS Unknown field definition `ID` (IBLOCK.ID) for \Models\Tables\Doctors Entity. (100)
+ OTUS /home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/chain.php:346
+ OTUS #0: Bitrix\Main\ORM\Query\Chain::getChainByDefinition(object, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:3498
+ OTUS #1: Bitrix\Main\ORM\Query\Query->getRegisteredChain(string, boolean)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:1231
+ OTUS #2: Bitrix\Main\ORM\Query\Query->addToSelectChain(string, NULL)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:2465
+ OTUS #3: Bitrix\Main\ORM\Query\Query->buildQuery()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:942
+ OTUS #4: Bitrix\Main\ORM\Query\Query->exec()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:1052
+ OTUS #5: Bitrix\Main\ORM\Query\Query->fetchCollection()
+ OTUS 	/home/c/ca43694/public_html/otus/tables.php:11
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-01-13 10:56:08 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
+ OTUS Unknown field definition `NAME` (IBLOCK.NAME) for \Models\Tables\Doctors Entity. (100)
+ OTUS /home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/chain.php:346
+ OTUS #0: Bitrix\Main\ORM\Query\Chain::getChainByDefinition(object, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:3498
+ OTUS #1: Bitrix\Main\ORM\Query\Query->getRegisteredChain(string, boolean)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:1231
+ OTUS #2: Bitrix\Main\ORM\Query\Query->addToSelectChain(string, NULL)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:2465
+ OTUS #3: Bitrix\Main\ORM\Query\Query->buildQuery()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:942
+ OTUS #4: Bitrix\Main\ORM\Query\Query->exec()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:1052
+ OTUS #5: Bitrix\Main\ORM\Query\Query->fetchCollection()
+ OTUS 	/home/c/ca43694/public_html/otus/tables.php:11
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-01-13 11:01:42 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\ArgumentException] 
+ OTUS Hospital Entity has no `IBLOCK.NAME` field. (100)
+ OTUS /home/c/ca43694/public_html/bitrix/modules/main/lib/orm/entity.php:573
+ OTUS #0: Bitrix\Main\ORM\Entity->getField(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/objectify/entityobject.php:968
+ OTUS #1: Bitrix\Main\ORM\Objectify\EntityObject->__call(string, array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/objectify/entityobject.php:716
+ OTUS #2: Bitrix\Main\ORM\Objectify\EntityObject->get(string)
+ OTUS 	/home/c/ca43694/public_html/otus/tables.php:16
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-01-13 11:08:41 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
+ OTUS Unknown field definition `NAME` (IBLOCK.NAME) for \Models\Tables\Doctors Entity. (100)
+ OTUS /home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/chain.php:346
+ OTUS #0: Bitrix\Main\ORM\Query\Chain::getChainByDefinition(object, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:3498
+ OTUS #1: Bitrix\Main\ORM\Query\Query->getRegisteredChain(string, boolean)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:1231
+ OTUS #2: Bitrix\Main\ORM\Query\Query->addToSelectChain(string, NULL)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:2465
+ OTUS #3: Bitrix\Main\ORM\Query\Query->buildQuery()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:942
+ OTUS #4: Bitrix\Main\ORM\Query\Query->exec()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:1052
+ OTUS #5: Bitrix\Main\ORM\Query\Query->fetchCollection()
+ OTUS 	/home/c/ca43694/public_html/otus/tables.php:11
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-01-13 11:10:21 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
+ OTUS Unknown field definition `NAME` (IBLOCK.NAME) for \Models\Tables\Doctors Entity. (100)
+ OTUS /home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/chain.php:346
+ OTUS #0: Bitrix\Main\ORM\Query\Chain::getChainByDefinition(object, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:3498
+ OTUS #1: Bitrix\Main\ORM\Query\Query->getRegisteredChain(string, boolean)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:1231
+ OTUS #2: Bitrix\Main\ORM\Query\Query->addToSelectChain(string, NULL)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:2465
+ OTUS #3: Bitrix\Main\ORM\Query\Query->buildQuery()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:942
+ OTUS #4: Bitrix\Main\ORM\Query\Query->exec()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:1052
+ OTUS #5: Bitrix\Main\ORM\Query\Query->fetchCollection()
+ OTUS 	/home/c/ca43694/public_html/otus/tables.php:11
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-01-13 11:19:37 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [Error] 
+ OTUS Class "\Bitrix\Iblock\Elements\doctorsTable" not found (0)
+ OTUS /home/c/ca43694/public_html/bitrix/modules/main/lib/orm/entity.php:123
+ OTUS #0: Bitrix\Main\ORM\Entity::getInstanceDirect(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/entity.php:108
+ OTUS #1: Bitrix\Main\ORM\Entity::getInstance(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/fields/relations/relation.php:83
+ OTUS #2: Bitrix\Main\ORM\Fields\Relations\Relation->getRefEntity()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/chain.php:241
+ OTUS #3: Bitrix\Main\ORM\Query\Chain::getChainByDefinition(object, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:1153
+ OTUS #4: Bitrix\Main\ORM\Query\Query->addToSelectChain(string, NULL)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:2465
+ OTUS #5: Bitrix\Main\ORM\Query\Query->buildQuery()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:942
+ OTUS #6: Bitrix\Main\ORM\Query\Query->exec()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:1052
+ OTUS #7: Bitrix\Main\ORM\Query\Query->fetchCollection()
+ OTUS 	/home/c/ca43694/public_html/otus/tables.php:13
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-01-13 11:21:53 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [Error] 
+ OTUS Class "Bitrix\Iblock\Elements\doctorsTable" not found (0)
+ OTUS /home/c/ca43694/public_html/otus/tables.php:7
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-01-13 11:22:20 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [Error] 
+ OTUS Class "Bitrix\Iblock\Elements\doctorsTable" not found (0)
+ OTUS /home/c/ca43694/public_html/otus/tables.php:7
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-01-13 11:23:26 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [Error] 
+ OTUS Class "Bitrix\Iblock\Elements\doctorsTable" not found (0)
+ OTUS /home/c/ca43694/public_html/otus/tables.php:7
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-01-13 11:23:55 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [Error] 
+ OTUS Call to undefined function pp() (0)
+ OTUS /home/c/ca43694/public_html/otus/tables.php:10
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-01-13 11:46:43 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
+ OTUS Unknown field definition `IMYA` (IBLOCK.IMYA) for \Bitrix\Iblock\Elements\Elementdoctors Entity. (100)
+ OTUS /home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/chain.php:346
+ OTUS #0: Bitrix\Main\ORM\Query\Chain::getChainByDefinition(object, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:3498
+ OTUS #1: Bitrix\Main\ORM\Query\Query->getRegisteredChain(string, boolean)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:1231
+ OTUS #2: Bitrix\Main\ORM\Query\Query->addToSelectChain(string, NULL)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:2465
+ OTUS #3: Bitrix\Main\ORM\Query\Query->buildQuery()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:942
+ OTUS #4: Bitrix\Main\ORM\Query\Query->exec()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:1052
+ OTUS #5: Bitrix\Main\ORM\Query\Query->fetchCollection()
+ OTUS 	/home/c/ca43694/public_html/otus/tables.php:14
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-01-13 11:48:26 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [Error] 
+ OTUS Call to a member function getValue() on null (0)
+ OTUS /home/c/ca43694/public_html/otus/tables.php:21
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-01-13 11:49:11 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
+ OTUS Unknown method `getIMYA` for object `Bitrix\Iblock\Elements\EO_ElementDoctors` (0)
+ OTUS /home/c/ca43694/public_html/bitrix/modules/main/lib/orm/objectify/entityobject.php:1366
+ OTUS #0: Bitrix\Main\ORM\Objectify\EntityObject->__call(string, array)
+ OTUS 	/home/c/ca43694/public_html/otus/tables.php:21
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-01-13 11:49:33 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [Error] 
+ OTUS Call to a member function getValue() on null (0)
+ OTUS /home/c/ca43694/public_html/otus/tables.php:21
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-01-13 11:50:04 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [Error] 
+ OTUS Call to a member function Get() on null (0)
+ OTUS /home/c/ca43694/public_html/otus/tables.php:21
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-01-13 11:51:15 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
+ OTUS Unknown method `getImyarr` for object `Bitrix\Iblock\Elements\EO_ElementDoctors` (0)
+ OTUS /home/c/ca43694/public_html/bitrix/modules/main/lib/orm/objectify/entityobject.php:1366
+ OTUS #0: Bitrix\Main\ORM\Objectify\EntityObject->__call(string, array)
+ OTUS 	/home/c/ca43694/public_html/otus/tables.php:21
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-01-13 12:00:06 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [TypeError] 
+ OTUS get_class_methods(): Argument #1 ($object_or_class) must be an object or a valid class name, null given (0)
+ OTUS /home/c/ca43694/public_html/otus/tables.php:24
+ OTUS #0: get_class_methods(NULL)
+ OTUS 	/home/c/ca43694/public_html/otus/tables.php:24
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-01-13 12:11:33 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
+ OTUS Unknown field definition `IMYA` (IBLOCK.IMYA) for \Bitrix\Iblock\Elements\Elementdoctors Entity. (100)
+ OTUS /home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/chain.php:346
+ OTUS #0: Bitrix\Main\ORM\Query\Chain::getChainByDefinition(object, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:3498
+ OTUS #1: Bitrix\Main\ORM\Query\Query->getRegisteredChain(string, boolean)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:1231
+ OTUS #2: Bitrix\Main\ORM\Query\Query->addToSelectChain(string, NULL)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:2465
+ OTUS #3: Bitrix\Main\ORM\Query\Query->buildQuery()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:942
+ OTUS #4: Bitrix\Main\ORM\Query\Query->exec()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:1052
+ OTUS #5: Bitrix\Main\ORM\Query\Query->fetchCollection()
+ OTUS 	/home/c/ca43694/public_html/otus/tables.php:14
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-01-13 12:12:44 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
+ OTUS Unknown field definition `IMYA_` (IBLOCK.IMYA_) for \Bitrix\Iblock\Elements\Elementdoctors Entity. (100)
+ OTUS /home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/chain.php:346
+ OTUS #0: Bitrix\Main\ORM\Query\Chain::getChainByDefinition(object, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:3498
+ OTUS #1: Bitrix\Main\ORM\Query\Query->getRegisteredChain(string, boolean)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:1231
+ OTUS #2: Bitrix\Main\ORM\Query\Query->addToSelectChain(string, NULL)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:2465
+ OTUS #3: Bitrix\Main\ORM\Query\Query->buildQuery()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:942
+ OTUS #4: Bitrix\Main\ORM\Query\Query->exec()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:1052
+ OTUS #5: Bitrix\Main\ORM\Query\Query->fetchCollection()
+ OTUS 	/home/c/ca43694/public_html/otus/tables.php:14
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-01-13 12:13:05 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
+ OTUS Unknown field definition `PROP_IMYA` (IBLOCK.PROP_IMYA) for \Bitrix\Iblock\Elements\Elementdoctors Entity. (100)
+ OTUS /home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/chain.php:346
+ OTUS #0: Bitrix\Main\ORM\Query\Chain::getChainByDefinition(object, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:3498
+ OTUS #1: Bitrix\Main\ORM\Query\Query->getRegisteredChain(string, boolean)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:1231
+ OTUS #2: Bitrix\Main\ORM\Query\Query->addToSelectChain(string, NULL)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:2465
+ OTUS #3: Bitrix\Main\ORM\Query\Query->buildQuery()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:942
+ OTUS #4: Bitrix\Main\ORM\Query\Query->exec()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:1052
+ OTUS #5: Bitrix\Main\ORM\Query\Query->fetchCollection()
+ OTUS 	/home/c/ca43694/public_html/otus/tables.php:14
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-01-13 12:13:31 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
+ OTUS Unknown field definition `PROP_IMYA` (IBLOCK.PROP_IMYA) for \Bitrix\Iblock\Elements\Elementdoctors Entity. (100)
+ OTUS /home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/chain.php:346
+ OTUS #0: Bitrix\Main\ORM\Query\Chain::getChainByDefinition(object, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:3498
+ OTUS #1: Bitrix\Main\ORM\Query\Query->getRegisteredChain(string, boolean)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:1231
+ OTUS #2: Bitrix\Main\ORM\Query\Query->addToSelectChain(string, NULL)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:2465
+ OTUS #3: Bitrix\Main\ORM\Query\Query->buildQuery()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:942
+ OTUS #4: Bitrix\Main\ORM\Query\Query->exec()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:1052
+ OTUS #5: Bitrix\Main\ORM\Query\Query->fetchCollection()
+ OTUS 	/home/c/ca43694/public_html/otus/tables.php:14
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-01-13 12:13:41 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
+ OTUS Unknown field definition `PROPERTY_IMYA` (IBLOCK.PROPERTY_IMYA) for \Bitrix\Iblock\Elements\Elementdoctors Entity. (100)
+ OTUS /home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/chain.php:346
+ OTUS #0: Bitrix\Main\ORM\Query\Chain::getChainByDefinition(object, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:3498
+ OTUS #1: Bitrix\Main\ORM\Query\Query->getRegisteredChain(string, boolean)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:1231
+ OTUS #2: Bitrix\Main\ORM\Query\Query->addToSelectChain(string, NULL)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:2465
+ OTUS #3: Bitrix\Main\ORM\Query\Query->buildQuery()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:942
+ OTUS #4: Bitrix\Main\ORM\Query\Query->exec()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:1052
+ OTUS #5: Bitrix\Main\ORM\Query\Query->fetchCollection()
+ OTUS 	/home/c/ca43694/public_html/otus/tables.php:14
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-01-13 12:14:00 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
+ OTUS Unknown field definition `PROPERTY` (IBLOCK.PROPERTY.*) for \Bitrix\Iblock\Elements\Elementdoctors Entity. (100)
+ OTUS /home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/chain.php:346
+ OTUS #0: Bitrix\Main\ORM\Query\Chain::getChainByDefinition(object, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:1153
+ OTUS #1: Bitrix\Main\ORM\Query\Query->addToSelectChain(string, NULL)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:2465
+ OTUS #2: Bitrix\Main\ORM\Query\Query->buildQuery()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:942
+ OTUS #3: Bitrix\Main\ORM\Query\Query->exec()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:1052
+ OTUS #4: Bitrix\Main\ORM\Query\Query->fetchCollection()
+ OTUS 	/home/c/ca43694/public_html/otus/tables.php:14
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-01-13 12:14:19 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
+ OTUS Unknown field definition `PROPERTY` (IBLOCK.PROPERTY.*) for \Bitrix\Iblock\Elements\Elementdoctors Entity. (100)
+ OTUS /home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/chain.php:346
+ OTUS #0: Bitrix\Main\ORM\Query\Chain::getChainByDefinition(object, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:1153
+ OTUS #1: Bitrix\Main\ORM\Query\Query->addToSelectChain(string, NULL)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:2465
+ OTUS #2: Bitrix\Main\ORM\Query\Query->buildQuery()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:942
+ OTUS #3: Bitrix\Main\ORM\Query\Query->exec()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:1052
+ OTUS #4: Bitrix\Main\ORM\Query\Query->fetchCollection()
+ OTUS 	/home/c/ca43694/public_html/otus/tables.php:14
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-01-13 12:30:55 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\ArgumentException] 
+ OTUS ElementDoctors Entity has no `PROPERTY_70` field. (100)
+ OTUS /home/c/ca43694/public_html/bitrix/modules/main/lib/orm/entity.php:573
+ OTUS #0: Bitrix\Main\ORM\Entity->getField(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/objectify/entityobject.php:968
+ OTUS #1: Bitrix\Main\ORM\Objectify\EntityObject->__call(string, array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/objectify/entityobject.php:716
+ OTUS #2: Bitrix\Main\ORM\Objectify\EntityObject->get(string)
+ OTUS 	/home/c/ca43694/public_html/otus/tables.php:22
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-01-13 12:31:14 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\ArgumentException] 
+ OTUS ElementDoctors Entity has no `PROPERTY_70_VALUE` field. (100)
+ OTUS /home/c/ca43694/public_html/bitrix/modules/main/lib/orm/entity.php:573
+ OTUS #0: Bitrix\Main\ORM\Entity->getField(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/objectify/entityobject.php:968
+ OTUS #1: Bitrix\Main\ORM\Objectify\EntityObject->__call(string, array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/objectify/entityobject.php:716
+ OTUS #2: Bitrix\Main\ORM\Objectify\EntityObject->get(string)
+ OTUS 	/home/c/ca43694/public_html/otus/tables.php:22
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-01-13 12:32:29 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
+ OTUS Unknown field definition `IMYA` (IBLOCK.IMYA) for \Bitrix\Iblock\Elements\Elementdoctors Entity. (100)
+ OTUS /home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/chain.php:346
+ OTUS #0: Bitrix\Main\ORM\Query\Chain::getChainByDefinition(object, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:3498
+ OTUS #1: Bitrix\Main\ORM\Query\Query->getRegisteredChain(string, boolean)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:1231
+ OTUS #2: Bitrix\Main\ORM\Query\Query->addToSelectChain(string, NULL)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:2465
+ OTUS #3: Bitrix\Main\ORM\Query\Query->buildQuery()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:942
+ OTUS #4: Bitrix\Main\ORM\Query\Query->exec()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:1052
+ OTUS #5: Bitrix\Main\ORM\Query\Query->fetchCollection()
+ OTUS 	/home/c/ca43694/public_html/otus/tables.php:14
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-01-13 12:45:27 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [Error] 
+ OTUS Class "\Bitrix\Iblock\Elements\PropertydoctorsTable" not found (0)
+ OTUS /home/c/ca43694/public_html/bitrix/modules/main/lib/orm/entity.php:123
+ OTUS #0: Bitrix\Main\ORM\Entity::getInstanceDirect(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/entity.php:108
+ OTUS #1: Bitrix\Main\ORM\Entity::getInstance(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/fields/relations/relation.php:83
+ OTUS #2: Bitrix\Main\ORM\Fields\Relations\Relation->getRefEntity()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/chain.php:241
+ OTUS #3: Bitrix\Main\ORM\Query\Chain::getChainByDefinition(object, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:1153
+ OTUS #4: Bitrix\Main\ORM\Query\Query->addToSelectChain(string, NULL)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:2465
+ OTUS #5: Bitrix\Main\ORM\Query\Query->buildQuery()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:942
+ OTUS #6: Bitrix\Main\ORM\Query\Query->exec()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:1052
+ OTUS #7: Bitrix\Main\ORM\Query\Query->fetchCollection()
+ OTUS 	/home/c/ca43694/public_html/otus/tables.php:14
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-01-13 12:58:25 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
+ OTUS Unknown field definition `IMYA` (IBLOCK.IMYA) for \Bitrix\Iblock\Elements\Elementdoctors Entity. (100)
+ OTUS /home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/chain.php:346
+ OTUS #0: Bitrix\Main\ORM\Query\Chain::getChainByDefinition(object, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:3498
+ OTUS #1: Bitrix\Main\ORM\Query\Query->getRegisteredChain(string, boolean)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:1231
+ OTUS #2: Bitrix\Main\ORM\Query\Query->addToSelectChain(string, NULL)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:2465
+ OTUS #3: Bitrix\Main\ORM\Query\Query->buildQuery()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:942
+ OTUS #4: Bitrix\Main\ORM\Query\Query->exec()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:1052
+ OTUS #5: Bitrix\Main\ORM\Query\Query->fetchCollection()
+ OTUS 	/home/c/ca43694/public_html/otus/tables.php:14
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-01-13 13:16:56 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [Error] 
+ OTUS Call to a member function getValue() on null (0)
+ OTUS /home/c/ca43694/public_html/otus/tables.php:21
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-01-13 13:18:26 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [Error] 
+ OTUS Call to a member function get() on null (0)
+ OTUS /home/c/ca43694/public_html/otus/tables.php:21
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-01-13 13:21:18 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
+ OTUS Unknown field definition `IMYA` (IBLOCK.IMYA) for \Bitrix\Iblock\Elements\Elementdoctors Entity. (100)
+ OTUS /home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/chain.php:346
+ OTUS #0: Bitrix\Main\ORM\Query\Chain::getChainByDefinition(object, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:3498
+ OTUS #1: Bitrix\Main\ORM\Query\Query->getRegisteredChain(string, boolean)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:1231
+ OTUS #2: Bitrix\Main\ORM\Query\Query->addToSelectChain(string, NULL)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:2465
+ OTUS #3: Bitrix\Main\ORM\Query\Query->buildQuery()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:942
+ OTUS #4: Bitrix\Main\ORM\Query\Query->exec()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:1052
+ OTUS #5: Bitrix\Main\ORM\Query\Query->fetchCollection()
+ OTUS 	/home/c/ca43694/public_html/otus/tables.php:14
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-01-13 13:21:54 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
+ OTUS Unknown field definition `FAMILIYA` (IBLOCK.FAMILIYA) for \Bitrix\Iblock\Elements\Elementdoctors Entity. (100)
+ OTUS /home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/chain.php:346
+ OTUS #0: Bitrix\Main\ORM\Query\Chain::getChainByDefinition(object, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:3498
+ OTUS #1: Bitrix\Main\ORM\Query\Query->getRegisteredChain(string, boolean)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:1231
+ OTUS #2: Bitrix\Main\ORM\Query\Query->addToSelectChain(string, NULL)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:2465
+ OTUS #3: Bitrix\Main\ORM\Query\Query->buildQuery()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:942
+ OTUS #4: Bitrix\Main\ORM\Query\Query->exec()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:1052
+ OTUS #5: Bitrix\Main\ORM\Query\Query->fetchCollection()
+ OTUS 	/home/c/ca43694/public_html/otus/tables.php:14
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-01-13 13:21:55 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
+ OTUS Unknown field definition `FAMILIYA` (IBLOCK.FAMILIYA) for \Bitrix\Iblock\Elements\Elementdoctors Entity. (100)
+ OTUS /home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/chain.php:346
+ OTUS #0: Bitrix\Main\ORM\Query\Chain::getChainByDefinition(object, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:3498
+ OTUS #1: Bitrix\Main\ORM\Query\Query->getRegisteredChain(string, boolean)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:1231
+ OTUS #2: Bitrix\Main\ORM\Query\Query->addToSelectChain(string, NULL)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:2465
+ OTUS #3: Bitrix\Main\ORM\Query\Query->buildQuery()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:942
+ OTUS #4: Bitrix\Main\ORM\Query\Query->exec()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:1052
+ OTUS #5: Bitrix\Main\ORM\Query\Query->fetchCollection()
+ OTUS 	/home/c/ca43694/public_html/otus/tables.php:14
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-01-13 13:23:54 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
+ OTUS Unknown field definition `PROPERTY_FAMILIYA` (IBLOCK.PROPERTY_FAMILIYA) for \Bitrix\Iblock\Elements\Elementdoctors Entity. (100)
+ OTUS /home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/chain.php:346
+ OTUS #0: Bitrix\Main\ORM\Query\Chain::getChainByDefinition(object, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:3498
+ OTUS #1: Bitrix\Main\ORM\Query\Query->getRegisteredChain(string, boolean)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:1231
+ OTUS #2: Bitrix\Main\ORM\Query\Query->addToSelectChain(string, NULL)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:2465
+ OTUS #3: Bitrix\Main\ORM\Query\Query->buildQuery()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:942
+ OTUS #4: Bitrix\Main\ORM\Query\Query->exec()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:1052
+ OTUS #5: Bitrix\Main\ORM\Query\Query->fetchCollection()
+ OTUS 	/home/c/ca43694/public_html/otus/tables.php:14
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-01-13 13:27:15 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
+ OTUS Unknown field definition `FAMILIYA` (IBLOCK.FAMILIYA.*) for \Bitrix\Iblock\Elements\Elementdoctors Entity. (100)
+ OTUS /home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/chain.php:346
+ OTUS #0: Bitrix\Main\ORM\Query\Chain::getChainByDefinition(object, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:1153
+ OTUS #1: Bitrix\Main\ORM\Query\Query->addToSelectChain(string, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:2465
+ OTUS #2: Bitrix\Main\ORM\Query\Query->buildQuery()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:942
+ OTUS #3: Bitrix\Main\ORM\Query\Query->exec()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:1052
+ OTUS #4: Bitrix\Main\ORM\Query\Query->fetchCollection()
+ OTUS 	/home/c/ca43694/public_html/otus/tables.php:14
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-01-13 13:27:30 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
+ OTUS Unknown field definition `FAMILIYA` (IBLOCK.FAMILIYA.*) for \Bitrix\Iblock\Elements\Elementdoctors Entity. (100)
+ OTUS /home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/chain.php:346
+ OTUS #0: Bitrix\Main\ORM\Query\Chain::getChainByDefinition(object, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:1153
+ OTUS #1: Bitrix\Main\ORM\Query\Query->addToSelectChain(string, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:2465
+ OTUS #2: Bitrix\Main\ORM\Query\Query->buildQuery()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:942
+ OTUS #3: Bitrix\Main\ORM\Query\Query->exec()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:1052
+ OTUS #4: Bitrix\Main\ORM\Query\Query->fetchCollection()
+ OTUS 	/home/c/ca43694/public_html/otus/tables.php:14
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-01-13 13:28:27 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
+ OTUS Unknown field definition `FAMILIYA` (IBLOCK.FAMILIYA.*) for \Bitrix\Iblock\Elements\Elementdoctors Entity. (100)
+ OTUS /home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/chain.php:346
+ OTUS #0: Bitrix\Main\ORM\Query\Chain::getChainByDefinition(object, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:1153
+ OTUS #1: Bitrix\Main\ORM\Query\Query->addToSelectChain(string, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:2465
+ OTUS #2: Bitrix\Main\ORM\Query\Query->buildQuery()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:942
+ OTUS #3: Bitrix\Main\ORM\Query\Query->exec()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:1052
+ OTUS #4: Bitrix\Main\ORM\Query\Query->fetchCollection()
+ OTUS 	/home/c/ca43694/public_html/otus/tables.php:14
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-01-13 13:33:23 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
+ OTUS Unknown field definition `FAMILIYA` (IBLOCK.FAMILIYA.*) for \Bitrix\Iblock\Elements\Elementdoctors Entity. (100)
+ OTUS /home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/chain.php:346
+ OTUS #0: Bitrix\Main\ORM\Query\Chain::getChainByDefinition(object, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:1153
+ OTUS #1: Bitrix\Main\ORM\Query\Query->addToSelectChain(string, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:2465
+ OTUS #2: Bitrix\Main\ORM\Query\Query->buildQuery()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:942
+ OTUS #3: Bitrix\Main\ORM\Query\Query->exec()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/data/datamanager.php:499
+ OTUS #4: Bitrix\Main\ORM\Data\DataManager::getList(array)
+ OTUS 	/home/c/ca43694/public_html/otus/tables.php:10
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-01-13 13:33:36 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
+ OTUS Unknown field definition `FAMILIYA` (IBLOCK.FAMILIYA) for \Bitrix\Iblock\Elements\Elementdoctors Entity. (100)
+ OTUS /home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/chain.php:346
+ OTUS #0: Bitrix\Main\ORM\Query\Chain::getChainByDefinition(object, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:3498
+ OTUS #1: Bitrix\Main\ORM\Query\Query->getRegisteredChain(string, boolean)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:1231
+ OTUS #2: Bitrix\Main\ORM\Query\Query->addToSelectChain(string, NULL)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:2465
+ OTUS #3: Bitrix\Main\ORM\Query\Query->buildQuery()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:942
+ OTUS #4: Bitrix\Main\ORM\Query\Query->exec()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/data/datamanager.php:499
+ OTUS #5: Bitrix\Main\ORM\Data\DataManager::getList(array)
+ OTUS 	/home/c/ca43694/public_html/otus/tables.php:10
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-01-13 13:33:53 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
+ OTUS Unknown field definition `FAMILIYA` (IBLOCK.FAMILIYA) for \Bitrix\Iblock\Elements\Elementdoctors Entity. (100)
+ OTUS /home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/chain.php:346
+ OTUS #0: Bitrix\Main\ORM\Query\Chain::getChainByDefinition(object, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:3498
+ OTUS #1: Bitrix\Main\ORM\Query\Query->getRegisteredChain(string, boolean)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:1231
+ OTUS #2: Bitrix\Main\ORM\Query\Query->addToSelectChain(string, NULL)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:2465
+ OTUS #3: Bitrix\Main\ORM\Query\Query->buildQuery()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:942
+ OTUS #4: Bitrix\Main\ORM\Query\Query->exec()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/data/datamanager.php:499
+ OTUS #5: Bitrix\Main\ORM\Data\DataManager::getList(array)
+ OTUS 	/home/c/ca43694/public_html/otus/tables.php:10
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-01-13 18:10:10 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
+ OTUS Unknown field definition `ID` (ID) for \Models\Tables\Docs Entity. (100)
+ OTUS /home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/chain.php:346
+ OTUS #0: Bitrix\Main\ORM\Query\Chain::getChainByDefinition(object, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:3498
+ OTUS #1: Bitrix\Main\ORM\Query\Query->getRegisteredChain(string, boolean)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:1231
+ OTUS #2: Bitrix\Main\ORM\Query\Query->addToSelectChain(string, NULL)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:2465
+ OTUS #3: Bitrix\Main\ORM\Query\Query->buildQuery()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:942
+ OTUS #4: Bitrix\Main\ORM\Query\Query->exec()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/data/datamanager.php:499
+ OTUS #5: Bitrix\Main\ORM\Data\DataManager::getList(array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/data/datamanager.php:350
+ OTUS #6: Bitrix\Main\ORM\Data\DataManager::getByPrimary(array, array)
+ OTUS 	/home/c/ca43694/public_html/otus/tables.php:11
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-01-13 18:11:26 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [Error] 
+ OTUS Call to undefined function var_vump() (0)
+ OTUS /home/c/ca43694/public_html/otus/tables.php:14
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-01-13 18:20:05 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
+ OTUS Unknown field definition `ID` (ID) for \Models\Tables\Docs Entity. (100)
+ OTUS /home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/chain.php:346
+ OTUS #0: Bitrix\Main\ORM\Query\Chain::getChainByDefinition(object, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:3498
+ OTUS #1: Bitrix\Main\ORM\Query\Query->getRegisteredChain(string, boolean)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:1231
+ OTUS #2: Bitrix\Main\ORM\Query\Query->addToSelectChain(string, NULL)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:2465
+ OTUS #3: Bitrix\Main\ORM\Query\Query->buildQuery()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:942
+ OTUS #4: Bitrix\Main\ORM\Query\Query->exec()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/data/datamanager.php:499
+ OTUS #5: Bitrix\Main\ORM\Data\DataManager::getList(array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/data/datamanager.php:350
+ OTUS #6: Bitrix\Main\ORM\Data\DataManager::getByPrimary(array, array)
+ OTUS 	/home/c/ca43694/public_html/otus/tables.php:11
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-01-14 10:51:26 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [ParseError] 
+ OTUS syntax error, unexpected token "," (0)
+ OTUS /home/c/ca43694/public_html/local/models/tables/docs.php:131
+ OTUS #0: Bitrix\Main\Loader::autoLoad(string)
+ OTUS 	/home/c/ca43694/public_html/otus/tables.php:10
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-01-14 10:51:30 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [ParseError] 
+ OTUS syntax error, unexpected token "," (0)
+ OTUS /home/c/ca43694/public_html/local/models/tables/docs.php:131
+ OTUS #0: Bitrix\Main\Loader::autoLoad(string)
+ OTUS 	/home/c/ca43694/public_html/otus/tables.php:10
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-01-14 10:51:31 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [ParseError] 
+ OTUS syntax error, unexpected token "," (0)
+ OTUS /home/c/ca43694/public_html/local/models/tables/docs.php:131
+ OTUS #0: Bitrix\Main\Loader::autoLoad(string)
+ OTUS 	/home/c/ca43694/public_html/otus/tables.php:10
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-01-14 11:11:05 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
+ OTUS Unknown field definition `CLIENT` (CLIENT.*) for \Models\Tables\Docs Entity. (100)
+ OTUS /home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/chain.php:346
+ OTUS #0: Bitrix\Main\ORM\Query\Chain::getChainByDefinition(object, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:1153
+ OTUS #1: Bitrix\Main\ORM\Query\Query->addToSelectChain(string, NULL)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:2465
+ OTUS #2: Bitrix\Main\ORM\Query\Query->buildQuery()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:942
+ OTUS #3: Bitrix\Main\ORM\Query\Query->exec()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:1017
+ OTUS #4: Bitrix\Main\ORM\Query\Query->fetchAll()
+ OTUS 	/home/c/ca43694/public_html/otus/tables.php:15
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-01-14 11:12:37 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
+ OTUS Unknown field definition `IMYA` (IBLOCK.IMYA.*) for \Bitrix\Iblock\Elements\Elementdoctors Entity. (100)
+ OTUS /home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/chain.php:346
+ OTUS #0: Bitrix\Main\ORM\Query\Chain::getChainByDefinition(object, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:1153
+ OTUS #1: Bitrix\Main\ORM\Query\Query->addToSelectChain(string, NULL)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:2465
+ OTUS #2: Bitrix\Main\ORM\Query\Query->buildQuery()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:942
+ OTUS #3: Bitrix\Main\ORM\Query\Query->exec()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/data/datamanager.php:499
+ OTUS #4: Bitrix\Main\ORM\Data\DataManager::getList(array)
+ OTUS 	/home/c/ca43694/public_html/otus/tables.php:22
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-01-14 11:16:21 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
+ OTUS Unknown field definition `IBLOCK` (IBLOCK.*) for \Models\Tables\Hospital Entity. (100)
+ OTUS /home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/chain.php:346
+ OTUS #0: Bitrix\Main\ORM\Query\Chain::getChainByDefinition(object, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:1153
+ OTUS #1: Bitrix\Main\ORM\Query\Query->addToSelectChain(string, NULL)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:2465
+ OTUS #2: Bitrix\Main\ORM\Query\Query->buildQuery()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:942
+ OTUS #3: Bitrix\Main\ORM\Query\Query->exec()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/data/datamanager.php:499
+ OTUS #4: Bitrix\Main\ORM\Data\DataManager::getList(array)
+ OTUS 	/home/c/ca43694/public_html/otus/tables.php:22
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-01-14 11:16:37 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
+ OTUS Unknown field definition `IMYA` (IBLOCK1.IMYA) for \Bitrix\Iblock\Elements\Elementdoctors Entity. (100)
+ OTUS /home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/chain.php:346
+ OTUS #0: Bitrix\Main\ORM\Query\Chain::getChainByDefinition(object, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:3498
+ OTUS #1: Bitrix\Main\ORM\Query\Query->getRegisteredChain(string, boolean)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:1231
+ OTUS #2: Bitrix\Main\ORM\Query\Query->addToSelectChain(string, NULL)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:2465
+ OTUS #3: Bitrix\Main\ORM\Query\Query->buildQuery()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:942
+ OTUS #4: Bitrix\Main\ORM\Query\Query->exec()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/data/datamanager.php:499
+ OTUS #5: Bitrix\Main\ORM\Data\DataManager::getList(array)
+ OTUS 	/home/c/ca43694/public_html/otus/tables.php:22
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-01-14 11:24:28 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
+ OTUS Unknown field definition `IMYA` (IBLOCK1.IMYA) for \Bitrix\Iblock\Elements\Elementdoctors Entity. (100)
+ OTUS /home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/chain.php:346
+ OTUS #0: Bitrix\Main\ORM\Query\Chain::getChainByDefinition(object, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:3498
+ OTUS #1: Bitrix\Main\ORM\Query\Query->getRegisteredChain(string, boolean)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:1231
+ OTUS #2: Bitrix\Main\ORM\Query\Query->addToSelectChain(string, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:2465
+ OTUS #3: Bitrix\Main\ORM\Query\Query->buildQuery()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:942
+ OTUS #4: Bitrix\Main\ORM\Query\Query->exec()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/data/datamanager.php:499
+ OTUS #5: Bitrix\Main\ORM\Data\DataManager::getList(array)
+ OTUS 	/home/c/ca43694/public_html/otus/tables.php:22
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-01-14 11:25:40 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
+ OTUS Unknown field definition `OTCHESTVO` (IBLOCK1.OTCHESTVO) for \Bitrix\Iblock\Elements\Elementdoctors Entity. (100)
+ OTUS /home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/chain.php:346
+ OTUS #0: Bitrix\Main\ORM\Query\Chain::getChainByDefinition(object, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:3498
+ OTUS #1: Bitrix\Main\ORM\Query\Query->getRegisteredChain(string, boolean)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:1231
+ OTUS #2: Bitrix\Main\ORM\Query\Query->addToSelectChain(string, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:2465
+ OTUS #3: Bitrix\Main\ORM\Query\Query->buildQuery()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:942
+ OTUS #4: Bitrix\Main\ORM\Query\Query->exec()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/data/datamanager.php:499
+ OTUS #5: Bitrix\Main\ORM\Data\DataManager::getList(array)
+ OTUS 	/home/c/ca43694/public_html/otus/tables.php:22
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-01-14 11:27:06 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
+ OTUS Unknown field definition `FAMILIYA` (IBLOCK1.FAMILIYA) for \Bitrix\Iblock\Elements\Elementdoctors Entity. (100)
+ OTUS /home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/chain.php:346
+ OTUS #0: Bitrix\Main\ORM\Query\Chain::getChainByDefinition(object, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:3498
+ OTUS #1: Bitrix\Main\ORM\Query\Query->getRegisteredChain(string, boolean)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:1231
+ OTUS #2: Bitrix\Main\ORM\Query\Query->addToSelectChain(string, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:2465
+ OTUS #3: Bitrix\Main\ORM\Query\Query->buildQuery()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:942
+ OTUS #4: Bitrix\Main\ORM\Query\Query->exec()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/data/datamanager.php:499
+ OTUS #5: Bitrix\Main\ORM\Data\DataManager::getList(array)
+ OTUS 	/home/c/ca43694/public_html/otus/tables.php:22
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-01-14 11:30:30 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
+ OTUS Unknown field definition `PROC_IDS_MULTI` (IBLOCK1.PROC_IDS_MULTI.*) for \Bitrix\Iblock\Elements\Elementdoctors Entity. (100)
+ OTUS /home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/chain.php:346
+ OTUS #0: Bitrix\Main\ORM\Query\Chain::getChainByDefinition(object, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:1153
+ OTUS #1: Bitrix\Main\ORM\Query\Query->addToSelectChain(string, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:2465
+ OTUS #2: Bitrix\Main\ORM\Query\Query->buildQuery()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:942
+ OTUS #3: Bitrix\Main\ORM\Query\Query->exec()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/data/datamanager.php:499
+ OTUS #4: Bitrix\Main\ORM\Data\DataManager::getList(array)
+ OTUS 	/home/c/ca43694/public_html/otus/tables.php:22
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-01-14 11:33:38 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
+ OTUS Unknown field definition `PROC_IDS_MULTI` (IBLOCK.PROC_IDS_MULTI.*) for \Bitrix\Iblock\Elements\Elementdoctors Entity. (100)
+ OTUS /home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/chain.php:346
+ OTUS #0: Bitrix\Main\ORM\Query\Chain::getChainByDefinition(object, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:1153
+ OTUS #1: Bitrix\Main\ORM\Query\Query->addToSelectChain(string, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:2465
+ OTUS #2: Bitrix\Main\ORM\Query\Query->buildQuery()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:942
+ OTUS #3: Bitrix\Main\ORM\Query\Query->exec()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/data/datamanager.php:499
+ OTUS #4: Bitrix\Main\ORM\Data\DataManager::getList(array)
+ OTUS 	/home/c/ca43694/public_html/otus/tables.php:22
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-01-14 11:34:19 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
+ OTUS Unknown field definition `IMYA` (IBLOCK.IMYA.*) for \Bitrix\Iblock\Elements\Elementdoctors Entity. (100)
+ OTUS /home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/chain.php:346
+ OTUS #0: Bitrix\Main\ORM\Query\Chain::getChainByDefinition(object, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:1153
+ OTUS #1: Bitrix\Main\ORM\Query\Query->addToSelectChain(string, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:2465
+ OTUS #2: Bitrix\Main\ORM\Query\Query->buildQuery()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:942
+ OTUS #3: Bitrix\Main\ORM\Query\Query->exec()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/data/datamanager.php:499
+ OTUS #4: Bitrix\Main\ORM\Data\DataManager::getList(array)
+ OTUS 	/home/c/ca43694/public_html/otus/tables.php:22
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-01-14 11:34:40 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
+ OTUS Unknown field definition `IMYA` (IBLOCK.IMYA) for \Bitrix\Iblock\Elements\Elementdoctors Entity. (100)
+ OTUS /home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/chain.php:346
+ OTUS #0: Bitrix\Main\ORM\Query\Chain::getChainByDefinition(object, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:3498
+ OTUS #1: Bitrix\Main\ORM\Query\Query->getRegisteredChain(string, boolean)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:1231
+ OTUS #2: Bitrix\Main\ORM\Query\Query->addToSelectChain(string, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:2465
+ OTUS #3: Bitrix\Main\ORM\Query\Query->buildQuery()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:942
+ OTUS #4: Bitrix\Main\ORM\Query\Query->exec()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/data/datamanager.php:499
+ OTUS #5: Bitrix\Main\ORM\Data\DataManager::getList(array)
+ OTUS 	/home/c/ca43694/public_html/otus/tables.php:22
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-01-14 11:38:29 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
+ OTUS Unknown field definition `ELEMENT` (ELEMENT.*) for \Bitrix\Iblock\Elements\ElementDoctors Entity. (100)
+ OTUS /home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/chain.php:346
+ OTUS #0: Bitrix\Main\ORM\Query\Chain::getChainByDefinition(object, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:1153
+ OTUS #1: Bitrix\Main\ORM\Query\Query->addToSelectChain(string, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:2465
+ OTUS #2: Bitrix\Main\ORM\Query\Query->buildQuery()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:942
+ OTUS #3: Bitrix\Main\ORM\Query\Query->exec()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/data/datamanager.php:499
+ OTUS #4: Bitrix\Main\ORM\Data\DataManager::getList(array)
+ OTUS 	/home/c/ca43694/public_html/otus/tables.php:10
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-01-14 11:41:57 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
+ OTUS Unknown field definition `IMYA` (IBLOCK.IMYA) for \Bitrix\Iblock\Elements\Elementdoctors Entity. (100)
+ OTUS /home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/chain.php:346
+ OTUS #0: Bitrix\Main\ORM\Query\Chain::getChainByDefinition(object, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:3498
+ OTUS #1: Bitrix\Main\ORM\Query\Query->getRegisteredChain(string, boolean)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:1231
+ OTUS #2: Bitrix\Main\ORM\Query\Query->addToSelectChain(string, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:2465
+ OTUS #3: Bitrix\Main\ORM\Query\Query->buildQuery()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:942
+ OTUS #4: Bitrix\Main\ORM\Query\Query->exec()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/data/datamanager.php:499
+ OTUS #5: Bitrix\Main\ORM\Data\DataManager::getList(array)
+ OTUS 	/home/c/ca43694/public_html/otus/tables.php:22
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-01-14 11:42:31 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
+ OTUS Unknown field definition `FAMILIYA` (IBLOCK.FAMILIYA) for \Bitrix\Iblock\Elements\Elementdoctors Entity. (100)
+ OTUS /home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/chain.php:346
+ OTUS #0: Bitrix\Main\ORM\Query\Chain::getChainByDefinition(object, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:3498
+ OTUS #1: Bitrix\Main\ORM\Query\Query->getRegisteredChain(string, boolean)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:1231
+ OTUS #2: Bitrix\Main\ORM\Query\Query->addToSelectChain(string, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:2465
+ OTUS #3: Bitrix\Main\ORM\Query\Query->buildQuery()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:942
+ OTUS #4: Bitrix\Main\ORM\Query\Query->exec()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/data/datamanager.php:499
+ OTUS #5: Bitrix\Main\ORM\Data\DataManager::getList(array)
+ OTUS 	/home/c/ca43694/public_html/otus/tables.php:22
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-01-14 11:42:57 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
+ OTUS Unknown field definition `FAMILIYA` (IBLOCK.FAMILIYA) for \Bitrix\Iblock\Elements\Elementdoctors Entity. (100)
+ OTUS /home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/chain.php:346
+ OTUS #0: Bitrix\Main\ORM\Query\Chain::getChainByDefinition(object, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:3498
+ OTUS #1: Bitrix\Main\ORM\Query\Query->getRegisteredChain(string, boolean)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:1231
+ OTUS #2: Bitrix\Main\ORM\Query\Query->addToSelectChain(string, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:2465
+ OTUS #3: Bitrix\Main\ORM\Query\Query->buildQuery()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:942
+ OTUS #4: Bitrix\Main\ORM\Query\Query->exec()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/data/datamanager.php:499
+ OTUS #5: Bitrix\Main\ORM\Data\DataManager::getList(array)
+ OTUS 	/home/c/ca43694/public_html/otus/tables.php:22
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-01-14 11:43:23 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
+ OTUS Unknown field definition `IMYA` (IBLOCK.IMYA) for \Bitrix\Iblock\Elements\Elementdoctors Entity. (100)
+ OTUS /home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/chain.php:346
+ OTUS #0: Bitrix\Main\ORM\Query\Chain::getChainByDefinition(object, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:3498
+ OTUS #1: Bitrix\Main\ORM\Query\Query->getRegisteredChain(string, boolean)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:1231
+ OTUS #2: Bitrix\Main\ORM\Query\Query->addToSelectChain(string, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:2465
+ OTUS #3: Bitrix\Main\ORM\Query\Query->buildQuery()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:942
+ OTUS #4: Bitrix\Main\ORM\Query\Query->exec()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/data/datamanager.php:499
+ OTUS #5: Bitrix\Main\ORM\Data\DataManager::getList(array)
+ OTUS 	/home/c/ca43694/public_html/otus/tables.php:22
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-01-14 11:45:15 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
+ OTUS Unknown field definition `IMYA` (IBLOCK.IMYA) for \Bitrix\Iblock\Elements\Elementdoctors Entity. (100)
+ OTUS /home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/chain.php:346
+ OTUS #0: Bitrix\Main\ORM\Query\Chain::getChainByDefinition(object, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:3498
+ OTUS #1: Bitrix\Main\ORM\Query\Query->getRegisteredChain(string, boolean)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:1231
+ OTUS #2: Bitrix\Main\ORM\Query\Query->addToSelectChain(string, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:2465
+ OTUS #3: Bitrix\Main\ORM\Query\Query->buildQuery()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:942
+ OTUS #4: Bitrix\Main\ORM\Query\Query->exec()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/data/datamanager.php:499
+ OTUS #5: Bitrix\Main\ORM\Data\DataManager::getList(array)
+ OTUS 	/home/c/ca43694/public_html/otus/tables.php:22
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-01-14 11:49:54 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
+ OTUS Unknown field definition `IMYA1111` (IBLOCK.IMYA1111) for \Bitrix\Iblock\Elements\Elementdoctors Entity. (100)
+ OTUS /home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/chain.php:346
+ OTUS #0: Bitrix\Main\ORM\Query\Chain::getChainByDefinition(object, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:3498
+ OTUS #1: Bitrix\Main\ORM\Query\Query->getRegisteredChain(string, boolean)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:1231
+ OTUS #2: Bitrix\Main\ORM\Query\Query->addToSelectChain(string, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:2465
+ OTUS #3: Bitrix\Main\ORM\Query\Query->buildQuery()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:942
+ OTUS #4: Bitrix\Main\ORM\Query\Query->exec()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/data/datamanager.php:499
+ OTUS #5: Bitrix\Main\ORM\Data\DataManager::getList(array)
+ OTUS 	/home/c/ca43694/public_html/otus/tables.php:22
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-01-14 11:50:19 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
+ OTUS Unknown field definition `IMYA` (IBLOCK.IMYA) for \Bitrix\Iblock\Elements\Elementdoctors Entity. (100)
+ OTUS /home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/chain.php:346
+ OTUS #0: Bitrix\Main\ORM\Query\Chain::getChainByDefinition(object, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:3498
+ OTUS #1: Bitrix\Main\ORM\Query\Query->getRegisteredChain(string, boolean)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:1231
+ OTUS #2: Bitrix\Main\ORM\Query\Query->addToSelectChain(string, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:2465
+ OTUS #3: Bitrix\Main\ORM\Query\Query->buildQuery()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:942
+ OTUS #4: Bitrix\Main\ORM\Query\Query->exec()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/data/datamanager.php:499
+ OTUS #5: Bitrix\Main\ORM\Data\DataManager::getList(array)
+ OTUS 	/home/c/ca43694/public_html/otus/tables.php:22
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-01-14 11:57:58 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
+ OTUS Unknown field definition `IMYA` (IBLOCK.IMYA) for \Bitrix\Iblock\Elements\Elementdoctors Entity. (100)
+ OTUS /home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/chain.php:346
+ OTUS #0: Bitrix\Main\ORM\Query\Chain::getChainByDefinition(object, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:3498
+ OTUS #1: Bitrix\Main\ORM\Query\Query->getRegisteredChain(string, boolean)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:1231
+ OTUS #2: Bitrix\Main\ORM\Query\Query->addToSelectChain(string, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:2465
+ OTUS #3: Bitrix\Main\ORM\Query\Query->buildQuery()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:942
+ OTUS #4: Bitrix\Main\ORM\Query\Query->exec()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/data/datamanager.php:499
+ OTUS #5: Bitrix\Main\ORM\Data\DataManager::getList(array)
+ OTUS 	/home/c/ca43694/public_html/otus/tables.php:22
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-01-14 11:58:10 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
+ OTUS Unknown field definition `IMYA` (IBLOCK.IMYA) for \Bitrix\Iblock\Elements\Elementdoctors Entity. (100)
+ OTUS /home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/chain.php:346
+ OTUS #0: Bitrix\Main\ORM\Query\Chain::getChainByDefinition(object, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:3498
+ OTUS #1: Bitrix\Main\ORM\Query\Query->getRegisteredChain(string, boolean)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:1231
+ OTUS #2: Bitrix\Main\ORM\Query\Query->addToSelectChain(string, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:2465
+ OTUS #3: Bitrix\Main\ORM\Query\Query->buildQuery()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:942
+ OTUS #4: Bitrix\Main\ORM\Query\Query->exec()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/data/datamanager.php:499
+ OTUS #5: Bitrix\Main\ORM\Data\DataManager::getList(array)
+ OTUS 	/home/c/ca43694/public_html/otus/tables.php:22
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-01-14 11:59:14 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
+ OTUS Unknown field definition `IMYA` (IBLOCK.IMYA) for \Bitrix\Iblock\Elements\Elementdoctors Entity. (100)
+ OTUS /home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/chain.php:346
+ OTUS #0: Bitrix\Main\ORM\Query\Chain::getChainByDefinition(object, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:3498
+ OTUS #1: Bitrix\Main\ORM\Query\Query->getRegisteredChain(string, boolean)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:1231
+ OTUS #2: Bitrix\Main\ORM\Query\Query->addToSelectChain(string, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:2465
+ OTUS #3: Bitrix\Main\ORM\Query\Query->buildQuery()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:942
+ OTUS #4: Bitrix\Main\ORM\Query\Query->exec()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/data/datamanager.php:499
+ OTUS #5: Bitrix\Main\ORM\Data\DataManager::getList(array)
+ OTUS 	/home/c/ca43694/public_html/otus/tables.php:22
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-01-14 12:10:32 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [Error] 
+ OTUS Object of class Bitrix\Iblock\Elements\EO_IblockProperty70 could not be converted to string (0)
+ OTUS /home/c/ca43694/public_html/otus/tables.php:34
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-01-14 12:19:11 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
+ OTUS Unknown field definition `IBLOCK` (IBLOCK.*) for \Models\Tables\Hospital Entity. (100)
+ OTUS /home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/chain.php:346
+ OTUS #0: Bitrix\Main\ORM\Query\Chain::getChainByDefinition(object, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:1153
+ OTUS #1: Bitrix\Main\ORM\Query\Query->addToSelectChain(string, NULL)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:2465
+ OTUS #2: Bitrix\Main\ORM\Query\Query->buildQuery()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:942
+ OTUS #3: Bitrix\Main\ORM\Query\Query->exec()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/data/datamanager.php:499
+ OTUS #4: Bitrix\Main\ORM\Data\DataManager::getList(array)
+ OTUS 	/home/c/ca43694/public_html/otus/tables.php:22
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-01-14 12:21:04 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
+ OTUS Unknown field definition `IMYA` (IBLOCK.IMYA) for \Bitrix\Iblock\Elements\Elementdoctors Entity. (100)
+ OTUS /home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/chain.php:346
+ OTUS #0: Bitrix\Main\ORM\Query\Chain::getChainByDefinition(object, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:3498
+ OTUS #1: Bitrix\Main\ORM\Query\Query->getRegisteredChain(string, boolean)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:1231
+ OTUS #2: Bitrix\Main\ORM\Query\Query->addToSelectChain(string, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:2465
+ OTUS #3: Bitrix\Main\ORM\Query\Query->buildQuery()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:942
+ OTUS #4: Bitrix\Main\ORM\Query\Query->exec()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/data/datamanager.php:499
+ OTUS #5: Bitrix\Main\ORM\Data\DataManager::getList(array)
+ OTUS 	/home/c/ca43694/public_html/otus/tables.php:22
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-01-14 12:35:25 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [Error] 
+ OTUS Call to a member function getValue() on null (0)
+ OTUS /home/c/ca43694/public_html/otus/tables.php:34
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-01-14 12:48:15 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [Error] 
+ OTUS Class "Models\Tables\Join" not found (0)
+ OTUS /home/c/ca43694/public_html/local/models/tables/docs.php:132
+ OTUS #0: Models\Tables\DocsTable::getMap()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/entity.php:232
+ OTUS #1: Bitrix\Main\ORM\Entity->initialize(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/entity.php:129
+ OTUS #2: Bitrix\Main\ORM\Entity::getInstanceDirect(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/entity.php:108
+ OTUS #3: Bitrix\Main\ORM\Entity::getInstance(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/data/datamanager.php:70
+ OTUS #4: Bitrix\Main\ORM\Data\DataManager::getEntity()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/data/datamanager.php:548
+ OTUS #5: Bitrix\Main\ORM\Data\DataManager::query()
+ OTUS 	/home/c/ca43694/public_html/otus/tables.php:8
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-01-14 12:48:47 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
+ OTUS Unknown field definition `CLIENT` (CLIENT.*) for \Models\Tables\Docs Entity. (100)
+ OTUS /home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/chain.php:346
+ OTUS #0: Bitrix\Main\ORM\Query\Chain::getChainByDefinition(object, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:1153
+ OTUS #1: Bitrix\Main\ORM\Query\Query->addToSelectChain(string, NULL)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:2465
+ OTUS #2: Bitrix\Main\ORM\Query\Query->buildQuery()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:942
+ OTUS #3: Bitrix\Main\ORM\Query\Query->exec()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:1017
+ OTUS #4: Bitrix\Main\ORM\Query\Query->fetchAll()
+ OTUS 	/home/c/ca43694/public_html/otus/tables.php:13
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-01-14 12:57:26 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
+ OTUS Unknown field definition `CLIENT` (CLIENT.*) for \Models\Tables\Docs Entity. (100)
+ OTUS /home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/chain.php:346
+ OTUS #0: Bitrix\Main\ORM\Query\Chain::getChainByDefinition(object, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:1153
+ OTUS #1: Bitrix\Main\ORM\Query\Query->addToSelectChain(string, NULL)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:2465
+ OTUS #2: Bitrix\Main\ORM\Query\Query->buildQuery()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:942
+ OTUS #3: Bitrix\Main\ORM\Query\Query->exec()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:1017
+ OTUS #4: Bitrix\Main\ORM\Query\Query->fetchAll()
+ OTUS 	/home/c/ca43694/public_html/otus/tables.php:13
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-01-14 13:00:28 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
+ OTUS Unknown field definition `CLIENT` (CLIENT.*) for \Models\Tables\Docs Entity. (100)
+ OTUS /home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/chain.php:346
+ OTUS #0: Bitrix\Main\ORM\Query\Chain::getChainByDefinition(object, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:1153
+ OTUS #1: Bitrix\Main\ORM\Query\Query->addToSelectChain(string, NULL)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:2465
+ OTUS #2: Bitrix\Main\ORM\Query\Query->buildQuery()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:942
+ OTUS #3: Bitrix\Main\ORM\Query\Query->exec()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:1017
+ OTUS #4: Bitrix\Main\ORM\Query\Query->fetchAll()
+ OTUS 	/home/c/ca43694/public_html/otus/tables.php:13
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-01-14 13:00:45 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
+ OTUS Unknown field definition `CLIENT` (CLIENT.*) for \Models\Tables\Docs Entity. (100)
+ OTUS /home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/chain.php:346
+ OTUS #0: Bitrix\Main\ORM\Query\Chain::getChainByDefinition(object, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:1153
+ OTUS #1: Bitrix\Main\ORM\Query\Query->addToSelectChain(string, NULL)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:2465
+ OTUS #2: Bitrix\Main\ORM\Query\Query->buildQuery()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:942
+ OTUS #3: Bitrix\Main\ORM\Query\Query->exec()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:1017
+ OTUS #4: Bitrix\Main\ORM\Query\Query->fetchAll()
+ OTUS 	/home/c/ca43694/public_html/otus/tables.php:13
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-01-14 13:01:42 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
+ OTUS Unknown field definition `CLIENT` (CLIENT.*) for \Models\Tables\Docs Entity. (100)
+ OTUS /home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/chain.php:346
+ OTUS #0: Bitrix\Main\ORM\Query\Chain::getChainByDefinition(object, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:1153
+ OTUS #1: Bitrix\Main\ORM\Query\Query->addToSelectChain(string, NULL)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:2465
+ OTUS #2: Bitrix\Main\ORM\Query\Query->buildQuery()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:942
+ OTUS #3: Bitrix\Main\ORM\Query\Query->exec()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:1017
+ OTUS #4: Bitrix\Main\ORM\Query\Query->fetchAll()
+ OTUS 	/home/c/ca43694/public_html/otus/tables.php:13
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-01-14 13:01:58 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
+ OTUS Unknown field definition `CLIENT` (CLIENT.*) for \Models\Tables\Docs Entity. (100)
+ OTUS /home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/chain.php:346
+ OTUS #0: Bitrix\Main\ORM\Query\Chain::getChainByDefinition(object, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:1153
+ OTUS #1: Bitrix\Main\ORM\Query\Query->addToSelectChain(string, NULL)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:2465
+ OTUS #2: Bitrix\Main\ORM\Query\Query->buildQuery()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:942
+ OTUS #3: Bitrix\Main\ORM\Query\Query->exec()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:1017
+ OTUS #4: Bitrix\Main\ORM\Query\Query->fetchAll()
+ OTUS 	/home/c/ca43694/public_html/otus/tables.php:13
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-01-14 13:02:26 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
+ OTUS Unknown field definition `CLIENT` (CLIENT.*) for \Models\Tables\Docs Entity. (100)
+ OTUS /home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/chain.php:346
+ OTUS #0: Bitrix\Main\ORM\Query\Chain::getChainByDefinition(object, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:1153
+ OTUS #1: Bitrix\Main\ORM\Query\Query->addToSelectChain(string, NULL)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:2465
+ OTUS #2: Bitrix\Main\ORM\Query\Query->buildQuery()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:942
+ OTUS #3: Bitrix\Main\ORM\Query\Query->exec()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:1017
+ OTUS #4: Bitrix\Main\ORM\Query\Query->fetchAll()
+ OTUS 	/home/c/ca43694/public_html/otus/tables.php:13
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-01-14 13:02:47 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
+ OTUS Unknown field definition `CLIENT` (CLIENT.*) for \Models\Tables\Docs Entity. (100)
+ OTUS /home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/chain.php:346
+ OTUS #0: Bitrix\Main\ORM\Query\Chain::getChainByDefinition(object, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:1153
+ OTUS #1: Bitrix\Main\ORM\Query\Query->addToSelectChain(string, NULL)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:2465
+ OTUS #2: Bitrix\Main\ORM\Query\Query->buildQuery()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:942
+ OTUS #3: Bitrix\Main\ORM\Query\Query->exec()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:1017
+ OTUS #4: Bitrix\Main\ORM\Query\Query->fetchAll()
+ OTUS 	/home/c/ca43694/public_html/otus/tables.php:13
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-01-14 13:03:06 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
+ OTUS Unknown field definition `CLIENT` (CLIENT.*) for \Models\Tables\Docs Entity. (100)
+ OTUS /home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/chain.php:346
+ OTUS #0: Bitrix\Main\ORM\Query\Chain::getChainByDefinition(object, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:1153
+ OTUS #1: Bitrix\Main\ORM\Query\Query->addToSelectChain(string, NULL)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:2465
+ OTUS #2: Bitrix\Main\ORM\Query\Query->buildQuery()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:942
+ OTUS #3: Bitrix\Main\ORM\Query\Query->exec()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:1017
+ OTUS #4: Bitrix\Main\ORM\Query\Query->fetchAll()
+ OTUS 	/home/c/ca43694/public_html/otus/tables.php:13
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-01-14 13:03:35 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
+ OTUS Unknown field definition `CLIENT` (CLIENT.*) for \Models\Tables\Docs Entity. (100)
+ OTUS /home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/chain.php:346
+ OTUS #0: Bitrix\Main\ORM\Query\Chain::getChainByDefinition(object, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:1153
+ OTUS #1: Bitrix\Main\ORM\Query\Query->addToSelectChain(string, NULL)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:2465
+ OTUS #2: Bitrix\Main\ORM\Query\Query->buildQuery()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:942
+ OTUS #3: Bitrix\Main\ORM\Query\Query->exec()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:1017
+ OTUS #4: Bitrix\Main\ORM\Query\Query->fetchAll()
+ OTUS 	/home/c/ca43694/public_html/otus/tables.php:13
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-01-14 13:03:48 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
+ OTUS Unknown field definition `CLIENT` (CLIENT.*) for \Models\Tables\Docs Entity. (100)
+ OTUS /home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/chain.php:346
+ OTUS #0: Bitrix\Main\ORM\Query\Chain::getChainByDefinition(object, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:1153
+ OTUS #1: Bitrix\Main\ORM\Query\Query->addToSelectChain(string, NULL)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:2465
+ OTUS #2: Bitrix\Main\ORM\Query\Query->buildQuery()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:942
+ OTUS #3: Bitrix\Main\ORM\Query\Query->exec()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:1017
+ OTUS #4: Bitrix\Main\ORM\Query\Query->fetchAll()
+ OTUS 	/home/c/ca43694/public_html/otus/tables.php:13
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-01-14 13:04:57 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
+ OTUS Unknown field definition `CLIENT` (CLIENT.*) for \Models\Tables\Docs Entity. (100)
+ OTUS /home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/chain.php:346
+ OTUS #0: Bitrix\Main\ORM\Query\Chain::getChainByDefinition(object, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:1153
+ OTUS #1: Bitrix\Main\ORM\Query\Query->addToSelectChain(string, NULL)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:2465
+ OTUS #2: Bitrix\Main\ORM\Query\Query->buildQuery()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:942
+ OTUS #3: Bitrix\Main\ORM\Query\Query->exec()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:1017
+ OTUS #4: Bitrix\Main\ORM\Query\Query->fetchAll()
+ OTUS 	/home/c/ca43694/public_html/otus/tables.php:13
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-01-14 13:09:55 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
+ OTUS Unknown field definition `ID_KLIENTA` (ELEMENT.ID_KLIENTA) for \Bitrix\Iblock\Element Entity. (100)
+ OTUS /home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/chain.php:346
+ OTUS #0: Bitrix\Main\ORM\Query\Chain::getChainByDefinition(object, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:3498
+ OTUS #1: Bitrix\Main\ORM\Query\Query->getRegisteredChain(string, boolean)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:1231
+ OTUS #2: Bitrix\Main\ORM\Query\Query->addToSelectChain(string, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:2465
+ OTUS #3: Bitrix\Main\ORM\Query\Query->buildQuery()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:942
+ OTUS #4: Bitrix\Main\ORM\Query\Query->exec()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:1017
+ OTUS #5: Bitrix\Main\ORM\Query\Query->fetchAll()
+ OTUS 	/home/c/ca43694/public_html/otus/tables.php:14
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-01-14 13:11:38 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
+ OTUS Unknown field definition `IMYA` (ELEMENT.IMYA) for \Bitrix\Iblock\Element Entity. (100)
+ OTUS /home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/chain.php:346
+ OTUS #0: Bitrix\Main\ORM\Query\Chain::getChainByDefinition(object, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:3498
+ OTUS #1: Bitrix\Main\ORM\Query\Query->getRegisteredChain(string, boolean)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:1231
+ OTUS #2: Bitrix\Main\ORM\Query\Query->addToSelectChain(string, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:2465
+ OTUS #3: Bitrix\Main\ORM\Query\Query->buildQuery()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:942
+ OTUS #4: Bitrix\Main\ORM\Query\Query->exec()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:1017
+ OTUS #5: Bitrix\Main\ORM\Query\Query->fetchAll()
+ OTUS 	/home/c/ca43694/public_html/otus/tables.php:15
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-01-14 13:12:47 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
+ OTUS Unknown field definition `ID` (ID) for \Models\Tables\Docs Entity. (100)
+ OTUS /home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/chain.php:346
+ OTUS #0: Bitrix\Main\ORM\Query\Chain::getChainByDefinition(object, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:3498
+ OTUS #1: Bitrix\Main\ORM\Query\Query->getRegisteredChain(string, boolean)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:1231
+ OTUS #2: Bitrix\Main\ORM\Query\Query->addToSelectChain(string, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:2465
+ OTUS #3: Bitrix\Main\ORM\Query\Query->buildQuery()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:942
+ OTUS #4: Bitrix\Main\ORM\Query\Query->exec()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:1017
+ OTUS #5: Bitrix\Main\ORM\Query\Query->fetchAll()
+ OTUS 	/home/c/ca43694/public_html/otus/tables.php:15
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-01-14 13:15:04 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
+ OTUS Unknown field definition `ID` (ID) for \Models\Tables\Docs Entity. (100)
+ OTUS /home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/chain.php:346
+ OTUS #0: Bitrix\Main\ORM\Query\Chain::getChainByDefinition(object, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:3498
+ OTUS #1: Bitrix\Main\ORM\Query\Query->getRegisteredChain(string, boolean)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:1231
+ OTUS #2: Bitrix\Main\ORM\Query\Query->addToSelectChain(string, NULL)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:2465
+ OTUS #3: Bitrix\Main\ORM\Query\Query->buildQuery()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:942
+ OTUS #4: Bitrix\Main\ORM\Query\Query->exec()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/data/datamanager.php:499
+ OTUS #5: Bitrix\Main\ORM\Data\DataManager::getList(array)
+ OTUS 	/home/c/ca43694/public_html/otus/tables.php:19
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-01-14 13:15:10 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
+ OTUS Unknown field definition `ID` (ID) for \Models\Tables\Docs Entity. (100)
+ OTUS /home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/chain.php:346
+ OTUS #0: Bitrix\Main\ORM\Query\Chain::getChainByDefinition(object, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:3498
+ OTUS #1: Bitrix\Main\ORM\Query\Query->getRegisteredChain(string, boolean)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:1231
+ OTUS #2: Bitrix\Main\ORM\Query\Query->addToSelectChain(string, NULL)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:2465
+ OTUS #3: Bitrix\Main\ORM\Query\Query->buildQuery()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:942
+ OTUS #4: Bitrix\Main\ORM\Query\Query->exec()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/data/datamanager.php:499
+ OTUS #5: Bitrix\Main\ORM\Data\DataManager::getList(array)
+ OTUS 	/home/c/ca43694/public_html/otus/tables.php:19
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-01-14 13:24:10 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
+ OTUS Unknown field definition `CLIENT` (CLIENT.*) for \Models\Tables\Docs Entity. (100)
+ OTUS /home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/chain.php:346
+ OTUS #0: Bitrix\Main\ORM\Query\Chain::getChainByDefinition(object, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:1153
+ OTUS #1: Bitrix\Main\ORM\Query\Query->addToSelectChain(string, NULL)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:2465
+ OTUS #2: Bitrix\Main\ORM\Query\Query->buildQuery()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:942
+ OTUS #3: Bitrix\Main\ORM\Query\Query->exec()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/data/datamanager.php:499
+ OTUS #4: Bitrix\Main\ORM\Data\DataManager::getList(array)
+ OTUS 	/home/c/ca43694/public_html/otus/tables.php:19
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-01-14 13:24:55 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
+ OTUS Unknown field definition `CLIENT` (CLIENT.*) for \Models\Tables\Docs Entity. (100)
+ OTUS /home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/chain.php:346
+ OTUS #0: Bitrix\Main\ORM\Query\Chain::getChainByDefinition(object, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:1153
+ OTUS #1: Bitrix\Main\ORM\Query\Query->addToSelectChain(string, NULL)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:2465
+ OTUS #2: Bitrix\Main\ORM\Query\Query->buildQuery()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:942
+ OTUS #3: Bitrix\Main\ORM\Query\Query->exec()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/data/datamanager.php:499
+ OTUS #4: Bitrix\Main\ORM\Data\DataManager::getList(array)
+ OTUS 	/home/c/ca43694/public_html/otus/tables.php:19
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-01-14 13:25:05 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
+ OTUS Unknown field definition `CLIENT` (CLIENT.*) for \Models\Tables\Docs Entity. (100)
+ OTUS /home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/chain.php:346
+ OTUS #0: Bitrix\Main\ORM\Query\Chain::getChainByDefinition(object, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:1153
+ OTUS #1: Bitrix\Main\ORM\Query\Query->addToSelectChain(string, NULL)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:2465
+ OTUS #2: Bitrix\Main\ORM\Query\Query->buildQuery()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:942
+ OTUS #3: Bitrix\Main\ORM\Query\Query->exec()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/data/datamanager.php:499
+ OTUS #4: Bitrix\Main\ORM\Data\DataManager::getList(array)
+ OTUS 	/home/c/ca43694/public_html/otus/tables.php:19
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-01-14 13:26:14 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
+ OTUS Unknown field definition `CLIENT` (CLIENT.*) for \Models\Tables\Docs Entity. (100)
+ OTUS /home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/chain.php:346
+ OTUS #0: Bitrix\Main\ORM\Query\Chain::getChainByDefinition(object, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:1153
+ OTUS #1: Bitrix\Main\ORM\Query\Query->addToSelectChain(string, NULL)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:2465
+ OTUS #2: Bitrix\Main\ORM\Query\Query->buildQuery()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:942
+ OTUS #3: Bitrix\Main\ORM\Query\Query->exec()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/data/datamanager.php:499
+ OTUS #4: Bitrix\Main\ORM\Data\DataManager::getList(array)
+ OTUS 	/home/c/ca43694/public_html/otus/tables.php:19
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-01-14 13:28:28 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
+ OTUS Unknown field definition `CLIENT` (CLIENT.*) for \Models\Tables\Docs Entity. (100)
+ OTUS /home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/chain.php:346
+ OTUS #0: Bitrix\Main\ORM\Query\Chain::getChainByDefinition(object, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:1153
+ OTUS #1: Bitrix\Main\ORM\Query\Query->addToSelectChain(string, NULL)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:2465
+ OTUS #2: Bitrix\Main\ORM\Query\Query->buildQuery()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:942
+ OTUS #3: Bitrix\Main\ORM\Query\Query->exec()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/data/datamanager.php:499
+ OTUS #4: Bitrix\Main\ORM\Data\DataManager::getList(array)
+ OTUS 	/home/c/ca43694/public_html/otus/tables.php:19
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-01-14 13:28:32 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
+ OTUS Unknown field definition `CLIENT` (CLIENT.*) for \Models\Tables\Docs Entity. (100)
+ OTUS /home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/chain.php:346
+ OTUS #0: Bitrix\Main\ORM\Query\Chain::getChainByDefinition(object, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:1153
+ OTUS #1: Bitrix\Main\ORM\Query\Query->addToSelectChain(string, NULL)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:2465
+ OTUS #2: Bitrix\Main\ORM\Query\Query->buildQuery()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:942
+ OTUS #3: Bitrix\Main\ORM\Query\Query->exec()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/data/datamanager.php:499
+ OTUS #4: Bitrix\Main\ORM\Data\DataManager::getList(array)
+ OTUS 	/home/c/ca43694/public_html/otus/tables.php:19
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-01-14 13:32:39 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
+ OTUS Unknown field definition `CLIENT` (CLIENT.*) for \Models\Tables\Docs Entity. (100)
+ OTUS /home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/chain.php:346
+ OTUS #0: Bitrix\Main\ORM\Query\Chain::getChainByDefinition(object, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:1153
+ OTUS #1: Bitrix\Main\ORM\Query\Query->addToSelectChain(string, NULL)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:2465
+ OTUS #2: Bitrix\Main\ORM\Query\Query->buildQuery()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:942
+ OTUS #3: Bitrix\Main\ORM\Query\Query->exec()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/data/datamanager.php:499
+ OTUS #4: Bitrix\Main\ORM\Data\DataManager::getList(array)
+ OTUS 	/home/c/ca43694/public_html/otus/tables.php:19
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-01-14 13:33:01 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
+ OTUS Unknown field definition `ID_KLIENTA_ELEMENT` (ID_KLIENTA_ELEMENT) for \Models\Tables\Docs Entity. (100)
+ OTUS /home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/chain.php:346
+ OTUS #0: Bitrix\Main\ORM\Query\Chain::getChainByDefinition(object, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:3498
+ OTUS #1: Bitrix\Main\ORM\Query\Query->getRegisteredChain(string, boolean)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:1231
+ OTUS #2: Bitrix\Main\ORM\Query\Query->addToSelectChain(string, NULL)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:2465
+ OTUS #3: Bitrix\Main\ORM\Query\Query->buildQuery()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:942
+ OTUS #4: Bitrix\Main\ORM\Query\Query->exec()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/data/datamanager.php:499
+ OTUS #5: Bitrix\Main\ORM\Data\DataManager::getList(array)
+ OTUS 	/home/c/ca43694/public_html/otus/tables.php:19
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-01-14 13:34:54 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
+ OTUS Unknown field definition `ID_KLIENTA_ELEMENT` (ID_KLIENTA_ELEMENT) for \Models\Tables\Docs Entity. (100)
+ OTUS /home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/chain.php:346
+ OTUS #0: Bitrix\Main\ORM\Query\Chain::getChainByDefinition(object, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:3498
+ OTUS #1: Bitrix\Main\ORM\Query\Query->getRegisteredChain(string, boolean)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:1231
+ OTUS #2: Bitrix\Main\ORM\Query\Query->addToSelectChain(string, NULL)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:2465
+ OTUS #3: Bitrix\Main\ORM\Query\Query->buildQuery()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:942
+ OTUS #4: Bitrix\Main\ORM\Query\Query->exec()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/data/datamanager.php:499
+ OTUS #5: Bitrix\Main\ORM\Data\DataManager::getList(array)
+ OTUS 	/home/c/ca43694/public_html/otus/tables.php:19
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-01-14 13:35:13 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
+ OTUS Unknown field definition `CLIENT` (CLIENT) for \Models\Tables\Docs Entity. (100)
+ OTUS /home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/chain.php:346
+ OTUS #0: Bitrix\Main\ORM\Query\Chain::getChainByDefinition(object, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:3498
+ OTUS #1: Bitrix\Main\ORM\Query\Query->getRegisteredChain(string, boolean)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:1231
+ OTUS #2: Bitrix\Main\ORM\Query\Query->addToSelectChain(string, NULL)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:2465
+ OTUS #3: Bitrix\Main\ORM\Query\Query->buildQuery()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:942
+ OTUS #4: Bitrix\Main\ORM\Query\Query->exec()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/data/datamanager.php:499
+ OTUS #5: Bitrix\Main\ORM\Data\DataManager::getList(array)
+ OTUS 	/home/c/ca43694/public_html/otus/tables.php:19
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-01-14 13:37:10 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
+ OTUS Unknown field definition `CLIENT` (CLIENT) for \Models\Tables\Docs Entity. (100)
+ OTUS /home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/chain.php:346
+ OTUS #0: Bitrix\Main\ORM\Query\Chain::getChainByDefinition(object, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:3498
+ OTUS #1: Bitrix\Main\ORM\Query\Query->getRegisteredChain(string, boolean)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:1231
+ OTUS #2: Bitrix\Main\ORM\Query\Query->addToSelectChain(string, NULL)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:2465
+ OTUS #3: Bitrix\Main\ORM\Query\Query->buildQuery()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:942
+ OTUS #4: Bitrix\Main\ORM\Query\Query->exec()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/data/datamanager.php:499
+ OTUS #5: Bitrix\Main\ORM\Data\DataManager::getList(array)
+ OTUS 	/home/c/ca43694/public_html/otus/tables.php:19
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-01-14 13:38:09 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
+ OTUS Unknown field definition `CLIENT` (CLIENT) for \Models\Tables\Docs Entity. (100)
+ OTUS /home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/chain.php:346
+ OTUS #0: Bitrix\Main\ORM\Query\Chain::getChainByDefinition(object, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:3498
+ OTUS #1: Bitrix\Main\ORM\Query\Query->getRegisteredChain(string, boolean)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:1231
+ OTUS #2: Bitrix\Main\ORM\Query\Query->addToSelectChain(string, NULL)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:2465
+ OTUS #3: Bitrix\Main\ORM\Query\Query->buildQuery()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:942
+ OTUS #4: Bitrix\Main\ORM\Query\Query->exec()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/data/datamanager.php:499
+ OTUS #5: Bitrix\Main\ORM\Data\DataManager::getList(array)
+ OTUS 	/home/c/ca43694/public_html/otus/tables.php:19
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-01-14 13:41:03 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
+ OTUS Unknown field definition `CLIENT` (CLIENT) for \Models\Tables\Docs Entity. (100)
+ OTUS /home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/chain.php:346
+ OTUS #0: Bitrix\Main\ORM\Query\Chain::getChainByDefinition(object, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:3498
+ OTUS #1: Bitrix\Main\ORM\Query\Query->getRegisteredChain(string, boolean)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:1231
+ OTUS #2: Bitrix\Main\ORM\Query\Query->addToSelectChain(string, NULL)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:2465
+ OTUS #3: Bitrix\Main\ORM\Query\Query->buildQuery()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:942
+ OTUS #4: Bitrix\Main\ORM\Query\Query->exec()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/data/datamanager.php:499
+ OTUS #5: Bitrix\Main\ORM\Data\DataManager::getList(array)
+ OTUS 	/home/c/ca43694/public_html/otus/tables.php:19
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-01-14 13:44:47 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
+ OTUS Unknown field definition `CLIENT` (CLIENT) for \Models\Tables\Docs Entity. (100)
+ OTUS /home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/chain.php:346
+ OTUS #0: Bitrix\Main\ORM\Query\Chain::getChainByDefinition(object, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:3498
+ OTUS #1: Bitrix\Main\ORM\Query\Query->getRegisteredChain(string, boolean)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:1231
+ OTUS #2: Bitrix\Main\ORM\Query\Query->addToSelectChain(string, NULL)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:2465
+ OTUS #3: Bitrix\Main\ORM\Query\Query->buildQuery()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:942
+ OTUS #4: Bitrix\Main\ORM\Query\Query->exec()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/data/datamanager.php:499
+ OTUS #5: Bitrix\Main\ORM\Data\DataManager::getList(array)
+ OTUS 	/home/c/ca43694/public_html/otus/tables.php:19
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-01-14 13:45:34 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
+ OTUS Unknown field definition `CLIENT` (CLIENT) for \Models\Tables\Docs Entity. (100)
+ OTUS /home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/chain.php:346
+ OTUS #0: Bitrix\Main\ORM\Query\Chain::getChainByDefinition(object, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:3498
+ OTUS #1: Bitrix\Main\ORM\Query\Query->getRegisteredChain(string, boolean)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:1231
+ OTUS #2: Bitrix\Main\ORM\Query\Query->addToSelectChain(string, NULL)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:2465
+ OTUS #3: Bitrix\Main\ORM\Query\Query->buildQuery()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:942
+ OTUS #4: Bitrix\Main\ORM\Query\Query->exec()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/data/datamanager.php:499
+ OTUS #5: Bitrix\Main\ORM\Data\DataManager::getList(array)
+ OTUS 	/home/c/ca43694/public_html/otus/tables.php:19
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-01-14 13:47:41 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
+ OTUS Unknown field definition `CLIENT` (CLIENT) for \Models\Tables\Docs Entity. (100)
+ OTUS /home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/chain.php:346
+ OTUS #0: Bitrix\Main\ORM\Query\Chain::getChainByDefinition(object, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:3498
+ OTUS #1: Bitrix\Main\ORM\Query\Query->getRegisteredChain(string, boolean)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:1231
+ OTUS #2: Bitrix\Main\ORM\Query\Query->addToSelectChain(string, NULL)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:2465
+ OTUS #3: Bitrix\Main\ORM\Query\Query->buildQuery()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:942
+ OTUS #4: Bitrix\Main\ORM\Query\Query->exec()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/data/datamanager.php:499
+ OTUS #5: Bitrix\Main\ORM\Data\DataManager::getList(array)
+ OTUS 	/home/c/ca43694/public_html/otus/tables.php:19
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-01-14 13:49:59 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
+ OTUS Unknown field definition `CLIENT` (CLIENT) for \Models\Tables\Docs Entity. (100)
+ OTUS /home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/chain.php:346
+ OTUS #0: Bitrix\Main\ORM\Query\Chain::getChainByDefinition(object, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:3498
+ OTUS #1: Bitrix\Main\ORM\Query\Query->getRegisteredChain(string, boolean)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:1231
+ OTUS #2: Bitrix\Main\ORM\Query\Query->addToSelectChain(string, NULL)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:2465
+ OTUS #3: Bitrix\Main\ORM\Query\Query->buildQuery()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:942
+ OTUS #4: Bitrix\Main\ORM\Query\Query->exec()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/data/datamanager.php:499
+ OTUS #5: Bitrix\Main\ORM\Data\DataManager::getList(array)
+ OTUS 	/home/c/ca43694/public_html/otus/tables.php:19
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-01-14 14:06:40 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
+ OTUS Unknown field definition `CLIENT` (CLIENT.*) for \Models\Tables\Docs Entity. (100)
+ OTUS /home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/chain.php:346
+ OTUS #0: Bitrix\Main\ORM\Query\Chain::getChainByDefinition(object, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:1153
+ OTUS #1: Bitrix\Main\ORM\Query\Query->addToSelectChain(string, NULL)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:2465
+ OTUS #2: Bitrix\Main\ORM\Query\Query->buildQuery()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:942
+ OTUS #3: Bitrix\Main\ORM\Query\Query->exec()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/data/datamanager.php:499
+ OTUS #4: Bitrix\Main\ORM\Data\DataManager::getList(array)
+ OTUS 	/home/c/ca43694/public_html/otus/tables.php:19
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-01-14 14:18:29 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
+ OTUS Unknown field definition `ELEMENT` (CLIENTS.ELEMENT.*) for \Models\Tables\Hospital Entity. (100)
+ OTUS /home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/chain.php:346
+ OTUS #0: Bitrix\Main\ORM\Query\Chain::getChainByDefinition(object, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:1153
+ OTUS #1: Bitrix\Main\ORM\Query\Query->addToSelectChain(string, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:2465
+ OTUS #2: Bitrix\Main\ORM\Query\Query->buildQuery()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:942
+ OTUS #3: Bitrix\Main\ORM\Query\Query->exec()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/data/datamanager.php:499
+ OTUS #4: Bitrix\Main\ORM\Data\DataManager::getList(array)
+ OTUS 	/home/c/ca43694/public_html/otus/tables.php:19
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-01-14 14:18:50 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\ArgumentException] 
+ OTUS Alias "CLIENTS" matches already existing field "CLIENTS" of initial entity "\Models\Tables\Docs". Please choose another name for alias. (100)
+ OTUS /home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:1281
+ OTUS #0: Bitrix\Main\ORM\Query\Query->addToSelectChain(string, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:2465
+ OTUS #1: Bitrix\Main\ORM\Query\Query->buildQuery()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:942
+ OTUS #2: Bitrix\Main\ORM\Query\Query->exec()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/data/datamanager.php:499
+ OTUS #3: Bitrix\Main\ORM\Data\DataManager::getList(array)
+ OTUS 	/home/c/ca43694/public_html/otus/tables.php:19
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-01-14 14:18:54 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\ArgumentException] 
+ OTUS Alias "CLIENTS" matches already existing field "CLIENTS" of initial entity "\Models\Tables\Docs". Please choose another name for alias. (100)
+ OTUS /home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:1281
+ OTUS #0: Bitrix\Main\ORM\Query\Query->addToSelectChain(string, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:2465
+ OTUS #1: Bitrix\Main\ORM\Query\Query->buildQuery()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:942
+ OTUS #2: Bitrix\Main\ORM\Query\Query->exec()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/data/datamanager.php:499
+ OTUS #3: Bitrix\Main\ORM\Data\DataManager::getList(array)
+ OTUS 	/home/c/ca43694/public_html/otus/tables.php:19
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-01-14 14:18:55 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\ArgumentException] 
+ OTUS Alias "CLIENTS" matches already existing field "CLIENTS" of initial entity "\Models\Tables\Docs". Please choose another name for alias. (100)
+ OTUS /home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:1281
+ OTUS #0: Bitrix\Main\ORM\Query\Query->addToSelectChain(string, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:2465
+ OTUS #1: Bitrix\Main\ORM\Query\Query->buildQuery()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:942
+ OTUS #2: Bitrix\Main\ORM\Query\Query->exec()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/data/datamanager.php:499
+ OTUS #3: Bitrix\Main\ORM\Data\DataManager::getList(array)
+ OTUS 	/home/c/ca43694/public_html/otus/tables.php:19
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-01-14 14:21:20 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
+ OTUS Unknown field definition `CLIENT` (CLIENT.*) for \Models\Tables\Docs Entity. (100)
+ OTUS /home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/chain.php:346
+ OTUS #0: Bitrix\Main\ORM\Query\Chain::getChainByDefinition(object, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:1153
+ OTUS #1: Bitrix\Main\ORM\Query\Query->addToSelectChain(string, NULL)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:2465
+ OTUS #2: Bitrix\Main\ORM\Query\Query->buildQuery()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:942
+ OTUS #3: Bitrix\Main\ORM\Query\Query->exec()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/data/datamanager.php:499
+ OTUS #4: Bitrix\Main\ORM\Data\DataManager::getList(array)
+ OTUS 	/home/c/ca43694/public_html/otus/tables.php:19
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-01-14 14:22:27 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
+ OTUS Unknown field definition `CLI` (CLI.*) for \Models\Tables\Docs Entity. (100)
+ OTUS /home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/chain.php:346
+ OTUS #0: Bitrix\Main\ORM\Query\Chain::getChainByDefinition(object, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:1153
+ OTUS #1: Bitrix\Main\ORM\Query\Query->addToSelectChain(string, NULL)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:2465
+ OTUS #2: Bitrix\Main\ORM\Query\Query->buildQuery()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:942
+ OTUS #3: Bitrix\Main\ORM\Query\Query->exec()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/data/datamanager.php:499
+ OTUS #4: Bitrix\Main\ORM\Data\DataManager::getList(array)
+ OTUS 	/home/c/ca43694/public_html/otus/tables.php:19
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-01-14 15:12:12 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
+ OTUS Unknown field definition `CLI` (CLI.*) for \Models\Tables\Docs Entity. (100)
+ OTUS /home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/chain.php:346
+ OTUS #0: Bitrix\Main\ORM\Query\Chain::getChainByDefinition(object, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:1153
+ OTUS #1: Bitrix\Main\ORM\Query\Query->addToSelectChain(string, NULL)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:2465
+ OTUS #2: Bitrix\Main\ORM\Query\Query->buildQuery()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:942
+ OTUS #3: Bitrix\Main\ORM\Query\Query->exec()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/data/datamanager.php:499
+ OTUS #4: Bitrix\Main\ORM\Data\DataManager::getList(array)
+ OTUS 	/home/c/ca43694/public_html/otus/tables.php:19
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-01-14 15:13:12 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
+ OTUS Unknown field definition `CLI` (CLI.*) for \Models\Tables\Docs Entity. (100)
+ OTUS /home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/chain.php:346
+ OTUS #0: Bitrix\Main\ORM\Query\Chain::getChainByDefinition(object, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:1153
+ OTUS #1: Bitrix\Main\ORM\Query\Query->addToSelectChain(string, NULL)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:2465
+ OTUS #2: Bitrix\Main\ORM\Query\Query->buildQuery()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:942
+ OTUS #3: Bitrix\Main\ORM\Query\Query->exec()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/data/datamanager.php:499
+ OTUS #4: Bitrix\Main\ORM\Data\DataManager::getList(array)
+ OTUS 	/home/c/ca43694/public_html/otus/tables.php:19
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-01-14 15:13:13 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
+ OTUS Unknown field definition `CLI` (CLI.*) for \Models\Tables\Docs Entity. (100)
+ OTUS /home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/chain.php:346
+ OTUS #0: Bitrix\Main\ORM\Query\Chain::getChainByDefinition(object, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:1153
+ OTUS #1: Bitrix\Main\ORM\Query\Query->addToSelectChain(string, NULL)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:2465
+ OTUS #2: Bitrix\Main\ORM\Query\Query->buildQuery()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:942
+ OTUS #3: Bitrix\Main\ORM\Query\Query->exec()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/data/datamanager.php:499
+ OTUS #4: Bitrix\Main\ORM\Data\DataManager::getList(array)
+ OTUS 	/home/c/ca43694/public_html/otus/tables.php:19
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-01-14 15:20:20 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
+ OTUS Unknown field definition `CLI` (CLI.*) for \Models\Tables\Docs Entity. (100)
+ OTUS /home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/chain.php:346
+ OTUS #0: Bitrix\Main\ORM\Query\Chain::getChainByDefinition(object, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:1153
+ OTUS #1: Bitrix\Main\ORM\Query\Query->addToSelectChain(string, NULL)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:2465
+ OTUS #2: Bitrix\Main\ORM\Query\Query->buildQuery()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:942
+ OTUS #3: Bitrix\Main\ORM\Query\Query->exec()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/data/datamanager.php:499
+ OTUS #4: Bitrix\Main\ORM\Data\DataManager::getList(array)
+ OTUS 	/home/c/ca43694/public_html/otus/tables.php:19
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-01-14 15:32:45 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
+ OTUS Unknown field definition `CLI` (CLI.*) for \Models\Tables\Docs Entity. (100)
+ OTUS /home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/chain.php:346
+ OTUS #0: Bitrix\Main\ORM\Query\Chain::getChainByDefinition(object, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:1153
+ OTUS #1: Bitrix\Main\ORM\Query\Query->addToSelectChain(string, NULL)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:2465
+ OTUS #2: Bitrix\Main\ORM\Query\Query->buildQuery()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:942
+ OTUS #3: Bitrix\Main\ORM\Query\Query->exec()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/data/datamanager.php:499
+ OTUS #4: Bitrix\Main\ORM\Data\DataManager::getList(array)
+ OTUS 	/home/c/ca43694/public_html/otus/tables.php:19
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-01-14 15:35:38 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
+ OTUS Unknown field definition `CLI` (CLI.*) for \Models\Tables\Docs Entity. (100)
+ OTUS /home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/chain.php:346
+ OTUS #0: Bitrix\Main\ORM\Query\Chain::getChainByDefinition(object, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:1153
+ OTUS #1: Bitrix\Main\ORM\Query\Query->addToSelectChain(string, NULL)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:2465
+ OTUS #2: Bitrix\Main\ORM\Query\Query->buildQuery()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:942
+ OTUS #3: Bitrix\Main\ORM\Query\Query->exec()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/data/datamanager.php:499
+ OTUS #4: Bitrix\Main\ORM\Data\DataManager::getList(array)
+ OTUS 	/home/c/ca43694/public_html/otus/tables.php:19
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-01-14 15:35:51 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
+ OTUS Unknown field definition `CLI` (CLI.*) for \Models\Tables\Docs Entity. (100)
+ OTUS /home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/chain.php:346
+ OTUS #0: Bitrix\Main\ORM\Query\Chain::getChainByDefinition(object, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:1153
+ OTUS #1: Bitrix\Main\ORM\Query\Query->addToSelectChain(string, NULL)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:2465
+ OTUS #2: Bitrix\Main\ORM\Query\Query->buildQuery()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:942
+ OTUS #3: Bitrix\Main\ORM\Query\Query->exec()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/data/datamanager.php:499
+ OTUS #4: Bitrix\Main\ORM\Data\DataManager::getList(array)
+ OTUS 	/home/c/ca43694/public_html/otus/tables.php:19
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-01-14 15:36:58 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
+ OTUS Unknown field definition `CLI` (CLI.*) for \Models\Tables\Docs Entity. (100)
+ OTUS /home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/chain.php:346
+ OTUS #0: Bitrix\Main\ORM\Query\Chain::getChainByDefinition(object, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:1153
+ OTUS #1: Bitrix\Main\ORM\Query\Query->addToSelectChain(string, NULL)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:2465
+ OTUS #2: Bitrix\Main\ORM\Query\Query->buildQuery()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:942
+ OTUS #3: Bitrix\Main\ORM\Query\Query->exec()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/data/datamanager.php:499
+ OTUS #4: Bitrix\Main\ORM\Data\DataManager::getList(array)
+ OTUS 	/home/c/ca43694/public_html/otus/tables.php:19
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-01-14 15:45:26 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
+ OTUS Unknown field definition `CLI` (CLI.*) for \Models\Tables\Docs Entity. (100)
+ OTUS /home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/chain.php:346
+ OTUS #0: Bitrix\Main\ORM\Query\Chain::getChainByDefinition(object, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:1153
+ OTUS #1: Bitrix\Main\ORM\Query\Query->addToSelectChain(string, NULL)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:2465
+ OTUS #2: Bitrix\Main\ORM\Query\Query->buildQuery()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:942
+ OTUS #3: Bitrix\Main\ORM\Query\Query->exec()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/data/datamanager.php:499
+ OTUS #4: Bitrix\Main\ORM\Data\DataManager::getList(array)
+ OTUS 	/home/c/ca43694/public_html/otus/tables.php:19
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-01-14 15:45:43 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
+ OTUS Unknown field definition `CLI` (CLI.*) for \Models\Tables\Docs Entity. (100)
+ OTUS /home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/chain.php:346
+ OTUS #0: Bitrix\Main\ORM\Query\Chain::getChainByDefinition(object, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:1153
+ OTUS #1: Bitrix\Main\ORM\Query\Query->addToSelectChain(string, NULL)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:2465
+ OTUS #2: Bitrix\Main\ORM\Query\Query->buildQuery()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:942
+ OTUS #3: Bitrix\Main\ORM\Query\Query->exec()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/data/datamanager.php:499
+ OTUS #4: Bitrix\Main\ORM\Data\DataManager::getList(array)
+ OTUS 	/home/c/ca43694/public_html/otus/tables.php:19
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-01-14 15:47:56 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
+ OTUS Unknown field definition `CLI` (CLI.*) for \Models\Tables\Docs Entity. (100)
+ OTUS /home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/chain.php:346
+ OTUS #0: Bitrix\Main\ORM\Query\Chain::getChainByDefinition(object, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:1153
+ OTUS #1: Bitrix\Main\ORM\Query\Query->addToSelectChain(string, NULL)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:2465
+ OTUS #2: Bitrix\Main\ORM\Query\Query->buildQuery()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:942
+ OTUS #3: Bitrix\Main\ORM\Query\Query->exec()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/data/datamanager.php:499
+ OTUS #4: Bitrix\Main\ORM\Data\DataManager::getList(array)
+ OTUS 	/home/c/ca43694/public_html/otus/tables.php:19
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-01-14 16:03:42 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [Error] 
+ OTUS Call to undefined method Models\Tables\DocsTable::getList() (0)
+ OTUS /home/c/ca43694/public_html/otus/tables.php:26
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-01-14 16:08:55 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [ParseError] 
+ OTUS syntax error, unexpected variable "$map" (0)
+ OTUS /home/c/ca43694/public_html/local/models/tables/docs.php:29
+ OTUS #0: Bitrix\Main\Loader::autoLoad(string)
+ OTUS 	/home/c/ca43694/public_html/otus/tables.php:26
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-01-14 16:16:09 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
+ OTUS Primary not found for Docs Entity (0)
+ OTUS /home/c/ca43694/public_html/bitrix/modules/main/lib/orm/entity.php:313
+ OTUS #0: Bitrix\Main\ORM\Entity->postInitialize()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/entity.php:130
+ OTUS #1: Bitrix\Main\ORM\Entity::getInstanceDirect(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/entity.php:108
+ OTUS #2: Bitrix\Main\ORM\Entity::getInstance(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/data/datamanager.php:70
+ OTUS #3: Bitrix\Main\ORM\Data\DataManager::getEntity()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/data/datamanager.php:548
+ OTUS #4: Bitrix\Main\ORM\Data\DataManager::query()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/data/datamanager.php:429
+ OTUS #5: Bitrix\Main\ORM\Data\DataManager::getList(array)
+ OTUS 	/home/c/ca43694/public_html/otus/tables.php:29
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-01-14 16:54:09 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [Error] 
+ OTUS Call to a member function getName() on array (0)
+ OTUS /home/c/ca43694/public_html/otus/tables.php:19
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-01-14 16:55:05 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [Error] 
+ OTUS Call to a member function getName() on array (0)
+ OTUS /home/c/ca43694/public_html/otus/tables.php:19
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-01-14 16:56:36 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
+ OTUS Unknown method `getName` for object `Models\Tables\EO_Docs` (0)
+ OTUS /home/c/ca43694/public_html/bitrix/modules/main/lib/orm/objectify/entityobject.php:1366
+ OTUS #0: Bitrix\Main\ORM\Objectify\EntityObject->__call(string, array)
+ OTUS 	/home/c/ca43694/public_html/otus/tables.php:19
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-01-14 16:57:34 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
+ OTUS Unknown method `getName` for object `Models\Tables\EO_Docs` (0)
+ OTUS /home/c/ca43694/public_html/bitrix/modules/main/lib/orm/objectify/entityobject.php:1366
+ OTUS #0: Bitrix\Main\ORM\Objectify\EntityObject->__call(string, array)
+ OTUS 	/home/c/ca43694/public_html/otus/tables.php:19
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-01-14 16:59:01 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\ArgumentException] 
+ OTUS Docs Entity has no `NAME` field. (100)
+ OTUS /home/c/ca43694/public_html/bitrix/modules/main/lib/orm/entity.php:573
+ OTUS #0: Bitrix\Main\ORM\Entity->getField(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/objectify/entityobject.php:968
+ OTUS #1: Bitrix\Main\ORM\Objectify\EntityObject->__call(string, array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/objectify/entityobject.php:716
+ OTUS #2: Bitrix\Main\ORM\Objectify\EntityObject->get(string)
+ OTUS 	/home/c/ca43694/public_html/otus/tables.php:19
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-01-14 16:59:59 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\ArgumentException] 
+ OTUS Docs Entity has no `NAME` field. (100)
+ OTUS /home/c/ca43694/public_html/bitrix/modules/main/lib/orm/entity.php:573
+ OTUS #0: Bitrix\Main\ORM\Entity->getField(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/objectify/entityobject.php:968
+ OTUS #1: Bitrix\Main\ORM\Objectify\EntityObject->__call(string, array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/objectify/entityobject.php:716
+ OTUS #2: Bitrix\Main\ORM\Objectify\EntityObject->get(string)
+ OTUS 	/home/c/ca43694/public_html/otus/tables.php:19
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-01-14 17:00:44 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [Error] 
+ OTUS Call to a member function get() on array (0)
+ OTUS /home/c/ca43694/public_html/otus/tables.php:21
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-01-14 18:14:22 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\ArgumentException] 
+ OTUS ElementVisit Entity has no `TIME` field. (100)
+ OTUS /home/c/ca43694/public_html/bitrix/modules/main/lib/orm/entity.php:573
+ OTUS #0: Bitrix\Main\ORM\Entity->getField(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/objectify/entityobject.php:968
+ OTUS #1: Bitrix\Main\ORM\Objectify\EntityObject->__call(string, array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/objectify/entityobject.php:716
+ OTUS #2: Bitrix\Main\ORM\Objectify\EntityObject->get(string)
+ OTUS 	/home/c/ca43694/public_html/otus/tables.php:70
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-01-14 18:15:12 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\ArgumentException] 
+ OTUS ElementVisit Entity has no `TIME` field. (100)
+ OTUS /home/c/ca43694/public_html/bitrix/modules/main/lib/orm/entity.php:573
+ OTUS #0: Bitrix\Main\ORM\Entity->getField(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/objectify/entityobject.php:968
+ OTUS #1: Bitrix\Main\ORM\Objectify\EntityObject->__call(string, array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/objectify/entityobject.php:716
+ OTUS #2: Bitrix\Main\ORM\Objectify\EntityObject->get(string)
+ OTUS 	/home/c/ca43694/public_html/otus/tables.php:71
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-01-14 18:18:12 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\ArgumentException] 
+ OTUS ElementVisit Entity has no `TIME` field. (100)
+ OTUS /home/c/ca43694/public_html/bitrix/modules/main/lib/orm/entity.php:573
+ OTUS #0: Bitrix\Main\ORM\Entity->getField(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/objectify/entityobject.php:968
+ OTUS #1: Bitrix\Main\ORM\Objectify\EntityObject->__call(string, array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/objectify/entityobject.php:716
+ OTUS #2: Bitrix\Main\ORM\Objectify\EntityObject->get(string)
+ OTUS 	/home/c/ca43694/public_html/otus/tables.php:71
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-01-14 18:23:28 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\ArgumentException] 
+ OTUS ElementVisit Entity has no `TIME` field. (100)
+ OTUS /home/c/ca43694/public_html/bitrix/modules/main/lib/orm/entity.php:573
+ OTUS #0: Bitrix\Main\ORM\Entity->getField(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/objectify/entityobject.php:968
+ OTUS #1: Bitrix\Main\ORM\Objectify\EntityObject->__call(string, array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/objectify/entityobject.php:716
+ OTUS #2: Bitrix\Main\ORM\Objectify\EntityObject->get(string)
+ OTUS 	/home/c/ca43694/public_html/otus/tables.php:71
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-01-14 18:23:53 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\ArgumentException] 
+ OTUS ElementVisit Entity has no `TIME` field. (100)
+ OTUS /home/c/ca43694/public_html/bitrix/modules/main/lib/orm/entity.php:573
+ OTUS #0: Bitrix\Main\ORM\Entity->getField(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/objectify/entityobject.php:968
+ OTUS #1: Bitrix\Main\ORM\Objectify\EntityObject->__call(string, array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/objectify/entityobject.php:716
+ OTUS #2: Bitrix\Main\ORM\Objectify\EntityObject->get(string)
+ OTUS 	/home/c/ca43694/public_html/otus/tables.php:71
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-01-14 18:24:03 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
+ OTUS Unknown field definition `NAMEGGGGG` (IBLOCK2.NAMEGGGGG) for \Bitrix\Iblock\Elements\ElementVisit Entity. (100)
+ OTUS /home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/chain.php:346
+ OTUS #0: Bitrix\Main\ORM\Query\Chain::getChainByDefinition(object, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:3498
+ OTUS #1: Bitrix\Main\ORM\Query\Query->getRegisteredChain(string, boolean)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:1231
+ OTUS #2: Bitrix\Main\ORM\Query\Query->addToSelectChain(string, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:2465
+ OTUS #3: Bitrix\Main\ORM\Query\Query->buildQuery()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:942
+ OTUS #4: Bitrix\Main\ORM\Query\Query->exec()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/data/datamanager.php:499
+ OTUS #5: Bitrix\Main\ORM\Data\DataManager::getList(array)
+ OTUS 	/home/c/ca43694/public_html/otus/tables.php:55
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-01-14 18:24:15 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\ArgumentException] 
+ OTUS ElementVisit Entity has no `TIME` field. (100)
+ OTUS /home/c/ca43694/public_html/bitrix/modules/main/lib/orm/entity.php:573
+ OTUS #0: Bitrix\Main\ORM\Entity->getField(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/objectify/entityobject.php:968
+ OTUS #1: Bitrix\Main\ORM\Objectify\EntityObject->__call(string, array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/objectify/entityobject.php:716
+ OTUS #2: Bitrix\Main\ORM\Objectify\EntityObject->get(string)
+ OTUS 	/home/c/ca43694/public_html/otus/tables.php:71
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-01-14 18:24:46 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\ArgumentException] 
+ OTUS ElementVisit Entity has no `TIME` field. (100)
+ OTUS /home/c/ca43694/public_html/bitrix/modules/main/lib/orm/entity.php:573
+ OTUS #0: Bitrix\Main\ORM\Entity->getField(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/objectify/entityobject.php:968
+ OTUS #1: Bitrix\Main\ORM\Objectify\EntityObject->__call(string, array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/objectify/entityobject.php:716
+ OTUS #2: Bitrix\Main\ORM\Objectify\EntityObject->get(string)
+ OTUS 	/home/c/ca43694/public_html/otus/tables.php:71
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-01-14 18:25:32 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\ArgumentException] 
+ OTUS ElementVisit Entity has no `TIME` field. (100)
+ OTUS /home/c/ca43694/public_html/bitrix/modules/main/lib/orm/entity.php:573
+ OTUS #0: Bitrix\Main\ORM\Entity->getField(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/objectify/entityobject.php:968
+ OTUS #1: Bitrix\Main\ORM\Objectify\EntityObject->__call(string, array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/objectify/entityobject.php:716
+ OTUS #2: Bitrix\Main\ORM\Objectify\EntityObject->get(string)
+ OTUS 	/home/c/ca43694/public_html/otus/tables.php:71
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-01-14 18:27:41 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\ArgumentException] 
+ OTUS ElementVisit Entity has no `TIMER` field. (100)
+ OTUS /home/c/ca43694/public_html/bitrix/modules/main/lib/orm/entity.php:573
+ OTUS #0: Bitrix\Main\ORM\Entity->getField(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/objectify/entityobject.php:968
+ OTUS #1: Bitrix\Main\ORM\Objectify\EntityObject->__call(string, array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/objectify/entityobject.php:716
+ OTUS #2: Bitrix\Main\ORM\Objectify\EntityObject->get(string)
+ OTUS 	/home/c/ca43694/public_html/otus/tables.php:71
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-01-14 18:32:22 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\ArgumentException] 
+ OTUS ElementDoctors Entity has no `IMYAR` field. (100)
+ OTUS /home/c/ca43694/public_html/bitrix/modules/main/lib/orm/entity.php:573
+ OTUS #0: Bitrix\Main\ORM\Entity->getField(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/objectify/entityobject.php:968
+ OTUS #1: Bitrix\Main\ORM\Objectify\EntityObject->__call(string, array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/objectify/entityobject.php:716
+ OTUS #2: Bitrix\Main\ORM\Objectify\EntityObject->get(string)
+ OTUS 	/home/c/ca43694/public_html/otus/tables.php:69
+ OTUS ----------
+ OTUS 
+ OTUS 
