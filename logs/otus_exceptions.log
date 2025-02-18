@@ -2447,3 +2447,731 @@
  OTUS ----------
  OTUS 
  OTUS 
+ OTUS  2025-01-19 15:26:21 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [TypeError] 
+ OTUS Cannot assign null to property Bitrix\Main\Data\Cache::$uniqueString of type string (0)
+ OTUS /home/c/ca43694/public_html/bitrix/modules/main/lib/data/cache.php:285
+ OTUS #0: Bitrix\Main\Data\Cache->initCache(integer, NULL, string, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/cache.php:32
+ OTUS #1: CPHPCache->InitCache(integer, NULL, string)
+ OTUS 	/home/c/ca43694/public_html/otus/cashe1.php:12
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-01-20 11:13:28 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [TypeError] 
+ OTUS Cannot assign null to property Bitrix\Main\Data\Cache::$uniqueString of type string (0)
+ OTUS /home/c/ca43694/public_html/bitrix/modules/main/lib/data/cache.php:285
+ OTUS #0: Bitrix\Main\Data\Cache->initCache(integer, NULL, string, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/cache.php:32
+ OTUS #1: CPHPCache->InitCache(integer, NULL, string)
+ OTUS 	/home/c/ca43694/public_html/otus/cashe1.php:12
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-01-20 11:37:00 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [TypeError] 
+ OTUS Cannot assign null to property Bitrix\Main\Data\Cache::$uniqueString of type string (0)
+ OTUS /home/c/ca43694/public_html/bitrix/modules/main/lib/data/cache.php:285
+ OTUS #0: Bitrix\Main\Data\Cache->initCache(integer, NULL, string, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/cache.php:32
+ OTUS #1: CPHPCache->InitCache(integer, NULL, string)
+ OTUS 	/home/c/ca43694/public_html/otus/cashe1.php:12
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-01-29 16:48:27 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [TypeError] 
+ OTUS Cannot assign null to property Bitrix\Main\Data\Cache::$uniqueString of type string (0)
+ OTUS /home/c/ca43694/public_html/bitrix/modules/main/lib/data/cache.php:285
+ OTUS #0: Bitrix\Main\Data\Cache->initCache(integer, NULL, string, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/cache.php:32
+ OTUS #1: CPHPCache->InitCache(integer, NULL, string)
+ OTUS 	/home/c/ca43694/public_html/otus/cashe1.php:12
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-01-29 16:48:32 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [TypeError] 
+ OTUS Cannot assign null to property Bitrix\Main\Data\Cache::$uniqueString of type string (0)
+ OTUS /home/c/ca43694/public_html/bitrix/modules/main/lib/data/cache.php:285
+ OTUS #0: Bitrix\Main\Data\Cache->initCache(integer, NULL, string, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/cache.php:32
+ OTUS #1: CPHPCache->InitCache(integer, NULL, string)
+ OTUS 	/home/c/ca43694/public_html/otus/cashe1.php:12
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-01-29 18:47:23 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [Error] 
+ OTUS Call to a member function startTagCache() on null (0)
+ OTUS /home/c/ca43694/public_html/otus/cashe1.php:21
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-01-29 18:47:40 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [Error] 
+ OTUS Call to a member function startTagCache() on null (0)
+ OTUS /home/c/ca43694/public_html/otus/cashe1.php:21
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-01-29 18:48:05 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [Error] 
+ OTUS Class "Application" not found (0)
+ OTUS /home/c/ca43694/public_html/otus/cashe1.php:9
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-02-17 16:55:28 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [Error] 
+ OTUS Class "Loader" not found (0)
+ OTUS /home/c/ca43694/public_html/local/components/otus/currencies/class.php:19
+ OTUS #0: Currencies->checkModules()
+ OTUS 	/home/c/ca43694/public_html/local/components/otus/currencies/class.php:10
+ OTUS #1: Currencies->executeComponent()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:668
+ OTUS #2: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/main.php:1188
+ OTUS #3: CAllMain->IncludeComponent(string, string, array, boolean)
+ OTUS 	/home/c/ca43694/public_html/otus/currencies.php:9
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-02-17 16:56:43 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [Error] 
+ OTUS Class "Loader" not found (0)
+ OTUS /home/c/ca43694/public_html/local/components/otus/currencies/class.php:19
+ OTUS #0: Currencies->checkModules()
+ OTUS 	/home/c/ca43694/public_html/local/components/otus/currencies/class.php:10
+ OTUS #1: Currencies->executeComponent()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:668
+ OTUS #2: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/main.php:1188
+ OTUS #3: CAllMain->IncludeComponent(string, string, array, boolean)
+ OTUS 	/home/c/ca43694/public_html/otus/currencies.php:9
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-02-17 16:57:05 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [Error] 
+ OTUS Class "Loader" not found (0)
+ OTUS /home/c/ca43694/public_html/local/components/otus/currencies/class.php:19
+ OTUS #0: Currencies->checkModules()
+ OTUS 	/home/c/ca43694/public_html/local/components/otus/currencies/class.php:10
+ OTUS #1: Currencies->executeComponent()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:668
+ OTUS #2: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/main.php:1188
+ OTUS #3: CAllMain->IncludeComponent(string, string, array, boolean)
+ OTUS 	/home/c/ca43694/public_html/otus/currencies.php:9
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-02-17 16:58:00 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [Error] 
+ OTUS Class "Loader" not found (0)
+ OTUS /home/c/ca43694/public_html/local/components/otus/currencies/class.php:19
+ OTUS #0: Currencies->checkModules()
+ OTUS 	/home/c/ca43694/public_html/local/components/otus/currencies/class.php:10
+ OTUS #1: Currencies->executeComponent()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:668
+ OTUS #2: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/main.php:1188
+ OTUS #3: CAllMain->IncludeComponent(string, string, array, boolean)
+ OTUS 	/home/c/ca43694/public_html/otus/currencies.php:9
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-02-18 12:34:23 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [Error] 
+ OTUS Cannot use a scalar value as an array (0)
+ OTUS /home/c/ca43694/public_html/bitrix/components/bitrix/main.ui.grid/class.php:1393
+ OTUS #0: CMainUIGrid->compatibleRow(integer, integer)
+ OTUS 	/home/c/ca43694/public_html/bitrix/components/bitrix/main.ui.grid/class.php:1410
+ OTUS #1: CMainUIGrid->prepareRows()
+ OTUS 	/home/c/ca43694/public_html/bitrix/components/bitrix/main.ui.grid/class.php:538
+ OTUS #2: CMainUIGrid->prepareResult()
+ OTUS 	/home/c/ca43694/public_html/bitrix/components/bitrix/main.ui.grid/class.php:2783
+ OTUS #3: CMainUIGrid->executeComponent()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:668
+ OTUS #4: CBitrixComponent->includeComponent(string, array, NULL, boolean)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/main.php:1188
+ OTUS #5: CAllMain->IncludeComponent(string, string, array)
+ OTUS 	/home/c/ca43694/public_html/local/components/otus/currencies/templates/.default/template.php:19
+ OTUS #6: include(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component_template.php:790
+ OTUS #7: CBitrixComponentTemplate->__IncludePHPTemplate(array, array, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component_template.php:885
+ OTUS #8: CBitrixComponentTemplate->IncludeTemplate(array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:784
+ OTUS #9: CBitrixComponent->showComponentTemplate()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:724
+ OTUS #10: CBitrixComponent->includeComponentTemplate()
+ OTUS 	/home/c/ca43694/public_html/local/components/otus/currencies/class.php:48
+ OTUS #11: Currencies->getResult()
+ OTUS 	/home/c/ca43694/public_html/local/components/otus/currencies/class.php:13
+ OTUS #12: Currencies->executeComponent()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:668
+ OTUS #13: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/main.php:1188
+ OTUS #14: CAllMain->IncludeComponent(string, string, array, boolean)
+ OTUS 	/home/c/ca43694/public_html/otus/currencies.php:12
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-02-18 12:37:11 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [TypeError] 
+ OTUS Cannot access offset of type string on string (0)
+ OTUS /home/c/ca43694/public_html/bitrix/components/bitrix/main.ui.grid/class.php:1393
+ OTUS #0: CMainUIGrid->compatibleRow(string, integer)
+ OTUS 	/home/c/ca43694/public_html/bitrix/components/bitrix/main.ui.grid/class.php:1410
+ OTUS #1: CMainUIGrid->prepareRows()
+ OTUS 	/home/c/ca43694/public_html/bitrix/components/bitrix/main.ui.grid/class.php:538
+ OTUS #2: CMainUIGrid->prepareResult()
+ OTUS 	/home/c/ca43694/public_html/bitrix/components/bitrix/main.ui.grid/class.php:2783
+ OTUS #3: CMainUIGrid->executeComponent()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:668
+ OTUS #4: CBitrixComponent->includeComponent(string, array, NULL, boolean)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/main.php:1188
+ OTUS #5: CAllMain->IncludeComponent(string, string, array)
+ OTUS 	/home/c/ca43694/public_html/local/components/otus/currencies/templates/.default/template.php:19
+ OTUS #6: include(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component_template.php:790
+ OTUS #7: CBitrixComponentTemplate->__IncludePHPTemplate(array, array, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component_template.php:885
+ OTUS #8: CBitrixComponentTemplate->IncludeTemplate(array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:784
+ OTUS #9: CBitrixComponent->showComponentTemplate()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:724
+ OTUS #10: CBitrixComponent->includeComponentTemplate()
+ OTUS 	/home/c/ca43694/public_html/local/components/otus/currencies/class.php:48
+ OTUS #11: Currencies->getResult()
+ OTUS 	/home/c/ca43694/public_html/local/components/otus/currencies/class.php:13
+ OTUS #12: Currencies->executeComponent()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:668
+ OTUS #13: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/main.php:1188
+ OTUS #14: CAllMain->IncludeComponent(string, string, array, boolean)
+ OTUS 	/home/c/ca43694/public_html/otus/currencies.php:12
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-02-18 12:41:12 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [TypeError] 
+ OTUS Cannot access offset of type string on string (0)
+ OTUS /home/c/ca43694/public_html/bitrix/components/bitrix/main.ui.grid/class.php:1393
+ OTUS #0: CMainUIGrid->compatibleRow(string, integer)
+ OTUS 	/home/c/ca43694/public_html/bitrix/components/bitrix/main.ui.grid/class.php:1410
+ OTUS #1: CMainUIGrid->prepareRows()
+ OTUS 	/home/c/ca43694/public_html/bitrix/components/bitrix/main.ui.grid/class.php:538
+ OTUS #2: CMainUIGrid->prepareResult()
+ OTUS 	/home/c/ca43694/public_html/bitrix/components/bitrix/main.ui.grid/class.php:2783
+ OTUS #3: CMainUIGrid->executeComponent()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:668
+ OTUS #4: CBitrixComponent->includeComponent(string, array, NULL, boolean)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/main.php:1188
+ OTUS #5: CAllMain->IncludeComponent(string, string, array)
+ OTUS 	/home/c/ca43694/public_html/local/components/otus/currencies/templates/.default/template.php:12
+ OTUS #6: include(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component_template.php:790
+ OTUS #7: CBitrixComponentTemplate->__IncludePHPTemplate(array, array, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component_template.php:885
+ OTUS #8: CBitrixComponentTemplate->IncludeTemplate(array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:784
+ OTUS #9: CBitrixComponent->showComponentTemplate()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:724
+ OTUS #10: CBitrixComponent->includeComponentTemplate()
+ OTUS 	/home/c/ca43694/public_html/local/components/otus/currencies/class.php:48
+ OTUS #11: Currencies->getResult()
+ OTUS 	/home/c/ca43694/public_html/local/components/otus/currencies/class.php:13
+ OTUS #12: Currencies->executeComponent()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:668
+ OTUS #13: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/main.php:1188
+ OTUS #14: CAllMain->IncludeComponent(string, string, array, boolean)
+ OTUS 	/home/c/ca43694/public_html/otus/currencies.php:12
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-02-18 13:01:33 - Host: ca43694.tw1.ru - FATAL - [ErrorException] E_COMPILE_ERROR
+ OTUS Cannot use empty array elements in arrays (0)
+ OTUS /home/c/ca43694/public_html/local/components/otus/currencies/templates/.default/template.php:51
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-02-18 13:17:36 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [Error] 
+ OTUS Call to a member function toArray() on null (0)
+ OTUS /home/c/ca43694/public_html/local/components/otus/currencies/templates/.default/template.php:106
+ OTUS #0: include
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component_template.php:790
+ OTUS #1: CBitrixComponentTemplate->__IncludePHPTemplate(array, array, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component_template.php:885
+ OTUS #2: CBitrixComponentTemplate->IncludeTemplate(array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:784
+ OTUS #3: CBitrixComponent->showComponentTemplate()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:724
+ OTUS #4: CBitrixComponent->includeComponentTemplate()
+ OTUS 	/home/c/ca43694/public_html/local/components/otus/currencies/class.php:48
+ OTUS #5: Currencies->getResult()
+ OTUS 	/home/c/ca43694/public_html/local/components/otus/currencies/class.php:13
+ OTUS #6: Currencies->executeComponent()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:668
+ OTUS #7: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/main.php:1188
+ OTUS #8: CAllMain->IncludeComponent(string, string, array, boolean)
+ OTUS 	/home/c/ca43694/public_html/otus/currencies.php:12
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-02-18 13:19:14 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [Error] 
+ OTUS Class "Onchange" not found (0)
+ OTUS /home/c/ca43694/public_html/local/components/otus/currencies/templates/.default/template.php:48
+ OTUS #0: include
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component_template.php:790
+ OTUS #1: CBitrixComponentTemplate->__IncludePHPTemplate(array, array, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component_template.php:885
+ OTUS #2: CBitrixComponentTemplate->IncludeTemplate(array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:784
+ OTUS #3: CBitrixComponent->showComponentTemplate()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:724
+ OTUS #4: CBitrixComponent->includeComponentTemplate()
+ OTUS 	/home/c/ca43694/public_html/local/components/otus/currencies/class.php:48
+ OTUS #5: Currencies->getResult()
+ OTUS 	/home/c/ca43694/public_html/local/components/otus/currencies/class.php:13
+ OTUS #6: Currencies->executeComponent()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:668
+ OTUS #7: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/main.php:1188
+ OTUS #8: CAllMain->IncludeComponent(string, string, array, boolean)
+ OTUS 	/home/c/ca43694/public_html/otus/currencies.php:12
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-02-18 13:21:21 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [Error] 
+ OTUS Class "Onchange" not found (0)
+ OTUS /home/c/ca43694/public_html/local/components/otus/currencies/templates/.default/template.php:48
+ OTUS #0: include
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component_template.php:790
+ OTUS #1: CBitrixComponentTemplate->__IncludePHPTemplate(array, array, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component_template.php:885
+ OTUS #2: CBitrixComponentTemplate->IncludeTemplate(array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:784
+ OTUS #3: CBitrixComponent->showComponentTemplate()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:724
+ OTUS #4: CBitrixComponent->includeComponentTemplate()
+ OTUS 	/home/c/ca43694/public_html/local/components/otus/currencies/class.php:48
+ OTUS #5: Currencies->getResult()
+ OTUS 	/home/c/ca43694/public_html/local/components/otus/currencies/class.php:13
+ OTUS #6: Currencies->executeComponent()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:668
+ OTUS #7: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/main.php:1188
+ OTUS #8: CAllMain->IncludeComponent(string, string, array, boolean)
+ OTUS 	/home/c/ca43694/public_html/otus/currencies.php:12
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-02-18 14:35:33 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [Error] 
+ OTUS Class "Onchange" not found (0)
+ OTUS /home/c/ca43694/public_html/local/components/otus/currencies/templates/.default/template.php:48
+ OTUS #0: include
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component_template.php:790
+ OTUS #1: CBitrixComponentTemplate->__IncludePHPTemplate(array, array, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component_template.php:885
+ OTUS #2: CBitrixComponentTemplate->IncludeTemplate(array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:784
+ OTUS #3: CBitrixComponent->showComponentTemplate()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:724
+ OTUS #4: CBitrixComponent->includeComponentTemplate()
+ OTUS 	/home/c/ca43694/public_html/local/components/otus/currencies/class.php:48
+ OTUS #5: Currencies->getResult()
+ OTUS 	/home/c/ca43694/public_html/local/components/otus/currencies/class.php:13
+ OTUS #6: Currencies->executeComponent()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:668
+ OTUS #7: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/main.php:1188
+ OTUS #8: CAllMain->IncludeComponent(string, string, array, boolean)
+ OTUS 	/home/c/ca43694/public_html/otus/currencies.php:12
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-02-18 14:35:56 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [Error] 
+ OTUS Class "Onchange" not found (0)
+ OTUS /home/c/ca43694/public_html/local/components/otus/currencies/templates/.default/template.php:48
+ OTUS #0: include
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component_template.php:790
+ OTUS #1: CBitrixComponentTemplate->__IncludePHPTemplate(array, array, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component_template.php:885
+ OTUS #2: CBitrixComponentTemplate->IncludeTemplate(array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:784
+ OTUS #3: CBitrixComponent->showComponentTemplate()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:724
+ OTUS #4: CBitrixComponent->includeComponentTemplate()
+ OTUS 	/home/c/ca43694/public_html/local/components/otus/currencies/class.php:48
+ OTUS #5: Currencies->getResult()
+ OTUS 	/home/c/ca43694/public_html/local/components/otus/currencies/class.php:13
+ OTUS #6: Currencies->executeComponent()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:668
+ OTUS #7: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/main.php:1188
+ OTUS #8: CAllMain->IncludeComponent(string, string, array, boolean)
+ OTUS 	/home/c/ca43694/public_html/otus/currencies.php:12
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-02-18 14:46:03 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [Error] 
+ OTUS Class "Onchange" not found (0)
+ OTUS /home/c/ca43694/public_html/local/components/otus/currencies/templates/.default/template.php:48
+ OTUS #0: include
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component_template.php:790
+ OTUS #1: CBitrixComponentTemplate->__IncludePHPTemplate(array, array, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component_template.php:885
+ OTUS #2: CBitrixComponentTemplate->IncludeTemplate(array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:784
+ OTUS #3: CBitrixComponent->showComponentTemplate()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:724
+ OTUS #4: CBitrixComponent->includeComponentTemplate()
+ OTUS 	/home/c/ca43694/public_html/local/components/otus/currencies/class.php:48
+ OTUS #5: Currencies->getResult()
+ OTUS 	/home/c/ca43694/public_html/local/components/otus/currencies/class.php:13
+ OTUS #6: Currencies->executeComponent()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:668
+ OTUS #7: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/main.php:1188
+ OTUS #8: CAllMain->IncludeComponent(string, string, array, boolean)
+ OTUS 	/home/c/ca43694/public_html/otus/currencies.php:12
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-02-18 14:55:48 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [DivisionByZeroError] 
+ OTUS Division by zero (0)
+ OTUS /home/c/ca43694/public_html/bitrix/modules/main/lib/ui/pagenavigation.php:124
+ OTUS #0: Bitrix\Main\UI\PageNavigation->getPageCount()
+ OTUS 	/home/c/ca43694/public_html/bitrix/components/bitrix/main.pagenavigation/class.php:45
+ OTUS #1: PageNavigationComponent->executeComponent()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:668
+ OTUS #2: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/main.php:1188
+ OTUS #3: CAllMain->IncludeComponent(string, string, array, boolean, array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/components/bitrix/main.ui.grid/class.php:1087
+ OTUS #4: CMainUIGrid->prepareNavString()
+ OTUS 	/home/c/ca43694/public_html/bitrix/components/bitrix/main.ui.grid/class.php:547
+ OTUS #5: CMainUIGrid->prepareResult()
+ OTUS 	/home/c/ca43694/public_html/bitrix/components/bitrix/main.ui.grid/class.php:2783
+ OTUS #6: CMainUIGrid->executeComponent()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:668
+ OTUS #7: CBitrixComponent->includeComponent(string, array, NULL, boolean)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/main.php:1188
+ OTUS #8: CAllMain->IncludeComponent(string, string, array)
+ OTUS 	/home/c/ca43694/public_html/local/components/otus/currencies/templates/.default/template.php:122
+ OTUS #9: include(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component_template.php:790
+ OTUS #10: CBitrixComponentTemplate->__IncludePHPTemplate(array, array, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component_template.php:885
+ OTUS #11: CBitrixComponentTemplate->IncludeTemplate(array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:784
+ OTUS #12: CBitrixComponent->showComponentTemplate()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:724
+ OTUS #13: CBitrixComponent->includeComponentTemplate()
+ OTUS 	/home/c/ca43694/public_html/local/components/otus/currencies/class.php:48
+ OTUS #14: Currencies->getResult()
+ OTUS 	/home/c/ca43694/public_html/local/components/otus/currencies/class.php:13
+ OTUS #15: Currencies->executeComponent()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:668
+ OTUS #16: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/main.php:1188
+ OTUS #17: CAllMain->IncludeComponent(string, string, array, boolean)
+ OTUS 	/home/c/ca43694/public_html/otus/currencies.php:12
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-02-18 15:06:36 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [DivisionByZeroError] 
+ OTUS Division by zero (0)
+ OTUS /home/c/ca43694/public_html/bitrix/modules/main/lib/ui/pagenavigation.php:124
+ OTUS #0: Bitrix\Main\UI\PageNavigation->getPageCount()
+ OTUS 	/home/c/ca43694/public_html/bitrix/components/bitrix/main.pagenavigation/class.php:45
+ OTUS #1: PageNavigationComponent->executeComponent()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:668
+ OTUS #2: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/main.php:1188
+ OTUS #3: CAllMain->IncludeComponent(string, string, array, boolean, array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/components/bitrix/main.ui.grid/class.php:1087
+ OTUS #4: CMainUIGrid->prepareNavString()
+ OTUS 	/home/c/ca43694/public_html/bitrix/components/bitrix/main.ui.grid/class.php:547
+ OTUS #5: CMainUIGrid->prepareResult()
+ OTUS 	/home/c/ca43694/public_html/bitrix/components/bitrix/main.ui.grid/class.php:2783
+ OTUS #6: CMainUIGrid->executeComponent()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:668
+ OTUS #7: CBitrixComponent->includeComponent(string, array, NULL, boolean)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/main.php:1188
+ OTUS #8: CAllMain->IncludeComponent(string, string, array)
+ OTUS 	/home/c/ca43694/public_html/local/components/otus/currencies/templates/.default/template.php:122
+ OTUS #9: include(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component_template.php:790
+ OTUS #10: CBitrixComponentTemplate->__IncludePHPTemplate(array, array, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component_template.php:885
+ OTUS #11: CBitrixComponentTemplate->IncludeTemplate(array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:784
+ OTUS #12: CBitrixComponent->showComponentTemplate()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:724
+ OTUS #13: CBitrixComponent->includeComponentTemplate()
+ OTUS 	/home/c/ca43694/public_html/local/components/otus/currencies/class.php:48
+ OTUS #14: Currencies->getResult()
+ OTUS 	/home/c/ca43694/public_html/local/components/otus/currencies/class.php:13
+ OTUS #15: Currencies->executeComponent()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:668
+ OTUS #16: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/main.php:1188
+ OTUS #17: CAllMain->IncludeComponent(string, string, array, boolean)
+ OTUS 	/home/c/ca43694/public_html/otus/currencies.php:12
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-02-18 15:22:21 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [DivisionByZeroError] 
+ OTUS Division by zero (0)
+ OTUS /home/c/ca43694/public_html/bitrix/modules/main/lib/ui/pagenavigation.php:124
+ OTUS #0: Bitrix\Main\UI\PageNavigation->getPageCount()
+ OTUS 	/home/c/ca43694/public_html/bitrix/components/bitrix/main.pagenavigation/class.php:45
+ OTUS #1: PageNavigationComponent->executeComponent()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:668
+ OTUS #2: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/main.php:1188
+ OTUS #3: CAllMain->IncludeComponent(string, string, array, boolean, array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/components/bitrix/main.ui.grid/class.php:1087
+ OTUS #4: CMainUIGrid->prepareNavString()
+ OTUS 	/home/c/ca43694/public_html/bitrix/components/bitrix/main.ui.grid/class.php:547
+ OTUS #5: CMainUIGrid->prepareResult()
+ OTUS 	/home/c/ca43694/public_html/bitrix/components/bitrix/main.ui.grid/class.php:2783
+ OTUS #6: CMainUIGrid->executeComponent()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:668
+ OTUS #7: CBitrixComponent->includeComponent(string, array, NULL, boolean)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/main.php:1188
+ OTUS #8: CAllMain->IncludeComponent(string, string, array)
+ OTUS 	/home/c/ca43694/public_html/local/components/otus/currencies/templates/.default/template.php:59
+ OTUS #9: include(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component_template.php:790
+ OTUS #10: CBitrixComponentTemplate->__IncludePHPTemplate(array, array, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component_template.php:885
+ OTUS #11: CBitrixComponentTemplate->IncludeTemplate(array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:784
+ OTUS #12: CBitrixComponent->showComponentTemplate()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:724
+ OTUS #13: CBitrixComponent->includeComponentTemplate()
+ OTUS 	/home/c/ca43694/public_html/local/components/otus/currencies/class.php:48
+ OTUS #14: Currencies->getResult()
+ OTUS 	/home/c/ca43694/public_html/local/components/otus/currencies/class.php:13
+ OTUS #15: Currencies->executeComponent()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:668
+ OTUS #16: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/main.php:1188
+ OTUS #17: CAllMain->IncludeComponent(string, string, array, boolean)
+ OTUS 	/home/c/ca43694/public_html/otus/currencies.php:12
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-02-18 15:45:12 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [DivisionByZeroError] 
+ OTUS Division by zero (0)
+ OTUS /home/c/ca43694/public_html/bitrix/modules/main/lib/ui/pagenavigation.php:124
+ OTUS #0: Bitrix\Main\UI\PageNavigation->getPageCount()
+ OTUS 	/home/c/ca43694/public_html/bitrix/components/bitrix/main.pagenavigation/class.php:45
+ OTUS #1: PageNavigationComponent->executeComponent()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:668
+ OTUS #2: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/main.php:1188
+ OTUS #3: CAllMain->IncludeComponent(string, string, array, boolean, array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/components/bitrix/main.ui.grid/class.php:1087
+ OTUS #4: CMainUIGrid->prepareNavString()
+ OTUS 	/home/c/ca43694/public_html/bitrix/components/bitrix/main.ui.grid/class.php:547
+ OTUS #5: CMainUIGrid->prepareResult()
+ OTUS 	/home/c/ca43694/public_html/bitrix/components/bitrix/main.ui.grid/class.php:2783
+ OTUS #6: CMainUIGrid->executeComponent()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:668
+ OTUS #7: CBitrixComponent->includeComponent(string, array, NULL, boolean)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/main.php:1188
+ OTUS #8: CAllMain->IncludeComponent(string, string, array)
+ OTUS 	/home/c/ca43694/public_html/local/components/otus/currencies/templates/.default/template.php:92
+ OTUS #9: include(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component_template.php:790
+ OTUS #10: CBitrixComponentTemplate->__IncludePHPTemplate(array, array, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component_template.php:885
+ OTUS #11: CBitrixComponentTemplate->IncludeTemplate(array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:784
+ OTUS #12: CBitrixComponent->showComponentTemplate()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:724
+ OTUS #13: CBitrixComponent->includeComponentTemplate()
+ OTUS 	/home/c/ca43694/public_html/local/components/otus/currencies/class.php:48
+ OTUS #14: Currencies->getResult()
+ OTUS 	/home/c/ca43694/public_html/local/components/otus/currencies/class.php:13
+ OTUS #15: Currencies->executeComponent()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:668
+ OTUS #16: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/main.php:1188
+ OTUS #17: CAllMain->IncludeComponent(string, string, array, boolean)
+ OTUS 	/home/c/ca43694/public_html/otus/currencies.php:12
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-02-18 17:38:53 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [ParseError] 
+ OTUS syntax error, unexpected token "," (0)
+ OTUS /home/c/ca43694/public_html/local/components/otus/currencies/templates/.default/template.php:14
+ OTUS #0: CBitrixComponentTemplate->__IncludePHPTemplate(array, array, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component_template.php:885
+ OTUS #1: CBitrixComponentTemplate->IncludeTemplate(array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:784
+ OTUS #2: CBitrixComponent->showComponentTemplate()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:724
+ OTUS #3: CBitrixComponent->includeComponentTemplate()
+ OTUS 	/home/c/ca43694/public_html/local/components/otus/currencies/class.php:48
+ OTUS #4: Currencies->getResult()
+ OTUS 	/home/c/ca43694/public_html/local/components/otus/currencies/class.php:13
+ OTUS #5: Currencies->executeComponent()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:668
+ OTUS #6: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/main.php:1188
+ OTUS #7: CAllMain->IncludeComponent(string, string, array, boolean)
+ OTUS 	/home/c/ca43694/public_html/otus/currencies.php:12
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-02-18 17:40:31 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [ParseError] 
+ OTUS syntax error, unexpected token "," (0)
+ OTUS /home/c/ca43694/public_html/local/components/otus/currencies/templates/.default/template.php:14
+ OTUS #0: CBitrixComponentTemplate->__IncludePHPTemplate(array, array, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component_template.php:885
+ OTUS #1: CBitrixComponentTemplate->IncludeTemplate(array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:784
+ OTUS #2: CBitrixComponent->showComponentTemplate()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:724
+ OTUS #3: CBitrixComponent->includeComponentTemplate()
+ OTUS 	/home/c/ca43694/public_html/local/components/otus/currencies/class.php:48
+ OTUS #4: Currencies->getResult()
+ OTUS 	/home/c/ca43694/public_html/local/components/otus/currencies/class.php:13
+ OTUS #5: Currencies->executeComponent()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:668
+ OTUS #6: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/main.php:1188
+ OTUS #7: CAllMain->IncludeComponent(string, string, array, boolean)
+ OTUS 	/home/c/ca43694/public_html/otus/currencies.php:12
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-02-18 17:40:55 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [ParseError] 
+ OTUS syntax error, unexpected token "{" (0)
+ OTUS /home/c/ca43694/public_html/local/components/otus/currencies/templates/.default/template.php:14
+ OTUS #0: CBitrixComponentTemplate->__IncludePHPTemplate(array, array, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component_template.php:885
+ OTUS #1: CBitrixComponentTemplate->IncludeTemplate(array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:784
+ OTUS #2: CBitrixComponent->showComponentTemplate()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:724
+ OTUS #3: CBitrixComponent->includeComponentTemplate()
+ OTUS 	/home/c/ca43694/public_html/local/components/otus/currencies/class.php:48
+ OTUS #4: Currencies->getResult()
+ OTUS 	/home/c/ca43694/public_html/local/components/otus/currencies/class.php:13
+ OTUS #5: Currencies->executeComponent()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:668
+ OTUS #6: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/main.php:1188
+ OTUS #7: CAllMain->IncludeComponent(string, string, array, boolean)
+ OTUS 	/home/c/ca43694/public_html/otus/currencies.php:12
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-02-18 17:42:03 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [ParseError] 
+ OTUS syntax error, unexpected token "," (0)
+ OTUS /home/c/ca43694/public_html/local/components/otus/currencies/templates/.default/template.php:4
+ OTUS #0: CBitrixComponentTemplate->__IncludePHPTemplate(array, array, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component_template.php:885
+ OTUS #1: CBitrixComponentTemplate->IncludeTemplate(array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:784
+ OTUS #2: CBitrixComponent->showComponentTemplate()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:724
+ OTUS #3: CBitrixComponent->includeComponentTemplate()
+ OTUS 	/home/c/ca43694/public_html/local/components/otus/currencies/class.php:48
+ OTUS #4: Currencies->getResult()
+ OTUS 	/home/c/ca43694/public_html/local/components/otus/currencies/class.php:13
+ OTUS #5: Currencies->executeComponent()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:668
+ OTUS #6: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/main.php:1188
+ OTUS #7: CAllMain->IncludeComponent(string, string, array, boolean)
+ OTUS 	/home/c/ca43694/public_html/otus/currencies.php:12
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-02-18 18:05:21 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [TypeError] 
+ OTUS strtolower(): Argument #1 ($string) must be of type string, array given (0)
+ OTUS /home/c/ca43694/public_html/bitrix/modules/currency/general/currency.php:560
+ OTUS #0: strtolower(array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/currency/general/currency.php:560
+ OTUS #1: CAllCurrency::GetList(array)
+ OTUS 	/home/c/ca43694/public_html/local/components/otus/currencies/class.php:39
+ OTUS #2: Currencies->getResult()
+ OTUS 	/home/c/ca43694/public_html/local/components/otus/currencies/class.php:13
+ OTUS #3: Currencies->executeComponent()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:668
+ OTUS #4: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/main.php:1188
+ OTUS #5: CAllMain->IncludeComponent(string, string, array, boolean)
+ OTUS 	/home/c/ca43694/public_html/otus/currencies.php:12
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-02-18 18:06:34 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [TypeError] 
+ OTUS strtolower(): Argument #1 ($string) must be of type string, array given (0)
+ OTUS /home/c/ca43694/public_html/bitrix/modules/currency/general/currency.php:560
+ OTUS #0: strtolower(array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/currency/general/currency.php:560
+ OTUS #1: CAllCurrency::GetList(array)
+ OTUS 	/home/c/ca43694/public_html/local/components/otus/currencies/class.php:39
+ OTUS #2: Currencies->getResult()
+ OTUS 	/home/c/ca43694/public_html/local/components/otus/currencies/class.php:13
+ OTUS #3: Currencies->executeComponent()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:668
+ OTUS #4: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/main.php:1188
+ OTUS #5: CAllMain->IncludeComponent(string, string, array, boolean)
+ OTUS 	/home/c/ca43694/public_html/otus/currencies.php:12
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-02-18 18:07:11 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [TypeError] 
+ OTUS strtolower(): Argument #1 ($string) must be of type string, array given (0)
+ OTUS /home/c/ca43694/public_html/bitrix/modules/currency/general/currency.php:560
+ OTUS #0: strtolower(array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/currency/general/currency.php:560
+ OTUS #1: CAllCurrency::GetList(array)
+ OTUS 	/home/c/ca43694/public_html/local/components/otus/currencies/class.php:39
+ OTUS #2: Currencies->getResult()
+ OTUS 	/home/c/ca43694/public_html/local/components/otus/currencies/class.php:13
+ OTUS #3: Currencies->executeComponent()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:668
+ OTUS #4: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/main.php:1188
+ OTUS #5: CAllMain->IncludeComponent(string, string, array, boolean)
+ OTUS 	/home/c/ca43694/public_html/otus/currencies.php:12
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-02-18 18:13:41 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [TypeError] 
+ OTUS strtolower(): Argument #1 ($string) must be of type string, array given (0)
+ OTUS /home/c/ca43694/public_html/bitrix/modules/currency/general/currency.php:560
+ OTUS #0: strtolower(array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/currency/general/currency.php:560
+ OTUS #1: CAllCurrency::GetList(array)
+ OTUS 	/home/c/ca43694/public_html/local/components/otus/currencies/class.php:39
+ OTUS #2: Currencies->getResult()
+ OTUS 	/home/c/ca43694/public_html/local/components/otus/currencies/class.php:13
+ OTUS #3: Currencies->executeComponent()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:668
+ OTUS #4: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/main.php:1188
+ OTUS #5: CAllMain->IncludeComponent(string, string, array, boolean)
+ OTUS 	/home/c/ca43694/public_html/otus/currencies.php:12
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-02-18 18:18:35 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [TypeError] 
+ OTUS strtolower(): Argument #1 ($string) must be of type string, array given (0)
+ OTUS /home/c/ca43694/public_html/bitrix/modules/currency/general/currency.php:560
+ OTUS #0: strtolower(array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/currency/general/currency.php:560
+ OTUS #1: CAllCurrency::GetList(array)
+ OTUS 	/home/c/ca43694/public_html/local/components/otus/currencies/class.php:39
+ OTUS #2: Currencies->getResult()
+ OTUS 	/home/c/ca43694/public_html/local/components/otus/currencies/class.php:13
+ OTUS #3: Currencies->executeComponent()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:668
+ OTUS #4: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/main.php:1188
+ OTUS #5: CAllMain->IncludeComponent(string, string, array, boolean)
+ OTUS 	/home/c/ca43694/public_html/otus/currencies.php:12
+ OTUS ----------
+ OTUS 
+ OTUS 
