@@ -7,7 +7,7 @@ $APPLICATION->IncludeComponent(
 	".default", 
 	array(
 		"COMPONENT_TEMPLATE" => ".default",
-		"CURRENCIES" => "BYN"
+		"CURRENCIES" => "RUB"
 	),
 	false
 );

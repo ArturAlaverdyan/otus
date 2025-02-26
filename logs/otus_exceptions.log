@@ -3175,3 +3175,135 @@
  OTUS ----------
  OTUS 
  OTUS 
+ OTUS  2025-02-23 02:58:11 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\IO\InvalidPathException] 
+ OTUS Path is invalid. (120)
+ OTUS /home/c/ca43694/public_html/local/modules/otus.homework/install/index.php:74
+ OTUS #0: otus_homework->installFiles()
+ OTUS 	/home/c/ca43694/public_html/local/modules/otus.homework/install/index.php:52
+ OTUS #1: otus_homework->DoInstall()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/admin/partner_modules.php:273
+ OTUS #2: require_once(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/admin/partner_modules.php:2
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-02-23 02:58:39 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\IO\InvalidPathException] 
+ OTUS Path is invalid. (120)
+ OTUS /home/c/ca43694/public_html/local/modules/otus.homework/install/index.php:74
+ OTUS #0: otus_homework->installFiles()
+ OTUS 	/home/c/ca43694/public_html/local/modules/otus.homework/install/index.php:52
+ OTUS #1: otus_homework->DoInstall()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/admin/partner_modules.php:273
+ OTUS #2: require_once(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/admin/partner_modules.php:2
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-02-23 14:14:46 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [Error] 
+ OTUS Call to protected Bitrix\Main\EventManager::__construct() from scope otus_homework (0)
+ OTUS /home/c/ca43694/public_html/local/modules/otus.homework/install/index.php:210
+ OTUS #0: otus_homework->UnInstallEvents()
+ OTUS 	/home/c/ca43694/public_html/local/modules/otus.homework/install/index.php:62
+ OTUS #1: otus_homework->DoUninstall()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/admin/partner_modules.php:250
+ OTUS #2: require_once(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/admin/partner_modules.php:2
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-02-23 14:14:55 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [Error] 
+ OTUS Call to protected Bitrix\Main\EventManager::__construct() from scope otus_homework (0)
+ OTUS /home/c/ca43694/public_html/local/modules/otus.homework/install/index.php:210
+ OTUS #0: otus_homework->UnInstallEvents()
+ OTUS 	/home/c/ca43694/public_html/local/modules/otus.homework/install/index.php:62
+ OTUS #1: otus_homework->DoUninstall()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/admin/partner_modules.php:250
+ OTUS #2: require_once(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/admin/partner_modules.php:2
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-02-23 14:15:44 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [Error] 
+ OTUS Call to protected Bitrix\Main\EventManager::__construct() from scope otus_homework (0)
+ OTUS /home/c/ca43694/public_html/local/modules/otus.homework/install/index.php:210
+ OTUS #0: otus_homework->UnInstallEvents()
+ OTUS 	/home/c/ca43694/public_html/local/modules/otus.homework/install/index.php:62
+ OTUS #1: otus_homework->DoUninstall()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/admin/partner_modules.php:250
+ OTUS #2: require_once(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/admin/partner_modules.php:2
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-02-23 14:46:31 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [TypeError] 
+ OTUS Bitrix\Crm\Service\Factory::getItem(): Argument #1 ($id) must be of type int, null given, called in /home/c/ca43694/public_html/local/components/otus.homework/otus.grid/class.php on line 39 (0)
+ OTUS /home/c/ca43694/public_html/bitrix/modules/crm/lib/Service/Factory.php:568
+ OTUS #0: Bitrix\Crm\Service\Factory->getItem(NULL)
+ OTUS 	/home/c/ca43694/public_html/local/components/otus.homework/otus.grid/class.php:39
+ OTUS #1: Deal->getResult()
+ OTUS 	/home/c/ca43694/public_html/local/components/otus.homework/otus.grid/class.php:13
+ OTUS #2: Deal->executeComponent()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:668
+ OTUS #3: CBitrixComponent->includeComponent(string, array, NULL, boolean)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/main.php:1188
+ OTUS #4: CAllMain->IncludeComponent(string, string, array)
+ OTUS 	/home/c/ca43694/public_html/local/components/otus.homework/otus.grid/lazyload.ajax.php:35
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-02-26 15:14:16 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [TypeError] 
+ OTUS Bitrix\Crm\Service\Factory::getItem(): Argument #1 ($id) must be of type int, null given, called in /home/c/ca43694/public_html/local/components/otus.homework/otus.grid/class.php on line 34 (0)
+ OTUS /home/c/ca43694/public_html/bitrix/modules/crm/lib/Service/Factory.php:568
+ OTUS #0: Bitrix\Crm\Service\Factory->getItem(NULL)
+ OTUS 	/home/c/ca43694/public_html/local/components/otus.homework/otus.grid/class.php:34
+ OTUS #1: Deal->getResult()
+ OTUS 	/home/c/ca43694/public_html/local/components/otus.homework/otus.grid/class.php:13
+ OTUS #2: Deal->executeComponent()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:668
+ OTUS #3: CBitrixComponent->includeComponent(string, array, NULL, boolean)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/main.php:1188
+ OTUS #4: CAllMain->IncludeComponent(string, string, array)
+ OTUS 	/home/c/ca43694/public_html/local/components/otus.homework/otus.grid/lazyload.ajax.php:25
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-02-26 15:14:41 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [TypeError] 
+ OTUS Bitrix\Crm\Service\Factory::getItem(): Argument #1 ($id) must be of type int, null given, called in /home/c/ca43694/public_html/local/components/otus.homework/otus.grid/class.php on line 34 (0)
+ OTUS /home/c/ca43694/public_html/bitrix/modules/crm/lib/Service/Factory.php:568
+ OTUS #0: Bitrix\Crm\Service\Factory->getItem(NULL)
+ OTUS 	/home/c/ca43694/public_html/local/components/otus.homework/otus.grid/class.php:34
+ OTUS #1: Deal->getResult()
+ OTUS 	/home/c/ca43694/public_html/local/components/otus.homework/otus.grid/class.php:13
+ OTUS #2: Deal->executeComponent()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:668
+ OTUS #3: CBitrixComponent->includeComponent(string, array, NULL, boolean)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/main.php:1188
+ OTUS #4: CAllMain->IncludeComponent(string, string, array)
+ OTUS 	/home/c/ca43694/public_html/local/components/otus.homework/otus.grid/lazyload.ajax.php:25
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-02-26 15:15:12 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [Error] 
+ OTUS Call to a member function getId() on null (0)
+ OTUS /home/c/ca43694/public_html/local/components/otus.homework/otus.grid/templates/.default/template.php:7
+ OTUS #0: include
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component_template.php:790
+ OTUS #1: CBitrixComponentTemplate->__IncludePHPTemplate(array, array, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component_template.php:885
+ OTUS #2: CBitrixComponentTemplate->IncludeTemplate(array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:784
+ OTUS #3: CBitrixComponent->showComponentTemplate()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:724
+ OTUS #4: CBitrixComponent->includeComponentTemplate()
+ OTUS 	/home/c/ca43694/public_html/local/components/otus.homework/otus.grid/class.php:35
+ OTUS #5: Deal->getResult()
+ OTUS 	/home/c/ca43694/public_html/local/components/otus.homework/otus.grid/class.php:13
+ OTUS #6: Deal->executeComponent()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:668
+ OTUS #7: CBitrixComponent->includeComponent(string, array, NULL, boolean)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/main.php:1188
+ OTUS #8: CAllMain->IncludeComponent(string, string, array)
+ OTUS 	/home/c/ca43694/public_html/local/components/otus.homework/otus.grid/lazyload.ajax.php:25
+ OTUS ----------
+ OTUS 
+ OTUS 
