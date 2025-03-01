@@ -27,4 +27,19 @@ $APPLICATION->IncludeComponent(
 	false
 );
 
+$request = \Bitrix\Main\Application::getInstance()->getContext()->getRequest();
+if ($request["error"] == '1')
+{
+    $request->modifyByQueryString('&error=2');
+    $result = '<script>alert("Вы не ввели все данные");
+window.location.href = "/services/lists/18/view/0/?login=yes&list_section_id";</script>';
+}
+if ($request["error"] == '2')
+{
+    $request->modifyByQueryString('error=0');
+    $result = '<script>alert("Это время уже забронировано в процедуре");
+window.location.href = "/services/lists/18/view/0/?login=yes&list_section_id";</script>';
+}
+echo $result;
+
 require($_SERVER['DOCUMENT_ROOT'].'/bitrix/footer.php');

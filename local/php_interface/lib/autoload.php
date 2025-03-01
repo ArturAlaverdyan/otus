@@ -14,23 +14,7 @@ Bitrix\Main\Loader::registerAutoLoadClasses(null, [
     'Models\Tables\HospitalTable' => '/local/models/tables/hospital_clients.php',
     'Models\Tables\DocsTable' => '/local/models/tables/docs.php',
     'Models\Tables\VisitTable' => '/local/models/tables/visittable.php',
+    'UserTypes\FormatTelegramLink' => '/local/php_interface/lib/classes/tgtype.php',
+    'UserTypes\IBLink' => '/local/php_interface/lib/classes/IBLink.php',
 ]);
-/*
-spl_autoload_register(function(string $class): void
-{
-    if(!str_contains($class, 'classes'))
-    {
-        return;
-    }
 
-    $class = str_replace('\\','/');
-    $path = __DIR__.$class.'.php';
-
-    if (is_file($path))
-    {
-        require_once $path;
-    }
-
-}
-);
-*/
