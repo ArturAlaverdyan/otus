@@ -34,3 +34,21 @@ $eventManager->AddEventHandler(
         'GetUserTypeDescription'
     ]
 );
+
+$eventManager->AddEventHandler(
+    'iblock',
+    'OnAfterIBlockElementUpdate',
+    [
+        'Otus\Events\Update', // класс при изенении элемента
+        'updateDeal'
+    ]
+);
+
+$eventManager->AddEventHandler(
+    'crm',
+    'OnAfterCrmDealUpdate',
+    [
+        'Otus\Events\Update', // класс при изменении сделки
+        'updateElement'
+    ]
+);

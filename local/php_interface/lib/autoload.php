@@ -16,5 +16,6 @@ Bitrix\Main\Loader::registerAutoLoadClasses(null, [
     'Models\Tables\VisitTable' => '/local/models/tables/visittable.php',
     'UserTypes\FormatTelegramLink' => '/local/php_interface/lib/classes/tgtype.php',
     'UserTypes\IBLink' => '/local/php_interface/lib/classes/IBLink.php',
+    'Otus\Events\Update' => '/local/events/update.php',
 ]);
 

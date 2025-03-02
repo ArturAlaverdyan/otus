@@ -4119,3 +4119,2118 @@
  OTUS ----------
  OTUS 
  OTUS 
+ OTUS  2025-03-01 20:15:57 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [TypeError] 
+ OTUS call_user_func_array(): Argument #1 ($callback) must be a valid callback, class "Events\Update" not found (0)
+ OTUS /home/c/ca43694/public_html/bitrix/modules/main/tools.php:5246
+ OTUS #0: ExecuteModuleEventEx(array, array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/iblock/classes/mysql/iblockelement.php:1835
+ OTUS #1: CIBlockElement->Update(integer, array, boolean, boolean, boolean)
+ OTUS 	/home/c/ca43694/public_html/bitrix/components/bitrix/lists.element.edit/component.php:769
+ OTUS #2: include(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:615
+ OTUS #3: CBitrixComponent->__includeComponent()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:692
+ OTUS #4: CBitrixComponent->includeComponent(string, array, object, boolean)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/main.php:1188
+ OTUS #5: CAllMain->IncludeComponent(string, string, array, object)
+ OTUS 	/home/c/ca43694/public_html/bitrix/components/bitrix/lists/templates/.default/list_element_edit.php:2
+ OTUS #6: include(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component_template.php:790
+ OTUS #7: CBitrixComponentTemplate->__IncludePHPTemplate(array, array, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component_template.php:885
+ OTUS #8: CBitrixComponentTemplate->IncludeTemplate(array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:784
+ OTUS #9: CBitrixComponent->showComponentTemplate()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:724
+ OTUS #10: CBitrixComponent->includeComponentTemplate(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/components/bitrix/lists/component.php:355
+ OTUS #11: include(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:615
+ OTUS #12: CBitrixComponent->__includeComponent()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:692
+ OTUS #13: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/main.php:1188
+ OTUS #14: CAllMain->IncludeComponent(string, string, array, boolean)
+ OTUS 	/home/c/ca43694/public_html/services/lists/index.php:27
+ OTUS #15: include_once(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/include/urlrewrite.php:128
+ OTUS #16: include_once(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/urlrewrite.php:2
+ OTUS ----------
+ OTUS Previous exception: [ParseError] 
+ OTUS syntax error, unexpected token "class", expecting "{" (0)
+ OTUS /home/c/ca43694/public_html/local/events/update.php:4
+ OTUS #0: Bitrix\Main\Loader::autoLoad(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/tools.php:5246
+ OTUS #1: ExecuteModuleEventEx(array, array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/iblock/classes/mysql/iblockelement.php:1835
+ OTUS #2: CIBlockElement->Update(integer, array, boolean, boolean, boolean)
+ OTUS 	/home/c/ca43694/public_html/bitrix/components/bitrix/lists.element.edit/component.php:769
+ OTUS #3: include(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:615
+ OTUS #4: CBitrixComponent->__includeComponent()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:692
+ OTUS #5: CBitrixComponent->includeComponent(string, array, object, boolean)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/main.php:1188
+ OTUS #6: CAllMain->IncludeComponent(string, string, array, object)
+ OTUS 	/home/c/ca43694/public_html/bitrix/components/bitrix/lists/templates/.default/list_element_edit.php:2
+ OTUS #7: include(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component_template.php:790
+ OTUS #8: CBitrixComponentTemplate->__IncludePHPTemplate(array, array, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component_template.php:885
+ OTUS #9: CBitrixComponentTemplate->IncludeTemplate(array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:784
+ OTUS #10: CBitrixComponent->showComponentTemplate()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:724
+ OTUS #11: CBitrixComponent->includeComponentTemplate(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/components/bitrix/lists/component.php:355
+ OTUS #12: include(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:615
+ OTUS #13: CBitrixComponent->__includeComponent()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:692
+ OTUS #14: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/main.php:1188
+ OTUS #15: CAllMain->IncludeComponent(string, string, array, boolean)
+ OTUS 	/home/c/ca43694/public_html/services/lists/index.php:27
+ OTUS #16: include_once(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/include/urlrewrite.php:128
+ OTUS #17: include_once(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/urlrewrite.php:2
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-03-01 20:17:14 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [TypeError] 
+ OTUS call_user_func_array(): Argument #1 ($callback) must be a valid callback, class "Events\Update" not found (0)
+ OTUS /home/c/ca43694/public_html/bitrix/modules/main/tools.php:5246
+ OTUS #0: ExecuteModuleEventEx(array, array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/iblock/classes/mysql/iblockelement.php:1835
+ OTUS #1: CIBlockElement->Update(integer, array, boolean, boolean, boolean)
+ OTUS 	/home/c/ca43694/public_html/bitrix/components/bitrix/lists.element.edit/component.php:769
+ OTUS #2: include(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:615
+ OTUS #3: CBitrixComponent->__includeComponent()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:692
+ OTUS #4: CBitrixComponent->includeComponent(string, array, object, boolean)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/main.php:1188
+ OTUS #5: CAllMain->IncludeComponent(string, string, array, object)
+ OTUS 	/home/c/ca43694/public_html/bitrix/components/bitrix/lists/templates/.default/list_element_edit.php:2
+ OTUS #6: include(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component_template.php:790
+ OTUS #7: CBitrixComponentTemplate->__IncludePHPTemplate(array, array, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component_template.php:885
+ OTUS #8: CBitrixComponentTemplate->IncludeTemplate(array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:784
+ OTUS #9: CBitrixComponent->showComponentTemplate()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:724
+ OTUS #10: CBitrixComponent->includeComponentTemplate(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/components/bitrix/lists/component.php:355
+ OTUS #11: include(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:615
+ OTUS #12: CBitrixComponent->__includeComponent()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:692
+ OTUS #13: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/main.php:1188
+ OTUS #14: CAllMain->IncludeComponent(string, string, array, boolean)
+ OTUS 	/home/c/ca43694/public_html/services/lists/index.php:27
+ OTUS #15: include_once(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/include/urlrewrite.php:128
+ OTUS #16: include_once(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/urlrewrite.php:2
+ OTUS ----------
+ OTUS Previous exception: [ParseError] 
+ OTUS syntax error, unexpected token "class", expecting "{" (0)
+ OTUS /home/c/ca43694/public_html/local/events/update.php:4
+ OTUS #0: Bitrix\Main\Loader::autoLoad(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/tools.php:5246
+ OTUS #1: ExecuteModuleEventEx(array, array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/iblock/classes/mysql/iblockelement.php:1835
+ OTUS #2: CIBlockElement->Update(integer, array, boolean, boolean, boolean)
+ OTUS 	/home/c/ca43694/public_html/bitrix/components/bitrix/lists.element.edit/component.php:769
+ OTUS #3: include(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:615
+ OTUS #4: CBitrixComponent->__includeComponent()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:692
+ OTUS #5: CBitrixComponent->includeComponent(string, array, object, boolean)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/main.php:1188
+ OTUS #6: CAllMain->IncludeComponent(string, string, array, object)
+ OTUS 	/home/c/ca43694/public_html/bitrix/components/bitrix/lists/templates/.default/list_element_edit.php:2
+ OTUS #7: include(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component_template.php:790
+ OTUS #8: CBitrixComponentTemplate->__IncludePHPTemplate(array, array, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component_template.php:885
+ OTUS #9: CBitrixComponentTemplate->IncludeTemplate(array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:784
+ OTUS #10: CBitrixComponent->showComponentTemplate()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:724
+ OTUS #11: CBitrixComponent->includeComponentTemplate(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/components/bitrix/lists/component.php:355
+ OTUS #12: include(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:615
+ OTUS #13: CBitrixComponent->__includeComponent()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:692
+ OTUS #14: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/main.php:1188
+ OTUS #15: CAllMain->IncludeComponent(string, string, array, boolean)
+ OTUS 	/home/c/ca43694/public_html/services/lists/index.php:27
+ OTUS #16: include_once(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/include/urlrewrite.php:128
+ OTUS #17: include_once(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/urlrewrite.php:2
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-03-01 20:20:47 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [ParseError] 
+ OTUS syntax error, unexpected token "class", expecting "{" (0)
+ OTUS /home/c/ca43694/public_html/local/events/update.php:4
+ OTUS #0: Bitrix\Main\Loader::autoLoad(string)
+ OTUS 	/home/c/ca43694/public_html/otus/test.php:5
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-03-01 20:22:19 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [ParseError] 
+ OTUS syntax error, unexpected token "class", expecting "{" (0)
+ OTUS /home/c/ca43694/public_html/local/events/update.php:4
+ OTUS #0: Bitrix\Main\Loader::autoLoad(string)
+ OTUS 	/home/c/ca43694/public_html/otus/test.php:5
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-03-01 20:22:51 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [ParseError] 
+ OTUS syntax error, unexpected token "class", expecting "{" (0)
+ OTUS /home/c/ca43694/public_html/local/events/update.php:4
+ OTUS #0: Bitrix\Main\Loader::autoLoad(string)
+ OTUS 	/home/c/ca43694/public_html/otus/test.php:5
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-03-01 20:23:46 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [Error] 
+ OTUS Class "Otus\Events\Update" not found (0)
+ OTUS /home/c/ca43694/public_html/otus/test.php:5
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-03-01 20:28:07 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [ParseError] 
+ OTUS syntax error, unexpected token "class", expecting "{" (0)
+ OTUS /home/c/ca43694/public_html/local/events/update.php:4
+ OTUS #0: Bitrix\Main\Loader::autoLoad(string)
+ OTUS 	/home/c/ca43694/public_html/otus/test.php:5
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-03-01 20:37:53 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [TypeError] 
+ OTUS call_user_func_array(): Argument #1 ($callback) must be a valid callback, class Otus\Events\Update does not have a method "updateDealo" (0)
+ OTUS /home/c/ca43694/public_html/bitrix/modules/main/tools.php:5246
+ OTUS #0: ExecuteModuleEventEx(array, array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/iblock/classes/mysql/iblockelement.php:1835
+ OTUS #1: CIBlockElement->Update(integer, array, boolean, boolean, boolean)
+ OTUS 	/home/c/ca43694/public_html/bitrix/components/bitrix/lists.element.edit/component.php:769
+ OTUS #2: include(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:615
+ OTUS #3: CBitrixComponent->__includeComponent()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:692
+ OTUS #4: CBitrixComponent->includeComponent(string, array, object, boolean)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/main.php:1188
+ OTUS #5: CAllMain->IncludeComponent(string, string, array, object)
+ OTUS 	/home/c/ca43694/public_html/bitrix/components/bitrix/lists/templates/.default/list_element_edit.php:2
+ OTUS #6: include(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component_template.php:790
+ OTUS #7: CBitrixComponentTemplate->__IncludePHPTemplate(array, array, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component_template.php:885
+ OTUS #8: CBitrixComponentTemplate->IncludeTemplate(array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:784
+ OTUS #9: CBitrixComponent->showComponentTemplate()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:724
+ OTUS #10: CBitrixComponent->includeComponentTemplate(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/components/bitrix/lists/component.php:355
+ OTUS #11: include(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:615
+ OTUS #12: CBitrixComponent->__includeComponent()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:692
+ OTUS #13: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/main.php:1188
+ OTUS #14: CAllMain->IncludeComponent(string, string, array, boolean)
+ OTUS 	/home/c/ca43694/public_html/services/lists/index.php:27
+ OTUS #15: include_once(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/include/urlrewrite.php:128
+ OTUS #16: include_once(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/urlrewrite.php:2
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-03-02 18:58:36 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [Error] 
+ OTUS Call to undefined method CIBlockPropertyResult::fetchAll() (0)
+ OTUS /home/c/ca43694/public_html/local/events/update.php:14
+ OTUS #0: Otus\Events\Update::updateDeal(array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/tools.php:5246
+ OTUS #1: ExecuteModuleEventEx(array, array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/iblock/classes/mysql/iblockelement.php:1835
+ OTUS #2: CIBlockElement->Update(integer, array, boolean, boolean, boolean)
+ OTUS 	/home/c/ca43694/public_html/bitrix/components/bitrix/lists.element.edit/component.php:769
+ OTUS #3: include(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:615
+ OTUS #4: CBitrixComponent->__includeComponent()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:692
+ OTUS #5: CBitrixComponent->includeComponent(string, array, object, boolean)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/main.php:1188
+ OTUS #6: CAllMain->IncludeComponent(string, string, array, object)
+ OTUS 	/home/c/ca43694/public_html/bitrix/components/bitrix/lists/templates/.default/list_element_edit.php:2
+ OTUS #7: include(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component_template.php:790
+ OTUS #8: CBitrixComponentTemplate->__IncludePHPTemplate(array, array, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component_template.php:885
+ OTUS #9: CBitrixComponentTemplate->IncludeTemplate(array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:784
+ OTUS #10: CBitrixComponent->showComponentTemplate()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:724
+ OTUS #11: CBitrixComponent->includeComponentTemplate(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/components/bitrix/lists/component.php:355
+ OTUS #12: include(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:615
+ OTUS #13: CBitrixComponent->__includeComponent()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:692
+ OTUS #14: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/main.php:1188
+ OTUS #15: CAllMain->IncludeComponent(string, string, array, boolean)
+ OTUS 	/home/c/ca43694/public_html/services/lists/index.php:27
+ OTUS #16: include_once(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/include/urlrewrite.php:128
+ OTUS #17: include_once(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/urlrewrite.php:2
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-03-02 19:12:09 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [TypeError] 
+ OTUS call_user_func_array(): Argument #1 ($callback) must be a valid callback, class "Otus\Events\Update" not found (0)
+ OTUS /home/c/ca43694/public_html/bitrix/modules/main/tools.php:5246
+ OTUS #0: ExecuteModuleEventEx(array, array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/iblock/classes/mysql/iblockelement.php:1835
+ OTUS #1: CIBlockElement->Update(integer, array, boolean, boolean, boolean)
+ OTUS 	/home/c/ca43694/public_html/bitrix/components/bitrix/lists.element.edit/component.php:769
+ OTUS #2: include(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:615
+ OTUS #3: CBitrixComponent->__includeComponent()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:692
+ OTUS #4: CBitrixComponent->includeComponent(string, array, object, boolean)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/main.php:1188
+ OTUS #5: CAllMain->IncludeComponent(string, string, array, object)
+ OTUS 	/home/c/ca43694/public_html/bitrix/components/bitrix/lists/templates/.default/list_element_edit.php:2
+ OTUS #6: include(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component_template.php:790
+ OTUS #7: CBitrixComponentTemplate->__IncludePHPTemplate(array, array, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component_template.php:885
+ OTUS #8: CBitrixComponentTemplate->IncludeTemplate(array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:784
+ OTUS #9: CBitrixComponent->showComponentTemplate()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:724
+ OTUS #10: CBitrixComponent->includeComponentTemplate(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/components/bitrix/lists/component.php:355
+ OTUS #11: include(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:615
+ OTUS #12: CBitrixComponent->__includeComponent()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:692
+ OTUS #13: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/main.php:1188
+ OTUS #14: CAllMain->IncludeComponent(string, string, array, boolean)
+ OTUS 	/home/c/ca43694/public_html/services/lists/index.php:27
+ OTUS #15: include_once(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/include/urlrewrite.php:128
+ OTUS #16: include_once(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/urlrewrite.php:2
+ OTUS ----------
+ OTUS Previous exception: [ParseError] 
+ OTUS syntax error, unexpected token ")" (0)
+ OTUS /home/c/ca43694/public_html/local/events/update.php:18
+ OTUS #0: Bitrix\Main\Loader::autoLoad(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/tools.php:5246
+ OTUS #1: ExecuteModuleEventEx(array, array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/iblock/classes/mysql/iblockelement.php:1835
+ OTUS #2: CIBlockElement->Update(integer, array, boolean, boolean, boolean)
+ OTUS 	/home/c/ca43694/public_html/bitrix/components/bitrix/lists.element.edit/component.php:769
+ OTUS #3: include(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:615
+ OTUS #4: CBitrixComponent->__includeComponent()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:692
+ OTUS #5: CBitrixComponent->includeComponent(string, array, object, boolean)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/main.php:1188
+ OTUS #6: CAllMain->IncludeComponent(string, string, array, object)
+ OTUS 	/home/c/ca43694/public_html/bitrix/components/bitrix/lists/templates/.default/list_element_edit.php:2
+ OTUS #7: include(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component_template.php:790
+ OTUS #8: CBitrixComponentTemplate->__IncludePHPTemplate(array, array, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component_template.php:885
+ OTUS #9: CBitrixComponentTemplate->IncludeTemplate(array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:784
+ OTUS #10: CBitrixComponent->showComponentTemplate()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:724
+ OTUS #11: CBitrixComponent->includeComponentTemplate(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/components/bitrix/lists/component.php:355
+ OTUS #12: include(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:615
+ OTUS #13: CBitrixComponent->__includeComponent()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:692
+ OTUS #14: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/main.php:1188
+ OTUS #15: CAllMain->IncludeComponent(string, string, array, boolean)
+ OTUS 	/home/c/ca43694/public_html/services/lists/index.php:27
+ OTUS #16: include_once(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/include/urlrewrite.php:128
+ OTUS #17: include_once(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/urlrewrite.php:2
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-03-02 19:12:49 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [Error] 
+ OTUS Call to a member function fetch() on array (0)
+ OTUS /home/c/ca43694/public_html/local/events/update.php:18
+ OTUS #0: Otus\Events\Update::updateDeal(array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/tools.php:5246
+ OTUS #1: ExecuteModuleEventEx(array, array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/iblock/classes/mysql/iblockelement.php:1835
+ OTUS #2: CIBlockElement->Update(integer, array, boolean, boolean, boolean)
+ OTUS 	/home/c/ca43694/public_html/bitrix/components/bitrix/lists.element.edit/component.php:769
+ OTUS #3: include(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:615
+ OTUS #4: CBitrixComponent->__includeComponent()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:692
+ OTUS #5: CBitrixComponent->includeComponent(string, array, object, boolean)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/main.php:1188
+ OTUS #6: CAllMain->IncludeComponent(string, string, array, object)
+ OTUS 	/home/c/ca43694/public_html/bitrix/components/bitrix/lists/templates/.default/list_element_edit.php:2
+ OTUS #7: include(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component_template.php:790
+ OTUS #8: CBitrixComponentTemplate->__IncludePHPTemplate(array, array, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component_template.php:885
+ OTUS #9: CBitrixComponentTemplate->IncludeTemplate(array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:784
+ OTUS #10: CBitrixComponent->showComponentTemplate()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:724
+ OTUS #11: CBitrixComponent->includeComponentTemplate(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/components/bitrix/lists/component.php:355
+ OTUS #12: include(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:615
+ OTUS #13: CBitrixComponent->__includeComponent()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:692
+ OTUS #14: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/main.php:1188
+ OTUS #15: CAllMain->IncludeComponent(string, string, array, boolean)
+ OTUS 	/home/c/ca43694/public_html/services/lists/index.php:27
+ OTUS #16: include_once(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/include/urlrewrite.php:128
+ OTUS #17: include_once(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/urlrewrite.php:2
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-03-02 19:14:15 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [Error] 
+ OTUS Call to a member function GetNext() on array (0)
+ OTUS /home/c/ca43694/public_html/local/events/update.php:18
+ OTUS #0: Otus\Events\Update::updateDeal(array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/tools.php:5246
+ OTUS #1: ExecuteModuleEventEx(array, array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/iblock/classes/mysql/iblockelement.php:1835
+ OTUS #2: CIBlockElement->Update(integer, array, boolean, boolean, boolean)
+ OTUS 	/home/c/ca43694/public_html/bitrix/components/bitrix/lists.element.edit/component.php:769
+ OTUS #3: include(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:615
+ OTUS #4: CBitrixComponent->__includeComponent()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:692
+ OTUS #5: CBitrixComponent->includeComponent(string, array, object, boolean)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/main.php:1188
+ OTUS #6: CAllMain->IncludeComponent(string, string, array, object)
+ OTUS 	/home/c/ca43694/public_html/bitrix/components/bitrix/lists/templates/.default/list_element_edit.php:2
+ OTUS #7: include(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component_template.php:790
+ OTUS #8: CBitrixComponentTemplate->__IncludePHPTemplate(array, array, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component_template.php:885
+ OTUS #9: CBitrixComponentTemplate->IncludeTemplate(array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:784
+ OTUS #10: CBitrixComponent->showComponentTemplate()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:724
+ OTUS #11: CBitrixComponent->includeComponentTemplate(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/components/bitrix/lists/component.php:355
+ OTUS #12: include(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:615
+ OTUS #13: CBitrixComponent->__includeComponent()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:692
+ OTUS #14: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/main.php:1188
+ OTUS #15: CAllMain->IncludeComponent(string, string, array, boolean)
+ OTUS 	/home/c/ca43694/public_html/services/lists/index.php:27
+ OTUS #16: include_once(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/include/urlrewrite.php:128
+ OTUS #17: include_once(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/urlrewrite.php:2
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-03-02 19:22:34 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [Error] 
+ OTUS Class "Otus\Events\CCrmDeal" not found (0)
+ OTUS /home/c/ca43694/public_html/local/events/update.php:21
+ OTUS #0: Otus\Events\Update::updateDeal(array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/tools.php:5246
+ OTUS #1: ExecuteModuleEventEx(array, array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/iblock/classes/mysql/iblockelement.php:1835
+ OTUS #2: CIBlockElement->Update(integer, array, boolean, boolean, boolean)
+ OTUS 	/home/c/ca43694/public_html/bitrix/components/bitrix/lists.element.edit/component.php:769
+ OTUS #3: include(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:615
+ OTUS #4: CBitrixComponent->__includeComponent()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:692
+ OTUS #5: CBitrixComponent->includeComponent(string, array, object, boolean)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/main.php:1188
+ OTUS #6: CAllMain->IncludeComponent(string, string, array, object)
+ OTUS 	/home/c/ca43694/public_html/bitrix/components/bitrix/lists/templates/.default/list_element_edit.php:2
+ OTUS #7: include(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component_template.php:790
+ OTUS #8: CBitrixComponentTemplate->__IncludePHPTemplate(array, array, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component_template.php:885
+ OTUS #9: CBitrixComponentTemplate->IncludeTemplate(array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:784
+ OTUS #10: CBitrixComponent->showComponentTemplate()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:724
+ OTUS #11: CBitrixComponent->includeComponentTemplate(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/components/bitrix/lists/component.php:355
+ OTUS #12: include(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:615
+ OTUS #13: CBitrixComponent->__includeComponent()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:692
+ OTUS #14: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/main.php:1188
+ OTUS #15: CAllMain->IncludeComponent(string, string, array, boolean)
+ OTUS 	/home/c/ca43694/public_html/services/lists/index.php:27
+ OTUS #16: include_once(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/include/urlrewrite.php:128
+ OTUS #17: include_once(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/urlrewrite.php:2
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-03-02 19:50:04 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [TypeError] 
+ OTUS count(): Argument #1 ($value) must be of type Countable|array, bool given (0)
+ OTUS /home/c/ca43694/public_html/bitrix/modules/crm/classes/general/crm_deal.php:1158
+ OTUS #0: CAllCrmDeal::GetList(array, array, boolean, boolean, array)
+ OTUS 	/home/c/ca43694/public_html/local/events/update.php:54
+ OTUS #1: Otus\Events\Update::updateElement(array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/tools.php:5246
+ OTUS #2: ExecuteModuleEventEx(array, array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/crm/classes/general/crm_deal.php:3703
+ OTUS #3: CAllCrmDeal->Update(integer, array, boolean, boolean, array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/components/bitrix/crm.deal.details/ajax.php:1035
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-03-02 19:51:09 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [TypeError] 
+ OTUS count(): Argument #1 ($value) must be of type Countable|array, bool given (0)
+ OTUS /home/c/ca43694/public_html/bitrix/modules/crm/classes/general/crm_deal.php:1158
+ OTUS #0: CAllCrmDeal::GetList(array, array, boolean, boolean, array)
+ OTUS 	/home/c/ca43694/public_html/local/events/update.php:54
+ OTUS #1: Otus\Events\Update::updateElement(array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/tools.php:5246
+ OTUS #2: ExecuteModuleEventEx(array, array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/crm/classes/general/crm_deal.php:3703
+ OTUS #3: CAllCrmDeal->Update(integer, array, boolean, boolean, array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/components/bitrix/crm.deal.details/ajax.php:1035
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-03-02 19:52:13 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [TypeError] 
+ OTUS count(): Argument #1 ($value) must be of type Countable|array, bool given (0)
+ OTUS /home/c/ca43694/public_html/bitrix/modules/crm/classes/general/crm_deal.php:1158
+ OTUS #0: CAllCrmDeal::GetList(array, array, boolean, boolean)
+ OTUS 	/home/c/ca43694/public_html/local/events/update.php:53
+ OTUS #1: Otus\Events\Update::updateElement(array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/tools.php:5246
+ OTUS #2: ExecuteModuleEventEx(array, array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/crm/classes/general/crm_deal.php:3703
+ OTUS #3: CAllCrmDeal->Update(integer, array, boolean, boolean, array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/components/bitrix/crm.deal.details/ajax.php:1035
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-03-02 19:52:48 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [TypeError] 
+ OTUS count(): Argument #1 ($value) must be of type Countable|array, bool given (0)
+ OTUS /home/c/ca43694/public_html/bitrix/modules/crm/classes/general/crm_deal.php:1158
+ OTUS #0: CAllCrmDeal::GetList(array, array, boolean, boolean)
+ OTUS 	/home/c/ca43694/public_html/local/events/update.php:53
+ OTUS #1: Otus\Events\Update::updateElement(array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/tools.php:5246
+ OTUS #2: ExecuteModuleEventEx(array, array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/crm/classes/general/crm_deal.php:3703
+ OTUS #3: CAllCrmDeal->Update(integer, array, boolean, boolean, array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/components/bitrix/crm.deal.details/ajax.php:1035
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-03-02 20:07:32 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [TypeError] 
+ OTUS call_user_func_array(): Argument #1 ($callback) must be a valid callback, class "Otus\Events\Update" not found (0)
+ OTUS /home/c/ca43694/public_html/bitrix/modules/main/tools.php:5246
+ OTUS #0: ExecuteModuleEventEx(array, array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/crm/classes/general/crm_deal.php:3703
+ OTUS #1: CAllCrmDeal->Update(integer, array, boolean, boolean, array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/components/bitrix/crm.deal.details/ajax.php:1035
+ OTUS ----------
+ OTUS Previous exception: [ParseError] 
+ OTUS syntax error, unexpected token "=", expecting "]" (0)
+ OTUS /home/c/ca43694/public_html/local/events/update.php:50
+ OTUS #0: Bitrix\Main\Loader::autoLoad(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/tools.php:5246
+ OTUS #1: ExecuteModuleEventEx(array, array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/crm/classes/general/crm_deal.php:3703
+ OTUS #2: CAllCrmDeal->Update(integer, array, boolean, boolean, array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/components/bitrix/crm.deal.details/ajax.php:1035
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-03-02 20:08:55 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [TypeError] 
+ OTUS call_user_func_array(): Argument #1 ($callback) must be a valid callback, class "Otus\Events\Update" not found (0)
+ OTUS /home/c/ca43694/public_html/bitrix/modules/main/tools.php:5246
+ OTUS #0: ExecuteModuleEventEx(array, array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/crm/classes/general/crm_deal.php:3703
+ OTUS #1: CAllCrmDeal->Update(integer, array, boolean, boolean, array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/components/bitrix/crm.deal.details/ajax.php:1035
+ OTUS ----------
+ OTUS Previous exception: [ParseError] 
+ OTUS syntax error, unexpected token "=", expecting "]" (0)
+ OTUS /home/c/ca43694/public_html/local/events/update.php:50
+ OTUS #0: Bitrix\Main\Loader::autoLoad(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/tools.php:5246
+ OTUS #1: ExecuteModuleEventEx(array, array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/crm/classes/general/crm_deal.php:3703
+ OTUS #2: CAllCrmDeal->Update(integer, array, boolean, boolean, array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/components/bitrix/crm.deal.details/ajax.php:1035
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-03-02 20:24:14 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [Error] 
+ OTUS Non-static method CIBlockElement::Update() cannot be called statically (0)
+ OTUS /home/c/ca43694/public_html/local/events/update.php:52
+ OTUS #0: Otus\Events\Update::updateElement(array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/tools.php:5246
+ OTUS #1: ExecuteModuleEventEx(array, array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/crm/classes/general/crm_deal.php:3703
+ OTUS #2: CAllCrmDeal->Update(integer, array, boolean, boolean, array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/components/bitrix/crm.deal.details/ajax.php:1035
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-03-02 20:24:30 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [Error] 
+ OTUS Non-static method CIBlockElement::Update() cannot be called statically (0)
+ OTUS /home/c/ca43694/public_html/local/events/update.php:52
+ OTUS #0: Otus\Events\Update::updateElement(array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/tools.php:5246
+ OTUS #1: ExecuteModuleEventEx(array, array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/crm/classes/general/crm_deal.php:3703
+ OTUS #2: CAllCrmDeal->Update(integer, array, boolean, boolean, array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/components/bitrix/crm.deal.details/ajax.php:1035
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-03-02 20:26:56 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [Error] 
+ OTUS Non-static method CIBlockElement::Update() cannot be called statically (0)
+ OTUS /home/c/ca43694/public_html/local/events/update.php:53
+ OTUS #0: Otus\Events\Update::updateElement(array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/tools.php:5246
+ OTUS #1: ExecuteModuleEventEx(array, array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/crm/classes/general/crm_deal.php:3703
+ OTUS #2: CAllCrmDeal->Update(integer, array, boolean, boolean, array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/components/bitrix/crm.deal.details/ajax.php:1035
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-03-02 20:28:25 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [Error] 
+ OTUS Non-static method CIBlockElement::Update() cannot be called statically (0)
+ OTUS /home/c/ca43694/public_html/local/events/update.php:53
+ OTUS #0: Otus\Events\Update::updateElement(array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/tools.php:5246
+ OTUS #1: ExecuteModuleEventEx(array, array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/crm/classes/general/crm_deal.php:3703
+ OTUS #2: CAllCrmDeal->Update(integer, array, boolean, boolean, array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/components/bitrix/crm.deal.details/ajax.php:1035
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-03-02 20:28:55 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [Error] 
+ OTUS Non-static method CIBlockElement::Update() cannot be called statically (0)
+ OTUS /home/c/ca43694/public_html/local/events/update.php:53
+ OTUS #0: Otus\Events\Update::updateElement(array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/tools.php:5246
+ OTUS #1: ExecuteModuleEventEx(array, array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/crm/classes/general/crm_deal.php:3703
+ OTUS #2: CAllCrmDeal->Update(integer, array, boolean, boolean, array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/components/bitrix/crm.deal.details/ajax.php:1035
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-03-02 20:29:27 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [Error] 
+ OTUS Non-static method CIBlockElement::Update() cannot be called statically (0)
+ OTUS /home/c/ca43694/public_html/local/events/update.php:53
+ OTUS #0: Otus\Events\Update::updateElement(array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/tools.php:5246
+ OTUS #1: ExecuteModuleEventEx(array, array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/crm/classes/general/crm_deal.php:3703
+ OTUS #2: CAllCrmDeal->Update(integer, array, boolean, boolean, array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/components/bitrix/crm.deal.details/ajax.php:1035
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-03-02 20:30:42 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [Error] 
+ OTUS Non-static method CIBlockElement::Update() cannot be called statically (0)
+ OTUS /home/c/ca43694/public_html/local/events/update.php:53
+ OTUS #0: Otus\Events\Update::updateElement(array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/tools.php:5246
+ OTUS #1: ExecuteModuleEventEx(array, array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/crm/classes/general/crm_deal.php:3703
+ OTUS #2: CAllCrmDeal->Update(integer, array, boolean, boolean, array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/components/bitrix/crm.deal.details/ajax.php:1035
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-03-02 20:32:24 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [Error] 
+ OTUS Non-static method CIBlockElement::Update() cannot be called statically (0)
+ OTUS /home/c/ca43694/public_html/local/events/update.php:53
+ OTUS #0: Otus\Events\Update::updateElement(array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/tools.php:5246
+ OTUS #1: ExecuteModuleEventEx(array, array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/crm/classes/general/crm_deal.php:3703
+ OTUS #2: CAllCrmDeal->Update(integer, array, boolean, boolean, array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/components/bitrix/crm.deal.details/ajax.php:1035
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-03-02 20:33:50 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [Error] 
+ OTUS Non-static method CIBlockElement::Update() cannot be called statically (0)
+ OTUS /home/c/ca43694/public_html/local/events/update.php:53
+ OTUS #0: Otus\Events\Update::updateElement(array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/tools.php:5246
+ OTUS #1: ExecuteModuleEventEx(array, array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/crm/classes/general/crm_deal.php:3703
+ OTUS #2: CAllCrmDeal->Update(integer, array, boolean, boolean, array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/components/bitrix/crm.deal.details/ajax.php:1035
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-03-02 20:36:16 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [Error] 
+ OTUS Class "Otus\Events\CIBlockElement" not found (0)
+ OTUS /home/c/ca43694/public_html/local/events/update.php:53
+ OTUS #0: Otus\Events\Update::updateElement(array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/tools.php:5246
+ OTUS #1: ExecuteModuleEventEx(array, array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/crm/classes/general/crm_deal.php:3703
+ OTUS #2: CAllCrmDeal->Update(integer, array, boolean, boolean, array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/components/bitrix/crm.deal.details/ajax.php:1035
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-03-02 20:37:19 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [Error] 
+ OTUS Class "Otus\Events\CIBlockElement" not found (0)
+ OTUS /home/c/ca43694/public_html/local/events/update.php:53
+ OTUS #0: Otus\Events\Update::updateElement(array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/tools.php:5246
+ OTUS #1: ExecuteModuleEventEx(array, array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/crm/classes/general/crm_deal.php:3703
+ OTUS #2: CAllCrmDeal->Update(integer, array, boolean, boolean, array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/components/bitrix/crm.deal.details/ajax.php:1035
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-03-02 20:40:48 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [Error] 
+ OTUS Class "Otus\Events\CIBlockElement" not found (0)
+ OTUS /home/c/ca43694/public_html/local/events/update.php:53
+ OTUS #0: Otus\Events\Update::updateElement(array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/tools.php:5246
+ OTUS #1: ExecuteModuleEventEx(array, array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/crm/classes/general/crm_deal.php:3703
+ OTUS #2: CAllCrmDeal->Update(integer, array, boolean, boolean, array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/components/bitrix/crm.deal.details/ajax.php:1035
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-03-02 20:43:54 - Host: ca43694.tw1.ru - UNKNOWN - [Bitrix\Main\DB\SqlQueryException] 
+ OTUS Mysql query error: (2006) MySQL server has gone away (400)
+ OTUS SELECT 
+ OTUS 	`messageservice_internal_entity_message`.`ID` AS `ID`
+ OTUS FROM `b_messageservice_message` `messageservice_internal_entity_message` 
+ OTUS 
+ OTUS WHERE `messageservice_internal_entity_message`.`SUCCESS_EXEC` = 'N'
+ OTUS AND (
+ OTUS 	`messageservice_internal_entity_message`.`NEXT_EXEC` < '2025-03-02 20:43:54'
+ OTUS 	OR (`messageservice_internal_entity_message`.`NEXT_EXEC` IS NULL)
+ OTUS )
+ OTUS LIMIT 0, 1
+ OTUS 
+ OTUS /home/c/ca43694/public_html/bitrix/modules/main/lib/db/mysqliconnection.php:149
+ OTUS #0: Bitrix\Main\DB\MysqliConnection->queryInternal(string, array, NULL)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/db/connection.php:331
+ OTUS #1: Bitrix\Main\DB\Connection->query(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:3590
+ OTUS #2: Bitrix\Main\ORM\Query\Query->query(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:972
+ OTUS #3: Bitrix\Main\ORM\Query\Query->exec()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/data/datamanager.php:499
+ OTUS #4: Bitrix\Main\ORM\Data\DataManager::getList(array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/messageservice/lib/queue.php:45
+ OTUS #5: Bitrix\MessageService\Queue::hasMessages()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/messageservice/lib/queue.php:68
+ OTUS #6: Bitrix\MessageService\Queue::run()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/tools.php:5253
+ OTUS #7: ExecuteModuleEventEx(array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/main.php:3742
+ OTUS #8: CAllMain::RunFinalActionsInternal()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/application.php:368
+ OTUS #9: Bitrix\Main\Application->terminate(integer)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/application.php:329
+ OTUS #10: Bitrix\Main\Application->end(integer, object)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/httpapplication.php:171
+ OTUS #11: Bitrix\Main\HttpApplication->finalizeControllerResult(object, array, object)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/httpapplication.php:149
+ OTUS #12: Bitrix\Main\HttpApplication->runController(object, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/httpapplication.php:107
+ OTUS #13: Bitrix\Main\HttpApplication->run()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/services/ajax.php:29
+ OTUS #14: require(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/services/main/ajax.php:1
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-03-02 20:43:55 - Host: ca43694.tw1.ru - UNKNOWN - [Bitrix\Main\DB\SqlQueryException] 
+ OTUS Query error: [2006] MySQL server has gone away (400)
+ OTUS 
+ OTUS 			SELECT ID
+ OTUS 			FROM b_timeman_entries
+ OTUS 			WHERE USER_ID = '1'
+ OTUS 			ORDER BY ID DESC
+ OTUS 			LIMIT 1
+ OTUS 		
+ OTUS /home/c/ca43694/public_html/bitrix/modules/main/classes/general/database.php:654
+ OTUS #0: CAllDatabase->Query(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/timeman/classes/mysql/timeman_entry.php:201
+ OTUS #1: CTimeManEntry::_GetLastQuery(integer)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/timeman/classes/general/timeman_entry.php:32
+ OTUS #2: CAllTimeManEntry::GetLast(integer)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/timeman/classes/general/timeman_user.php:1308
+ OTUS #3: CTimeManUser->_GetLastData(boolean)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/timeman/classes/general/timeman_user.php:630
+ OTUS #4: CTimeManUser->isDayExpired()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/timeman/classes/general/timeman_user.php:534
+ OTUS #5: CTimeManUser->State()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/timeman/classes/general/timeman.php:50
+ OTUS #6: CTimeMan::getRuntimeInfo(boolean)
+ OTUS 	/home/c/ca43694/public_html/bitrix/components/bitrix/timeman/component.php:15
+ OTUS #7: include(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:615
+ OTUS #8: CBitrixComponent->__includeComponent()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:692
+ OTUS #9: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/main.php:1188
+ OTUS #10: CAllMain->IncludeComponent(string, string, array, boolean, array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/templates/bitrix24/header.php:216
+ OTUS #11: include_once(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/include/prolog_after.php:88
+ OTUS #12: require(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/include/prolog.php:11
+ OTUS #13: require_once(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/header.php:1
+ OTUS #14: require(string)
+ OTUS 	/home/c/ca43694/public_html/services/lists/index.php:5
+ OTUS #15: include_once(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/include/urlrewrite.php:128
+ OTUS #16: include_once(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/urlrewrite.php:2
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-03-02 20:43:55 - Host: ca43694.tw1.ru - UNKNOWN - [Bitrix\Main\DB\SqlQueryException] 
+ OTUS Query error: [2006] MySQL server has gone away (400)
+ OTUS 
+ OTUS 			SELECT
+ OTUS 				D.*,
+ OTUS 				DATE_FORMAT(D.DATE_ENTER, '%d.%m.%Y %H:%i:%s') DATE_ENTER,
+ OTUS 				DATE_FORMAT(D.DATE_MODIFY, '%d.%m.%Y %H:%i:%s') DATE_MODIFY,
+ OTUS 				DATE_FORMAT(D.DATE_LOCK, '%d.%m.%Y %H:%i:%s') DATE_LOCK,
+ OTUS 				concat('(',UM.LOGIN,') ',ifnull(UM.NAME,''),' ',ifnull(UM.LAST_NAME,'')) MUSER_NAME,
+ OTUS 				concat('(',UE.LOGIN,') ',ifnull(UE.NAME,''),' ',ifnull(UE.LAST_NAME,'')) EUSER_NAME,
+ OTUS 				concat('(',UL.LOGIN,') ',ifnull(UL.NAME,''),' ',ifnull(UL.LAST_NAME,'')) LUSER_NAME,
+ OTUS 				S.TITLE STATUS_TITLE,
+ OTUS 				if (D.DATE_LOCK is null, 'green',
+ OTUS 					if(DATE_ADD(D.DATE_LOCK, interval 60 MINUTE)<now(), 'green',
+ OTUS 						if(D.LOCKED_BY=1, 'yellow', 'red'))) LOCK_STATUS
+ OTUS 			FROM
+ OTUS 				b_workflow_document D
+ OTUS 				LEFT JOIN b_user UM ON (UM.ID = D.MODIFIED_BY)
+ OTUS 				LEFT JOIN b_user UE ON (UE.ID = D.ENTERED_BY)
+ OTUS 				LEFT JOIN b_user UL ON (UL.ID = D.LOCKED_BY)
+ OTUS 				LEFT JOIN b_workflow_status S ON (S.ID = D.STATUS_ID)
+ OTUS 			WHERE
+ OTUS 				SITE_ID = 's1'
+ OTUS 				AND D.FILENAME = '/services/lists/30/view/0/untitled.php'
+ OTUS 				AND 
+ OTUS D.STATUS_ID <> 1
+ OTUS 		
+ OTUS /home/c/ca43694/public_html/bitrix/modules/main/classes/general/database.php:654
+ OTUS #0: CAllDatabase->Query(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/workflow/classes/mysql/workflow.php:323
+ OTUS #1: CWorkflow::GetByFilename(string, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/workflow/classes/general/workflow.php:610
+ OTUS #2: CAllWorkflow::GetEditLink(string, NULL, NULL, string, string, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/workflow/classes/general/workflow.php:14
+ OTUS #3: CAllWorkflow::OnPanelCreate()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/tools.php:5253
+ OTUS #4: ExecuteModuleEventEx(array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/public/top_panel.php:982
+ OTUS #5: CTopPanel::InitPanelIcons()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/public/top_panel.php:1083
+ OTUS #6: CTopPanel::shouldShowPanel()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/public/top_panel.php:1099
+ OTUS #7: CTopPanel::InitPanel()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/tools.php:5246
+ OTUS #8: ExecuteModuleEventEx(array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/main.php:3363
+ OTUS #9: CAllMain->EndBufferContent(string, integer)
+ OTUS 	
+ OTUS #10: ob_end_flush()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/main.php:3648
+ OTUS #11: CAllMain::{closure}()
+ OTUS 	
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-03-02 20:43:55 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\DB\SqlQueryException] 
+ OTUS Mysql query error: (2006) MySQL server has gone away (400)
+ OTUS SELECT 
+ OTUS 	`messageservice_internal_entity_message`.`ID` AS `ID`
+ OTUS FROM `b_messageservice_message` `messageservice_internal_entity_message` 
+ OTUS 
+ OTUS WHERE `messageservice_internal_entity_message`.`SUCCESS_EXEC` = 'N'
+ OTUS AND (
+ OTUS 	`messageservice_internal_entity_message`.`NEXT_EXEC` < '2025-03-02 20:43:55'
+ OTUS 	OR (`messageservice_internal_entity_message`.`NEXT_EXEC` IS NULL)
+ OTUS )
+ OTUS LIMIT 0, 1
+ OTUS 
+ OTUS /home/c/ca43694/public_html/bitrix/modules/main/lib/db/mysqliconnection.php:149
+ OTUS #0: Bitrix\Main\DB\MysqliConnection->queryInternal(string, array, NULL)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/db/connection.php:331
+ OTUS #1: Bitrix\Main\DB\Connection->query(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:3590
+ OTUS #2: Bitrix\Main\ORM\Query\Query->query(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:972
+ OTUS #3: Bitrix\Main\ORM\Query\Query->exec()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/data/datamanager.php:499
+ OTUS #4: Bitrix\Main\ORM\Data\DataManager::getList(array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/messageservice/lib/queue.php:45
+ OTUS #5: Bitrix\MessageService\Queue::hasMessages()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/messageservice/lib/queue.php:68
+ OTUS #6: Bitrix\MessageService\Queue::run()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/tools.php:5253
+ OTUS #7: ExecuteModuleEventEx(array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/main.php:3742
+ OTUS #8: CAllMain::RunFinalActionsInternal()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/application.php:368
+ OTUS #9: Bitrix\Main\Application->terminate(integer)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/application.php:329
+ OTUS #10: Bitrix\Main\Application->end()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/public/session.php:35
+ OTUS #11: require(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/tools/public_session.php:1
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-03-02 20:43:55 - Host: ca43694.tw1.ru - UNKNOWN - [Bitrix\Main\DB\SqlQueryException] 
+ OTUS Query error: [2006] MySQL server has gone away (400)
+ OTUS 
+ OTUS 			SELECT ID
+ OTUS 			FROM b_timeman_entries
+ OTUS 			WHERE USER_ID = '1'
+ OTUS 			ORDER BY ID DESC
+ OTUS 			LIMIT 1
+ OTUS 		
+ OTUS /home/c/ca43694/public_html/bitrix/modules/main/classes/general/database.php:654
+ OTUS #0: CAllDatabase->Query(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/timeman/classes/mysql/timeman_entry.php:201
+ OTUS #1: CTimeManEntry::_GetLastQuery(integer)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/timeman/classes/general/timeman_entry.php:32
+ OTUS #2: CAllTimeManEntry::GetLast(integer)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/timeman/classes/general/timeman_user.php:1308
+ OTUS #3: CTimeManUser->_GetLastData(boolean)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/timeman/classes/general/timeman_user.php:630
+ OTUS #4: CTimeManUser->isDayExpired()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/timeman/classes/general/timeman_user.php:534
+ OTUS #5: CTimeManUser->State()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/timeman/classes/general/timeman.php:50
+ OTUS #6: CTimeMan::getRuntimeInfo(boolean)
+ OTUS 	/home/c/ca43694/public_html/bitrix/components/bitrix/timeman/component.php:15
+ OTUS #7: include(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:615
+ OTUS #8: CBitrixComponent->__includeComponent()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:692
+ OTUS #9: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/main.php:1188
+ OTUS #10: CAllMain->IncludeComponent(string, string, array, boolean, array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/templates/bitrix24/header.php:216
+ OTUS #11: include_once(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/include/prolog_after.php:88
+ OTUS #12: require(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/include/prolog.php:11
+ OTUS #13: require_once(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/header.php:1
+ OTUS #14: require(string)
+ OTUS 	/home/c/ca43694/public_html/services/lists/index.php:5
+ OTUS #15: include_once(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/include/urlrewrite.php:128
+ OTUS #16: include_once(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/urlrewrite.php:2
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-03-02 20:43:55 - Host: ca43694.tw1.ru - UNKNOWN - [Bitrix\Main\DB\SqlQueryException] 
+ OTUS Query error: [2006] MySQL server has gone away (400)
+ OTUS 
+ OTUS 			SELECT
+ OTUS 				D.*,
+ OTUS 				DATE_FORMAT(D.DATE_ENTER, '%d.%m.%Y %H:%i:%s') DATE_ENTER,
+ OTUS 				DATE_FORMAT(D.DATE_MODIFY, '%d.%m.%Y %H:%i:%s') DATE_MODIFY,
+ OTUS 				DATE_FORMAT(D.DATE_LOCK, '%d.%m.%Y %H:%i:%s') DATE_LOCK,
+ OTUS 				concat('(',UM.LOGIN,') ',ifnull(UM.NAME,''),' ',ifnull(UM.LAST_NAME,'')) MUSER_NAME,
+ OTUS 				concat('(',UE.LOGIN,') ',ifnull(UE.NAME,''),' ',ifnull(UE.LAST_NAME,'')) EUSER_NAME,
+ OTUS 				concat('(',UL.LOGIN,') ',ifnull(UL.NAME,''),' ',ifnull(UL.LAST_NAME,'')) LUSER_NAME,
+ OTUS 				S.TITLE STATUS_TITLE,
+ OTUS 				if (D.DATE_LOCK is null, 'green',
+ OTUS 					if(DATE_ADD(D.DATE_LOCK, interval 60 MINUTE)<now(), 'green',
+ OTUS 						if(D.LOCKED_BY=1, 'yellow', 'red'))) LOCK_STATUS
+ OTUS 			FROM
+ OTUS 				b_workflow_document D
+ OTUS 				LEFT JOIN b_user UM ON (UM.ID = D.MODIFIED_BY)
+ OTUS 				LEFT JOIN b_user UE ON (UE.ID = D.ENTERED_BY)
+ OTUS 				LEFT JOIN b_user UL ON (UL.ID = D.LOCKED_BY)
+ OTUS 				LEFT JOIN b_workflow_status S ON (S.ID = D.STATUS_ID)
+ OTUS 			WHERE
+ OTUS 				SITE_ID = 's1'
+ OTUS 				AND D.FILENAME = '/services/lists/30/view/0/untitled.php'
+ OTUS 				AND 
+ OTUS D.STATUS_ID <> 1
+ OTUS 		
+ OTUS /home/c/ca43694/public_html/bitrix/modules/main/classes/general/database.php:654
+ OTUS #0: CAllDatabase->Query(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/workflow/classes/mysql/workflow.php:323
+ OTUS #1: CWorkflow::GetByFilename(string, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/workflow/classes/general/workflow.php:610
+ OTUS #2: CAllWorkflow::GetEditLink(string, NULL, NULL, string, string, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/workflow/classes/general/workflow.php:14
+ OTUS #3: CAllWorkflow::OnPanelCreate()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/tools.php:5253
+ OTUS #4: ExecuteModuleEventEx(array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/public/top_panel.php:982
+ OTUS #5: CTopPanel::InitPanelIcons()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/public/top_panel.php:1083
+ OTUS #6: CTopPanel::shouldShowPanel()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/public/top_panel.php:1099
+ OTUS #7: CTopPanel::InitPanel()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/tools.php:5246
+ OTUS #8: ExecuteModuleEventEx(array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/main.php:3363
+ OTUS #9: CAllMain->EndBufferContent(string, integer)
+ OTUS 	
+ OTUS #10: ob_end_flush()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/main.php:3648
+ OTUS #11: CAllMain::{closure}()
+ OTUS 	
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-03-02 20:43:55 - Host: ca43694.tw1.ru - UNKNOWN - [Bitrix\Main\DB\SqlQueryException] 
+ OTUS Query error: [2006] MySQL server has gone away (400)
+ OTUS SELECT L.*, BS.* FROM b_iblock_site BS, b_lang L WHERE L.LID=BS.SITE_ID AND BS.IBLOCK_ID=30
+ OTUS /home/c/ca43694/public_html/bitrix/modules/main/classes/general/database.php:654
+ OTUS #0: CAllDatabase->Query(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/iblock/classes/general/iblock.php:809
+ OTUS #1: CAllIBlock::GetSite(integer)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/iblock/admin/iblock_list_admin.php:174
+ OTUS #2: require(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/admin/iblock_list_admin.php:1
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-03-02 20:43:55 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\DB\SqlQueryException] 
+ OTUS Mysql query error: (2006) MySQL server has gone away (400)
+ OTUS SELECT 
+ OTUS 	`messageservice_internal_entity_message`.`ID` AS `ID`
+ OTUS FROM `b_messageservice_message` `messageservice_internal_entity_message` 
+ OTUS 
+ OTUS WHERE `messageservice_internal_entity_message`.`SUCCESS_EXEC` = 'N'
+ OTUS AND (
+ OTUS 	`messageservice_internal_entity_message`.`NEXT_EXEC` < '2025-03-02 20:43:55'
+ OTUS 	OR (`messageservice_internal_entity_message`.`NEXT_EXEC` IS NULL)
+ OTUS )
+ OTUS LIMIT 0, 1
+ OTUS 
+ OTUS /home/c/ca43694/public_html/bitrix/modules/main/lib/db/mysqliconnection.php:149
+ OTUS #0: Bitrix\Main\DB\MysqliConnection->queryInternal(string, array, NULL)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/db/connection.php:331
+ OTUS #1: Bitrix\Main\DB\Connection->query(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:3590
+ OTUS #2: Bitrix\Main\ORM\Query\Query->query(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:972
+ OTUS #3: Bitrix\Main\ORM\Query\Query->exec()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/data/datamanager.php:499
+ OTUS #4: Bitrix\Main\ORM\Data\DataManager::getList(array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/messageservice/lib/queue.php:45
+ OTUS #5: Bitrix\MessageService\Queue::hasMessages()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/messageservice/lib/queue.php:68
+ OTUS #6: Bitrix\MessageService\Queue::run()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/tools.php:5253
+ OTUS #7: ExecuteModuleEventEx(array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/main.php:3742
+ OTUS #8: CAllMain::RunFinalActionsInternal()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/application.php:368
+ OTUS #9: Bitrix\Main\Application->terminate(integer)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/application.php:329
+ OTUS #10: Bitrix\Main\Application->end()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/public/session.php:35
+ OTUS #11: require(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/tools/public_session.php:1
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-03-02 20:47:18 - Host: ca43694.tw1.ru - UNKNOWN - [Bitrix\Main\DB\SqlQueryException] 
+ OTUS Mysql query error: (2006) MySQL server has gone away (400)
+ OTUS SELECT 
+ OTUS 	`messageservice_internal_entity_message`.`ID` AS `ID`
+ OTUS FROM `b_messageservice_message` `messageservice_internal_entity_message` 
+ OTUS 
+ OTUS WHERE `messageservice_internal_entity_message`.`SUCCESS_EXEC` = 'N'
+ OTUS AND (
+ OTUS 	`messageservice_internal_entity_message`.`NEXT_EXEC` < '2025-03-02 20:47:18'
+ OTUS 	OR (`messageservice_internal_entity_message`.`NEXT_EXEC` IS NULL)
+ OTUS )
+ OTUS LIMIT 0, 1
+ OTUS 
+ OTUS /home/c/ca43694/public_html/bitrix/modules/main/lib/db/mysqliconnection.php:149
+ OTUS #0: Bitrix\Main\DB\MysqliConnection->queryInternal(string, array, NULL)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/db/connection.php:331
+ OTUS #1: Bitrix\Main\DB\Connection->query(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:3590
+ OTUS #2: Bitrix\Main\ORM\Query\Query->query(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:972
+ OTUS #3: Bitrix\Main\ORM\Query\Query->exec()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/data/datamanager.php:499
+ OTUS #4: Bitrix\Main\ORM\Data\DataManager::getList(array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/messageservice/lib/queue.php:45
+ OTUS #5: Bitrix\MessageService\Queue::hasMessages()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/messageservice/lib/queue.php:68
+ OTUS #6: Bitrix\MessageService\Queue::run()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/tools.php:5253
+ OTUS #7: ExecuteModuleEventEx(array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/main.php:3742
+ OTUS #8: CAllMain::RunFinalActionsInternal()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/application.php:368
+ OTUS #9: Bitrix\Main\Application->terminate(integer)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/application.php:329
+ OTUS #10: Bitrix\Main\Application->end(integer, object)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/httpapplication.php:171
+ OTUS #11: Bitrix\Main\HttpApplication->finalizeControllerResult(object, array, object)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/httpapplication.php:149
+ OTUS #12: Bitrix\Main\HttpApplication->runController(object, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/httpapplication.php:107
+ OTUS #13: Bitrix\Main\HttpApplication->run()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/services/ajax.php:29
+ OTUS #14: require(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/services/main/ajax.php:1
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-03-02 20:47:18 - Host: ca43694.tw1.ru - UNKNOWN - [Bitrix\Main\DB\SqlQueryException] 
+ OTUS Query error: [2006] MySQL server has gone away (400)
+ OTUS 
+ OTUS 			SELECT ID
+ OTUS 			FROM b_timeman_entries
+ OTUS 			WHERE USER_ID = '1'
+ OTUS 			ORDER BY ID DESC
+ OTUS 			LIMIT 1
+ OTUS 		
+ OTUS /home/c/ca43694/public_html/bitrix/modules/main/classes/general/database.php:654
+ OTUS #0: CAllDatabase->Query(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/timeman/classes/mysql/timeman_entry.php:201
+ OTUS #1: CTimeManEntry::_GetLastQuery(integer)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/timeman/classes/general/timeman_entry.php:32
+ OTUS #2: CAllTimeManEntry::GetLast(integer)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/timeman/classes/general/timeman_user.php:1308
+ OTUS #3: CTimeManUser->_GetLastData(boolean)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/timeman/classes/general/timeman_user.php:630
+ OTUS #4: CTimeManUser->isDayExpired()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/timeman/classes/general/timeman_user.php:534
+ OTUS #5: CTimeManUser->State()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/timeman/classes/general/timeman.php:50
+ OTUS #6: CTimeMan::getRuntimeInfo(boolean)
+ OTUS 	/home/c/ca43694/public_html/bitrix/components/bitrix/timeman/component.php:15
+ OTUS #7: include(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:615
+ OTUS #8: CBitrixComponent->__includeComponent()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:692
+ OTUS #9: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/main.php:1188
+ OTUS #10: CAllMain->IncludeComponent(string, string, array, boolean, array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/templates/bitrix24/header.php:216
+ OTUS #11: include_once(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/include/prolog_after.php:88
+ OTUS #12: require(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/include/prolog.php:11
+ OTUS #13: require_once(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/header.php:1
+ OTUS #14: require(string)
+ OTUS 	/home/c/ca43694/public_html/services/lists/index.php:5
+ OTUS #15: include_once(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/include/urlrewrite.php:128
+ OTUS #16: include_once(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/urlrewrite.php:2
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-03-02 20:47:18 - Host: ca43694.tw1.ru - UNKNOWN - [Bitrix\Main\DB\SqlQueryException] 
+ OTUS Query error: [2006] MySQL server has gone away (400)
+ OTUS 
+ OTUS 			SELECT
+ OTUS 				D.*,
+ OTUS 				DATE_FORMAT(D.DATE_ENTER, '%d.%m.%Y %H:%i:%s') DATE_ENTER,
+ OTUS 				DATE_FORMAT(D.DATE_MODIFY, '%d.%m.%Y %H:%i:%s') DATE_MODIFY,
+ OTUS 				DATE_FORMAT(D.DATE_LOCK, '%d.%m.%Y %H:%i:%s') DATE_LOCK,
+ OTUS 				concat('(',UM.LOGIN,') ',ifnull(UM.NAME,''),' ',ifnull(UM.LAST_NAME,'')) MUSER_NAME,
+ OTUS 				concat('(',UE.LOGIN,') ',ifnull(UE.NAME,''),' ',ifnull(UE.LAST_NAME,'')) EUSER_NAME,
+ OTUS 				concat('(',UL.LOGIN,') ',ifnull(UL.NAME,''),' ',ifnull(UL.LAST_NAME,'')) LUSER_NAME,
+ OTUS 				S.TITLE STATUS_TITLE,
+ OTUS 				if (D.DATE_LOCK is null, 'green',
+ OTUS 					if(DATE_ADD(D.DATE_LOCK, interval 60 MINUTE)<now(), 'green',
+ OTUS 						if(D.LOCKED_BY=1, 'yellow', 'red'))) LOCK_STATUS
+ OTUS 			FROM
+ OTUS 				b_workflow_document D
+ OTUS 				LEFT JOIN b_user UM ON (UM.ID = D.MODIFIED_BY)
+ OTUS 				LEFT JOIN b_user UE ON (UE.ID = D.ENTERED_BY)
+ OTUS 				LEFT JOIN b_user UL ON (UL.ID = D.LOCKED_BY)
+ OTUS 				LEFT JOIN b_workflow_status S ON (S.ID = D.STATUS_ID)
+ OTUS 			WHERE
+ OTUS 				SITE_ID = 's1'
+ OTUS 				AND D.FILENAME = '/services/lists/30/view/0/untitled.php'
+ OTUS 				AND 
+ OTUS D.STATUS_ID <> 1
+ OTUS 		
+ OTUS /home/c/ca43694/public_html/bitrix/modules/main/classes/general/database.php:654
+ OTUS #0: CAllDatabase->Query(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/workflow/classes/mysql/workflow.php:323
+ OTUS #1: CWorkflow::GetByFilename(string, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/workflow/classes/general/workflow.php:610
+ OTUS #2: CAllWorkflow::GetEditLink(string, NULL, NULL, string, string, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/workflow/classes/general/workflow.php:14
+ OTUS #3: CAllWorkflow::OnPanelCreate()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/tools.php:5253
+ OTUS #4: ExecuteModuleEventEx(array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/public/top_panel.php:982
+ OTUS #5: CTopPanel::InitPanelIcons()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/public/top_panel.php:1083
+ OTUS #6: CTopPanel::shouldShowPanel()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/public/top_panel.php:1099
+ OTUS #7: CTopPanel::InitPanel()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/tools.php:5246
+ OTUS #8: ExecuteModuleEventEx(array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/main.php:3363
+ OTUS #9: CAllMain->EndBufferContent(string, integer)
+ OTUS 	
+ OTUS #10: ob_end_flush()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/main.php:3648
+ OTUS #11: CAllMain::{closure}()
+ OTUS 	
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-03-02 20:47:18 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\DB\SqlQueryException] 
+ OTUS Mysql query error: (2006) MySQL server has gone away (400)
+ OTUS SELECT 
+ OTUS 	`messageservice_internal_entity_message`.`ID` AS `ID`
+ OTUS FROM `b_messageservice_message` `messageservice_internal_entity_message` 
+ OTUS 
+ OTUS WHERE `messageservice_internal_entity_message`.`SUCCESS_EXEC` = 'N'
+ OTUS AND (
+ OTUS 	`messageservice_internal_entity_message`.`NEXT_EXEC` < '2025-03-02 20:47:18'
+ OTUS 	OR (`messageservice_internal_entity_message`.`NEXT_EXEC` IS NULL)
+ OTUS )
+ OTUS LIMIT 0, 1
+ OTUS 
+ OTUS /home/c/ca43694/public_html/bitrix/modules/main/lib/db/mysqliconnection.php:149
+ OTUS #0: Bitrix\Main\DB\MysqliConnection->queryInternal(string, array, NULL)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/db/connection.php:331
+ OTUS #1: Bitrix\Main\DB\Connection->query(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:3590
+ OTUS #2: Bitrix\Main\ORM\Query\Query->query(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:972
+ OTUS #3: Bitrix\Main\ORM\Query\Query->exec()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/data/datamanager.php:499
+ OTUS #4: Bitrix\Main\ORM\Data\DataManager::getList(array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/messageservice/lib/queue.php:45
+ OTUS #5: Bitrix\MessageService\Queue::hasMessages()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/messageservice/lib/queue.php:68
+ OTUS #6: Bitrix\MessageService\Queue::run()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/tools.php:5253
+ OTUS #7: ExecuteModuleEventEx(array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/main.php:3742
+ OTUS #8: CAllMain::RunFinalActionsInternal()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/application.php:368
+ OTUS #9: Bitrix\Main\Application->terminate(integer)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/application.php:329
+ OTUS #10: Bitrix\Main\Application->end()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/public/session.php:35
+ OTUS #11: require(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/tools/public_session.php:1
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-03-02 20:57:12 - Host: ca43694.tw1.ru - UNKNOWN - [Bitrix\Main\DB\SqlQueryException] 
+ OTUS Mysql query error: (2006) MySQL server has gone away (400)
+ OTUS SELECT 
+ OTUS 	`messageservice_internal_entity_message`.`ID` AS `ID`
+ OTUS FROM `b_messageservice_message` `messageservice_internal_entity_message` 
+ OTUS 
+ OTUS WHERE `messageservice_internal_entity_message`.`SUCCESS_EXEC` = 'N'
+ OTUS AND (
+ OTUS 	`messageservice_internal_entity_message`.`NEXT_EXEC` < '2025-03-02 20:57:12'
+ OTUS 	OR (`messageservice_internal_entity_message`.`NEXT_EXEC` IS NULL)
+ OTUS )
+ OTUS LIMIT 0, 1
+ OTUS 
+ OTUS /home/c/ca43694/public_html/bitrix/modules/main/lib/db/mysqliconnection.php:149
+ OTUS #0: Bitrix\Main\DB\MysqliConnection->queryInternal(string, array, NULL)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/db/connection.php:331
+ OTUS #1: Bitrix\Main\DB\Connection->query(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:3590
+ OTUS #2: Bitrix\Main\ORM\Query\Query->query(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:972
+ OTUS #3: Bitrix\Main\ORM\Query\Query->exec()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/data/datamanager.php:499
+ OTUS #4: Bitrix\Main\ORM\Data\DataManager::getList(array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/messageservice/lib/queue.php:45
+ OTUS #5: Bitrix\MessageService\Queue::hasMessages()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/messageservice/lib/queue.php:68
+ OTUS #6: Bitrix\MessageService\Queue::run()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/tools.php:5253
+ OTUS #7: ExecuteModuleEventEx(array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/main.php:3742
+ OTUS #8: CAllMain::RunFinalActionsInternal()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/application.php:368
+ OTUS #9: Bitrix\Main\Application->terminate(integer)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/application.php:329
+ OTUS #10: Bitrix\Main\Application->end(integer, object)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/httpapplication.php:171
+ OTUS #11: Bitrix\Main\HttpApplication->finalizeControllerResult(object, array, object)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/httpapplication.php:149
+ OTUS #12: Bitrix\Main\HttpApplication->runController(object, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/httpapplication.php:107
+ OTUS #13: Bitrix\Main\HttpApplication->run()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/services/ajax.php:29
+ OTUS #14: require(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/services/main/ajax.php:1
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-03-02 20:57:12 - Host: ca43694.tw1.ru - UNKNOWN - [Bitrix\Main\DB\SqlQueryException] 
+ OTUS Query error: [2006] MySQL server has gone away (400)
+ OTUS 
+ OTUS 			SELECT ID
+ OTUS 			FROM b_timeman_entries
+ OTUS 			WHERE USER_ID = '1'
+ OTUS 			ORDER BY ID DESC
+ OTUS 			LIMIT 1
+ OTUS 		
+ OTUS /home/c/ca43694/public_html/bitrix/modules/main/classes/general/database.php:654
+ OTUS #0: CAllDatabase->Query(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/timeman/classes/mysql/timeman_entry.php:201
+ OTUS #1: CTimeManEntry::_GetLastQuery(integer)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/timeman/classes/general/timeman_entry.php:32
+ OTUS #2: CAllTimeManEntry::GetLast(integer)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/timeman/classes/general/timeman_user.php:1308
+ OTUS #3: CTimeManUser->_GetLastData(boolean)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/timeman/classes/general/timeman_user.php:630
+ OTUS #4: CTimeManUser->isDayExpired()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/timeman/classes/general/timeman_user.php:534
+ OTUS #5: CTimeManUser->State()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/timeman/classes/general/timeman.php:50
+ OTUS #6: CTimeMan::getRuntimeInfo(boolean)
+ OTUS 	/home/c/ca43694/public_html/bitrix/components/bitrix/timeman/component.php:15
+ OTUS #7: include(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:615
+ OTUS #8: CBitrixComponent->__includeComponent()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:692
+ OTUS #9: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/main.php:1188
+ OTUS #10: CAllMain->IncludeComponent(string, string, array, boolean, array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/templates/bitrix24/header.php:216
+ OTUS #11: include_once(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/include/prolog_after.php:88
+ OTUS #12: require(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/include/prolog.php:11
+ OTUS #13: require_once(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/header.php:1
+ OTUS #14: require(string)
+ OTUS 	/home/c/ca43694/public_html/services/lists/index.php:5
+ OTUS #15: include_once(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/include/urlrewrite.php:128
+ OTUS #16: include_once(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/urlrewrite.php:2
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-03-02 20:57:12 - Host: ca43694.tw1.ru - UNKNOWN - [Bitrix\Main\DB\SqlQueryException] 
+ OTUS Query error: [2006] MySQL server has gone away (400)
+ OTUS 
+ OTUS 			SELECT
+ OTUS 				D.*,
+ OTUS 				DATE_FORMAT(D.DATE_ENTER, '%d.%m.%Y %H:%i:%s') DATE_ENTER,
+ OTUS 				DATE_FORMAT(D.DATE_MODIFY, '%d.%m.%Y %H:%i:%s') DATE_MODIFY,
+ OTUS 				DATE_FORMAT(D.DATE_LOCK, '%d.%m.%Y %H:%i:%s') DATE_LOCK,
+ OTUS 				concat('(',UM.LOGIN,') ',ifnull(UM.NAME,''),' ',ifnull(UM.LAST_NAME,'')) MUSER_NAME,
+ OTUS 				concat('(',UE.LOGIN,') ',ifnull(UE.NAME,''),' ',ifnull(UE.LAST_NAME,'')) EUSER_NAME,
+ OTUS 				concat('(',UL.LOGIN,') ',ifnull(UL.NAME,''),' ',ifnull(UL.LAST_NAME,'')) LUSER_NAME,
+ OTUS 				S.TITLE STATUS_TITLE,
+ OTUS 				if (D.DATE_LOCK is null, 'green',
+ OTUS 					if(DATE_ADD(D.DATE_LOCK, interval 60 MINUTE)<now(), 'green',
+ OTUS 						if(D.LOCKED_BY=1, 'yellow', 'red'))) LOCK_STATUS
+ OTUS 			FROM
+ OTUS 				b_workflow_document D
+ OTUS 				LEFT JOIN b_user UM ON (UM.ID = D.MODIFIED_BY)
+ OTUS 				LEFT JOIN b_user UE ON (UE.ID = D.ENTERED_BY)
+ OTUS 				LEFT JOIN b_user UL ON (UL.ID = D.LOCKED_BY)
+ OTUS 				LEFT JOIN b_workflow_status S ON (S.ID = D.STATUS_ID)
+ OTUS 			WHERE
+ OTUS 				SITE_ID = 's1'
+ OTUS 				AND D.FILENAME = '/services/lists/30/view/0/untitled.php'
+ OTUS 				AND 
+ OTUS D.STATUS_ID <> 1
+ OTUS 		
+ OTUS /home/c/ca43694/public_html/bitrix/modules/main/classes/general/database.php:654
+ OTUS #0: CAllDatabase->Query(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/workflow/classes/mysql/workflow.php:323
+ OTUS #1: CWorkflow::GetByFilename(string, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/workflow/classes/general/workflow.php:610
+ OTUS #2: CAllWorkflow::GetEditLink(string, NULL, NULL, string, string, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/workflow/classes/general/workflow.php:14
+ OTUS #3: CAllWorkflow::OnPanelCreate()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/tools.php:5253
+ OTUS #4: ExecuteModuleEventEx(array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/public/top_panel.php:982
+ OTUS #5: CTopPanel::InitPanelIcons()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/public/top_panel.php:1083
+ OTUS #6: CTopPanel::shouldShowPanel()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/public/top_panel.php:1099
+ OTUS #7: CTopPanel::InitPanel()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/tools.php:5246
+ OTUS #8: ExecuteModuleEventEx(array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/main.php:3363
+ OTUS #9: CAllMain->EndBufferContent(string, integer)
+ OTUS 	
+ OTUS #10: ob_end_flush()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/main.php:3648
+ OTUS #11: CAllMain::{closure}()
+ OTUS 	
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-03-02 20:57:13 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\DB\SqlQueryException] 
+ OTUS Mysql query error: (2006) MySQL server has gone away (400)
+ OTUS SELECT 
+ OTUS 	`messageservice_internal_entity_message`.`ID` AS `ID`
+ OTUS FROM `b_messageservice_message` `messageservice_internal_entity_message` 
+ OTUS 
+ OTUS WHERE `messageservice_internal_entity_message`.`SUCCESS_EXEC` = 'N'
+ OTUS AND (
+ OTUS 	`messageservice_internal_entity_message`.`NEXT_EXEC` < '2025-03-02 20:57:13'
+ OTUS 	OR (`messageservice_internal_entity_message`.`NEXT_EXEC` IS NULL)
+ OTUS )
+ OTUS LIMIT 0, 1
+ OTUS 
+ OTUS /home/c/ca43694/public_html/bitrix/modules/main/lib/db/mysqliconnection.php:149
+ OTUS #0: Bitrix\Main\DB\MysqliConnection->queryInternal(string, array, NULL)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/db/connection.php:331
+ OTUS #1: Bitrix\Main\DB\Connection->query(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:3590
+ OTUS #2: Bitrix\Main\ORM\Query\Query->query(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:972
+ OTUS #3: Bitrix\Main\ORM\Query\Query->exec()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/data/datamanager.php:499
+ OTUS #4: Bitrix\Main\ORM\Data\DataManager::getList(array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/messageservice/lib/queue.php:45
+ OTUS #5: Bitrix\MessageService\Queue::hasMessages()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/messageservice/lib/queue.php:68
+ OTUS #6: Bitrix\MessageService\Queue::run()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/tools.php:5253
+ OTUS #7: ExecuteModuleEventEx(array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/main.php:3742
+ OTUS #8: CAllMain::RunFinalActionsInternal()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/application.php:368
+ OTUS #9: Bitrix\Main\Application->terminate(integer)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/application.php:329
+ OTUS #10: Bitrix\Main\Application->end()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/public/session.php:35
+ OTUS #11: require(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/tools/public_session.php:1
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-03-02 21:01:54 - Host: ca43694.tw1.ru - UNKNOWN - [Bitrix\Main\DB\SqlQueryException] 
+ OTUS Mysql query error: (2006) MySQL server has gone away (400)
+ OTUS SELECT 
+ OTUS 	`messageservice_internal_entity_message`.`ID` AS `ID`
+ OTUS FROM `b_messageservice_message` `messageservice_internal_entity_message` 
+ OTUS 
+ OTUS WHERE `messageservice_internal_entity_message`.`SUCCESS_EXEC` = 'N'
+ OTUS AND (
+ OTUS 	`messageservice_internal_entity_message`.`NEXT_EXEC` < '2025-03-02 21:01:54'
+ OTUS 	OR (`messageservice_internal_entity_message`.`NEXT_EXEC` IS NULL)
+ OTUS )
+ OTUS LIMIT 0, 1
+ OTUS 
+ OTUS /home/c/ca43694/public_html/bitrix/modules/main/lib/db/mysqliconnection.php:149
+ OTUS #0: Bitrix\Main\DB\MysqliConnection->queryInternal(string, array, NULL)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/db/connection.php:331
+ OTUS #1: Bitrix\Main\DB\Connection->query(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:3590
+ OTUS #2: Bitrix\Main\ORM\Query\Query->query(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:972
+ OTUS #3: Bitrix\Main\ORM\Query\Query->exec()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/data/datamanager.php:499
+ OTUS #4: Bitrix\Main\ORM\Data\DataManager::getList(array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/messageservice/lib/queue.php:45
+ OTUS #5: Bitrix\MessageService\Queue::hasMessages()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/messageservice/lib/queue.php:68
+ OTUS #6: Bitrix\MessageService\Queue::run()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/tools.php:5253
+ OTUS #7: ExecuteModuleEventEx(array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/main.php:3742
+ OTUS #8: CAllMain::RunFinalActionsInternal()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/application.php:368
+ OTUS #9: Bitrix\Main\Application->terminate(integer)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/application.php:329
+ OTUS #10: Bitrix\Main\Application->end(integer, object)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/httpapplication.php:171
+ OTUS #11: Bitrix\Main\HttpApplication->finalizeControllerResult(object, array, object)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/httpapplication.php:149
+ OTUS #12: Bitrix\Main\HttpApplication->runController(object, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/httpapplication.php:107
+ OTUS #13: Bitrix\Main\HttpApplication->run()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/services/ajax.php:29
+ OTUS #14: require(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/services/main/ajax.php:1
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-03-02 21:01:55 - Host: ca43694.tw1.ru - UNKNOWN - [Bitrix\Main\DB\SqlQueryException] 
+ OTUS Query error: [2006] MySQL server has gone away (400)
+ OTUS 
+ OTUS 			SELECT ID
+ OTUS 			FROM b_timeman_entries
+ OTUS 			WHERE USER_ID = '1'
+ OTUS 			ORDER BY ID DESC
+ OTUS 			LIMIT 1
+ OTUS 		
+ OTUS /home/c/ca43694/public_html/bitrix/modules/main/classes/general/database.php:654
+ OTUS #0: CAllDatabase->Query(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/timeman/classes/mysql/timeman_entry.php:201
+ OTUS #1: CTimeManEntry::_GetLastQuery(integer)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/timeman/classes/general/timeman_entry.php:32
+ OTUS #2: CAllTimeManEntry::GetLast(integer)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/timeman/classes/general/timeman_user.php:1308
+ OTUS #3: CTimeManUser->_GetLastData(boolean)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/timeman/classes/general/timeman_user.php:630
+ OTUS #4: CTimeManUser->isDayExpired()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/timeman/classes/general/timeman_user.php:534
+ OTUS #5: CTimeManUser->State()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/timeman/classes/general/timeman.php:50
+ OTUS #6: CTimeMan::getRuntimeInfo(boolean)
+ OTUS 	/home/c/ca43694/public_html/bitrix/components/bitrix/timeman/component.php:15
+ OTUS #7: include(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:615
+ OTUS #8: CBitrixComponent->__includeComponent()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:692
+ OTUS #9: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/main.php:1188
+ OTUS #10: CAllMain->IncludeComponent(string, string, array, boolean, array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/templates/bitrix24/header.php:216
+ OTUS #11: include_once(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/include/prolog_after.php:88
+ OTUS #12: require(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/include/prolog.php:11
+ OTUS #13: require_once(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/header.php:1
+ OTUS #14: require(string)
+ OTUS 	/home/c/ca43694/public_html/services/lists/index.php:5
+ OTUS #15: include_once(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/include/urlrewrite.php:128
+ OTUS #16: include_once(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/urlrewrite.php:2
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-03-02 21:01:55 - Host: ca43694.tw1.ru - UNKNOWN - [Bitrix\Main\DB\SqlQueryException] 
+ OTUS Query error: [2006] MySQL server has gone away (400)
+ OTUS 
+ OTUS 			SELECT
+ OTUS 				D.*,
+ OTUS 				DATE_FORMAT(D.DATE_ENTER, '%d.%m.%Y %H:%i:%s') DATE_ENTER,
+ OTUS 				DATE_FORMAT(D.DATE_MODIFY, '%d.%m.%Y %H:%i:%s') DATE_MODIFY,
+ OTUS 				DATE_FORMAT(D.DATE_LOCK, '%d.%m.%Y %H:%i:%s') DATE_LOCK,
+ OTUS 				concat('(',UM.LOGIN,') ',ifnull(UM.NAME,''),' ',ifnull(UM.LAST_NAME,'')) MUSER_NAME,
+ OTUS 				concat('(',UE.LOGIN,') ',ifnull(UE.NAME,''),' ',ifnull(UE.LAST_NAME,'')) EUSER_NAME,
+ OTUS 				concat('(',UL.LOGIN,') ',ifnull(UL.NAME,''),' ',ifnull(UL.LAST_NAME,'')) LUSER_NAME,
+ OTUS 				S.TITLE STATUS_TITLE,
+ OTUS 				if (D.DATE_LOCK is null, 'green',
+ OTUS 					if(DATE_ADD(D.DATE_LOCK, interval 60 MINUTE)<now(), 'green',
+ OTUS 						if(D.LOCKED_BY=1, 'yellow', 'red'))) LOCK_STATUS
+ OTUS 			FROM
+ OTUS 				b_workflow_document D
+ OTUS 				LEFT JOIN b_user UM ON (UM.ID = D.MODIFIED_BY)
+ OTUS 				LEFT JOIN b_user UE ON (UE.ID = D.ENTERED_BY)
+ OTUS 				LEFT JOIN b_user UL ON (UL.ID = D.LOCKED_BY)
+ OTUS 				LEFT JOIN b_workflow_status S ON (S.ID = D.STATUS_ID)
+ OTUS 			WHERE
+ OTUS 				SITE_ID = 's1'
+ OTUS 				AND D.FILENAME = '/services/lists/30/view/0/untitled.php'
+ OTUS 				AND 
+ OTUS D.STATUS_ID <> 1
+ OTUS 		
+ OTUS /home/c/ca43694/public_html/bitrix/modules/main/classes/general/database.php:654
+ OTUS #0: CAllDatabase->Query(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/workflow/classes/mysql/workflow.php:323
+ OTUS #1: CWorkflow::GetByFilename(string, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/workflow/classes/general/workflow.php:610
+ OTUS #2: CAllWorkflow::GetEditLink(string, NULL, NULL, string, string, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/workflow/classes/general/workflow.php:14
+ OTUS #3: CAllWorkflow::OnPanelCreate()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/tools.php:5253
+ OTUS #4: ExecuteModuleEventEx(array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/public/top_panel.php:982
+ OTUS #5: CTopPanel::InitPanelIcons()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/public/top_panel.php:1083
+ OTUS #6: CTopPanel::shouldShowPanel()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/public/top_panel.php:1099
+ OTUS #7: CTopPanel::InitPanel()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/tools.php:5246
+ OTUS #8: ExecuteModuleEventEx(array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/main.php:3363
+ OTUS #9: CAllMain->EndBufferContent(string, integer)
+ OTUS 	
+ OTUS #10: ob_end_flush()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/main.php:3648
+ OTUS #11: CAllMain::{closure}()
+ OTUS 	
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-03-02 21:01:55 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\DB\SqlQueryException] 
+ OTUS Mysql query error: (2006) MySQL server has gone away (400)
+ OTUS SELECT 
+ OTUS 	`messageservice_internal_entity_message`.`ID` AS `ID`
+ OTUS FROM `b_messageservice_message` `messageservice_internal_entity_message` 
+ OTUS 
+ OTUS WHERE `messageservice_internal_entity_message`.`SUCCESS_EXEC` = 'N'
+ OTUS AND (
+ OTUS 	`messageservice_internal_entity_message`.`NEXT_EXEC` < '2025-03-02 21:01:55'
+ OTUS 	OR (`messageservice_internal_entity_message`.`NEXT_EXEC` IS NULL)
+ OTUS )
+ OTUS LIMIT 0, 1
+ OTUS 
+ OTUS /home/c/ca43694/public_html/bitrix/modules/main/lib/db/mysqliconnection.php:149
+ OTUS #0: Bitrix\Main\DB\MysqliConnection->queryInternal(string, array, NULL)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/db/connection.php:331
+ OTUS #1: Bitrix\Main\DB\Connection->query(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:3590
+ OTUS #2: Bitrix\Main\ORM\Query\Query->query(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:972
+ OTUS #3: Bitrix\Main\ORM\Query\Query->exec()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/data/datamanager.php:499
+ OTUS #4: Bitrix\Main\ORM\Data\DataManager::getList(array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/messageservice/lib/queue.php:45
+ OTUS #5: Bitrix\MessageService\Queue::hasMessages()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/messageservice/lib/queue.php:68
+ OTUS #6: Bitrix\MessageService\Queue::run()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/tools.php:5253
+ OTUS #7: ExecuteModuleEventEx(array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/main.php:3742
+ OTUS #8: CAllMain::RunFinalActionsInternal()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/application.php:368
+ OTUS #9: Bitrix\Main\Application->terminate(integer)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/application.php:329
+ OTUS #10: Bitrix\Main\Application->end()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/public/session.php:35
+ OTUS #11: require(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/tools/public_session.php:1
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-03-02 21:15:06 - Host: ca43694.tw1.ru - FATAL - [ErrorException] E_ERROR
+ OTUS Allowed memory size of 1073741824 bytes exhausted (tried to allocate 24576 bytes) (0)
+ OTUS /home/c/ca43694/public_html/bitrix/modules/main/classes/mysql/database.php:479
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-03-02 21:15:06 - Host: ca43694.tw1.ru - UNKNOWN - [Bitrix\Main\DB\SqlQueryException] 
+ OTUS Mysql query error: (2006) MySQL server has gone away (400)
+ OTUS SELECT 
+ OTUS 	`messageservice_internal_entity_message`.`ID` AS `ID`
+ OTUS FROM `b_messageservice_message` `messageservice_internal_entity_message` 
+ OTUS 
+ OTUS WHERE `messageservice_internal_entity_message`.`SUCCESS_EXEC` = 'N'
+ OTUS AND (
+ OTUS 	`messageservice_internal_entity_message`.`NEXT_EXEC` < '2025-03-02 21:15:06'
+ OTUS 	OR (`messageservice_internal_entity_message`.`NEXT_EXEC` IS NULL)
+ OTUS )
+ OTUS LIMIT 0, 1
+ OTUS 
+ OTUS /home/c/ca43694/public_html/bitrix/modules/main/lib/db/mysqliconnection.php:149
+ OTUS #0: Bitrix\Main\DB\MysqliConnection->queryInternal(string, array, NULL)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/db/connection.php:331
+ OTUS #1: Bitrix\Main\DB\Connection->query(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:3590
+ OTUS #2: Bitrix\Main\ORM\Query\Query->query(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:972
+ OTUS #3: Bitrix\Main\ORM\Query\Query->exec()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/data/datamanager.php:499
+ OTUS #4: Bitrix\Main\ORM\Data\DataManager::getList(array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/messageservice/lib/queue.php:45
+ OTUS #5: Bitrix\MessageService\Queue::hasMessages()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/messageservice/lib/queue.php:68
+ OTUS #6: Bitrix\MessageService\Queue::run()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/tools.php:5253
+ OTUS #7: ExecuteModuleEventEx(array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/main.php:3742
+ OTUS #8: CAllMain::RunFinalActionsInternal()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/application.php:368
+ OTUS #9: Bitrix\Main\Application->terminate(integer)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/application.php:329
+ OTUS #10: Bitrix\Main\Application->end(integer, object)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/httpapplication.php:171
+ OTUS #11: Bitrix\Main\HttpApplication->finalizeControllerResult(object, array, object)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/httpapplication.php:149
+ OTUS #12: Bitrix\Main\HttpApplication->runController(object, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/httpapplication.php:107
+ OTUS #13: Bitrix\Main\HttpApplication->run()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/services/ajax.php:29
+ OTUS #14: require(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/services/main/ajax.php:1
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-03-02 21:15:06 - Host: ca43694.tw1.ru - UNKNOWN - [Bitrix\Main\DB\SqlQueryException] 
+ OTUS Query error: [2006] MySQL server has gone away (400)
+ OTUS 
+ OTUS 			SELECT ID
+ OTUS 			FROM b_timeman_entries
+ OTUS 			WHERE USER_ID = '1'
+ OTUS 			ORDER BY ID DESC
+ OTUS 			LIMIT 1
+ OTUS 		
+ OTUS /home/c/ca43694/public_html/bitrix/modules/main/classes/general/database.php:654
+ OTUS #0: CAllDatabase->Query(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/timeman/classes/mysql/timeman_entry.php:201
+ OTUS #1: CTimeManEntry::_GetLastQuery(integer)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/timeman/classes/general/timeman_entry.php:32
+ OTUS #2: CAllTimeManEntry::GetLast(integer)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/timeman/classes/general/timeman_user.php:1308
+ OTUS #3: CTimeManUser->_GetLastData(boolean)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/timeman/classes/general/timeman_user.php:630
+ OTUS #4: CTimeManUser->isDayExpired()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/timeman/classes/general/timeman_user.php:534
+ OTUS #5: CTimeManUser->State()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/timeman/classes/general/timeman.php:50
+ OTUS #6: CTimeMan::getRuntimeInfo(boolean)
+ OTUS 	/home/c/ca43694/public_html/bitrix/components/bitrix/timeman/component.php:15
+ OTUS #7: include(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:615
+ OTUS #8: CBitrixComponent->__includeComponent()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:692
+ OTUS #9: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/main.php:1188
+ OTUS #10: CAllMain->IncludeComponent(string, string, array, boolean, array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/templates/bitrix24/header.php:216
+ OTUS #11: include_once(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/include/prolog_after.php:88
+ OTUS #12: require(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/include/prolog.php:11
+ OTUS #13: require_once(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/header.php:1
+ OTUS #14: require(string)
+ OTUS 	/home/c/ca43694/public_html/services/lists/index.php:5
+ OTUS #15: include_once(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/include/urlrewrite.php:128
+ OTUS #16: include_once(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/urlrewrite.php:2
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-03-02 21:15:06 - Host: ca43694.tw1.ru - UNKNOWN - [Bitrix\Main\DB\SqlQueryException] 
+ OTUS Query error: [2006] MySQL server has gone away (400)
+ OTUS 
+ OTUS 			SELECT
+ OTUS 				D.*,
+ OTUS 				DATE_FORMAT(D.DATE_ENTER, '%d.%m.%Y %H:%i:%s') DATE_ENTER,
+ OTUS 				DATE_FORMAT(D.DATE_MODIFY, '%d.%m.%Y %H:%i:%s') DATE_MODIFY,
+ OTUS 				DATE_FORMAT(D.DATE_LOCK, '%d.%m.%Y %H:%i:%s') DATE_LOCK,
+ OTUS 				concat('(',UM.LOGIN,') ',ifnull(UM.NAME,''),' ',ifnull(UM.LAST_NAME,'')) MUSER_NAME,
+ OTUS 				concat('(',UE.LOGIN,') ',ifnull(UE.NAME,''),' ',ifnull(UE.LAST_NAME,'')) EUSER_NAME,
+ OTUS 				concat('(',UL.LOGIN,') ',ifnull(UL.NAME,''),' ',ifnull(UL.LAST_NAME,'')) LUSER_NAME,
+ OTUS 				S.TITLE STATUS_TITLE,
+ OTUS 				if (D.DATE_LOCK is null, 'green',
+ OTUS 					if(DATE_ADD(D.DATE_LOCK, interval 60 MINUTE)<now(), 'green',
+ OTUS 						if(D.LOCKED_BY=1, 'yellow', 'red'))) LOCK_STATUS
+ OTUS 			FROM
+ OTUS 				b_workflow_document D
+ OTUS 				LEFT JOIN b_user UM ON (UM.ID = D.MODIFIED_BY)
+ OTUS 				LEFT JOIN b_user UE ON (UE.ID = D.ENTERED_BY)
+ OTUS 				LEFT JOIN b_user UL ON (UL.ID = D.LOCKED_BY)
+ OTUS 				LEFT JOIN b_workflow_status S ON (S.ID = D.STATUS_ID)
+ OTUS 			WHERE
+ OTUS 				SITE_ID = 's1'
+ OTUS 				AND D.FILENAME = '/services/lists/30/view/0/untitled.php'
+ OTUS 				AND 
+ OTUS D.STATUS_ID <> 1
+ OTUS 		
+ OTUS /home/c/ca43694/public_html/bitrix/modules/main/classes/general/database.php:654
+ OTUS #0: CAllDatabase->Query(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/workflow/classes/mysql/workflow.php:323
+ OTUS #1: CWorkflow::GetByFilename(string, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/workflow/classes/general/workflow.php:610
+ OTUS #2: CAllWorkflow::GetEditLink(string, NULL, NULL, string, string, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/workflow/classes/general/workflow.php:14
+ OTUS #3: CAllWorkflow::OnPanelCreate()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/tools.php:5253
+ OTUS #4: ExecuteModuleEventEx(array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/public/top_panel.php:982
+ OTUS #5: CTopPanel::InitPanelIcons()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/public/top_panel.php:1083
+ OTUS #6: CTopPanel::shouldShowPanel()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/public/top_panel.php:1099
+ OTUS #7: CTopPanel::InitPanel()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/tools.php:5246
+ OTUS #8: ExecuteModuleEventEx(array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/main.php:3363
+ OTUS #9: CAllMain->EndBufferContent(string, integer)
+ OTUS 	
+ OTUS #10: ob_end_flush()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/main.php:3648
+ OTUS #11: CAllMain::{closure}()
+ OTUS 	
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-03-02 21:15:06 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\DB\SqlQueryException] 
+ OTUS Mysql query error: (2006) MySQL server has gone away (400)
+ OTUS SELECT 
+ OTUS 	`messageservice_internal_entity_message`.`ID` AS `ID`
+ OTUS FROM `b_messageservice_message` `messageservice_internal_entity_message` 
+ OTUS 
+ OTUS WHERE `messageservice_internal_entity_message`.`SUCCESS_EXEC` = 'N'
+ OTUS AND (
+ OTUS 	`messageservice_internal_entity_message`.`NEXT_EXEC` < '2025-03-02 21:15:06'
+ OTUS 	OR (`messageservice_internal_entity_message`.`NEXT_EXEC` IS NULL)
+ OTUS )
+ OTUS LIMIT 0, 1
+ OTUS 
+ OTUS /home/c/ca43694/public_html/bitrix/modules/main/lib/db/mysqliconnection.php:149
+ OTUS #0: Bitrix\Main\DB\MysqliConnection->queryInternal(string, array, NULL)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/db/connection.php:331
+ OTUS #1: Bitrix\Main\DB\Connection->query(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:3590
+ OTUS #2: Bitrix\Main\ORM\Query\Query->query(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:972
+ OTUS #3: Bitrix\Main\ORM\Query\Query->exec()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/data/datamanager.php:499
+ OTUS #4: Bitrix\Main\ORM\Data\DataManager::getList(array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/messageservice/lib/queue.php:45
+ OTUS #5: Bitrix\MessageService\Queue::hasMessages()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/messageservice/lib/queue.php:68
+ OTUS #6: Bitrix\MessageService\Queue::run()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/tools.php:5253
+ OTUS #7: ExecuteModuleEventEx(array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/main.php:3742
+ OTUS #8: CAllMain::RunFinalActionsInternal()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/application.php:368
+ OTUS #9: Bitrix\Main\Application->terminate(integer)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/application.php:329
+ OTUS #10: Bitrix\Main\Application->end()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/public/session.php:35
+ OTUS #11: require(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/tools/public_session.php:1
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-03-02 21:23:22 - Host: ca43694.tw1.ru - UNKNOWN - [Bitrix\Main\DB\SqlQueryException] 
+ OTUS Mysql query error: (2006) MySQL server has gone away (400)
+ OTUS SELECT 
+ OTUS 	`messageservice_internal_entity_message`.`ID` AS `ID`
+ OTUS FROM `b_messageservice_message` `messageservice_internal_entity_message` 
+ OTUS 
+ OTUS WHERE `messageservice_internal_entity_message`.`SUCCESS_EXEC` = 'N'
+ OTUS AND (
+ OTUS 	`messageservice_internal_entity_message`.`NEXT_EXEC` < '2025-03-02 21:23:22'
+ OTUS 	OR (`messageservice_internal_entity_message`.`NEXT_EXEC` IS NULL)
+ OTUS )
+ OTUS LIMIT 0, 1
+ OTUS 
+ OTUS /home/c/ca43694/public_html/bitrix/modules/main/lib/db/mysqliconnection.php:149
+ OTUS #0: Bitrix\Main\DB\MysqliConnection->queryInternal(string, array, NULL)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/db/connection.php:331
+ OTUS #1: Bitrix\Main\DB\Connection->query(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:3590
+ OTUS #2: Bitrix\Main\ORM\Query\Query->query(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:972
+ OTUS #3: Bitrix\Main\ORM\Query\Query->exec()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/data/datamanager.php:499
+ OTUS #4: Bitrix\Main\ORM\Data\DataManager::getList(array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/messageservice/lib/queue.php:45
+ OTUS #5: Bitrix\MessageService\Queue::hasMessages()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/messageservice/lib/queue.php:68
+ OTUS #6: Bitrix\MessageService\Queue::run()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/tools.php:5253
+ OTUS #7: ExecuteModuleEventEx(array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/main.php:3742
+ OTUS #8: CAllMain::RunFinalActionsInternal()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/application.php:368
+ OTUS #9: Bitrix\Main\Application->terminate(integer)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/application.php:329
+ OTUS #10: Bitrix\Main\Application->end(integer, object)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/httpapplication.php:171
+ OTUS #11: Bitrix\Main\HttpApplication->finalizeControllerResult(object, array, object)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/httpapplication.php:149
+ OTUS #12: Bitrix\Main\HttpApplication->runController(object, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/httpapplication.php:107
+ OTUS #13: Bitrix\Main\HttpApplication->run()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/services/ajax.php:29
+ OTUS #14: require(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/services/main/ajax.php:1
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-03-02 21:23:22 - Host: ca43694.tw1.ru - UNKNOWN - [Bitrix\Main\DB\SqlQueryException] 
+ OTUS Query error: [2006] MySQL server has gone away (400)
+ OTUS 
+ OTUS 			SELECT ID
+ OTUS 			FROM b_timeman_entries
+ OTUS 			WHERE USER_ID = '1'
+ OTUS 			ORDER BY ID DESC
+ OTUS 			LIMIT 1
+ OTUS 		
+ OTUS /home/c/ca43694/public_html/bitrix/modules/main/classes/general/database.php:654
+ OTUS #0: CAllDatabase->Query(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/timeman/classes/mysql/timeman_entry.php:201
+ OTUS #1: CTimeManEntry::_GetLastQuery(integer)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/timeman/classes/general/timeman_entry.php:32
+ OTUS #2: CAllTimeManEntry::GetLast(integer)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/timeman/classes/general/timeman_user.php:1308
+ OTUS #3: CTimeManUser->_GetLastData(boolean)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/timeman/classes/general/timeman_user.php:630
+ OTUS #4: CTimeManUser->isDayExpired()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/timeman/classes/general/timeman_user.php:534
+ OTUS #5: CTimeManUser->State()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/timeman/classes/general/timeman.php:50
+ OTUS #6: CTimeMan::getRuntimeInfo(boolean)
+ OTUS 	/home/c/ca43694/public_html/bitrix/components/bitrix/timeman/component.php:15
+ OTUS #7: include(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:615
+ OTUS #8: CBitrixComponent->__includeComponent()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:692
+ OTUS #9: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/main.php:1188
+ OTUS #10: CAllMain->IncludeComponent(string, string, array, boolean, array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/templates/bitrix24/header.php:216
+ OTUS #11: include_once(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/include/prolog_after.php:88
+ OTUS #12: require(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/include/prolog.php:11
+ OTUS #13: require_once(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/header.php:1
+ OTUS #14: require(string)
+ OTUS 	/home/c/ca43694/public_html/services/lists/index.php:5
+ OTUS #15: include_once(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/include/urlrewrite.php:128
+ OTUS #16: include_once(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/urlrewrite.php:2
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-03-02 21:23:22 - Host: ca43694.tw1.ru - UNKNOWN - [Bitrix\Main\DB\SqlQueryException] 
+ OTUS Query error: [2006] MySQL server has gone away (400)
+ OTUS 
+ OTUS 			SELECT
+ OTUS 				D.*,
+ OTUS 				DATE_FORMAT(D.DATE_ENTER, '%d.%m.%Y %H:%i:%s') DATE_ENTER,
+ OTUS 				DATE_FORMAT(D.DATE_MODIFY, '%d.%m.%Y %H:%i:%s') DATE_MODIFY,
+ OTUS 				DATE_FORMAT(D.DATE_LOCK, '%d.%m.%Y %H:%i:%s') DATE_LOCK,
+ OTUS 				concat('(',UM.LOGIN,') ',ifnull(UM.NAME,''),' ',ifnull(UM.LAST_NAME,'')) MUSER_NAME,
+ OTUS 				concat('(',UE.LOGIN,') ',ifnull(UE.NAME,''),' ',ifnull(UE.LAST_NAME,'')) EUSER_NAME,
+ OTUS 				concat('(',UL.LOGIN,') ',ifnull(UL.NAME,''),' ',ifnull(UL.LAST_NAME,'')) LUSER_NAME,
+ OTUS 				S.TITLE STATUS_TITLE,
+ OTUS 				if (D.DATE_LOCK is null, 'green',
+ OTUS 					if(DATE_ADD(D.DATE_LOCK, interval 60 MINUTE)<now(), 'green',
+ OTUS 						if(D.LOCKED_BY=1, 'yellow', 'red'))) LOCK_STATUS
+ OTUS 			FROM
+ OTUS 				b_workflow_document D
+ OTUS 				LEFT JOIN b_user UM ON (UM.ID = D.MODIFIED_BY)
+ OTUS 				LEFT JOIN b_user UE ON (UE.ID = D.ENTERED_BY)
+ OTUS 				LEFT JOIN b_user UL ON (UL.ID = D.LOCKED_BY)
+ OTUS 				LEFT JOIN b_workflow_status S ON (S.ID = D.STATUS_ID)
+ OTUS 			WHERE
+ OTUS 				SITE_ID = 's1'
+ OTUS 				AND D.FILENAME = '/services/lists/30/view/0/untitled.php'
+ OTUS 				AND 
+ OTUS D.STATUS_ID <> 1
+ OTUS 		
+ OTUS /home/c/ca43694/public_html/bitrix/modules/main/classes/general/database.php:654
+ OTUS #0: CAllDatabase->Query(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/workflow/classes/mysql/workflow.php:323
+ OTUS #1: CWorkflow::GetByFilename(string, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/workflow/classes/general/workflow.php:610
+ OTUS #2: CAllWorkflow::GetEditLink(string, NULL, NULL, string, string, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/workflow/classes/general/workflow.php:14
+ OTUS #3: CAllWorkflow::OnPanelCreate()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/tools.php:5253
+ OTUS #4: ExecuteModuleEventEx(array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/public/top_panel.php:982
+ OTUS #5: CTopPanel::InitPanelIcons()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/public/top_panel.php:1083
+ OTUS #6: CTopPanel::shouldShowPanel()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/public/top_panel.php:1099
+ OTUS #7: CTopPanel::InitPanel()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/tools.php:5246
+ OTUS #8: ExecuteModuleEventEx(array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/main.php:3363
+ OTUS #9: CAllMain->EndBufferContent(string, integer)
+ OTUS 	
+ OTUS #10: ob_end_flush()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/main.php:3648
+ OTUS #11: CAllMain::{closure}()
+ OTUS 	
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-03-02 23:35:38 - Host: ca43694.tw1.ru - FATAL - [ErrorException] E_ERROR
+ OTUS Classes\Diagnostic\OtusFileExceptionHandlerLog::write(): Cannot use output buffering in output buffering display handlers (0)
+ OTUS /home/c/ca43694/public_html/local/php_interface/lib/classes/diagnostic/otusfileexceptionhandlerlog.php:14
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-03-02 23:37:10 - Host: ca43694.tw1.ru - FATAL - [ErrorException] E_ERROR
+ OTUS Classes\Diagnostic\OtusFileExceptionHandlerLog::write(): Cannot use output buffering in output buffering display handlers (0)
+ OTUS /home/c/ca43694/public_html/local/php_interface/lib/classes/diagnostic/otusfileexceptionhandlerlog.php:14
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-03-02 23:39:52 - Host: ca43694.tw1.ru - UNKNOWN - [Bitrix\Main\DB\SqlQueryException] 
+ OTUS Query error: [2006] MySQL server has gone away (400)
+ OTUS 
+ OTUS 			SELECT ID
+ OTUS 			FROM b_timeman_entries
+ OTUS 			WHERE USER_ID = '1'
+ OTUS 			ORDER BY ID DESC
+ OTUS 			LIMIT 1
+ OTUS 		
+ OTUS /home/c/ca43694/public_html/bitrix/modules/main/classes/general/database.php:654
+ OTUS #0: CAllDatabase->Query(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/timeman/classes/mysql/timeman_entry.php:201
+ OTUS #1: CTimeManEntry::_GetLastQuery(integer)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/timeman/classes/general/timeman_entry.php:32
+ OTUS #2: CAllTimeManEntry::GetLast(integer)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/timeman/classes/general/timeman_user.php:1308
+ OTUS #3: CTimeManUser->_GetLastData(boolean)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/timeman/classes/general/timeman_user.php:630
+ OTUS #4: CTimeManUser->isDayExpired()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/timeman/classes/general/timeman_user.php:534
+ OTUS #5: CTimeManUser->State()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/timeman/classes/general/timeman.php:50
+ OTUS #6: CTimeMan::getRuntimeInfo(boolean)
+ OTUS 	/home/c/ca43694/public_html/bitrix/components/bitrix/timeman/component.php:15
+ OTUS #7: include(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:615
+ OTUS #8: CBitrixComponent->__includeComponent()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:692
+ OTUS #9: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/main.php:1188
+ OTUS #10: CAllMain->IncludeComponent(string, string, array, boolean, array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/templates/bitrix24/header.php:216
+ OTUS #11: include_once(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/include/prolog_after.php:88
+ OTUS #12: require(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/include/prolog.php:11
+ OTUS #13: require_once(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/header.php:1
+ OTUS #14: require(string)
+ OTUS 	/home/c/ca43694/public_html/otus/test.php:2
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-03-02 23:39:52 - Host: ca43694.tw1.ru - UNKNOWN - [Bitrix\Main\DB\SqlQueryException] 
+ OTUS Query error: [2006] MySQL server has gone away (400)
+ OTUS 
+ OTUS 			SELECT
+ OTUS 				D.*,
+ OTUS 				DATE_FORMAT(D.DATE_ENTER, '%d.%m.%Y %H:%i:%s') DATE_ENTER,
+ OTUS 				DATE_FORMAT(D.DATE_MODIFY, '%d.%m.%Y %H:%i:%s') DATE_MODIFY,
+ OTUS 				DATE_FORMAT(D.DATE_LOCK, '%d.%m.%Y %H:%i:%s') DATE_LOCK,
+ OTUS 				concat('(',UM.LOGIN,') ',ifnull(UM.NAME,''),' ',ifnull(UM.LAST_NAME,'')) MUSER_NAME,
+ OTUS 				concat('(',UE.LOGIN,') ',ifnull(UE.NAME,''),' ',ifnull(UE.LAST_NAME,'')) EUSER_NAME,
+ OTUS 				concat('(',UL.LOGIN,') ',ifnull(UL.NAME,''),' ',ifnull(UL.LAST_NAME,'')) LUSER_NAME,
+ OTUS 				S.TITLE STATUS_TITLE,
+ OTUS 				if (D.DATE_LOCK is null, 'green',
+ OTUS 					if(DATE_ADD(D.DATE_LOCK, interval 60 MINUTE)<now(), 'green',
+ OTUS 						if(D.LOCKED_BY=1, 'yellow', 'red'))) LOCK_STATUS
+ OTUS 			FROM
+ OTUS 				b_workflow_document D
+ OTUS 				LEFT JOIN b_user UM ON (UM.ID = D.MODIFIED_BY)
+ OTUS 				LEFT JOIN b_user UE ON (UE.ID = D.ENTERED_BY)
+ OTUS 				LEFT JOIN b_user UL ON (UL.ID = D.LOCKED_BY)
+ OTUS 				LEFT JOIN b_workflow_status S ON (S.ID = D.STATUS_ID)
+ OTUS 			WHERE
+ OTUS 				SITE_ID = 's1'
+ OTUS 				AND D.FILENAME = '/otus/untitled.php'
+ OTUS 				AND 
+ OTUS D.STATUS_ID <> 1
+ OTUS 		
+ OTUS /home/c/ca43694/public_html/bitrix/modules/main/classes/general/database.php:654
+ OTUS #0: CAllDatabase->Query(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/workflow/classes/mysql/workflow.php:323
+ OTUS #1: CWorkflow::GetByFilename(string, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/workflow/classes/general/workflow.php:610
+ OTUS #2: CAllWorkflow::GetEditLink(string, NULL, NULL, string, string, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/workflow/classes/general/workflow.php:14
+ OTUS #3: CAllWorkflow::OnPanelCreate()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/tools.php:5253
+ OTUS #4: ExecuteModuleEventEx(array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/public/top_panel.php:982
+ OTUS #5: CTopPanel::InitPanelIcons()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/public/top_panel.php:1083
+ OTUS #6: CTopPanel::shouldShowPanel()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/public/top_panel.php:1099
+ OTUS #7: CTopPanel::InitPanel()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/tools.php:5246
+ OTUS #8: ExecuteModuleEventEx(array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/main.php:3363
+ OTUS #9: CAllMain->EndBufferContent(string, integer)
+ OTUS 	
+ OTUS #10: ob_end_flush()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/main.php:3648
+ OTUS #11: CAllMain::{closure}()
+ OTUS 	
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-03-02 23:45:51 - Host: ca43694.tw1.ru - FATAL - [ErrorException] E_COMPILE_ERROR
+ OTUS Cannot use Bitrix\Main as Main because the name is already in use (0)
+ OTUS /home/c/ca43694/public_html/bitrix/modules/iblock/classes/mysql/iblockelement.php:2662
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-03-02 23:45:52 - Host: ca43694.tw1.ru - FATAL - [ErrorException] E_COMPILE_ERROR
+ OTUS Cannot use Bitrix\Main as Main because the name is already in use (0)
+ OTUS /home/c/ca43694/public_html/bitrix/modules/iblock/classes/mysql/iblockelement.php:2662
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-03-02 23:46:22 - Host: ca43694.tw1.ru - FATAL - [ErrorException] E_COMPILE_ERROR
+ OTUS Cannot use Bitrix\Main as Main because the name is already in use (0)
+ OTUS /home/c/ca43694/public_html/bitrix/modules/iblock/classes/mysql/iblockelement.php:2662
+ OTUS ----------
+ OTUS 
+ OTUS 
