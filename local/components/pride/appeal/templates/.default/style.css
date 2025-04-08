@@ -1,0 +1,257 @@
+/*
+		ФОРМА СОЗДАНИЯ -> ВЕРХНИЙ ТЕКСТ
+*/
+@media print {
+	.linkDocs, .buttsForm, .dataAppeal, .bx-layout-inner-inner-top-row{
+		display: none;
+  	}
+	@page {
+		margin: 0;
+	}
+}
+.linkDocs{
+	position: relative;
+	font-size:15px;
+	z-index: 2;
+}
+.linkDocs:hover{
+	text-decoration: underline;
+}
+.titleAppeal, .errorLine{
+	text-align: center;
+}
+.headAppealCreation{
+	position: relative;
+}
+.errorLine{
+	position:absolute;
+	font-size: 20px;
+	font-weight: bold;
+	z-index: 1;
+	top: 0;
+	right: 0;
+	left: 0;
+}
+.dataAppeal{
+	border-bottom: 1px solid rgb(239 239 239);
+	border-top: 1px solid rgb(239 239 239);
+}
+.textForPrint{
+	text-align: justify;
+	font-style: italic;
+	font-size: 18px;
+	margin-right: 20px;
+	margin-left: 30px;
+	margin-top: 30px;
+}
+.bodyAppealCreation{
+	padding: 0 7%;
+}
+
+/*
+		ТАБЛИЦА СОЗДАНИЯ ОБРАЩЕНИЯ
+*/
+.tableCreateAppeal{
+	width: 100%;
+	border-collapse: collapse;
+	text-align: justify;
+	font-style: italic;
+	font-size: 18px;
+}
+.tableCreateAppeal thead, .tableCreateAppeal tfoot{
+	font-weight: 500;
+	line-height: 1.5;
+}
+.tableCreateAppeal tbody tr{
+	border-top: 1px solid rgb(239 239 239);
+	border-bottom: 1px solid rgb(239 239 239); 
+}
+.tableCreateAppeal td{
+	width: 50%;
+	padding: 12px 0;
+}
+.tableCreateAppeal input{
+	width: 100%;
+	font-size: 16px;
+	border: 1px solid rgb(199 205 210);
+	border-radius: 2px;
+	box-sizing: border-box;
+	padding: 5px 5px;
+}
+.tableCreateAppeal input[type="checkbox"], .tableCreateAppeal input[type="radio"]{
+	transform: scale(1.5);
+	width: 30px;
+}
+.tableCreateAppeal .parentCheckboxOrRadio{
+	margin: 10px 0;
+}
+.tableCreateAppeal input[type="number"]{
+	width: 30%;
+	min-width: 180px;
+}
+.tableCreateAppeal input[type="date"], .tableCreateAppeal input[type="time"]{
+	width: 20%;
+	min-width: 180px;
+}
+.tableCreateAppeal input[type="file"]{
+	position: absolute;
+	z-index: -1;
+	opacity: 0;
+	display: block;
+}
+.tableCreateAppeal .input-file {
+	position: relative;
+	display: block;
+	height: 45px;
+	overflow: hidden;
+}
+.tableCreateAppeal .input-file span {
+	position: relative;
+	display: inline-block;
+	cursor: pointer;
+	font-size: 18px;
+	line-height: 40px;
+	height: 40px;
+	vertical-align: middle;
+	color: rgb(53 102 171);
+}
+.tableCreateAppeal .explainer{
+	margin: 0 15px 0 5px;
+}
+.tableCreateAppeal textarea{
+	border: 1px solid rgb(199 205 210);
+	width: 100%;
+	padding: 5px 5px;
+	font-size: 16px;
+}
+.tableCreateAppeal select{
+	width: 50%;
+	padding: 5px 5px;
+	border: 1px solid rgb(199 205 210);
+	border-radius: 2px;
+	font-size: 16px;
+}
+
+/*
+		ПОЛЗУНОК В ФОРМЕ СОЗДАНИЯ (ТОЛЬКО У ТП)
+*/
+.tableCreateAppeal .switch {
+	position: relative;
+	display: inline-block;
+	width: 60px;
+	height: 34px;
+	left: 10px;
+}
+.tableCreateAppeal .switch input { 
+	opacity: 0;
+	width: 0;
+	height: 0;
+}
+.tableCreateAppeal .slider {
+	position: absolute;
+	cursor: pointer;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: #ccc;
+	-webkit-transition: .4s;
+	transition: .4s;
+}
+.tableCreateAppeal .slider:before {
+	position: absolute;
+	content: "";
+	height: 26px;
+	width: 26px;
+	left: 4px;
+	bottom: 4px;
+	background-color: white;
+	-webkit-transition: .4s;
+	transition: .4s;
+}
+.tableCreateAppeal input:checked + .slider {
+	background-color: #2196F3;
+}
+input:focus + .slider {
+	box-shadow: 0 0 1px #2196F3;
+}
+.tableCreateAppeal input:checked + .slider:before {
+	-webkit-transform: translateX(26px);
+	-ms-transform: translateX(26px);
+	transform: translateX(26px);
+}
+.tableCreateAppeal .slider.round {
+	border-radius: 34px;
+}
+.tableCreateAppeal .slider.round:before {
+	border-radius: 50%;
+}
+.tableCreateAppeal .tptickettext{
+	display: inline-block;
+	margin-left: 10px;
+}
+.tableCreateAppeal .tptickettext span {
+	display: inline-block;
+	height: 34px;
+	line-height:34px;
+	vertical-align: middle;
+}
+/*
+		КНОПКИ ФОРМЫ
+*/
+.buttsForm{
+	margin: 25px 0;
+}
+.buttsForm input, .buttsForm button{
+	width: 135px;
+	height: 45px;
+	font-size: 16px;
+	font-weight: 500;
+	border: 0;
+	border-radius: 8px;
+}
+.buttsForm input:hover, .buttsForm button:hover{
+	cursor: pointer;
+}
+.buttsForm input[name="buttSend"] {
+	color: rgb(255 255 253);
+	background-color: rgb(104 197 240);
+}
+.buttsForm input[name="buttSend"]:hover{
+	background: rgb(124 217 250);
+}
+.buttsForm input[name="buttCancel"]{
+	color: rgb(128 133 141);
+	background-color: rgb(236 237 239);
+}
+.buttsForm input[name="buttCancel"]:hover{
+	background-color: rgb(216 217 219);
+}
+.buttsForm input[name="buttAnnul"]{
+	color: rgb(255 255 253);
+	background-color: rgb(218 79 63);
+}
+.buttsForm input[name="buttAnnul"]:hover{
+	background-color: rgb(198 59 43);
+}
+.buttsForm input[name="buttPrint"]{
+	color: rgb(98 103 111);
+	background-color: rgb(247 214 89);
+}
+.buttsForm input[name="buttPrint"]:hover{
+	background-color: rgb(257 224 99);
+}
+.buttsForm input[name="buttChange"]{
+	color: rgb(255 255 253);
+	background-color: rgb(54 147 240);
+}
+.buttsForm input[name="buttChange"]:hover{
+	background: rgb(64 167 250);
+}
+.buttsForm input[name="buttRestart"]{
+	color: rgb(85 108 98);
+	background-color: rgb(197 236 82);
+}
+.buttsForm input[name="buttRestart"]:hover{
+	background-color: rgb(212 251 97);
+}

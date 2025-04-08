@@ -1,0 +1,80 @@
+Function Date:
+2024-11-27 16:16:21
+
+Function Date:
+2024-11-27 17:53:58
+
+Function Date:
+2024-12-01 17:43:48
+
+Function Date:
+2024-12-01 19:19:21
+
+Function Date:
+2024-12-01 19:19:35
+
+Function Date:
+2024-12-01 19:19:36
+
+Function Date:
+2024-12-05 12:30:11
+
+Function Date:
+2024-12-05 12:30:14
+
+Function Date:
+Array
+(
+    [NAME] => вторая
+    [DATE_CREATE] => 
+    [ACTIVE_FROM] => 
+    [ACTIVE_TO] => 
+    [SORT] => 500
+    [PREVIEW_TEXT_TYPE] => text
+    [PREVIEW_TEXT] => 
+    [DETAIL_TEXT_TYPE] => text
+    [DETAIL_TEXT] => 
+    [MODIFIED_BY] => 1
+    [PROPERTY_VALUES] => Array
+        (
+            [87] => 1
+            [85] => Array
+                (
+                    [99] => Array
+                        (
+                            [VALUE] => 1
+                        )
+
+                )
+
+            [86] => Array
+                (
+                    [100] => Array
+                        (
+                            [VALUE] => 10000
+                        )
+
+                )
+
+        )
+
+    [RIGHTS] => Array
+        (
+        )
+
+    [WF] => N
+    [SEARCHABLE_CONTENT] => ВТОРАЯ
+АРТУР АЛАВЕРДЯН
+ПРОДАЖА ПРОДУКТА
+10000
+АРТУР АЛАВЕРДЯН
+    [IBLOCK_SECTION] => Array
+        (
+        )
+
+    [ID] => 96
+    [IBLOCK_ID] => 30
+    [RESULT] => 1
+)
+
+
