@@ -6668,3 +6668,41 @@
  OTUS ----------
  OTUS 
  OTUS 
+ OTUS  2025-04-09 17:30:02 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\DB\ConnectionException] 
+ OTUS Mysql connect error [localhost]: (2002) Resource temporarily unavailable (400)
+ OTUS /home/c/ca43694/public_html/bitrix/modules/main/lib/db/mysqliconnection.php:86
+ OTUS #0: Bitrix\Main\DB\MysqliConnection->connectInternal()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/data/connection.php:53
+ OTUS #1: Bitrix\Main\Data\Connection->getResource()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/database.php:311
+ OTUS #2: CAllDatabase->DoConnect()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/database.php:699
+ OTUS #3: CAllDatabase->ForSql(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/sqlwhere.php:840
+ OTUS #4: CAllSQLWhere->addStringFilter(array, boolean, string, string, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/sqlwhere.php:405
+ OTUS #5: CAllSQLWhere->GetQueryEx(array, array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/sqlwhere.php:281
+ OTUS #6: CAllSQLWhere->GetQuery(array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:2270
+ OTUS #7: Bitrix\Main\ORM\Query\Query->buildWhere()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:2508
+ OTUS #8: Bitrix\Main\ORM\Query\Query->buildQuery()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:942
+ OTUS #9: Bitrix\Main\ORM\Query\Query->exec()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/data/datamanager.php:499
+ OTUS #10: Bitrix\Main\ORM\Data\DataManager::getList(array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/data/datamanager.php:350
+ OTUS #11: Bitrix\Main\ORM\Data\DataManager::getByPrimary(array, array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/httpcontext.php:88
+ OTUS #12: Bitrix\Main\HttpContext->initializeCulture(string, NULL)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/include.php:52
+ OTUS #13: require_once(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/include/prolog_before.php:19
+ OTUS #14: require_once(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/services/ajax.php:27
+ OTUS #15: require(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/services/main/ajax.php:1
+ OTUS ----------
+ OTUS 
+ OTUS 

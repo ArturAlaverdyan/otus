@@ -104,12 +104,28 @@ $arUrlRewrite=array (
     'PATH' => '/desktop_app/router.php',
     'SORT' => 100,
   ),
+  148 => 
+  array (
+    'CONDITION' => '#^/disk/boards/([0-9]+)/([0-9a-zA-Z]+)#',
+    'RULE' => 'action=disk.integration.flipchart.$2&fileId=$1',
+    'ID' => NULL,
+    'PATH' => '/bitrix/services/main/ajax.php',
+    'SORT' => 100,
+  ),
   10 => 
   array (
     'CONDITION' => '#^/video([\\.\\-0-9a-zA-Z]+)(/?)([^/]*)#',
     'RULE' => 'alias=$1&videoconf',
     'ID' => NULL,
     'PATH' => '/desktop_app/router.php',
+    'SORT' => 100,
+  ),
+  154 => 
+  array (
+    'CONDITION' => '#^/extranet/vote-result/([0-9a-z\\.]+)#',
+    'RULE' => 'signedAttachId=$1',
+    'ID' => 'bitrix:voting.attached.result',
+    'PATH' => '/extranet/vote-result/index.php',
     'SORT' => 100,
   ),
   35 => 
@@ -150,6 +166,22 @@ $arUrlRewrite=array (
     'RULE' => '',
     'ID' => '',
     'PATH' => '/configs/userconsent.php',
+    'SORT' => 100,
+  ),
+  149 => 
+  array (
+    'CONDITION' => '#^/bi/dashboard/detail/([0-9]+)/#',
+    'RULE' => 'dashboardId=$1',
+    'ID' => 'bitrix:biconnector.apachesuperset.dashboard.detail',
+    'PATH' => '/bi/dashboard/detail/index.php',
+    'SORT' => 100,
+  ),
+  156 => 
+  array (
+    'CONDITION' => '#^/extranet/call/detail/([0-9]+)#',
+    'RULE' => 'callId=$1',
+    'ID' => 'bitrix:call',
+    'PATH' => '/extranet/call/index.php',
     'SORT' => 100,
   ),
   17 => 
@@ -430,6 +462,14 @@ $arUrlRewrite=array (
     'RULE' => NULL,
     'ID' => 'bitrix:socialnetwork_group',
     'PATH' => '/extranet/workgroups/index.php',
+    'SORT' => 100,
+  ),
+  155 => 
+  array (
+    'CONDITION' => '#^/call/detail/([0-9]+)#',
+    'RULE' => 'callId=$1',
+    'ID' => 'bitrix:call',
+    'PATH' => '/call/index.php',
     'SORT' => 100,
   ),
   99 => 
@@ -784,6 +824,14 @@ $arUrlRewrite=array (
     'PATH' => '/calendar/open_events.php',
     'SORT' => 100,
   ),
+  152 => 
+  array (
+    'CONDITION' => '#^/bi/statistics/#',
+    'RULE' => '',
+    'ID' => 'bitrix:biconnector.apachesuperset.workspace_analytic.controller',
+    'PATH' => '/bi/statistics/index.php',
+    'SORT' => 100,
+  ),
   14 => 
   array (
     'CONDITION' => '#^/mobile/webdav#',
@@ -984,6 +1032,14 @@ $arUrlRewrite=array (
     'PATH' => '/crm/button/index.php',
     'SORT' => 100,
   ),
+  150 => 
+  array (
+    'CONDITION' => '#^/bi/dataset/#',
+    'RULE' => '',
+    'ID' => 'bitrix:biconnector.apachesuperset.workspace_analytic.controller',
+    'PATH' => '/bi/dataset/index.php',
+    'SORT' => 100,
+  ),
   38 => 
   array (
     'CONDITION' => '#^/docs/sale/#',
@@ -1006,6 +1062,22 @@ $arUrlRewrite=array (
     'RULE' => '',
     'ID' => 'bitrix:crm.quote',
     'PATH' => '/crm/quote/index.php',
+    'SORT' => 100,
+  ),
+  151 => 
+  array (
+    'CONDITION' => '#^/bi/source/#',
+    'RULE' => '',
+    'ID' => 'bitrix:biconnector.apachesuperset.workspace_analytic.controller',
+    'PATH' => '/bi/source/index.php',
+    'SORT' => 100,
+  ),
+  153 => 
+  array (
+    'CONDITION' => '#^/vibe/edit/#',
+    'RULE' => '',
+    'ID' => 'bitrix:landing.start',
+    'PATH' => '/vibe/edit/index.php',
     'SORT' => 100,
   ),
   36 => 
