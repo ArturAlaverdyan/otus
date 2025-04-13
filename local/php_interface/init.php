@@ -55,3 +55,5 @@ $eventManager->AddEventHandler(
         'updateElement'
     ]
 );
+
+$eventManager->addEventHandlerCompatible('rest', 'OnRestServiceBuildDescription', ['Otus\Rest\Events', 'OnRestServiceBuildDescriptionHandler']);

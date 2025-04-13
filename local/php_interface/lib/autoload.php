@@ -17,6 +17,8 @@ Bitrix\Main\Loader::registerAutoLoadClasses(null, [
     'UserTypes\FormatTelegramLink' => '/local/php_interface/lib/classes/tgtype.php',
     'UserTypes\IBLink' => '/local/php_interface/lib/classes/IBLink.php',
     'Otus\Events\Update' => '/local/events/update.php',
-    'Dadata' => '/local/php_interface/lib/classes/dadata.php'
+    'Dadata' => '/local/php_interface/lib/classes/dadata.php',
+    'Otus\Rest\OriginalContactsDataTable' => '/local/php_interface/lib/classes/OriginalContactsDataTable.php',
+    'Otus\Rest\Events'=> '/local/php_interface/include/rest/events.php'
 ]);
 
