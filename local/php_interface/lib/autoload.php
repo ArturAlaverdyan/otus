@@ -19,6 +19,7 @@ Bitrix\Main\Loader::registerAutoLoadClasses(null, [
     'Otus\Events\Update' => '/local/events/update.php',
     'Dadata' => '/local/php_interface/lib/classes/dadata.php',
     'Otus\Rest\OriginalContactsDataTable' => '/local/php_interface/lib/classes/OriginalContactsDataTable.php',
-    'Otus\Rest\Events'=> '/local/php_interface/include/rest/events.php'
+    'Otus\Rest\Events'=> '/local/php_interface/include/rest/events.php',
+    'UserTypes\PrideField'=> '/local/php_interface/lib/classes/PrideField.php'
 ]);
 

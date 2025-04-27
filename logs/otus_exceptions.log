@@ -7101,3 +7101,2335 @@
  OTUS ----------
  OTUS 
  OTUS 
+ OTUS  2025-04-19 15:17:02 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\DB\ConnectionException] 
+ OTUS Mysql connect error [localhost]: (2002) Resource temporarily unavailable (400)
+ OTUS /home/c/ca43694/public_html/bitrix/modules/main/lib/db/mysqliconnection.php:86
+ OTUS #0: Bitrix\Main\DB\MysqliConnection->connectInternal()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/data/connection.php:53
+ OTUS #1: Bitrix\Main\Data\Connection->getResource()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/database.php:311
+ OTUS #2: CAllDatabase->DoConnect()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/database.php:699
+ OTUS #3: CAllDatabase->ForSql(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/sqlwhere.php:840
+ OTUS #4: CAllSQLWhere->addStringFilter(array, boolean, string, string, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/sqlwhere.php:405
+ OTUS #5: CAllSQLWhere->GetQueryEx(array, array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/sqlwhere.php:281
+ OTUS #6: CAllSQLWhere->GetQuery(array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:2270
+ OTUS #7: Bitrix\Main\ORM\Query\Query->buildWhere()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:2508
+ OTUS #8: Bitrix\Main\ORM\Query\Query->buildQuery()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/query/query.php:942
+ OTUS #9: Bitrix\Main\ORM\Query\Query->exec()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/data/datamanager.php:499
+ OTUS #10: Bitrix\Main\ORM\Data\DataManager::getList(array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/data/datamanager.php:350
+ OTUS #11: Bitrix\Main\ORM\Data\DataManager::getByPrimary(array, array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/httpcontext.php:88
+ OTUS #12: Bitrix\Main\HttpContext->initializeCulture(string, NULL)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/include.php:52
+ OTUS #13: require_once(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/include/prolog_before.php:19
+ OTUS #14: require_once(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/services/ajax.php:27
+ OTUS #15: require(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/services/main/ajax.php:1
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-04-20 01:59:53 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [TypeError] 
+ OTUS Unsupported operand types: array + null (0)
+ OTUS /home/c/ca43694/public_html/local/components/pride/appeal/class.php:90
+ OTUS #0: AppealPride->getDataArray()
+ OTUS 	/home/c/ca43694/public_html/local/components/pride/appeal/class.php:18
+ OTUS #1: AppealPride->executeComponent()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:668
+ OTUS #2: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/main.php:1188
+ OTUS #3: CAllMain->IncludeComponent(string, string, array, boolean)
+ OTUS 	/home/c/ca43694/public_html/services/web_docs/appeal.php:10
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-04-21 21:39:28 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\ArgumentException] 
+ OTUS Empty primary found when trying to query ElementDoctors row. (100)
+ OTUS /home/c/ca43694/public_html/bitrix/modules/main/lib/orm/data/datamanager.php:634
+ OTUS #0: Bitrix\Main\ORM\Data\DataManager::validatePrimary(array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/orm/data/datamanager.php:332
+ OTUS #1: Bitrix\Main\ORM\Data\DataManager::getByPrimary(array, array)
+ OTUS 	/home/c/ca43694/public_html/local/php_interface/lib/classes/PrideField.php:136
+ OTUS #2: UserTypes\PrideField::getDataValues(NULL)
+ OTUS 	/home/c/ca43694/public_html/local/php_interface/lib/classes/PrideField.php:33
+ OTUS #3: UserTypes\PrideField::GetPublicViewHTML(array, array, array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/components/bitrix/lists.field.edit/templates/.default/template.php:434
+ OTUS #4: include(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component_template.php:790
+ OTUS #5: CBitrixComponentTemplate->__IncludePHPTemplate(array, array, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component_template.php:885
+ OTUS #6: CBitrixComponentTemplate->IncludeTemplate(array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:784
+ OTUS #7: CBitrixComponent->showComponentTemplate()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:724
+ OTUS #8: CBitrixComponent->includeComponentTemplate()
+ OTUS 	/home/c/ca43694/public_html/bitrix/components/bitrix/lists.field.edit/component.php:580
+ OTUS #9: include(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:615
+ OTUS #10: CBitrixComponent->__includeComponent()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:692
+ OTUS #11: CBitrixComponent->includeComponent(string, array, object, boolean)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/main.php:1188
+ OTUS #12: CAllMain->IncludeComponent(string, string, array, object)
+ OTUS 	/home/c/ca43694/public_html/bitrix/components/bitrix/lists/templates/.default/list_field_edit.php:2
+ OTUS #13: include(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component_template.php:790
+ OTUS #14: CBitrixComponentTemplate->__IncludePHPTemplate(array, array, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component_template.php:885
+ OTUS #15: CBitrixComponentTemplate->IncludeTemplate(array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:784
+ OTUS #16: CBitrixComponent->showComponentTemplate()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:724
+ OTUS #17: CBitrixComponent->includeComponentTemplate(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/components/bitrix/lists/component.php:355
+ OTUS #18: include(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:615
+ OTUS #19: CBitrixComponent->__includeComponent()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:692
+ OTUS #20: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/main.php:1188
+ OTUS #21: CAllMain->IncludeComponent(string, string, array, boolean)
+ OTUS 	/home/c/ca43694/public_html/services/lists/index.php:27
+ OTUS #22: include_once(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/include/urlrewrite.php:128
+ OTUS #23: include_once(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/urlrewrite.php:2
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-04-21 21:55:03 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [TypeError] 
+ OTUS call_user_func_array(): Argument #1 ($callback) must be a valid callback, class "UserTypes\PrideField" not found (0)
+ OTUS /home/c/ca43694/public_html/bitrix/modules/main/tools.php:5247
+ OTUS #0: ExecuteModuleEventEx(array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/iblock/classes/general/iblockproperty.php:1323
+ OTUS #1: CAllIBlockProperty::GetUserType()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/lists/classes/general/listfieldtypes.php:76
+ OTUS #2: CListFieldTypeList::_init()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/lists/classes/general/listfieldtypes.php:28
+ OTUS #3: CListFieldTypeList::IsField(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/lists/classes/general/listfields.php:263
+ OTUS #4: CListFieldList->_read_form_settings(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/lists/classes/general/listfields.php:17
+ OTUS #5: CListFieldList->__construct(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/lists/classes/general/list.php:15
+ OTUS #6: CList->__construct(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/components/bitrix/lists.list/component.php:308
+ OTUS #7: include(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:615
+ OTUS #8: CBitrixComponent->__includeComponent()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:692
+ OTUS #9: CBitrixComponent->includeComponent(string, array, object, boolean)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/main.php:1188
+ OTUS #10: CAllMain->IncludeComponent(string, string, array, object)
+ OTUS 	/home/c/ca43694/public_html/bitrix/components/bitrix/lists/templates/.default/list.php:2
+ OTUS #11: include(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component_template.php:790
+ OTUS #12: CBitrixComponentTemplate->__IncludePHPTemplate(array, array, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component_template.php:885
+ OTUS #13: CBitrixComponentTemplate->IncludeTemplate(array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:784
+ OTUS #14: CBitrixComponent->showComponentTemplate()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:724
+ OTUS #15: CBitrixComponent->includeComponentTemplate(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/components/bitrix/lists/component.php:355
+ OTUS #16: include(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:615
+ OTUS #17: CBitrixComponent->__includeComponent()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:692
+ OTUS #18: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/main.php:1188
+ OTUS #19: CAllMain->IncludeComponent(string, string, array, boolean)
+ OTUS 	/home/c/ca43694/public_html/services/lists/index.php:27
+ OTUS #20: include_once(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/include/urlrewrite.php:128
+ OTUS #21: include_once(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/urlrewrite.php:2
+ OTUS ----------
+ OTUS Previous exception: [ParseError] 
+ OTUS syntax error, unexpected token "*" (0)
+ OTUS /home/c/ca43694/public_html/local/php_interface/lib/classes/PrideField.php:112
+ OTUS #0: Bitrix\Main\Loader::autoLoad(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/tools.php:5247
+ OTUS #1: ExecuteModuleEventEx(array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/iblock/classes/general/iblockproperty.php:1323
+ OTUS #2: CAllIBlockProperty::GetUserType()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/lists/classes/general/listfieldtypes.php:76
+ OTUS #3: CListFieldTypeList::_init()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/lists/classes/general/listfieldtypes.php:28
+ OTUS #4: CListFieldTypeList::IsField(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/lists/classes/general/listfields.php:263
+ OTUS #5: CListFieldList->_read_form_settings(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/lists/classes/general/listfields.php:17
+ OTUS #6: CListFieldList->__construct(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/lists/classes/general/list.php:15
+ OTUS #7: CList->__construct(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/components/bitrix/lists.list/component.php:308
+ OTUS #8: include(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:615
+ OTUS #9: CBitrixComponent->__includeComponent()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:692
+ OTUS #10: CBitrixComponent->includeComponent(string, array, object, boolean)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/main.php:1188
+ OTUS #11: CAllMain->IncludeComponent(string, string, array, object)
+ OTUS 	/home/c/ca43694/public_html/bitrix/components/bitrix/lists/templates/.default/list.php:2
+ OTUS #12: include(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component_template.php:790
+ OTUS #13: CBitrixComponentTemplate->__IncludePHPTemplate(array, array, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component_template.php:885
+ OTUS #14: CBitrixComponentTemplate->IncludeTemplate(array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:784
+ OTUS #15: CBitrixComponent->showComponentTemplate()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:724
+ OTUS #16: CBitrixComponent->includeComponentTemplate(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/components/bitrix/lists/component.php:355
+ OTUS #17: include(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:615
+ OTUS #18: CBitrixComponent->__includeComponent()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:692
+ OTUS #19: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/main.php:1188
+ OTUS #20: CAllMain->IncludeComponent(string, string, array, boolean)
+ OTUS 	/home/c/ca43694/public_html/services/lists/index.php:27
+ OTUS #21: include_once(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/include/urlrewrite.php:128
+ OTUS #22: include_once(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/urlrewrite.php:2
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-04-21 21:55:24 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [TypeError] 
+ OTUS call_user_func_array(): Argument #1 ($callback) must be a valid callback, class "UserTypes\PrideField" not found (0)
+ OTUS /home/c/ca43694/public_html/bitrix/modules/main/tools.php:5247
+ OTUS #0: ExecuteModuleEventEx(array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/iblock/classes/general/iblockproperty.php:1323
+ OTUS #1: CAllIBlockProperty::GetUserType()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/lists/classes/general/listfieldtypes.php:76
+ OTUS #2: CListFieldTypeList::_init()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/lists/classes/general/listfieldtypes.php:28
+ OTUS #3: CListFieldTypeList::IsField(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/lists/classes/general/listfields.php:263
+ OTUS #4: CListFieldList->_read_form_settings(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/lists/classes/general/listfields.php:17
+ OTUS #5: CListFieldList->__construct(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/lists/classes/general/list.php:15
+ OTUS #6: CList->__construct(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/components/bitrix/lists.list/component.php:308
+ OTUS #7: include(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:615
+ OTUS #8: CBitrixComponent->__includeComponent()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:692
+ OTUS #9: CBitrixComponent->includeComponent(string, array, object, boolean)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/main.php:1188
+ OTUS #10: CAllMain->IncludeComponent(string, string, array, object)
+ OTUS 	/home/c/ca43694/public_html/bitrix/components/bitrix/lists/templates/.default/list.php:2
+ OTUS #11: include(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component_template.php:790
+ OTUS #12: CBitrixComponentTemplate->__IncludePHPTemplate(array, array, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component_template.php:885
+ OTUS #13: CBitrixComponentTemplate->IncludeTemplate(array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:784
+ OTUS #14: CBitrixComponent->showComponentTemplate()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:724
+ OTUS #15: CBitrixComponent->includeComponentTemplate(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/components/bitrix/lists/component.php:355
+ OTUS #16: include(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:615
+ OTUS #17: CBitrixComponent->__includeComponent()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:692
+ OTUS #18: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/main.php:1188
+ OTUS #19: CAllMain->IncludeComponent(string, string, array, boolean)
+ OTUS 	/home/c/ca43694/public_html/services/lists/index.php:27
+ OTUS #20: include_once(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/include/urlrewrite.php:128
+ OTUS #21: include_once(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/urlrewrite.php:2
+ OTUS ----------
+ OTUS Previous exception: [ParseError] 
+ OTUS syntax error, unexpected token "*" (0)
+ OTUS /home/c/ca43694/public_html/local/php_interface/lib/classes/PrideField.php:112
+ OTUS #0: Bitrix\Main\Loader::autoLoad(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/tools.php:5247
+ OTUS #1: ExecuteModuleEventEx(array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/iblock/classes/general/iblockproperty.php:1323
+ OTUS #2: CAllIBlockProperty::GetUserType()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/lists/classes/general/listfieldtypes.php:76
+ OTUS #3: CListFieldTypeList::_init()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/lists/classes/general/listfieldtypes.php:28
+ OTUS #4: CListFieldTypeList::IsField(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/lists/classes/general/listfields.php:263
+ OTUS #5: CListFieldList->_read_form_settings(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/lists/classes/general/listfields.php:17
+ OTUS #6: CListFieldList->__construct(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/lists/classes/general/list.php:15
+ OTUS #7: CList->__construct(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/components/bitrix/lists.list/component.php:308
+ OTUS #8: include(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:615
+ OTUS #9: CBitrixComponent->__includeComponent()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:692
+ OTUS #10: CBitrixComponent->includeComponent(string, array, object, boolean)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/main.php:1188
+ OTUS #11: CAllMain->IncludeComponent(string, string, array, object)
+ OTUS 	/home/c/ca43694/public_html/bitrix/components/bitrix/lists/templates/.default/list.php:2
+ OTUS #12: include(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component_template.php:790
+ OTUS #13: CBitrixComponentTemplate->__IncludePHPTemplate(array, array, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component_template.php:885
+ OTUS #14: CBitrixComponentTemplate->IncludeTemplate(array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:784
+ OTUS #15: CBitrixComponent->showComponentTemplate()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:724
+ OTUS #16: CBitrixComponent->includeComponentTemplate(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/components/bitrix/lists/component.php:355
+ OTUS #17: include(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:615
+ OTUS #18: CBitrixComponent->__includeComponent()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:692
+ OTUS #19: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/main.php:1188
+ OTUS #20: CAllMain->IncludeComponent(string, string, array, boolean)
+ OTUS 	/home/c/ca43694/public_html/services/lists/index.php:27
+ OTUS #21: include_once(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/include/urlrewrite.php:128
+ OTUS #22: include_once(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/urlrewrite.php:2
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-04-21 21:57:10 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [TypeError] 
+ OTUS call_user_func_array(): Argument #1 ($callback) must be a valid callback, class "UserTypes\PrideField" not found (0)
+ OTUS /home/c/ca43694/public_html/bitrix/modules/main/tools.php:5247
+ OTUS #0: ExecuteModuleEventEx(array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/iblock/classes/general/iblockproperty.php:1323
+ OTUS #1: CAllIBlockProperty::GetUserType()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/lists/classes/general/listfieldtypes.php:76
+ OTUS #2: CListFieldTypeList::_init()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/lists/classes/general/listfieldtypes.php:28
+ OTUS #3: CListFieldTypeList::IsField(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/lists/classes/general/listfields.php:263
+ OTUS #4: CListFieldList->_read_form_settings(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/lists/classes/general/listfields.php:17
+ OTUS #5: CListFieldList->__construct(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/lists/classes/general/list.php:15
+ OTUS #6: CList->__construct(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/components/bitrix/lists.list/component.php:308
+ OTUS #7: include(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:615
+ OTUS #8: CBitrixComponent->__includeComponent()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:692
+ OTUS #9: CBitrixComponent->includeComponent(string, array, object, boolean)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/main.php:1188
+ OTUS #10: CAllMain->IncludeComponent(string, string, array, object)
+ OTUS 	/home/c/ca43694/public_html/bitrix/components/bitrix/lists/templates/.default/list.php:2
+ OTUS #11: include(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component_template.php:790
+ OTUS #12: CBitrixComponentTemplate->__IncludePHPTemplate(array, array, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component_template.php:885
+ OTUS #13: CBitrixComponentTemplate->IncludeTemplate(array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:784
+ OTUS #14: CBitrixComponent->showComponentTemplate()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:724
+ OTUS #15: CBitrixComponent->includeComponentTemplate(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/components/bitrix/lists/component.php:355
+ OTUS #16: include(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:615
+ OTUS #17: CBitrixComponent->__includeComponent()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:692
+ OTUS #18: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/main.php:1188
+ OTUS #19: CAllMain->IncludeComponent(string, string, array, boolean)
+ OTUS 	/home/c/ca43694/public_html/services/lists/index.php:27
+ OTUS #20: include_once(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/include/urlrewrite.php:128
+ OTUS #21: include_once(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/urlrewrite.php:2
+ OTUS ----------
+ OTUS Previous exception: [ParseError] 
+ OTUS syntax error, unexpected token "*" (0)
+ OTUS /home/c/ca43694/public_html/local/php_interface/lib/classes/PrideField.php:108
+ OTUS #0: Bitrix\Main\Loader::autoLoad(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/tools.php:5247
+ OTUS #1: ExecuteModuleEventEx(array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/iblock/classes/general/iblockproperty.php:1323
+ OTUS #2: CAllIBlockProperty::GetUserType()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/lists/classes/general/listfieldtypes.php:76
+ OTUS #3: CListFieldTypeList::_init()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/lists/classes/general/listfieldtypes.php:28
+ OTUS #4: CListFieldTypeList::IsField(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/lists/classes/general/listfields.php:263
+ OTUS #5: CListFieldList->_read_form_settings(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/lists/classes/general/listfields.php:17
+ OTUS #6: CListFieldList->__construct(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/lists/classes/general/list.php:15
+ OTUS #7: CList->__construct(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/components/bitrix/lists.list/component.php:308
+ OTUS #8: include(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:615
+ OTUS #9: CBitrixComponent->__includeComponent()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:692
+ OTUS #10: CBitrixComponent->includeComponent(string, array, object, boolean)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/main.php:1188
+ OTUS #11: CAllMain->IncludeComponent(string, string, array, object)
+ OTUS 	/home/c/ca43694/public_html/bitrix/components/bitrix/lists/templates/.default/list.php:2
+ OTUS #12: include(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component_template.php:790
+ OTUS #13: CBitrixComponentTemplate->__IncludePHPTemplate(array, array, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component_template.php:885
+ OTUS #14: CBitrixComponentTemplate->IncludeTemplate(array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:784
+ OTUS #15: CBitrixComponent->showComponentTemplate()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:724
+ OTUS #16: CBitrixComponent->includeComponentTemplate(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/components/bitrix/lists/component.php:355
+ OTUS #17: include(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:615
+ OTUS #18: CBitrixComponent->__includeComponent()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:692
+ OTUS #19: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/main.php:1188
+ OTUS #20: CAllMain->IncludeComponent(string, string, array, boolean)
+ OTUS 	/home/c/ca43694/public_html/services/lists/index.php:27
+ OTUS #21: include_once(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/include/urlrewrite.php:128
+ OTUS #22: include_once(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/urlrewrite.php:2
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-04-22 15:57:40 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\DB\SqlQueryException] 
+ OTUS Mysql query error: (2006) MySQL server has gone away (400)
+ OTUS 
+ OTUS 				SELECT
+ OTUS 					ID,
+ OTUS 					MESSAGE,
+ OTUS 					MESSAGE_LID,
+ OTUS 					SAVE_STATISTIC,
+ OTUS 					URL_REDIRECT,
+ OTUS 					TEST
+ OTUS 				FROM
+ OTUS 					b_stop_list
+ OTUS 				WHERE
+ OTUS 					ACTIVE='Y'
+ OTUS 				and TEST='N'
+ OTUS 				and (SITE_ID = 's1' or SITE_ID is null or length(SITE_ID)<=0)
+ OTUS 				and (DATE_START<=now() or DATE_START is null)
+ OTUS 				and (DATE_END>=now() or DATE_END is null)
+ OTUS 				and	((((MASK_1 & 185)=IP_1 and
+ OTUS 						(MASK_2 & 62)=IP_2 and
+ OTUS 						(MASK_3 & 193)=IP_3 and
+ OTUS 						(MASK_4 & 34)=IP_4)
+ OTUS 							or (IP_1 is null and IP_2 is null and IP_3 is null and IP_4 is null))
+ OTUS 						and (upper('Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 YaBrowser/25.2.0.0 Safari/537.36') like concat('%',upper(USER_AGENT),'%')
+ OTUS 							or length(USER_AGENT)<=0 or USER_AGENT is null)
+ OTUS 						and (130=0 or USER_AGENT_IS_NULL<>'Y')
+ OTUS 						and (upper('https://ca43694.tw1.ru/devops/edit/in-hook/41/') like concat('%',upper(URL_FROM),'%')
+ OTUS 							or length(URL_FROM)<=0 or URL_FROM is null)
+ OTUS 						and (upper('https://ca43694.tw1.ru/bitrix/tools/public_session.php?k=96d6f7aac2da9586b9aa41719c8dec8e.eb6e3e1722adc42ed281a7f076f7c011f82227311de7cd643b195b421da8c0a4') like concat('%',upper(URL_TO),'%')
+ OTUS 							or length(URL_TO)<=0 or URL_TO is null)
+ OTUS 					)
+ OTUS 				
+ OTUS /home/c/ca43694/public_html/bitrix/modules/main/lib/db/mysqlcommonconnection.php:415
+ OTUS #0: Bitrix\Main\DB\MysqlCommonConnection->createQueryException(integer, string, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/database.php:670
+ OTUS #1: CAllDatabase->Query(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/statistic/classes/mysql/stoplist.php:221
+ OTUS #2: CStoplist::Check()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/tools.php:5254
+ OTUS #3: ExecuteModuleEventEx(array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/include.php:187
+ OTUS #4: require_once(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/include/prolog_before.php:19
+ OTUS #5: require_once(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/public/session.php:8
+ OTUS #6: require(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/tools/public_session.php:1
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-04-22 18:13:28 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [TypeError] 
+ OTUS Unsupported operand types: array + null (0)
+ OTUS /home/c/ca43694/public_html/local/components/pride/list.appeals/class.php:52
+ OTUS #0: ListOfAppealsPride->getDataArray()
+ OTUS 	/home/c/ca43694/public_html/local/components/pride/list.appeals/class.php:17
+ OTUS #1: ListOfAppealsPride->executeComponent()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:668
+ OTUS #2: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/main.php:1188
+ OTUS #3: CAllMain->IncludeComponent(string, string, array, boolean)
+ OTUS 	/home/c/ca43694/public_html/services/web_docs/list_of_appeals.php:10
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-04-22 18:14:19 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [TypeError] 
+ OTUS Unsupported operand types: array + null (0)
+ OTUS /home/c/ca43694/public_html/local/components/pride/list.appeals/class.php:53
+ OTUS #0: ListOfAppealsPride->getDataArray()
+ OTUS 	/home/c/ca43694/public_html/local/components/pride/list.appeals/class.php:17
+ OTUS #1: ListOfAppealsPride->executeComponent()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:668
+ OTUS #2: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/main.php:1188
+ OTUS #3: CAllMain->IncludeComponent(string, string, array, boolean)
+ OTUS 	/home/c/ca43694/public_html/services/web_docs/list_of_appeals.php:10
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-04-22 18:15:05 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [TypeError] 
+ OTUS Unsupported operand types: array + null (0)
+ OTUS /home/c/ca43694/public_html/local/components/pride/list.appeals/class.php:53
+ OTUS #0: ListOfAppealsPride->getDataArray()
+ OTUS 	/home/c/ca43694/public_html/local/components/pride/list.appeals/class.php:17
+ OTUS #1: ListOfAppealsPride->executeComponent()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:668
+ OTUS #2: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/main.php:1188
+ OTUS #3: CAllMain->IncludeComponent(string, string, array, boolean)
+ OTUS 	/home/c/ca43694/public_html/services/web_docs/list_of_appeals.php:10
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-04-22 18:15:28 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [Error] 
+ OTUS Call to undefined method ListOfAppealsPride::setButtonAdd() (0)
+ OTUS /home/c/ca43694/public_html/local/components/pride/list.appeals/class.php:25
+ OTUS #0: ListOfAppealsPride->executeComponent()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:668
+ OTUS #1: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/main.php:1188
+ OTUS #2: CAllMain->IncludeComponent(string, string, array, boolean)
+ OTUS 	/home/c/ca43694/public_html/services/web_docs/list_of_appeals.php:10
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-04-24 17:36:44 - Host: ca43694.tw1.ru - UNKNOWN - [Bitrix\Main\SystemException] 
+ OTUS Error in agent \Bitrix\Intranet\UStat\UStat::recount();. (0)
+ OTUS /home/c/ca43694/public_html/bitrix/modules/main/classes/general/agent.php:516
+ OTUS #0: CAllAgent::ExecuteAgents()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/agent.php:357
+ OTUS #1: CAllAgent::CheckAgents()
+ OTUS 	
+ OTUS #2: call_user_func_array(array, array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/application.php:845
+ OTUS #3: Bitrix\Main\Application->runBackgroundJobs()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/application.php:380
+ OTUS #4: Bitrix\Main\Application->terminate(integer)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/application.php:332
+ OTUS #5: Bitrix\Main\Application->end()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/public/session.php:35
+ OTUS #6: require(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/tools/public_session.php:1
+ OTUS ----------
+ OTUS Previous exception: [TypeError] 
+ OTUS call_user_func_array(): Argument #1 ($callback) must be a valid callback, class "UserTypes\PrideField" not found (0)
+ OTUS /home/c/ca43694/public_html/bitrix/modules/main/tools.php:5247
+ OTUS #0: ExecuteModuleEventEx(array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/iblock/classes/general/iblockproperty.php:1323
+ OTUS #1: CAllIBlockProperty::GetUserType(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/iblock/classes/general/iblockelement.php:2976
+ OTUS #2: CAllIBlockElement->MkPropertySelect(string, array, array, boolean, string, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/iblock/classes/general/iblockelement.php:3739
+ OTUS #3: CAllIBlockElement->PrepareGetList(array, array, array, string, array, array, NULL, NULL, NULL, boolean, string, array, array, array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/iblock/classes/mysql/iblockelement.php:107
+ OTUS #4: CIBlockElement->prepareSql(array, array, boolean, array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/iblock/classes/mysql/iblockelement.php:699
+ OTUS #5: CIBlockElement::GetList(array, array, boolean, boolean, array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/intranet/classes/general/utils.php:606
+ OTUS #6: CIntranetUtils::GetAbsenceData(array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/intranet/lib/ustat/ustat.php:1935
+ OTUS #7: Bitrix\Intranet\UStat\UStat::getActivityInfo()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/intranet/lib/ustat/ustat.php:1703
+ OTUS #8: Bitrix\Intranet\UStat\UStat::recountDeptartmentsActiveUsers()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/intranet/lib/ustat/ustat.php:233
+ OTUS #9: Bitrix\Intranet\UStat\UStat::recount()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/agent.php(508) : eval()'d code:1
+ OTUS #10: eval
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/agent.php:508
+ OTUS #11: CAllAgent::ExecuteAgents()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/agent.php:357
+ OTUS #12: CAllAgent::CheckAgents()
+ OTUS 	
+ OTUS #13: call_user_func_array(array, array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/application.php:845
+ OTUS #14: Bitrix\Main\Application->runBackgroundJobs()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/application.php:380
+ OTUS #15: Bitrix\Main\Application->terminate(integer)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/application.php:332
+ OTUS #16: Bitrix\Main\Application->end()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/public/session.php:35
+ OTUS #17: require(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/tools/public_session.php:1
+ OTUS ----------
+ OTUS Previous exception: [ParseError] 
+ OTUS syntax error, unexpected token "}" (0)
+ OTUS /home/c/ca43694/public_html/local/php_interface/lib/classes/PrideField.php:37
+ OTUS #0: Bitrix\Main\Loader::autoLoad(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/tools.php:5247
+ OTUS #1: ExecuteModuleEventEx(array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/iblock/classes/general/iblockproperty.php:1323
+ OTUS #2: CAllIBlockProperty::GetUserType(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/iblock/classes/general/iblockelement.php:2976
+ OTUS #3: CAllIBlockElement->MkPropertySelect(string, array, array, boolean, string, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/iblock/classes/general/iblockelement.php:3739
+ OTUS #4: CAllIBlockElement->PrepareGetList(array, array, array, string, array, array, NULL, NULL, NULL, boolean, string, array, array, array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/iblock/classes/mysql/iblockelement.php:107
+ OTUS #5: CIBlockElement->prepareSql(array, array, boolean, array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/iblock/classes/mysql/iblockelement.php:699
+ OTUS #6: CIBlockElement::GetList(array, array, boolean, boolean, array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/intranet/classes/general/utils.php:606
+ OTUS #7: CIntranetUtils::GetAbsenceData(array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/intranet/lib/ustat/ustat.php:1935
+ OTUS #8: Bitrix\Intranet\UStat\UStat::getActivityInfo()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/intranet/lib/ustat/ustat.php:1703
+ OTUS #9: Bitrix\Intranet\UStat\UStat::recountDeptartmentsActiveUsers()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/intranet/lib/ustat/ustat.php:233
+ OTUS #10: Bitrix\Intranet\UStat\UStat::recount()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/agent.php(508) : eval()'d code:1
+ OTUS #11: eval
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/agent.php:508
+ OTUS #12: CAllAgent::ExecuteAgents()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/agent.php:357
+ OTUS #13: CAllAgent::CheckAgents()
+ OTUS 	
+ OTUS #14: call_user_func_array(array, array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/application.php:845
+ OTUS #15: Bitrix\Main\Application->runBackgroundJobs()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/application.php:380
+ OTUS #16: Bitrix\Main\Application->terminate(integer)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/application.php:332
+ OTUS #17: Bitrix\Main\Application->end()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/public/session.php:35
+ OTUS #18: require(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/tools/public_session.php:1
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-04-24 17:54:21 - Host: ca43694.tw1.ru - UNKNOWN - [Bitrix\Main\SystemException] 
+ OTUS Error in agent \Bitrix\Intranet\UStat\UStat::recount();. (0)
+ OTUS /home/c/ca43694/public_html/bitrix/modules/main/classes/general/agent.php:516
+ OTUS #0: CAllAgent::ExecuteAgents()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/agent.php:357
+ OTUS #1: CAllAgent::CheckAgents()
+ OTUS 	
+ OTUS #2: call_user_func_array(array, array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/application.php:845
+ OTUS #3: Bitrix\Main\Application->runBackgroundJobs()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/application.php:380
+ OTUS #4: Bitrix\Main\Application->terminate(integer)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/application.php:332
+ OTUS #5: Bitrix\Main\Application->end()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/public/session.php:35
+ OTUS #6: require(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/tools/public_session.php:1
+ OTUS ----------
+ OTUS Previous exception: [TypeError] 
+ OTUS call_user_func_array(): Argument #1 ($callback) must be a valid callback, class "UserTypes\PrideField" not found (0)
+ OTUS /home/c/ca43694/public_html/bitrix/modules/main/tools.php:5247
+ OTUS #0: ExecuteModuleEventEx(array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/iblock/classes/general/iblockproperty.php:1323
+ OTUS #1: CAllIBlockProperty::GetUserType(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/iblock/classes/general/iblockelement.php:2976
+ OTUS #2: CAllIBlockElement->MkPropertySelect(string, array, array, boolean, string, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/iblock/classes/general/iblockelement.php:3739
+ OTUS #3: CAllIBlockElement->PrepareGetList(array, array, array, string, array, array, NULL, NULL, NULL, boolean, string, array, array, array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/iblock/classes/mysql/iblockelement.php:107
+ OTUS #4: CIBlockElement->prepareSql(array, array, boolean, array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/iblock/classes/mysql/iblockelement.php:699
+ OTUS #5: CIBlockElement::GetList(array, array, boolean, boolean, array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/intranet/classes/general/utils.php:606
+ OTUS #6: CIntranetUtils::GetAbsenceData(array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/intranet/lib/ustat/ustat.php:1935
+ OTUS #7: Bitrix\Intranet\UStat\UStat::getActivityInfo()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/intranet/lib/ustat/ustat.php:1703
+ OTUS #8: Bitrix\Intranet\UStat\UStat::recountDeptartmentsActiveUsers()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/intranet/lib/ustat/ustat.php:233
+ OTUS #9: Bitrix\Intranet\UStat\UStat::recount()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/agent.php(508) : eval()'d code:1
+ OTUS #10: eval
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/agent.php:508
+ OTUS #11: CAllAgent::ExecuteAgents()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/agent.php:357
+ OTUS #12: CAllAgent::CheckAgents()
+ OTUS 	
+ OTUS #13: call_user_func_array(array, array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/application.php:845
+ OTUS #14: Bitrix\Main\Application->runBackgroundJobs()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/application.php:380
+ OTUS #15: Bitrix\Main\Application->terminate(integer)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/application.php:332
+ OTUS #16: Bitrix\Main\Application->end()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/public/session.php:35
+ OTUS #17: require(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/tools/public_session.php:1
+ OTUS ----------
+ OTUS Previous exception: [ParseError] 
+ OTUS syntax error, unexpected token "}" (0)
+ OTUS /home/c/ca43694/public_html/local/php_interface/lib/classes/PrideField.php:37
+ OTUS #0: Bitrix\Main\Loader::autoLoad(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/tools.php:5247
+ OTUS #1: ExecuteModuleEventEx(array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/iblock/classes/general/iblockproperty.php:1323
+ OTUS #2: CAllIBlockProperty::GetUserType(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/iblock/classes/general/iblockelement.php:2976
+ OTUS #3: CAllIBlockElement->MkPropertySelect(string, array, array, boolean, string, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/iblock/classes/general/iblockelement.php:3739
+ OTUS #4: CAllIBlockElement->PrepareGetList(array, array, array, string, array, array, NULL, NULL, NULL, boolean, string, array, array, array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/iblock/classes/mysql/iblockelement.php:107
+ OTUS #5: CIBlockElement->prepareSql(array, array, boolean, array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/iblock/classes/mysql/iblockelement.php:699
+ OTUS #6: CIBlockElement::GetList(array, array, boolean, boolean, array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/intranet/classes/general/utils.php:606
+ OTUS #7: CIntranetUtils::GetAbsenceData(array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/intranet/lib/ustat/ustat.php:1935
+ OTUS #8: Bitrix\Intranet\UStat\UStat::getActivityInfo()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/intranet/lib/ustat/ustat.php:1703
+ OTUS #9: Bitrix\Intranet\UStat\UStat::recountDeptartmentsActiveUsers()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/intranet/lib/ustat/ustat.php:233
+ OTUS #10: Bitrix\Intranet\UStat\UStat::recount()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/agent.php(508) : eval()'d code:1
+ OTUS #11: eval
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/agent.php:508
+ OTUS #12: CAllAgent::ExecuteAgents()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/agent.php:357
+ OTUS #13: CAllAgent::CheckAgents()
+ OTUS 	
+ OTUS #14: call_user_func_array(array, array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/application.php:845
+ OTUS #15: Bitrix\Main\Application->runBackgroundJobs()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/application.php:380
+ OTUS #16: Bitrix\Main\Application->terminate(integer)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/application.php:332
+ OTUS #17: Bitrix\Main\Application->end()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/public/session.php:35
+ OTUS #18: require(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/tools/public_session.php:1
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-04-24 18:18:10 - Host: ca43694.tw1.ru - UNKNOWN - [Bitrix\Main\SystemException] 
+ OTUS Error in agent \Bitrix\Intranet\UStat\UStat::recount();. (0)
+ OTUS /home/c/ca43694/public_html/bitrix/modules/main/classes/general/agent.php:516
+ OTUS #0: CAllAgent::ExecuteAgents()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/agent.php:357
+ OTUS #1: CAllAgent::CheckAgents()
+ OTUS 	
+ OTUS #2: call_user_func_array(array, array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/application.php:845
+ OTUS #3: Bitrix\Main\Application->runBackgroundJobs()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/application.php:380
+ OTUS #4: Bitrix\Main\Application->terminate(integer)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/application.php:332
+ OTUS #5: Bitrix\Main\Application->end()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/public/session.php:35
+ OTUS #6: require(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/tools/public_session.php:1
+ OTUS ----------
+ OTUS Previous exception: [TypeError] 
+ OTUS call_user_func_array(): Argument #1 ($callback) must be a valid callback, class "UserTypes\PrideField" not found (0)
+ OTUS /home/c/ca43694/public_html/bitrix/modules/main/tools.php:5247
+ OTUS #0: ExecuteModuleEventEx(array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/iblock/classes/general/iblockproperty.php:1323
+ OTUS #1: CAllIBlockProperty::GetUserType(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/iblock/classes/general/iblockelement.php:2976
+ OTUS #2: CAllIBlockElement->MkPropertySelect(string, array, array, boolean, string, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/iblock/classes/general/iblockelement.php:3739
+ OTUS #3: CAllIBlockElement->PrepareGetList(array, array, array, string, array, array, NULL, NULL, NULL, boolean, string, array, array, array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/iblock/classes/mysql/iblockelement.php:107
+ OTUS #4: CIBlockElement->prepareSql(array, array, boolean, array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/iblock/classes/mysql/iblockelement.php:699
+ OTUS #5: CIBlockElement::GetList(array, array, boolean, boolean, array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/intranet/classes/general/utils.php:606
+ OTUS #6: CIntranetUtils::GetAbsenceData(array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/intranet/lib/ustat/ustat.php:1935
+ OTUS #7: Bitrix\Intranet\UStat\UStat::getActivityInfo()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/intranet/lib/ustat/ustat.php:1703
+ OTUS #8: Bitrix\Intranet\UStat\UStat::recountDeptartmentsActiveUsers()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/intranet/lib/ustat/ustat.php:233
+ OTUS #9: Bitrix\Intranet\UStat\UStat::recount()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/agent.php(508) : eval()'d code:1
+ OTUS #10: eval
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/agent.php:508
+ OTUS #11: CAllAgent::ExecuteAgents()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/agent.php:357
+ OTUS #12: CAllAgent::CheckAgents()
+ OTUS 	
+ OTUS #13: call_user_func_array(array, array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/application.php:845
+ OTUS #14: Bitrix\Main\Application->runBackgroundJobs()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/application.php:380
+ OTUS #15: Bitrix\Main\Application->terminate(integer)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/application.php:332
+ OTUS #16: Bitrix\Main\Application->end()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/public/session.php:35
+ OTUS #17: require(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/tools/public_session.php:1
+ OTUS ----------
+ OTUS Previous exception: [ParseError] 
+ OTUS syntax error, unexpected token "}" (0)
+ OTUS /home/c/ca43694/public_html/local/php_interface/lib/classes/PrideField.php:37
+ OTUS #0: Bitrix\Main\Loader::autoLoad(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/tools.php:5247
+ OTUS #1: ExecuteModuleEventEx(array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/iblock/classes/general/iblockproperty.php:1323
+ OTUS #2: CAllIBlockProperty::GetUserType(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/iblock/classes/general/iblockelement.php:2976
+ OTUS #3: CAllIBlockElement->MkPropertySelect(string, array, array, boolean, string, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/iblock/classes/general/iblockelement.php:3739
+ OTUS #4: CAllIBlockElement->PrepareGetList(array, array, array, string, array, array, NULL, NULL, NULL, boolean, string, array, array, array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/iblock/classes/mysql/iblockelement.php:107
+ OTUS #5: CIBlockElement->prepareSql(array, array, boolean, array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/iblock/classes/mysql/iblockelement.php:699
+ OTUS #6: CIBlockElement::GetList(array, array, boolean, boolean, array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/intranet/classes/general/utils.php:606
+ OTUS #7: CIntranetUtils::GetAbsenceData(array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/intranet/lib/ustat/ustat.php:1935
+ OTUS #8: Bitrix\Intranet\UStat\UStat::getActivityInfo()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/intranet/lib/ustat/ustat.php:1703
+ OTUS #9: Bitrix\Intranet\UStat\UStat::recountDeptartmentsActiveUsers()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/intranet/lib/ustat/ustat.php:233
+ OTUS #10: Bitrix\Intranet\UStat\UStat::recount()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/agent.php(508) : eval()'d code:1
+ OTUS #11: eval
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/agent.php:508
+ OTUS #12: CAllAgent::ExecuteAgents()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/agent.php:357
+ OTUS #13: CAllAgent::CheckAgents()
+ OTUS 	
+ OTUS #14: call_user_func_array(array, array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/application.php:845
+ OTUS #15: Bitrix\Main\Application->runBackgroundJobs()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/application.php:380
+ OTUS #16: Bitrix\Main\Application->terminate(integer)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/application.php:332
+ OTUS #17: Bitrix\Main\Application->end()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/public/session.php:35
+ OTUS #18: require(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/tools/public_session.php:1
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-04-24 18:29:57 - Host: ca43694.tw1.ru - UNKNOWN - [Bitrix\Main\SystemException] 
+ OTUS Error in agent \Bitrix\Intranet\UStat\UStat::recount();. (0)
+ OTUS /home/c/ca43694/public_html/bitrix/modules/main/classes/general/agent.php:516
+ OTUS #0: CAllAgent::ExecuteAgents()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/agent.php:357
+ OTUS #1: CAllAgent::CheckAgents()
+ OTUS 	
+ OTUS #2: call_user_func_array(array, array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/application.php:845
+ OTUS #3: Bitrix\Main\Application->runBackgroundJobs()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/application.php:380
+ OTUS #4: Bitrix\Main\Application->terminate(integer)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/application.php:332
+ OTUS #5: Bitrix\Main\Application->end()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/public/session.php:35
+ OTUS #6: require(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/tools/public_session.php:1
+ OTUS ----------
+ OTUS Previous exception: [TypeError] 
+ OTUS call_user_func_array(): Argument #1 ($callback) must be a valid callback, class "UserTypes\PrideField" not found (0)
+ OTUS /home/c/ca43694/public_html/bitrix/modules/main/tools.php:5247
+ OTUS #0: ExecuteModuleEventEx(array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/iblock/classes/general/iblockproperty.php:1323
+ OTUS #1: CAllIBlockProperty::GetUserType(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/iblock/classes/general/iblockelement.php:2976
+ OTUS #2: CAllIBlockElement->MkPropertySelect(string, array, array, boolean, string, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/iblock/classes/general/iblockelement.php:3739
+ OTUS #3: CAllIBlockElement->PrepareGetList(array, array, array, string, array, array, NULL, NULL, NULL, boolean, string, array, array, array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/iblock/classes/mysql/iblockelement.php:107
+ OTUS #4: CIBlockElement->prepareSql(array, array, boolean, array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/iblock/classes/mysql/iblockelement.php:699
+ OTUS #5: CIBlockElement::GetList(array, array, boolean, boolean, array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/intranet/classes/general/utils.php:606
+ OTUS #6: CIntranetUtils::GetAbsenceData(array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/intranet/lib/ustat/ustat.php:1935
+ OTUS #7: Bitrix\Intranet\UStat\UStat::getActivityInfo()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/intranet/lib/ustat/ustat.php:1703
+ OTUS #8: Bitrix\Intranet\UStat\UStat::recountDeptartmentsActiveUsers()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/intranet/lib/ustat/ustat.php:233
+ OTUS #9: Bitrix\Intranet\UStat\UStat::recount()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/agent.php(508) : eval()'d code:1
+ OTUS #10: eval
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/agent.php:508
+ OTUS #11: CAllAgent::ExecuteAgents()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/agent.php:357
+ OTUS #12: CAllAgent::CheckAgents()
+ OTUS 	
+ OTUS #13: call_user_func_array(array, array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/application.php:845
+ OTUS #14: Bitrix\Main\Application->runBackgroundJobs()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/application.php:380
+ OTUS #15: Bitrix\Main\Application->terminate(integer)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/application.php:332
+ OTUS #16: Bitrix\Main\Application->end()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/public/session.php:35
+ OTUS #17: require(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/tools/public_session.php:1
+ OTUS ----------
+ OTUS Previous exception: [ParseError] 
+ OTUS syntax error, unexpected token "}" (0)
+ OTUS /home/c/ca43694/public_html/local/php_interface/lib/classes/PrideField.php:37
+ OTUS #0: Bitrix\Main\Loader::autoLoad(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/tools.php:5247
+ OTUS #1: ExecuteModuleEventEx(array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/iblock/classes/general/iblockproperty.php:1323
+ OTUS #2: CAllIBlockProperty::GetUserType(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/iblock/classes/general/iblockelement.php:2976
+ OTUS #3: CAllIBlockElement->MkPropertySelect(string, array, array, boolean, string, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/iblock/classes/general/iblockelement.php:3739
+ OTUS #4: CAllIBlockElement->PrepareGetList(array, array, array, string, array, array, NULL, NULL, NULL, boolean, string, array, array, array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/iblock/classes/mysql/iblockelement.php:107
+ OTUS #5: CIBlockElement->prepareSql(array, array, boolean, array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/iblock/classes/mysql/iblockelement.php:699
+ OTUS #6: CIBlockElement::GetList(array, array, boolean, boolean, array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/intranet/classes/general/utils.php:606
+ OTUS #7: CIntranetUtils::GetAbsenceData(array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/intranet/lib/ustat/ustat.php:1935
+ OTUS #8: Bitrix\Intranet\UStat\UStat::getActivityInfo()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/intranet/lib/ustat/ustat.php:1703
+ OTUS #9: Bitrix\Intranet\UStat\UStat::recountDeptartmentsActiveUsers()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/intranet/lib/ustat/ustat.php:233
+ OTUS #10: Bitrix\Intranet\UStat\UStat::recount()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/agent.php(508) : eval()'d code:1
+ OTUS #11: eval
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/agent.php:508
+ OTUS #12: CAllAgent::ExecuteAgents()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/agent.php:357
+ OTUS #13: CAllAgent::CheckAgents()
+ OTUS 	
+ OTUS #14: call_user_func_array(array, array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/application.php:845
+ OTUS #15: Bitrix\Main\Application->runBackgroundJobs()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/application.php:380
+ OTUS #16: Bitrix\Main\Application->terminate(integer)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/application.php:332
+ OTUS #17: Bitrix\Main\Application->end()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/public/session.php:35
+ OTUS #18: require(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/tools/public_session.php:1
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-04-24 19:16:29 - Host: ca43694.tw1.ru - UNKNOWN - [Bitrix\Main\SystemException] 
+ OTUS Error in agent \Bitrix\Intranet\UStat\UStat::recount();. (0)
+ OTUS /home/c/ca43694/public_html/bitrix/modules/main/classes/general/agent.php:516
+ OTUS #0: CAllAgent::ExecuteAgents()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/agent.php:357
+ OTUS #1: CAllAgent::CheckAgents()
+ OTUS 	
+ OTUS #2: call_user_func_array(array, array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/application.php:845
+ OTUS #3: Bitrix\Main\Application->runBackgroundJobs()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/application.php:380
+ OTUS #4: Bitrix\Main\Application->terminate(integer)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/application.php:332
+ OTUS #5: Bitrix\Main\Application->end()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/main.php:3708
+ OTUS #6: CAllMain::FinalActions(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/include/epilog_after.php:61
+ OTUS #7: require(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/include/epilog.php:3
+ OTUS #8: include(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/main.php:345
+ OTUS #9: CAllMain->AuthForm(boolean)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/include.php:607
+ OTUS #10: require_once(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/include/prolog_before.php:19
+ OTUS #11: require_once(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/include/prolog.php:10
+ OTUS #12: require_once(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/header.php:1
+ OTUS #13: require(string)
+ OTUS 	/home/c/ca43694/public_html/services/web_docs/list_of_appeals.php:2
+ OTUS ----------
+ OTUS Previous exception: [TypeError] 
+ OTUS call_user_func_array(): Argument #1 ($callback) must be a valid callback, class "UserTypes\PrideField" not found (0)
+ OTUS /home/c/ca43694/public_html/bitrix/modules/main/tools.php:5247
+ OTUS #0: ExecuteModuleEventEx(array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/iblock/classes/general/iblockproperty.php:1323
+ OTUS #1: CAllIBlockProperty::GetUserType(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/iblock/classes/general/iblockelement.php:2976
+ OTUS #2: CAllIBlockElement->MkPropertySelect(string, array, array, boolean, string, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/iblock/classes/general/iblockelement.php:3739
+ OTUS #3: CAllIBlockElement->PrepareGetList(array, array, array, string, array, array, NULL, NULL, NULL, boolean, string, array, array, array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/iblock/classes/mysql/iblockelement.php:107
+ OTUS #4: CIBlockElement->prepareSql(array, array, boolean, array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/iblock/classes/mysql/iblockelement.php:699
+ OTUS #5: CIBlockElement::GetList(array, array, boolean, boolean, array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/intranet/classes/general/utils.php:606
+ OTUS #6: CIntranetUtils::GetAbsenceData(array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/intranet/lib/ustat/ustat.php:1935
+ OTUS #7: Bitrix\Intranet\UStat\UStat::getActivityInfo()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/intranet/lib/ustat/ustat.php:1703
+ OTUS #8: Bitrix\Intranet\UStat\UStat::recountDeptartmentsActiveUsers()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/intranet/lib/ustat/ustat.php:233
+ OTUS #9: Bitrix\Intranet\UStat\UStat::recount()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/agent.php(508) : eval()'d code:1
+ OTUS #10: eval
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/agent.php:508
+ OTUS #11: CAllAgent::ExecuteAgents()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/agent.php:357
+ OTUS #12: CAllAgent::CheckAgents()
+ OTUS 	
+ OTUS #13: call_user_func_array(array, array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/application.php:845
+ OTUS #14: Bitrix\Main\Application->runBackgroundJobs()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/application.php:380
+ OTUS #15: Bitrix\Main\Application->terminate(integer)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/application.php:332
+ OTUS #16: Bitrix\Main\Application->end()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/main.php:3708
+ OTUS #17: CAllMain::FinalActions(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/include/epilog_after.php:61
+ OTUS #18: require(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/include/epilog.php:3
+ OTUS #19: include(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/main.php:345
+ OTUS #20: CAllMain->AuthForm(boolean)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/include.php:607
+ OTUS #21: require_once(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/include/prolog_before.php:19
+ OTUS #22: require_once(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/include/prolog.php:10
+ OTUS #23: require_once(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/header.php:1
+ OTUS #24: require(string)
+ OTUS 	/home/c/ca43694/public_html/services/web_docs/list_of_appeals.php:2
+ OTUS ----------
+ OTUS Previous exception: [ParseError] 
+ OTUS syntax error, unexpected token "}" (0)
+ OTUS /home/c/ca43694/public_html/local/php_interface/lib/classes/PrideField.php:37
+ OTUS #0: Bitrix\Main\Loader::autoLoad(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/tools.php:5247
+ OTUS #1: ExecuteModuleEventEx(array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/iblock/classes/general/iblockproperty.php:1323
+ OTUS #2: CAllIBlockProperty::GetUserType(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/iblock/classes/general/iblockelement.php:2976
+ OTUS #3: CAllIBlockElement->MkPropertySelect(string, array, array, boolean, string, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/iblock/classes/general/iblockelement.php:3739
+ OTUS #4: CAllIBlockElement->PrepareGetList(array, array, array, string, array, array, NULL, NULL, NULL, boolean, string, array, array, array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/iblock/classes/mysql/iblockelement.php:107
+ OTUS #5: CIBlockElement->prepareSql(array, array, boolean, array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/iblock/classes/mysql/iblockelement.php:699
+ OTUS #6: CIBlockElement::GetList(array, array, boolean, boolean, array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/intranet/classes/general/utils.php:606
+ OTUS #7: CIntranetUtils::GetAbsenceData(array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/intranet/lib/ustat/ustat.php:1935
+ OTUS #8: Bitrix\Intranet\UStat\UStat::getActivityInfo()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/intranet/lib/ustat/ustat.php:1703
+ OTUS #9: Bitrix\Intranet\UStat\UStat::recountDeptartmentsActiveUsers()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/intranet/lib/ustat/ustat.php:233
+ OTUS #10: Bitrix\Intranet\UStat\UStat::recount()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/agent.php(508) : eval()'d code:1
+ OTUS #11: eval
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/agent.php:508
+ OTUS #12: CAllAgent::ExecuteAgents()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/agent.php:357
+ OTUS #13: CAllAgent::CheckAgents()
+ OTUS 	
+ OTUS #14: call_user_func_array(array, array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/application.php:845
+ OTUS #15: Bitrix\Main\Application->runBackgroundJobs()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/application.php:380
+ OTUS #16: Bitrix\Main\Application->terminate(integer)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/application.php:332
+ OTUS #17: Bitrix\Main\Application->end()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/main.php:3708
+ OTUS #18: CAllMain::FinalActions(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/include/epilog_after.php:61
+ OTUS #19: require(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/include/epilog.php:3
+ OTUS #20: include(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/main.php:345
+ OTUS #21: CAllMain->AuthForm(boolean)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/include.php:607
+ OTUS #22: require_once(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/include/prolog_before.php:19
+ OTUS #23: require_once(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/include/prolog.php:10
+ OTUS #24: require_once(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/header.php:1
+ OTUS #25: require(string)
+ OTUS 	/home/c/ca43694/public_html/services/web_docs/list_of_appeals.php:2
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-04-24 19:50:56 - Host: ca43694.tw1.ru - UNKNOWN - [Bitrix\Main\SystemException] 
+ OTUS Error in agent \Bitrix\Intranet\UStat\UStat::recount();. (0)
+ OTUS /home/c/ca43694/public_html/bitrix/modules/main/classes/general/agent.php:516
+ OTUS #0: CAllAgent::ExecuteAgents()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/agent.php:357
+ OTUS #1: CAllAgent::CheckAgents()
+ OTUS 	
+ OTUS #2: call_user_func_array(array, array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/application.php:845
+ OTUS #3: Bitrix\Main\Application->runBackgroundJobs()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/application.php:380
+ OTUS #4: Bitrix\Main\Application->terminate(integer)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/application.php:332
+ OTUS #5: Bitrix\Main\Application->end(integer, object)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/httpapplication.php:172
+ OTUS #6: Bitrix\Main\HttpApplication->finalizeControllerResult(object, NULL, object)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/httpapplication.php:150
+ OTUS #7: Bitrix\Main\HttpApplication->runController(object, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/httpapplication.php:108
+ OTUS #8: Bitrix\Main\HttpApplication->run()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/services/ajax.php:29
+ OTUS #9: require(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/services/main/ajax.php:1
+ OTUS ----------
+ OTUS Previous exception: [TypeError] 
+ OTUS call_user_func_array(): Argument #1 ($callback) must be a valid callback, class "UserTypes\PrideField" not found (0)
+ OTUS /home/c/ca43694/public_html/bitrix/modules/main/tools.php:5247
+ OTUS #0: ExecuteModuleEventEx(array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/iblock/classes/general/iblockproperty.php:1323
+ OTUS #1: CAllIBlockProperty::GetUserType(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/iblock/classes/general/iblockelement.php:2976
+ OTUS #2: CAllIBlockElement->MkPropertySelect(string, array, array, boolean, string, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/iblock/classes/general/iblockelement.php:3739
+ OTUS #3: CAllIBlockElement->PrepareGetList(array, array, array, string, array, array, NULL, NULL, NULL, boolean, string, array, array, array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/iblock/classes/mysql/iblockelement.php:107
+ OTUS #4: CIBlockElement->prepareSql(array, array, boolean, array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/iblock/classes/mysql/iblockelement.php:699
+ OTUS #5: CIBlockElement::GetList(array, array, boolean, boolean, array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/intranet/classes/general/utils.php:606
+ OTUS #6: CIntranetUtils::GetAbsenceData(array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/intranet/lib/ustat/ustat.php:1935
+ OTUS #7: Bitrix\Intranet\UStat\UStat::getActivityInfo()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/intranet/lib/ustat/ustat.php:1703
+ OTUS #8: Bitrix\Intranet\UStat\UStat::recountDeptartmentsActiveUsers()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/intranet/lib/ustat/ustat.php:233
+ OTUS #9: Bitrix\Intranet\UStat\UStat::recount()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/agent.php(508) : eval()'d code:1
+ OTUS #10: eval
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/agent.php:508
+ OTUS #11: CAllAgent::ExecuteAgents()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/agent.php:357
+ OTUS #12: CAllAgent::CheckAgents()
+ OTUS 	
+ OTUS #13: call_user_func_array(array, array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/application.php:845
+ OTUS #14: Bitrix\Main\Application->runBackgroundJobs()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/application.php:380
+ OTUS #15: Bitrix\Main\Application->terminate(integer)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/application.php:332
+ OTUS #16: Bitrix\Main\Application->end(integer, object)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/httpapplication.php:172
+ OTUS #17: Bitrix\Main\HttpApplication->finalizeControllerResult(object, NULL, object)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/httpapplication.php:150
+ OTUS #18: Bitrix\Main\HttpApplication->runController(object, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/httpapplication.php:108
+ OTUS #19: Bitrix\Main\HttpApplication->run()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/services/ajax.php:29
+ OTUS #20: require(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/services/main/ajax.php:1
+ OTUS ----------
+ OTUS Previous exception: [ParseError] 
+ OTUS syntax error, unexpected token "}" (0)
+ OTUS /home/c/ca43694/public_html/local/php_interface/lib/classes/PrideField.php:37
+ OTUS #0: Bitrix\Main\Loader::autoLoad(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/tools.php:5247
+ OTUS #1: ExecuteModuleEventEx(array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/iblock/classes/general/iblockproperty.php:1323
+ OTUS #2: CAllIBlockProperty::GetUserType(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/iblock/classes/general/iblockelement.php:2976
+ OTUS #3: CAllIBlockElement->MkPropertySelect(string, array, array, boolean, string, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/iblock/classes/general/iblockelement.php:3739
+ OTUS #4: CAllIBlockElement->PrepareGetList(array, array, array, string, array, array, NULL, NULL, NULL, boolean, string, array, array, array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/iblock/classes/mysql/iblockelement.php:107
+ OTUS #5: CIBlockElement->prepareSql(array, array, boolean, array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/iblock/classes/mysql/iblockelement.php:699
+ OTUS #6: CIBlockElement::GetList(array, array, boolean, boolean, array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/intranet/classes/general/utils.php:606
+ OTUS #7: CIntranetUtils::GetAbsenceData(array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/intranet/lib/ustat/ustat.php:1935
+ OTUS #8: Bitrix\Intranet\UStat\UStat::getActivityInfo()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/intranet/lib/ustat/ustat.php:1703
+ OTUS #9: Bitrix\Intranet\UStat\UStat::recountDeptartmentsActiveUsers()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/intranet/lib/ustat/ustat.php:233
+ OTUS #10: Bitrix\Intranet\UStat\UStat::recount()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/agent.php(508) : eval()'d code:1
+ OTUS #11: eval
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/agent.php:508
+ OTUS #12: CAllAgent::ExecuteAgents()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/agent.php:357
+ OTUS #13: CAllAgent::CheckAgents()
+ OTUS 	
+ OTUS #14: call_user_func_array(array, array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/application.php:845
+ OTUS #15: Bitrix\Main\Application->runBackgroundJobs()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/application.php:380
+ OTUS #16: Bitrix\Main\Application->terminate(integer)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/application.php:332
+ OTUS #17: Bitrix\Main\Application->end(integer, object)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/httpapplication.php:172
+ OTUS #18: Bitrix\Main\HttpApplication->finalizeControllerResult(object, NULL, object)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/httpapplication.php:150
+ OTUS #19: Bitrix\Main\HttpApplication->runController(object, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/httpapplication.php:108
+ OTUS #20: Bitrix\Main\HttpApplication->run()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/services/ajax.php:29
+ OTUS #21: require(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/services/main/ajax.php:1
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-04-24 20:40:39 - Host: ca43694.tw1.ru - UNKNOWN - [Bitrix\Main\SystemException] 
+ OTUS Error in agent \Bitrix\Intranet\UStat\UStat::recount();. (0)
+ OTUS /home/c/ca43694/public_html/bitrix/modules/main/classes/general/agent.php:516
+ OTUS #0: CAllAgent::ExecuteAgents()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/agent.php:357
+ OTUS #1: CAllAgent::CheckAgents()
+ OTUS 	
+ OTUS #2: call_user_func_array(array, array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/application.php:845
+ OTUS #3: Bitrix\Main\Application->runBackgroundJobs()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/application.php:380
+ OTUS #4: Bitrix\Main\Application->terminate(integer)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/application.php:332
+ OTUS #5: Bitrix\Main\Application->end()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/public/session.php:35
+ OTUS #6: require(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/tools/public_session.php:1
+ OTUS ----------
+ OTUS Previous exception: [TypeError] 
+ OTUS call_user_func_array(): Argument #1 ($callback) must be a valid callback, class "UserTypes\PrideField" not found (0)
+ OTUS /home/c/ca43694/public_html/bitrix/modules/main/tools.php:5247
+ OTUS #0: ExecuteModuleEventEx(array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/iblock/classes/general/iblockproperty.php:1323
+ OTUS #1: CAllIBlockProperty::GetUserType(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/iblock/classes/general/iblockelement.php:2976
+ OTUS #2: CAllIBlockElement->MkPropertySelect(string, array, array, boolean, string, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/iblock/classes/general/iblockelement.php:3739
+ OTUS #3: CAllIBlockElement->PrepareGetList(array, array, array, string, array, array, NULL, NULL, NULL, boolean, string, array, array, array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/iblock/classes/mysql/iblockelement.php:107
+ OTUS #4: CIBlockElement->prepareSql(array, array, boolean, array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/iblock/classes/mysql/iblockelement.php:699
+ OTUS #5: CIBlockElement::GetList(array, array, boolean, boolean, array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/intranet/classes/general/utils.php:606
+ OTUS #6: CIntranetUtils::GetAbsenceData(array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/intranet/lib/ustat/ustat.php:1935
+ OTUS #7: Bitrix\Intranet\UStat\UStat::getActivityInfo()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/intranet/lib/ustat/ustat.php:1703
+ OTUS #8: Bitrix\Intranet\UStat\UStat::recountDeptartmentsActiveUsers()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/intranet/lib/ustat/ustat.php:233
+ OTUS #9: Bitrix\Intranet\UStat\UStat::recount()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/agent.php(508) : eval()'d code:1
+ OTUS #10: eval
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/agent.php:508
+ OTUS #11: CAllAgent::ExecuteAgents()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/agent.php:357
+ OTUS #12: CAllAgent::CheckAgents()
+ OTUS 	
+ OTUS #13: call_user_func_array(array, array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/application.php:845
+ OTUS #14: Bitrix\Main\Application->runBackgroundJobs()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/application.php:380
+ OTUS #15: Bitrix\Main\Application->terminate(integer)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/application.php:332
+ OTUS #16: Bitrix\Main\Application->end()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/public/session.php:35
+ OTUS #17: require(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/tools/public_session.php:1
+ OTUS ----------
+ OTUS Previous exception: [ParseError] 
+ OTUS syntax error, unexpected token "}" (0)
+ OTUS /home/c/ca43694/public_html/local/php_interface/lib/classes/PrideField.php:37
+ OTUS #0: Bitrix\Main\Loader::autoLoad(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/tools.php:5247
+ OTUS #1: ExecuteModuleEventEx(array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/iblock/classes/general/iblockproperty.php:1323
+ OTUS #2: CAllIBlockProperty::GetUserType(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/iblock/classes/general/iblockelement.php:2976
+ OTUS #3: CAllIBlockElement->MkPropertySelect(string, array, array, boolean, string, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/iblock/classes/general/iblockelement.php:3739
+ OTUS #4: CAllIBlockElement->PrepareGetList(array, array, array, string, array, array, NULL, NULL, NULL, boolean, string, array, array, array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/iblock/classes/mysql/iblockelement.php:107
+ OTUS #5: CIBlockElement->prepareSql(array, array, boolean, array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/iblock/classes/mysql/iblockelement.php:699
+ OTUS #6: CIBlockElement::GetList(array, array, boolean, boolean, array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/intranet/classes/general/utils.php:606
+ OTUS #7: CIntranetUtils::GetAbsenceData(array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/intranet/lib/ustat/ustat.php:1935
+ OTUS #8: Bitrix\Intranet\UStat\UStat::getActivityInfo()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/intranet/lib/ustat/ustat.php:1703
+ OTUS #9: Bitrix\Intranet\UStat\UStat::recountDeptartmentsActiveUsers()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/intranet/lib/ustat/ustat.php:233
+ OTUS #10: Bitrix\Intranet\UStat\UStat::recount()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/agent.php(508) : eval()'d code:1
+ OTUS #11: eval
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/agent.php:508
+ OTUS #12: CAllAgent::ExecuteAgents()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/agent.php:357
+ OTUS #13: CAllAgent::CheckAgents()
+ OTUS 	
+ OTUS #14: call_user_func_array(array, array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/application.php:845
+ OTUS #15: Bitrix\Main\Application->runBackgroundJobs()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/application.php:380
+ OTUS #16: Bitrix\Main\Application->terminate(integer)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/application.php:332
+ OTUS #17: Bitrix\Main\Application->end()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/public/session.php:35
+ OTUS #18: require(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/tools/public_session.php:1
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-04-24 20:50:49 - Host: ca43694.tw1.ru - UNKNOWN - [Bitrix\Main\SystemException] 
+ OTUS Error in agent \Bitrix\Intranet\UStat\UStat::recount();. (0)
+ OTUS /home/c/ca43694/public_html/bitrix/modules/main/classes/general/agent.php:516
+ OTUS #0: CAllAgent::ExecuteAgents()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/agent.php:357
+ OTUS #1: CAllAgent::CheckAgents()
+ OTUS 	
+ OTUS #2: call_user_func_array(array, array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/application.php:845
+ OTUS #3: Bitrix\Main\Application->runBackgroundJobs()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/application.php:380
+ OTUS #4: Bitrix\Main\Application->terminate(integer)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/application.php:332
+ OTUS #5: Bitrix\Main\Application->end(integer, object)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/httpapplication.php:172
+ OTUS #6: Bitrix\Main\HttpApplication->finalizeControllerResult(object, NULL, object)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/httpapplication.php:150
+ OTUS #7: Bitrix\Main\HttpApplication->runController(object, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/httpapplication.php:108
+ OTUS #8: Bitrix\Main\HttpApplication->run()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/services/ajax.php:29
+ OTUS #9: require(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/services/main/ajax.php:1
+ OTUS ----------
+ OTUS Previous exception: [TypeError] 
+ OTUS call_user_func_array(): Argument #1 ($callback) must be a valid callback, class "UserTypes\PrideField" not found (0)
+ OTUS /home/c/ca43694/public_html/bitrix/modules/main/tools.php:5247
+ OTUS #0: ExecuteModuleEventEx(array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/iblock/classes/general/iblockproperty.php:1323
+ OTUS #1: CAllIBlockProperty::GetUserType(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/iblock/classes/general/iblockelement.php:2976
+ OTUS #2: CAllIBlockElement->MkPropertySelect(string, array, array, boolean, string, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/iblock/classes/general/iblockelement.php:3739
+ OTUS #3: CAllIBlockElement->PrepareGetList(array, array, array, string, array, array, NULL, NULL, NULL, boolean, string, array, array, array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/iblock/classes/mysql/iblockelement.php:107
+ OTUS #4: CIBlockElement->prepareSql(array, array, boolean, array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/iblock/classes/mysql/iblockelement.php:699
+ OTUS #5: CIBlockElement::GetList(array, array, boolean, boolean, array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/intranet/classes/general/utils.php:606
+ OTUS #6: CIntranetUtils::GetAbsenceData(array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/intranet/lib/ustat/ustat.php:1935
+ OTUS #7: Bitrix\Intranet\UStat\UStat::getActivityInfo()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/intranet/lib/ustat/ustat.php:1703
+ OTUS #8: Bitrix\Intranet\UStat\UStat::recountDeptartmentsActiveUsers()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/intranet/lib/ustat/ustat.php:233
+ OTUS #9: Bitrix\Intranet\UStat\UStat::recount()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/agent.php(508) : eval()'d code:1
+ OTUS #10: eval
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/agent.php:508
+ OTUS #11: CAllAgent::ExecuteAgents()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/agent.php:357
+ OTUS #12: CAllAgent::CheckAgents()
+ OTUS 	
+ OTUS #13: call_user_func_array(array, array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/application.php:845
+ OTUS #14: Bitrix\Main\Application->runBackgroundJobs()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/application.php:380
+ OTUS #15: Bitrix\Main\Application->terminate(integer)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/application.php:332
+ OTUS #16: Bitrix\Main\Application->end(integer, object)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/httpapplication.php:172
+ OTUS #17: Bitrix\Main\HttpApplication->finalizeControllerResult(object, NULL, object)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/httpapplication.php:150
+ OTUS #18: Bitrix\Main\HttpApplication->runController(object, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/httpapplication.php:108
+ OTUS #19: Bitrix\Main\HttpApplication->run()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/services/ajax.php:29
+ OTUS #20: require(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/services/main/ajax.php:1
+ OTUS ----------
+ OTUS Previous exception: [ParseError] 
+ OTUS syntax error, unexpected token "}" (0)
+ OTUS /home/c/ca43694/public_html/local/php_interface/lib/classes/PrideField.php:37
+ OTUS #0: Bitrix\Main\Loader::autoLoad(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/tools.php:5247
+ OTUS #1: ExecuteModuleEventEx(array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/iblock/classes/general/iblockproperty.php:1323
+ OTUS #2: CAllIBlockProperty::GetUserType(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/iblock/classes/general/iblockelement.php:2976
+ OTUS #3: CAllIBlockElement->MkPropertySelect(string, array, array, boolean, string, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/iblock/classes/general/iblockelement.php:3739
+ OTUS #4: CAllIBlockElement->PrepareGetList(array, array, array, string, array, array, NULL, NULL, NULL, boolean, string, array, array, array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/iblock/classes/mysql/iblockelement.php:107
+ OTUS #5: CIBlockElement->prepareSql(array, array, boolean, array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/iblock/classes/mysql/iblockelement.php:699
+ OTUS #6: CIBlockElement::GetList(array, array, boolean, boolean, array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/intranet/classes/general/utils.php:606
+ OTUS #7: CIntranetUtils::GetAbsenceData(array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/intranet/lib/ustat/ustat.php:1935
+ OTUS #8: Bitrix\Intranet\UStat\UStat::getActivityInfo()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/intranet/lib/ustat/ustat.php:1703
+ OTUS #9: Bitrix\Intranet\UStat\UStat::recountDeptartmentsActiveUsers()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/intranet/lib/ustat/ustat.php:233
+ OTUS #10: Bitrix\Intranet\UStat\UStat::recount()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/agent.php(508) : eval()'d code:1
+ OTUS #11: eval
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/agent.php:508
+ OTUS #12: CAllAgent::ExecuteAgents()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/agent.php:357
+ OTUS #13: CAllAgent::CheckAgents()
+ OTUS 	
+ OTUS #14: call_user_func_array(array, array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/application.php:845
+ OTUS #15: Bitrix\Main\Application->runBackgroundJobs()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/application.php:380
+ OTUS #16: Bitrix\Main\Application->terminate(integer)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/application.php:332
+ OTUS #17: Bitrix\Main\Application->end(integer, object)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/httpapplication.php:172
+ OTUS #18: Bitrix\Main\HttpApplication->finalizeControllerResult(object, NULL, object)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/httpapplication.php:150
+ OTUS #19: Bitrix\Main\HttpApplication->runController(object, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/httpapplication.php:108
+ OTUS #20: Bitrix\Main\HttpApplication->run()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/services/ajax.php:29
+ OTUS #21: require(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/services/main/ajax.php:1
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-04-24 21:50:50 - Host: ca43694.tw1.ru - UNKNOWN - [Bitrix\Main\SystemException] 
+ OTUS Error in agent \Bitrix\Intranet\UStat\UStat::recount();. (0)
+ OTUS /home/c/ca43694/public_html/bitrix/modules/main/classes/general/agent.php:516
+ OTUS #0: CAllAgent::ExecuteAgents()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/agent.php:357
+ OTUS #1: CAllAgent::CheckAgents()
+ OTUS 	
+ OTUS #2: call_user_func_array(array, array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/application.php:845
+ OTUS #3: Bitrix\Main\Application->runBackgroundJobs()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/application.php:380
+ OTUS #4: Bitrix\Main\Application->terminate(integer)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/application.php:332
+ OTUS #5: Bitrix\Main\Application->end(integer, object)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/httpapplication.php:172
+ OTUS #6: Bitrix\Main\HttpApplication->finalizeControllerResult(object, NULL, object)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/httpapplication.php:150
+ OTUS #7: Bitrix\Main\HttpApplication->runController(object, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/httpapplication.php:108
+ OTUS #8: Bitrix\Main\HttpApplication->run()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/services/ajax.php:29
+ OTUS #9: require(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/services/main/ajax.php:1
+ OTUS ----------
+ OTUS Previous exception: [TypeError] 
+ OTUS call_user_func_array(): Argument #1 ($callback) must be a valid callback, class "UserTypes\PrideField" not found (0)
+ OTUS /home/c/ca43694/public_html/bitrix/modules/main/tools.php:5247
+ OTUS #0: ExecuteModuleEventEx(array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/iblock/classes/general/iblockproperty.php:1323
+ OTUS #1: CAllIBlockProperty::GetUserType(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/iblock/classes/general/iblockelement.php:2976
+ OTUS #2: CAllIBlockElement->MkPropertySelect(string, array, array, boolean, string, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/iblock/classes/general/iblockelement.php:3739
+ OTUS #3: CAllIBlockElement->PrepareGetList(array, array, array, string, array, array, NULL, NULL, NULL, boolean, string, array, array, array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/iblock/classes/mysql/iblockelement.php:107
+ OTUS #4: CIBlockElement->prepareSql(array, array, boolean, array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/iblock/classes/mysql/iblockelement.php:699
+ OTUS #5: CIBlockElement::GetList(array, array, boolean, boolean, array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/intranet/classes/general/utils.php:606
+ OTUS #6: CIntranetUtils::GetAbsenceData(array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/intranet/lib/ustat/ustat.php:1935
+ OTUS #7: Bitrix\Intranet\UStat\UStat::getActivityInfo()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/intranet/lib/ustat/ustat.php:1703
+ OTUS #8: Bitrix\Intranet\UStat\UStat::recountDeptartmentsActiveUsers()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/intranet/lib/ustat/ustat.php:233
+ OTUS #9: Bitrix\Intranet\UStat\UStat::recount()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/agent.php(508) : eval()'d code:1
+ OTUS #10: eval
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/agent.php:508
+ OTUS #11: CAllAgent::ExecuteAgents()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/agent.php:357
+ OTUS #12: CAllAgent::CheckAgents()
+ OTUS 	
+ OTUS #13: call_user_func_array(array, array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/application.php:845
+ OTUS #14: Bitrix\Main\Application->runBackgroundJobs()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/application.php:380
+ OTUS #15: Bitrix\Main\Application->terminate(integer)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/application.php:332
+ OTUS #16: Bitrix\Main\Application->end(integer, object)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/httpapplication.php:172
+ OTUS #17: Bitrix\Main\HttpApplication->finalizeControllerResult(object, NULL, object)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/httpapplication.php:150
+ OTUS #18: Bitrix\Main\HttpApplication->runController(object, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/httpapplication.php:108
+ OTUS #19: Bitrix\Main\HttpApplication->run()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/services/ajax.php:29
+ OTUS #20: require(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/services/main/ajax.php:1
+ OTUS ----------
+ OTUS Previous exception: [ParseError] 
+ OTUS syntax error, unexpected token "}" (0)
+ OTUS /home/c/ca43694/public_html/local/php_interface/lib/classes/PrideField.php:37
+ OTUS #0: Bitrix\Main\Loader::autoLoad(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/tools.php:5247
+ OTUS #1: ExecuteModuleEventEx(array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/iblock/classes/general/iblockproperty.php:1323
+ OTUS #2: CAllIBlockProperty::GetUserType(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/iblock/classes/general/iblockelement.php:2976
+ OTUS #3: CAllIBlockElement->MkPropertySelect(string, array, array, boolean, string, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/iblock/classes/general/iblockelement.php:3739
+ OTUS #4: CAllIBlockElement->PrepareGetList(array, array, array, string, array, array, NULL, NULL, NULL, boolean, string, array, array, array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/iblock/classes/mysql/iblockelement.php:107
+ OTUS #5: CIBlockElement->prepareSql(array, array, boolean, array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/iblock/classes/mysql/iblockelement.php:699
+ OTUS #6: CIBlockElement::GetList(array, array, boolean, boolean, array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/intranet/classes/general/utils.php:606
+ OTUS #7: CIntranetUtils::GetAbsenceData(array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/intranet/lib/ustat/ustat.php:1935
+ OTUS #8: Bitrix\Intranet\UStat\UStat::getActivityInfo()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/intranet/lib/ustat/ustat.php:1703
+ OTUS #9: Bitrix\Intranet\UStat\UStat::recountDeptartmentsActiveUsers()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/intranet/lib/ustat/ustat.php:233
+ OTUS #10: Bitrix\Intranet\UStat\UStat::recount()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/agent.php(508) : eval()'d code:1
+ OTUS #11: eval
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/agent.php:508
+ OTUS #12: CAllAgent::ExecuteAgents()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/agent.php:357
+ OTUS #13: CAllAgent::CheckAgents()
+ OTUS 	
+ OTUS #14: call_user_func_array(array, array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/application.php:845
+ OTUS #15: Bitrix\Main\Application->runBackgroundJobs()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/application.php:380
+ OTUS #16: Bitrix\Main\Application->terminate(integer)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/application.php:332
+ OTUS #17: Bitrix\Main\Application->end(integer, object)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/httpapplication.php:172
+ OTUS #18: Bitrix\Main\HttpApplication->finalizeControllerResult(object, NULL, object)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/httpapplication.php:150
+ OTUS #19: Bitrix\Main\HttpApplication->runController(object, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/httpapplication.php:108
+ OTUS #20: Bitrix\Main\HttpApplication->run()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/services/ajax.php:29
+ OTUS #21: require(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/services/main/ajax.php:1
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-04-24 22:49:45 - Host: ca43694.tw1.ru - UNKNOWN - [Bitrix\Main\SystemException] 
+ OTUS Error in agent \Bitrix\Intranet\UStat\UStat::recount();. (0)
+ OTUS /home/c/ca43694/public_html/bitrix/modules/main/classes/general/agent.php:516
+ OTUS #0: CAllAgent::ExecuteAgents()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/agent.php:357
+ OTUS #1: CAllAgent::CheckAgents()
+ OTUS 	
+ OTUS #2: call_user_func_array(array, array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/application.php:845
+ OTUS #3: Bitrix\Main\Application->runBackgroundJobs()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/application.php:380
+ OTUS #4: Bitrix\Main\Application->terminate(integer)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/application.php:332
+ OTUS #5: Bitrix\Main\Application->end()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/main.php:3708
+ OTUS #6: CAllMain::FinalActions()
+ OTUS 	/home/c/ca43694/public_html/bitrix/components/bitrix/rest.server/component.php:112
+ OTUS #7: include(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:615
+ OTUS #8: CBitrixComponent->__includeComponent()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:692
+ OTUS #9: CBitrixComponent->includeComponent(string, array, NULL, boolean)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/main.php:1188
+ OTUS #10: CAllMain->IncludeComponent(string, string, array, NULL, array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/components/bitrix/rest.provider/component.php:11
+ OTUS #11: include(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:615
+ OTUS #12: CBitrixComponent->__includeComponent()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:692
+ OTUS #13: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/main.php:1188
+ OTUS #14: CAllMain->IncludeComponent(string, string, array, boolean, array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/rest/services/rest/index.php:26
+ OTUS #15: require(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/services/rest/index.php:1
+ OTUS #16: include_once(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/include/urlrewrite.php:128
+ OTUS #17: include_once(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/urlrewrite.php:2
+ OTUS ----------
+ OTUS Previous exception: [TypeError] 
+ OTUS call_user_func_array(): Argument #1 ($callback) must be a valid callback, class "UserTypes\PrideField" not found (0)
+ OTUS /home/c/ca43694/public_html/bitrix/modules/main/tools.php:5247
+ OTUS #0: ExecuteModuleEventEx(array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/iblock/classes/general/iblockproperty.php:1323
+ OTUS #1: CAllIBlockProperty::GetUserType(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/iblock/classes/general/iblockelement.php:2976
+ OTUS #2: CAllIBlockElement->MkPropertySelect(string, array, array, boolean, string, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/iblock/classes/general/iblockelement.php:3739
+ OTUS #3: CAllIBlockElement->PrepareGetList(array, array, array, string, array, array, NULL, NULL, NULL, boolean, string, array, array, array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/iblock/classes/mysql/iblockelement.php:107
+ OTUS #4: CIBlockElement->prepareSql(array, array, boolean, array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/iblock/classes/mysql/iblockelement.php:699
+ OTUS #5: CIBlockElement::GetList(array, array, boolean, boolean, array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/intranet/classes/general/utils.php:606
+ OTUS #6: CIntranetUtils::GetAbsenceData(array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/intranet/lib/ustat/ustat.php:1935
+ OTUS #7: Bitrix\Intranet\UStat\UStat::getActivityInfo()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/intranet/lib/ustat/ustat.php:1703
+ OTUS #8: Bitrix\Intranet\UStat\UStat::recountDeptartmentsActiveUsers()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/intranet/lib/ustat/ustat.php:233
+ OTUS #9: Bitrix\Intranet\UStat\UStat::recount()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/agent.php(508) : eval()'d code:1
+ OTUS #10: eval
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/agent.php:508
+ OTUS #11: CAllAgent::ExecuteAgents()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/agent.php:357
+ OTUS #12: CAllAgent::CheckAgents()
+ OTUS 	
+ OTUS #13: call_user_func_array(array, array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/application.php:845
+ OTUS #14: Bitrix\Main\Application->runBackgroundJobs()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/application.php:380
+ OTUS #15: Bitrix\Main\Application->terminate(integer)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/application.php:332
+ OTUS #16: Bitrix\Main\Application->end()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/main.php:3708
+ OTUS #17: CAllMain::FinalActions()
+ OTUS 	/home/c/ca43694/public_html/bitrix/components/bitrix/rest.server/component.php:112
+ OTUS #18: include(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:615
+ OTUS #19: CBitrixComponent->__includeComponent()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:692
+ OTUS #20: CBitrixComponent->includeComponent(string, array, NULL, boolean)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/main.php:1188
+ OTUS #21: CAllMain->IncludeComponent(string, string, array, NULL, array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/components/bitrix/rest.provider/component.php:11
+ OTUS #22: include(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:615
+ OTUS #23: CBitrixComponent->__includeComponent()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:692
+ OTUS #24: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/main.php:1188
+ OTUS #25: CAllMain->IncludeComponent(string, string, array, boolean, array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/rest/services/rest/index.php:26
+ OTUS #26: require(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/services/rest/index.php:1
+ OTUS #27: include_once(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/include/urlrewrite.php:128
+ OTUS #28: include_once(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/urlrewrite.php:2
+ OTUS ----------
+ OTUS Previous exception: [ParseError] 
+ OTUS syntax error, unexpected token "}" (0)
+ OTUS /home/c/ca43694/public_html/local/php_interface/lib/classes/PrideField.php:37
+ OTUS #0: Bitrix\Main\Loader::autoLoad(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/tools.php:5247
+ OTUS #1: ExecuteModuleEventEx(array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/iblock/classes/general/iblockproperty.php:1323
+ OTUS #2: CAllIBlockProperty::GetUserType(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/iblock/classes/general/iblockelement.php:2976
+ OTUS #3: CAllIBlockElement->MkPropertySelect(string, array, array, boolean, string, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/iblock/classes/general/iblockelement.php:3739
+ OTUS #4: CAllIBlockElement->PrepareGetList(array, array, array, string, array, array, NULL, NULL, NULL, boolean, string, array, array, array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/iblock/classes/mysql/iblockelement.php:107
+ OTUS #5: CIBlockElement->prepareSql(array, array, boolean, array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/iblock/classes/mysql/iblockelement.php:699
+ OTUS #6: CIBlockElement::GetList(array, array, boolean, boolean, array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/intranet/classes/general/utils.php:606
+ OTUS #7: CIntranetUtils::GetAbsenceData(array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/intranet/lib/ustat/ustat.php:1935
+ OTUS #8: Bitrix\Intranet\UStat\UStat::getActivityInfo()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/intranet/lib/ustat/ustat.php:1703
+ OTUS #9: Bitrix\Intranet\UStat\UStat::recountDeptartmentsActiveUsers()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/intranet/lib/ustat/ustat.php:233
+ OTUS #10: Bitrix\Intranet\UStat\UStat::recount()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/agent.php(508) : eval()'d code:1
+ OTUS #11: eval
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/agent.php:508
+ OTUS #12: CAllAgent::ExecuteAgents()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/agent.php:357
+ OTUS #13: CAllAgent::CheckAgents()
+ OTUS 	
+ OTUS #14: call_user_func_array(array, array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/application.php:845
+ OTUS #15: Bitrix\Main\Application->runBackgroundJobs()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/application.php:380
+ OTUS #16: Bitrix\Main\Application->terminate(integer)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/application.php:332
+ OTUS #17: Bitrix\Main\Application->end()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/main.php:3708
+ OTUS #18: CAllMain::FinalActions()
+ OTUS 	/home/c/ca43694/public_html/bitrix/components/bitrix/rest.server/component.php:112
+ OTUS #19: include(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:615
+ OTUS #20: CBitrixComponent->__includeComponent()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:692
+ OTUS #21: CBitrixComponent->includeComponent(string, array, NULL, boolean)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/main.php:1188
+ OTUS #22: CAllMain->IncludeComponent(string, string, array, NULL, array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/components/bitrix/rest.provider/component.php:11
+ OTUS #23: include(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:615
+ OTUS #24: CBitrixComponent->__includeComponent()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:692
+ OTUS #25: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/main.php:1188
+ OTUS #26: CAllMain->IncludeComponent(string, string, array, boolean, array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/rest/services/rest/index.php:26
+ OTUS #27: require(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/services/rest/index.php:1
+ OTUS #28: include_once(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/include/urlrewrite.php:128
+ OTUS #29: include_once(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/urlrewrite.php:2
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-04-24 23:28:41 - Host: ca43694.tw1.ru - UNKNOWN - [Bitrix\Main\SystemException] 
+ OTUS Error in agent \Bitrix\Intranet\UStat\UStat::recount();. (0)
+ OTUS /home/c/ca43694/public_html/bitrix/modules/main/classes/general/agent.php:516
+ OTUS #0: CAllAgent::ExecuteAgents()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/agent.php:357
+ OTUS #1: CAllAgent::CheckAgents()
+ OTUS 	
+ OTUS #2: call_user_func_array(array, array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/application.php:845
+ OTUS #3: Bitrix\Main\Application->runBackgroundJobs()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/application.php:380
+ OTUS #4: Bitrix\Main\Application->terminate(integer)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/application.php:332
+ OTUS #5: Bitrix\Main\Application->end()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/main.php:3708
+ OTUS #6: CAllMain::FinalActions(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/include/epilog_after.php:61
+ OTUS #7: require(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/include/epilog.php:3
+ OTUS #8: include(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/main.php:345
+ OTUS #9: CAllMain->AuthForm(boolean)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/include.php:607
+ OTUS #10: require_once(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/include/prolog_before.php:19
+ OTUS #11: require_once(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/include/prolog.php:10
+ OTUS #12: require_once(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/header.php:1
+ OTUS #13: require(string)
+ OTUS 	/home/c/ca43694/public_html/stream/index.php:11
+ OTUS ----------
+ OTUS Previous exception: [TypeError] 
+ OTUS call_user_func_array(): Argument #1 ($callback) must be a valid callback, class "UserTypes\PrideField" not found (0)
+ OTUS /home/c/ca43694/public_html/bitrix/modules/main/tools.php:5247
+ OTUS #0: ExecuteModuleEventEx(array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/iblock/classes/general/iblockproperty.php:1323
+ OTUS #1: CAllIBlockProperty::GetUserType(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/iblock/classes/general/iblockelement.php:2976
+ OTUS #2: CAllIBlockElement->MkPropertySelect(string, array, array, boolean, string, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/iblock/classes/general/iblockelement.php:3739
+ OTUS #3: CAllIBlockElement->PrepareGetList(array, array, array, string, array, array, NULL, NULL, NULL, boolean, string, array, array, array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/iblock/classes/mysql/iblockelement.php:107
+ OTUS #4: CIBlockElement->prepareSql(array, array, boolean, array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/iblock/classes/mysql/iblockelement.php:699
+ OTUS #5: CIBlockElement::GetList(array, array, boolean, boolean, array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/intranet/classes/general/utils.php:606
+ OTUS #6: CIntranetUtils::GetAbsenceData(array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/intranet/lib/ustat/ustat.php:1935
+ OTUS #7: Bitrix\Intranet\UStat\UStat::getActivityInfo()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/intranet/lib/ustat/ustat.php:1703
+ OTUS #8: Bitrix\Intranet\UStat\UStat::recountDeptartmentsActiveUsers()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/intranet/lib/ustat/ustat.php:233
+ OTUS #9: Bitrix\Intranet\UStat\UStat::recount()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/agent.php(508) : eval()'d code:1
+ OTUS #10: eval
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/agent.php:508
+ OTUS #11: CAllAgent::ExecuteAgents()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/agent.php:357
+ OTUS #12: CAllAgent::CheckAgents()
+ OTUS 	
+ OTUS #13: call_user_func_array(array, array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/application.php:845
+ OTUS #14: Bitrix\Main\Application->runBackgroundJobs()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/application.php:380
+ OTUS #15: Bitrix\Main\Application->terminate(integer)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/application.php:332
+ OTUS #16: Bitrix\Main\Application->end()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/main.php:3708
+ OTUS #17: CAllMain::FinalActions(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/include/epilog_after.php:61
+ OTUS #18: require(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/include/epilog.php:3
+ OTUS #19: include(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/main.php:345
+ OTUS #20: CAllMain->AuthForm(boolean)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/include.php:607
+ OTUS #21: require_once(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/include/prolog_before.php:19
+ OTUS #22: require_once(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/include/prolog.php:10
+ OTUS #23: require_once(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/header.php:1
+ OTUS #24: require(string)
+ OTUS 	/home/c/ca43694/public_html/stream/index.php:11
+ OTUS ----------
+ OTUS Previous exception: [ParseError] 
+ OTUS syntax error, unexpected token "}" (0)
+ OTUS /home/c/ca43694/public_html/local/php_interface/lib/classes/PrideField.php:37
+ OTUS #0: Bitrix\Main\Loader::autoLoad(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/tools.php:5247
+ OTUS #1: ExecuteModuleEventEx(array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/iblock/classes/general/iblockproperty.php:1323
+ OTUS #2: CAllIBlockProperty::GetUserType(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/iblock/classes/general/iblockelement.php:2976
+ OTUS #3: CAllIBlockElement->MkPropertySelect(string, array, array, boolean, string, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/iblock/classes/general/iblockelement.php:3739
+ OTUS #4: CAllIBlockElement->PrepareGetList(array, array, array, string, array, array, NULL, NULL, NULL, boolean, string, array, array, array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/iblock/classes/mysql/iblockelement.php:107
+ OTUS #5: CIBlockElement->prepareSql(array, array, boolean, array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/iblock/classes/mysql/iblockelement.php:699
+ OTUS #6: CIBlockElement::GetList(array, array, boolean, boolean, array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/intranet/classes/general/utils.php:606
+ OTUS #7: CIntranetUtils::GetAbsenceData(array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/intranet/lib/ustat/ustat.php:1935
+ OTUS #8: Bitrix\Intranet\UStat\UStat::getActivityInfo()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/intranet/lib/ustat/ustat.php:1703
+ OTUS #9: Bitrix\Intranet\UStat\UStat::recountDeptartmentsActiveUsers()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/intranet/lib/ustat/ustat.php:233
+ OTUS #10: Bitrix\Intranet\UStat\UStat::recount()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/agent.php(508) : eval()'d code:1
+ OTUS #11: eval
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/agent.php:508
+ OTUS #12: CAllAgent::ExecuteAgents()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/agent.php:357
+ OTUS #13: CAllAgent::CheckAgents()
+ OTUS 	
+ OTUS #14: call_user_func_array(array, array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/application.php:845
+ OTUS #15: Bitrix\Main\Application->runBackgroundJobs()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/application.php:380
+ OTUS #16: Bitrix\Main\Application->terminate(integer)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/application.php:332
+ OTUS #17: Bitrix\Main\Application->end()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/main.php:3708
+ OTUS #18: CAllMain::FinalActions(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/include/epilog_after.php:61
+ OTUS #19: require(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/include/epilog.php:3
+ OTUS #20: include(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/main.php:345
+ OTUS #21: CAllMain->AuthForm(boolean)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/include.php:607
+ OTUS #22: require_once(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/include/prolog_before.php:19
+ OTUS #23: require_once(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/include/prolog.php:10
+ OTUS #24: require_once(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/header.php:1
+ OTUS #25: require(string)
+ OTUS 	/home/c/ca43694/public_html/stream/index.php:11
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-04-24 23:57:03 - Host: ca43694.tw1.ru - UNKNOWN - [Bitrix\Main\SystemException] 
+ OTUS Error in agent \Bitrix\Intranet\UStat\UStat::recount();. (0)
+ OTUS /home/c/ca43694/public_html/bitrix/modules/main/classes/general/agent.php:516
+ OTUS #0: CAllAgent::ExecuteAgents()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/agent.php:357
+ OTUS #1: CAllAgent::CheckAgents()
+ OTUS 	
+ OTUS #2: call_user_func_array(array, array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/application.php:845
+ OTUS #3: Bitrix\Main\Application->runBackgroundJobs()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/application.php:380
+ OTUS #4: Bitrix\Main\Application->terminate(integer)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/application.php:332
+ OTUS #5: Bitrix\Main\Application->end(integer, object)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/httpapplication.php:172
+ OTUS #6: Bitrix\Main\HttpApplication->finalizeControllerResult(object, NULL, object)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/httpapplication.php:150
+ OTUS #7: Bitrix\Main\HttpApplication->runController(object, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/httpapplication.php:108
+ OTUS #8: Bitrix\Main\HttpApplication->run()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/services/ajax.php:29
+ OTUS #9: require(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/services/main/ajax.php:1
+ OTUS ----------
+ OTUS Previous exception: [TypeError] 
+ OTUS call_user_func_array(): Argument #1 ($callback) must be a valid callback, class "UserTypes\PrideField" not found (0)
+ OTUS /home/c/ca43694/public_html/bitrix/modules/main/tools.php:5247
+ OTUS #0: ExecuteModuleEventEx(array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/iblock/classes/general/iblockproperty.php:1323
+ OTUS #1: CAllIBlockProperty::GetUserType(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/iblock/classes/general/iblockelement.php:2976
+ OTUS #2: CAllIBlockElement->MkPropertySelect(string, array, array, boolean, string, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/iblock/classes/general/iblockelement.php:3739
+ OTUS #3: CAllIBlockElement->PrepareGetList(array, array, array, string, array, array, NULL, NULL, NULL, boolean, string, array, array, array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/iblock/classes/mysql/iblockelement.php:107
+ OTUS #4: CIBlockElement->prepareSql(array, array, boolean, array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/iblock/classes/mysql/iblockelement.php:699
+ OTUS #5: CIBlockElement::GetList(array, array, boolean, boolean, array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/intranet/classes/general/utils.php:606
+ OTUS #6: CIntranetUtils::GetAbsenceData(array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/intranet/lib/ustat/ustat.php:1935
+ OTUS #7: Bitrix\Intranet\UStat\UStat::getActivityInfo()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/intranet/lib/ustat/ustat.php:1703
+ OTUS #8: Bitrix\Intranet\UStat\UStat::recountDeptartmentsActiveUsers()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/intranet/lib/ustat/ustat.php:233
+ OTUS #9: Bitrix\Intranet\UStat\UStat::recount()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/agent.php(508) : eval()'d code:1
+ OTUS #10: eval
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/agent.php:508
+ OTUS #11: CAllAgent::ExecuteAgents()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/agent.php:357
+ OTUS #12: CAllAgent::CheckAgents()
+ OTUS 	
+ OTUS #13: call_user_func_array(array, array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/application.php:845
+ OTUS #14: Bitrix\Main\Application->runBackgroundJobs()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/application.php:380
+ OTUS #15: Bitrix\Main\Application->terminate(integer)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/application.php:332
+ OTUS #16: Bitrix\Main\Application->end(integer, object)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/httpapplication.php:172
+ OTUS #17: Bitrix\Main\HttpApplication->finalizeControllerResult(object, NULL, object)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/httpapplication.php:150
+ OTUS #18: Bitrix\Main\HttpApplication->runController(object, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/httpapplication.php:108
+ OTUS #19: Bitrix\Main\HttpApplication->run()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/services/ajax.php:29
+ OTUS #20: require(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/services/main/ajax.php:1
+ OTUS ----------
+ OTUS Previous exception: [ParseError] 
+ OTUS syntax error, unexpected token "}" (0)
+ OTUS /home/c/ca43694/public_html/local/php_interface/lib/classes/PrideField.php:37
+ OTUS #0: Bitrix\Main\Loader::autoLoad(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/tools.php:5247
+ OTUS #1: ExecuteModuleEventEx(array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/iblock/classes/general/iblockproperty.php:1323
+ OTUS #2: CAllIBlockProperty::GetUserType(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/iblock/classes/general/iblockelement.php:2976
+ OTUS #3: CAllIBlockElement->MkPropertySelect(string, array, array, boolean, string, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/iblock/classes/general/iblockelement.php:3739
+ OTUS #4: CAllIBlockElement->PrepareGetList(array, array, array, string, array, array, NULL, NULL, NULL, boolean, string, array, array, array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/iblock/classes/mysql/iblockelement.php:107
+ OTUS #5: CIBlockElement->prepareSql(array, array, boolean, array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/iblock/classes/mysql/iblockelement.php:699
+ OTUS #6: CIBlockElement::GetList(array, array, boolean, boolean, array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/intranet/classes/general/utils.php:606
+ OTUS #7: CIntranetUtils::GetAbsenceData(array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/intranet/lib/ustat/ustat.php:1935
+ OTUS #8: Bitrix\Intranet\UStat\UStat::getActivityInfo()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/intranet/lib/ustat/ustat.php:1703
+ OTUS #9: Bitrix\Intranet\UStat\UStat::recountDeptartmentsActiveUsers()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/intranet/lib/ustat/ustat.php:233
+ OTUS #10: Bitrix\Intranet\UStat\UStat::recount()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/agent.php(508) : eval()'d code:1
+ OTUS #11: eval
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/agent.php:508
+ OTUS #12: CAllAgent::ExecuteAgents()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/agent.php:357
+ OTUS #13: CAllAgent::CheckAgents()
+ OTUS 	
+ OTUS #14: call_user_func_array(array, array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/application.php:845
+ OTUS #15: Bitrix\Main\Application->runBackgroundJobs()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/application.php:380
+ OTUS #16: Bitrix\Main\Application->terminate(integer)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/application.php:332
+ OTUS #17: Bitrix\Main\Application->end(integer, object)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/httpapplication.php:172
+ OTUS #18: Bitrix\Main\HttpApplication->finalizeControllerResult(object, NULL, object)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/httpapplication.php:150
+ OTUS #19: Bitrix\Main\HttpApplication->runController(object, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/lib/httpapplication.php:108
+ OTUS #20: Bitrix\Main\HttpApplication->run()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/services/ajax.php:29
+ OTUS #21: require(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/services/main/ajax.php:1
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-04-25 00:05:44 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [TypeError] 
+ OTUS call_user_func_array(): Argument #1 ($callback) must be a valid callback, class "UserTypes\PrideField" not found (0)
+ OTUS /home/c/ca43694/public_html/bitrix/modules/main/tools.php:5247
+ OTUS #0: ExecuteModuleEventEx(array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/iblock/classes/general/iblockproperty.php:1323
+ OTUS #1: CAllIBlockProperty::GetUserType()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/iblock/admin/iblock_edit.php:384
+ OTUS #2: __AddPropCellType(string, string, array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/iblock/admin/iblock_edit.php:514
+ OTUS #3: require(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/admin/iblock_edit.php:1
+ OTUS ----------
+ OTUS Previous exception: [ParseError] 
+ OTUS syntax error, unexpected token "}" (0)
+ OTUS /home/c/ca43694/public_html/local/php_interface/lib/classes/PrideField.php:37
+ OTUS #0: Bitrix\Main\Loader::autoLoad(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/tools.php:5247
+ OTUS #1: ExecuteModuleEventEx(array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/iblock/classes/general/iblockproperty.php:1323
+ OTUS #2: CAllIBlockProperty::GetUserType()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/iblock/admin/iblock_edit.php:384
+ OTUS #3: __AddPropCellType(string, string, array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/iblock/admin/iblock_edit.php:514
+ OTUS #4: require(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/admin/iblock_edit.php:1
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-04-25 00:05:45 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [TypeError] 
+ OTUS call_user_func_array(): Argument #1 ($callback) must be a valid callback, class "UserTypes\PrideField" not found (0)
+ OTUS /home/c/ca43694/public_html/bitrix/modules/main/tools.php:5247
+ OTUS #0: ExecuteModuleEventEx(array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/iblock/classes/general/iblockproperty.php:1323
+ OTUS #1: CAllIBlockProperty::GetUserType()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/iblock/admin/iblock_edit.php:384
+ OTUS #2: __AddPropCellType(string, string, array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/iblock/admin/iblock_edit.php:514
+ OTUS #3: require(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/admin/iblock_edit.php:1
+ OTUS ----------
+ OTUS Previous exception: [ParseError] 
+ OTUS syntax error, unexpected token "}" (0)
+ OTUS /home/c/ca43694/public_html/local/php_interface/lib/classes/PrideField.php:37
+ OTUS #0: Bitrix\Main\Loader::autoLoad(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/tools.php:5247
+ OTUS #1: ExecuteModuleEventEx(array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/iblock/classes/general/iblockproperty.php:1323
+ OTUS #2: CAllIBlockProperty::GetUserType()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/iblock/admin/iblock_edit.php:384
+ OTUS #3: __AddPropCellType(string, string, array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/iblock/admin/iblock_edit.php:514
+ OTUS #4: require(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/admin/iblock_edit.php:1
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-04-25 10:48:44 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [Error] 
+ OTUS Call to undefined function UserTypes\alert() (0)
+ OTUS /home/c/ca43694/public_html/local/php_interface/lib/classes/PrideField.php:30
+ OTUS #0: UserTypes\PrideField::GetPublicViewHTML(array, array, array)
+ OTUS 	
+ OTUS #1: call_user_func_array(array, array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/lists/lib/field.php:92
+ OTUS #2: Bitrix\Lists\Field::renderField(array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/components/bitrix/lists.list/component.php:946
+ OTUS #3: include(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:615
+ OTUS #4: CBitrixComponent->__includeComponent()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:692
+ OTUS #5: CBitrixComponent->includeComponent(string, array, object, boolean)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/main.php:1188
+ OTUS #6: CAllMain->IncludeComponent(string, string, array, object)
+ OTUS 	/home/c/ca43694/public_html/bitrix/components/bitrix/lists/templates/.default/list.php:2
+ OTUS #7: include(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component_template.php:790
+ OTUS #8: CBitrixComponentTemplate->__IncludePHPTemplate(array, array, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component_template.php:885
+ OTUS #9: CBitrixComponentTemplate->IncludeTemplate(array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:784
+ OTUS #10: CBitrixComponent->showComponentTemplate()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:724
+ OTUS #11: CBitrixComponent->includeComponentTemplate(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/components/bitrix/lists/component.php:355
+ OTUS #12: include(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:615
+ OTUS #13: CBitrixComponent->__includeComponent()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:692
+ OTUS #14: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/main.php:1188
+ OTUS #15: CAllMain->IncludeComponent(string, string, array, boolean)
+ OTUS 	/home/c/ca43694/public_html/services/lists/index.php:27
+ OTUS #16: include_once(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/include/urlrewrite.php:128
+ OTUS #17: include_once(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/urlrewrite.php:2
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-04-25 18:00:05 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [Error] 
+ OTUS Class "Bitrix\Main\UI\Extensionw" not found (0)
+ OTUS /home/c/ca43694/public_html/services/web_docs/list_of_appeals.php:13
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-04-25 18:25:47 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [Error] 
+ OTUS Call to undefined method Bitrix\Main\UI\Extension::loads() (0)
+ OTUS /home/c/ca43694/public_html/local/components/pride/list.appeals/class.php:38
+ OTUS #0: ListOfAppealsPride->checkModules()
+ OTUS 	/home/c/ca43694/public_html/local/components/pride/list.appeals/class.php:13
+ OTUS #1: ListOfAppealsPride->executeComponent()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:668
+ OTUS #2: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/main.php:1188
+ OTUS #3: CAllMain->IncludeComponent(string, string, array, boolean)
+ OTUS 	/home/c/ca43694/public_html/services/web_docs/list_of_appeals.php:10
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-04-26 19:48:15 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [ParseError] 
+ OTUS Unclosed '{' on line 110 does not match ']' (0)
+ OTUS /home/c/ca43694/public_html/local/components/pride/list.appeals/class.php:115
+ OTUS #0: CBitrixComponent->__getClassForPath(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:470
+ OTUS #1: CBitrixComponent->initComponent(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/main.php:1177
+ OTUS #2: CAllMain->IncludeComponent(string, string, array, boolean)
+ OTUS 	/home/c/ca43694/public_html/services/web_docs/list_of_appeals.php:10
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-04-26 19:48:48 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [ParseError] 
+ OTUS Unclosed '(' does not match ']' (0)
+ OTUS /home/c/ca43694/public_html/local/components/pride/list.appeals/class.php:116
+ OTUS #0: CBitrixComponent->__getClassForPath(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:470
+ OTUS #1: CBitrixComponent->initComponent(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/main.php:1177
+ OTUS #2: CAllMain->IncludeComponent(string, string, array, boolean)
+ OTUS 	/home/c/ca43694/public_html/services/web_docs/list_of_appeals.php:10
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-04-26 19:49:10 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [ArgumentCountError] 
+ OTUS Too few arguments to function UserTypes\PrideField::GetPublicViewHTML(), 1 passed in /home/c/ca43694/public_html/local/components/pride/list.appeals/class.php on line 116 and exactly 3 expected (0)
+ OTUS /home/c/ca43694/public_html/local/php_interface/lib/classes/PrideField.php:28
+ OTUS #0: UserTypes\PrideField::GetPublicViewHTML(string)
+ OTUS 	/home/c/ca43694/public_html/local/components/pride/list.appeals/class.php:116
+ OTUS #1: ListOfAppealsPride->getValuesElement(string)
+ OTUS 	/home/c/ca43694/public_html/local/components/pride/list.appeals/class.php:24
+ OTUS #2: ListOfAppealsPride->executeComponent()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:668
+ OTUS #3: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/main.php:1188
+ OTUS #4: CAllMain->IncludeComponent(string, string, array, boolean)
+ OTUS 	/home/c/ca43694/public_html/services/web_docs/list_of_appeals.php:10
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-04-26 19:49:46 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [TypeError] 
+ OTUS Cannot access offset of type string on string (0)
+ OTUS /home/c/ca43694/public_html/local/php_interface/lib/classes/PrideField.php:32
+ OTUS #0: UserTypes\PrideField::GetPublicViewHTML(string, string, string)
+ OTUS 	/home/c/ca43694/public_html/local/components/pride/list.appeals/class.php:116
+ OTUS #1: ListOfAppealsPride->getValuesElement(string)
+ OTUS 	/home/c/ca43694/public_html/local/components/pride/list.appeals/class.php:24
+ OTUS #2: ListOfAppealsPride->executeComponent()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:668
+ OTUS #3: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/main.php:1188
+ OTUS #4: CAllMain->IncludeComponent(string, string, array, boolean)
+ OTUS 	/home/c/ca43694/public_html/services/web_docs/list_of_appeals.php:10
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-04-26 19:50:05 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [TypeError] 
+ OTUS Cannot access offset of type string on string (0)
+ OTUS /home/c/ca43694/public_html/local/php_interface/lib/classes/PrideField.php:32
+ OTUS #0: UserTypes\PrideField::GetPublicViewHTML(string, array, string)
+ OTUS 	/home/c/ca43694/public_html/local/components/pride/list.appeals/class.php:116
+ OTUS #1: ListOfAppealsPride->getValuesElement(string)
+ OTUS 	/home/c/ca43694/public_html/local/components/pride/list.appeals/class.php:24
+ OTUS #2: ListOfAppealsPride->executeComponent()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:668
+ OTUS #3: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/main.php:1188
+ OTUS #4: CAllMain->IncludeComponent(string, string, array, boolean)
+ OTUS 	/home/c/ca43694/public_html/services/web_docs/list_of_appeals.php:10
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-04-26 19:51:43 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [TypeError] 
+ OTUS Cannot access offset of type string on string (0)
+ OTUS /home/c/ca43694/public_html/local/php_interface/lib/classes/PrideField.php:34
+ OTUS #0: UserTypes\PrideField::GetPublicViewHTML(string, array, string)
+ OTUS 	/home/c/ca43694/public_html/local/components/pride/list.appeals/class.php:116
+ OTUS #1: ListOfAppealsPride->getValuesElement(string)
+ OTUS 	/home/c/ca43694/public_html/local/components/pride/list.appeals/class.php:24
+ OTUS #2: ListOfAppealsPride->executeComponent()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:668
+ OTUS #3: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/main.php:1188
+ OTUS #4: CAllMain->IncludeComponent(string, string, array, boolean)
+ OTUS 	/home/c/ca43694/public_html/services/web_docs/list_of_appeals.php:10
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-04-26 19:53:25 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [TypeError] 
+ OTUS Cannot access offset of type string on string (0)
+ OTUS /home/c/ca43694/public_html/local/php_interface/lib/classes/PrideField.php:35
+ OTUS #0: UserTypes\PrideField::GetPublicViewHTML(string, array, array)
+ OTUS 	/home/c/ca43694/public_html/local/components/pride/list.appeals/class.php:116
+ OTUS #1: ListOfAppealsPride->getValuesElement(string)
+ OTUS 	/home/c/ca43694/public_html/local/components/pride/list.appeals/class.php:24
+ OTUS #2: ListOfAppealsPride->executeComponent()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:668
+ OTUS #3: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/main.php:1188
+ OTUS #4: CAllMain->IncludeComponent(string, string, array, boolean)
+ OTUS 	/home/c/ca43694/public_html/services/web_docs/list_of_appeals.php:10
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-04-26 19:55:18 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [TypeError] 
+ OTUS Cannot access offset of type string on string (0)
+ OTUS /home/c/ca43694/public_html/local/php_interface/lib/classes/PrideField.php:34
+ OTUS #0: UserTypes\PrideField::GetPublicViewHTML(string, array, array)
+ OTUS 	/home/c/ca43694/public_html/local/components/pride/list.appeals/class.php:116
+ OTUS #1: ListOfAppealsPride->getValuesElement(string)
+ OTUS 	/home/c/ca43694/public_html/local/components/pride/list.appeals/class.php:24
+ OTUS #2: ListOfAppealsPride->executeComponent()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:668
+ OTUS #3: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/main.php:1188
+ OTUS #4: CAllMain->IncludeComponent(string, string, array, boolean)
+ OTUS 	/home/c/ca43694/public_html/services/web_docs/list_of_appeals.php:10
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-04-26 19:55:33 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [TypeError] 
+ OTUS Cannot access offset of type string on string (0)
+ OTUS /home/c/ca43694/public_html/local/php_interface/lib/classes/PrideField.php:34
+ OTUS #0: UserTypes\PrideField::GetPublicViewHTML(string, array, array)
+ OTUS 	/home/c/ca43694/public_html/local/components/pride/list.appeals/class.php:116
+ OTUS #1: ListOfAppealsPride->getValuesElement(string)
+ OTUS 	/home/c/ca43694/public_html/local/components/pride/list.appeals/class.php:24
+ OTUS #2: ListOfAppealsPride->executeComponent()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:668
+ OTUS #3: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/main.php:1188
+ OTUS #4: CAllMain->IncludeComponent(string, string, array, boolean)
+ OTUS 	/home/c/ca43694/public_html/services/web_docs/list_of_appeals.php:10
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-04-26 23:59:10 - Host: ca43694.tw1.ru - FATAL - [ErrorException] E_COMPILE_ERROR
+ OTUS Cannot use Bitrix\Main\Localization\Loc as Loc because the name is already in use (0)
+ OTUS /home/c/ca43694/public_html/local/components/pride/appeal/class.php:6
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-04-26 23:59:32 - Host: ca43694.tw1.ru - FATAL - [ErrorException] E_COMPILE_ERROR
+ OTUS Cannot use Bitrix\Main\Localization\Loc as Loc because the name is already in use (0)
+ OTUS /home/c/ca43694/public_html/local/components/pride/appeal/class.php:6
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-04-27 00:00:19 - Host: ca43694.tw1.ru - FATAL - [ErrorException] E_COMPILE_ERROR
+ OTUS Cannot use Bitrix\Main\Localization\Loc as Loc because the name is already in use (0)
+ OTUS /home/c/ca43694/public_html/local/components/pride/appeal/class.php:6
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-04-27 00:00:45 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [TypeError] 
+ OTUS Unsupported operand types: array + null (0)
+ OTUS /home/c/ca43694/public_html/local/components/pride/appeal/class.php:99
+ OTUS #0: AppealPride->getDataArray()
+ OTUS 	/home/c/ca43694/public_html/local/components/pride/appeal/class.php:21
+ OTUS #1: AppealPride->executeComponent()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:668
+ OTUS #2: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/main.php:1188
+ OTUS #3: CAllMain->IncludeComponent(string, string, array, boolean)
+ OTUS 	/home/c/ca43694/public_html/services/web_docs/appeal.php:10
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-04-27 00:02:35 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [TypeError] 
+ OTUS Unsupported operand types: array + null (0)
+ OTUS /home/c/ca43694/public_html/local/components/pride/appeal/class.php:99
+ OTUS #0: AppealPride->getDataArray()
+ OTUS 	/home/c/ca43694/public_html/local/components/pride/appeal/class.php:21
+ OTUS #1: AppealPride->executeComponent()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:668
+ OTUS #2: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/main.php:1188
+ OTUS #3: CAllMain->IncludeComponent(string, string, array, boolean)
+ OTUS 	/home/c/ca43694/public_html/services/web_docs/appeal.php:10
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-04-27 00:03:08 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [TypeError] 
+ OTUS Unsupported operand types: array + null (0)
+ OTUS /home/c/ca43694/public_html/local/components/pride/appeal/class.php:100
+ OTUS #0: AppealPride->getDataArray()
+ OTUS 	/home/c/ca43694/public_html/local/components/pride/appeal/class.php:21
+ OTUS #1: AppealPride->executeComponent()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:668
+ OTUS #2: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/main.php:1188
+ OTUS #3: CAllMain->IncludeComponent(string, string, array, boolean)
+ OTUS 	/home/c/ca43694/public_html/services/web_docs/appeal.php:10
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-04-27 17:34:25 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [Error] 
+ OTUS Class "Onchange" not found (0)
+ OTUS /home/c/ca43694/public_html/local/components/pride/list.appeals/templates/.default/template.php:14
+ OTUS #0: include
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component_template.php:790
+ OTUS #1: CBitrixComponentTemplate->__IncludePHPTemplate(array, array, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component_template.php:885
+ OTUS #2: CBitrixComponentTemplate->IncludeTemplate(array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:784
+ OTUS #3: CBitrixComponent->showComponentTemplate()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:724
+ OTUS #4: CBitrixComponent->includeComponentTemplate()
+ OTUS 	/home/c/ca43694/public_html/local/components/pride/list.appeals/class.php:27
+ OTUS #5: ListOfAppealsPride->executeComponent()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:668
+ OTUS #6: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/main.php:1188
+ OTUS #7: CAllMain->IncludeComponent(string, string, array, boolean)
+ OTUS 	/home/c/ca43694/public_html/services/web_docs/list_of_appeals.php:10
+ OTUS ----------
+ OTUS 
+ OTUS 
+ OTUS  2025-04-27 18:54:36 - Host: ca43694.tw1.ru - UNCAUGHT_EXCEPTION - [TypeError] 
+ OTUS array_merge(): Argument #2 must be of type array, string given (0)
+ OTUS /home/c/ca43694/public_html/bitrix/modules/ui/lib/buttons/basebutton.php:97
+ OTUS #0: array_merge(array, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/ui/lib/buttons/basebutton.php:97
+ OTUS #1: Bitrix\UI\Buttons\BaseButton->buildFromArray(array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/ui/lib/buttons/button.php:84
+ OTUS #2: Bitrix\UI\Buttons\Button->buildFromArray(array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/ui/lib/buttons/basebutton.php:58
+ OTUS #3: Bitrix\UI\Buttons\BaseButton->init(array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/ui/lib/buttons/button.php:19
+ OTUS #4: Bitrix\UI\Buttons\Button->init(array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/ui/lib/buttons/basebutton.php:44
+ OTUS #5: Bitrix\UI\Buttons\BaseButton->__construct(array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/ui/lib/toolbar/toolbar.php:68
+ OTUS #6: Bitrix\UI\Toolbar\Toolbar->addButton(array)
+ OTUS 	
+ OTUS #7: call_user_func_array(array, array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/ui/lib/toolbar/facade/toolbar.php:78
+ OTUS #8: Bitrix\UI\Toolbar\Facade\Toolbar::__callStatic(string, array)
+ OTUS 	/home/c/ca43694/public_html/local/components/pride/list.appeals/templates/.default/template.php:5
+ OTUS #9: include(string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component_template.php:790
+ OTUS #10: CBitrixComponentTemplate->__IncludePHPTemplate(array, array, string)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component_template.php:885
+ OTUS #11: CBitrixComponentTemplate->IncludeTemplate(array)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:784
+ OTUS #12: CBitrixComponent->showComponentTemplate()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:724
+ OTUS #13: CBitrixComponent->includeComponentTemplate()
+ OTUS 	/home/c/ca43694/public_html/local/components/pride/list.appeals/class.php:30
+ OTUS #14: ListOfAppealsPride->executeComponent()
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/component.php:668
+ OTUS #15: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+ OTUS 	/home/c/ca43694/public_html/bitrix/modules/main/classes/general/main.php:1188
+ OTUS #16: CAllMain->IncludeComponent(string, string, array, boolean)
+ OTUS 	/home/c/ca43694/public_html/services/web_docs/list_of_appeals.php:10
+ OTUS ----------
+ OTUS 
+ OTUS 

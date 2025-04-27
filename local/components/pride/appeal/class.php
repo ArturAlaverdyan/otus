@@ -7,20 +7,23 @@ use Bitrix\Main\Context;
 class AppealPride extends CBitrixComponent
 {
     private static $idAllUsers = [];
-    
+
+    /**
+     * @return [type]
+     */
     public function executeComponent ()
     {
         try {
             $this->checkModules();
             $request = Context::getCurrent()->getRequest();
-            global $USER;
-            $this->userId = $USER->GetID();
-            $this->userGroup = $USER->GetUserGroupArray();
             $this->arResult["APPEAL"] = $request["APPEAL"];
             $this->arResult['TABLE_LINK'] = '/services/web_docs/list_of_appeals.php?APPEAL='.$this->arResult["APPEAL"];
             $this->getDataArray();
             global $APPLICATION;
             $APPLICATION->SetTitle($this->arResult["TITLE"]);
+            global $USER;
+            $this->userId = $USER->GetID();
+            $this->userGroup = $USER->GetUserGroupArray();
 
             if (!empty($request["CODE"])) // ЕСЛИ УКАЗАН КОНКРЕТНЫЙ ДОКУМЕНТ
             {
@@ -33,11 +36,11 @@ class AppealPride extends CBitrixComponent
             }
 
             $this->createFields();
-            $this->setButtons();
+            $this->setButtons($request["CODE"]);
 
             if (!empty($request["buttSend"]) || !empty($request["buttChange"])) // ПРИ НАЖАТИИ КНОПОК
             {
-                $newValues = $this->checkValuesBeforeSend();
+                $newValues = $this->checkValuesBeforeSend($request);
 
                 if (($newValues != false) && (!empty($request["buttSend"])))
                 {
@@ -45,16 +48,16 @@ class AppealPride extends CBitrixComponent
                 }
                 if (($newValues != false) && (!empty($request["buttChange"])))
                 {
-                    $this->updateElement($newValues, $arrProps);
+                    $this->updateElement($request["CODE"], $newValues, $arrProps);
                 }
             }
             if (!empty($request["buttAnnul"]))
             {
-                $this->annulElement();
+                $this->annulElement($request["CODE"]);
             }
             if (!empty($request["buttRestart"]))
             {
-                $this->restartElement();
+                $this->restartElement($request["CODE"]);
             }
 
             $this->IncludeComponentTemplate();
@@ -66,6 +69,9 @@ class AppealPride extends CBitrixComponent
     }
 
     
+    /**
+     * @return [type]
+     */
     protected function checkModules() // ПРОВЕРКА УСТАНОВКИ МОДУЛЕЙ
     {
         if (!Loader::includeModule('iblock'))
@@ -73,31 +79,34 @@ class AppealPride extends CBitrixComponent
     }
 
     
+    /**
+     * @return [type]
+     */
     protected function getDataArray () // ПОЛУЧЕНИЕ ВХОДНЫХ ДАННЫХ ОБ ОБРАЩЕНИИ
     {
         if (empty($this->arResult["APPEAL"]))
         {
-            $this->arResult["APPEAL"] = ((strpos($_SERVER['REQUEST_URI'], "edit-blank825")) !=  '')? '825' : (((strpos($_SERVER['REQUEST_URI'], "sozdanie-zayavki-v-arkhitekturnyy-otdel.php")) !=  '')? '857' : '');
-        }
-
-        if (empty($this->arResult["APPEAL"]))
-        {
-            echo '<b style="color:red; font-size:15px;">Не указана форма документа</b>';
+            echo '<b style="color:red; font-size:15px;">'.Loc::getMessage('NOT_FORM').'</b>';
             die();
         }
         else {
-            $dataArr = include $_SERVER["DOCUMENT_ROOT"] . $this->GetPath() . '/data.php';
-            $this->arResult += $dataArr[$this->arResult["APPEAL"]];
+            $dataArr = include $_SERVER["DOCUMENT_ROOT"] . '/local/php_interface/lib/classes/data.php';
+            if (!empty($dataArr[$this->arResult["APPEAL"]])) $this->arResult += $dataArr[$this->arResult["APPEAL"]];
 
             if (empty($dataArr[$this->arResult["APPEAL"]]))
             {
-                echo '<b style="color:red; font-size:15px;">Нет данных о форме документа</b>';
+                echo '<b style="color:red; font-size:15px;">'.Loc::getMessage('NOT_DATA').'</b>';
                 die();
             }
         }
     }
 
     
+    /**
+     * @param mixed $code
+     * 
+     * @return [type]
+     */
     protected function getValuesElement ($code) // ПОЛУЧЕНИЕ ЗНАЧЕНИЙ КОНКРЕТНОГО ОБРАЩЕНИЯ
     {
         $multiProps = [];
@@ -162,18 +171,23 @@ class AppealPride extends CBitrixComponent
     }
 
     
+    /**
+     * @param mixed $arrProps
+     * 
+     * @return [type]
+     */
     protected function addValues ($arrProps) // ДОБАВЛЕНИЕ ЗНАЧЕНИЙ ПОЛЯМ
     {
-        $this->arResult['VALUES'] = [];
-        $this->arResult['VALUES']['NAME'] = $arrProps['NAME'];
-
-        foreach ($this->arResult['VALUES'] as $key => $value)
+        foreach ($arrProps as $key => $value)
         {
-            $this->arResult['VALUES'][$key]['VALUE'] = $arrProps[$key];
+			$this->arResult['VALUES'][$key]['VALUE'] = $arrProps[$key];
         }
     }
 
     
+    /**
+     * @return [type]
+     */
     protected function createFields () // СОЗДАНИЕ ПОЛЕЙ ДЛЯ ОТОБРАЖЕНИЯ
     {
         $this->arResult['FIELDS'] = [];
@@ -206,11 +220,16 @@ class AppealPride extends CBitrixComponent
     }
 
     
-    protected function checkValuesBeforeSend () // ПРОВЕРКА ЗНАЧЕНИЙ ПЕРЕД ОТПРАВКОЙ В СПИСОК
+    /**
+     * @param mixed $request
+     * 
+     * @return [type]
+     */
+    protected function checkValuesBeforeSend ($request) // ПРОВЕРКА ЗНАЧЕНИЙ ПЕРЕД ОТПРАВКОЙ В СПИСОК
     {
         $newValues = [];
         $arrNecFields = [];
-        $requestAll = $request->getPostList() + $request->getFileList();
+        $requestAll = $request->getPostList()->toArray() + $request->getFileList()->toArray();
 
         foreach ($requestAll as $property => $value)
         {
@@ -248,6 +267,13 @@ class AppealPride extends CBitrixComponent
     }
 
     
+    /**
+     * @param mixed $value
+     * @param mixed $prop
+     * @param mixed $fullValue
+     * 
+     * @return [type]
+     */
     protected function transformValuesBeforeSend ($value, $prop, $fullValue) // ПРОВЕРКА НА ЗАПОЛНЕННОСТЬ ПОЛЯ ПЕРЕД ОТПРАВКОЙ
     {
         if (empty($value))
@@ -296,6 +322,12 @@ class AppealPride extends CBitrixComponent
     }
 
 
+    /**
+     * @param mixed $name
+     * @param mixed $value
+     * 
+     * @return [type]
+     */
     protected function create_TEXT ($name, $value) // СОЗДАНИЕ ТЕКСТОВОГО ИНПУТА
     {
         if (!empty($value["VALUE"]) && $value["IS_CHANGEABLE"] != "Y")
@@ -338,6 +370,12 @@ class AppealPride extends CBitrixComponent
     }
 
 
+    /**
+     * @param mixed $name
+     * @param mixed $value
+     * 
+     * @return [type]
+     */
     protected function create_NUMBER ($name, $value) // СОЗДАНИЕ ЧИСЛОВОГО ИНПУТА
     {
         if (!empty($value["VALUE"]) && $value["IS_CHANGEABLE"] != "Y")
@@ -378,6 +416,12 @@ class AppealPride extends CBitrixComponent
     }
 
 
+    /**
+     * @param mixed $name
+     * @param mixed $value
+     * 
+     * @return [type]
+     */
     protected function create_TEXTAREA ($name, $value) // СОЗДАНИЕ ТЕКСТОВОГО ПОЛЯ
     {
         if (!empty($value["VALUE"]) && $value["IS_CHANGEABLE"] != "Y") return $value["VALUE"];
@@ -391,6 +435,12 @@ class AppealPride extends CBitrixComponent
     }
 
 
+    /**
+     * @param mixed $name
+     * @param mixed $value
+     * 
+     * @return [type]
+     */
     protected function create_FILE ($name, $value) // СОЗДАНИЕ ФАЙЛОВОГО ИНПУТА
     {
         if (!empty($value["VALUE"]) && $value["IS_CHANGEABLE"] != "Y")
@@ -435,6 +485,12 @@ class AppealPride extends CBitrixComponent
     }
 
 
+    /**
+     * @param mixed $name
+     * @param mixed $value
+     * 
+     * @return [type]
+     */
     protected function create_DATETIME ($name, $value) // СОЗДАНИЕ ДАТЫ
     {
         if (!empty($value["VALUE"]) && $value["IS_CHANGEABLE"] != "Y") return $value["VALUE"];
@@ -452,7 +508,7 @@ class AppealPride extends CBitrixComponent
 
         $field = '<input type = "date" ';
         $field .= 'name = "'.$name.'!#!1" ';
-        $field .= (!empty($value['MIN']))? 'min = "'.date('Y-m-d').'"':'';
+        $field .= (!empty($value['MIN']))? 'min = "'.$value["MIN"].'" ' :'';
         $field .= ($value["VALUE_DATE"])? ' value = "'.$value["VALUE_DATE"].'" ' : (($value["DEFAULT_DATE"])? ' value = "'.$value["DEFAULT_DATE"].'" ' : ' ');
         $field .= ' /> ';
         $field .= '<input type = "time" ';
@@ -464,6 +520,12 @@ class AppealPride extends CBitrixComponent
     }
 
 
+    /**
+     * @param mixed $name
+     * @param mixed $value
+     * 
+     * @return [type]
+     */
     protected function create_DATE ($name, $value) // СОЗДАНИЕ ДАТЫ
     {
         if (!empty($value["VALUE"]) && $value["IS_CHANGEABLE"] != "Y") return $value["VALUE"];
@@ -478,9 +540,18 @@ class AppealPride extends CBitrixComponent
         $field .= (!empty($value['MIN']))? 'min = "'.date('Y-m-d').'"':'';
         $field .= ($value["VALUE"])? ' value = "'.$value["VALUE"].'" ' : (($value["DEFAULT"])? ' value = "'.$value["DEFAULT"].'" ' : ' ');
         $field .= ' /> ';
+
+        return $field;
     }
 
 
+    /**
+     * @param mixed $name
+     * @param mixed $value
+     * @param bool $hasTime
+     * 
+     * @return [type]
+     */
     protected function create_TIME ($name, $value, $hasTime = true) // СОЗДАНИЕ ВРЕМЕНИ
     {
         if (!empty($value["VALUE"]) && $value["IS_CHANGEABLE"] != "Y") return $value["VALUE"];
@@ -492,6 +563,12 @@ class AppealPride extends CBitrixComponent
     }
 
 
+    /**
+     * @param mixed $name
+     * @param mixed $value
+     * 
+     * @return [type]
+     */
     protected function create_SELECT ($name, $value) // СОЗДАНИЕ СПИСКА
     {
         if (!empty($value["VALUE"]) && $value["IS_CHANGEABLE"] != "Y") return $value["VALUE"];
@@ -511,6 +588,12 @@ class AppealPride extends CBitrixComponent
     }
 
 
+    /**
+     * @param mixed $name
+     * @param mixed $value)
+     * 
+     * @return [type]
+     */
     protected function create_RADIO ($name, $value) // СОЗДАНИЕ РАДИО КНОПОК (ПУНКТОВ)
     {
         if (!empty($value["VALUE"]) && $value["IS_CHANGEABLE"] != "Y") return $value["VALUE"];
@@ -529,6 +612,12 @@ class AppealPride extends CBitrixComponent
     }
 
 
+    /**
+     * @param mixed $name
+     * @param mixed $value
+     * 
+     * @return [type]
+     */
     protected function create_CHECKBOX ($name, $value) // СОЗДАНИЕ ЧЕКБОКСОВ
     {
         if (!empty($value["VALUE"]) && $value["IS_CHANGEABLE"] != "Y")
@@ -558,6 +647,12 @@ class AppealPride extends CBitrixComponent
     }
 
 
+    /**
+     * @param mixed $name
+     * @param mixed $value
+     * 
+     * @return [type]
+     */
     protected function create_DATALIST ($name, $value)  // СОЗДАНИЕ СПИСКА
     {
         if (!empty($value["VALUE"]) && $value["LIST"] == 'USERS')
@@ -570,38 +665,13 @@ class AppealPride extends CBitrixComponent
 
         $list = '';
 
-        if ($value["LIST"] == "USERS" || $value["LIST"] == "USERS2") // СПИСОК ПОЛЬЗОВАТЕЛЕЙ
+        if ($value["LIST"] == "USERS") // СПИСОК ПОЛЬЗОВАТЕЛЕЙ
         {
-            if (!empty($value["MY_EMPLOYEES"])) // ЕСЛИ НУЖНО ОТОБРАЖАТЬ ТОЛЬКО СЕБЕ ИЛИ СВОИХ СОТРУДНИКОВ
-            {
-                $dep = \CUser::GetList($by="name", $order="asc", array('ID' => (new \CUser)->GetID()), array("SELECT"=>["UF_DEPARTMENT"]));
-
-                while($us = $dep->Fetch())
-                {
-                    if (empty($us["UF_DEPARTMENT"][0]))
-                    {
-                        $users = \CUser::GetList(
-                            ($by="last_name"),
-                            ($order="desc"),
-                            ['ID' => \CUser::GetID()]
-                        );
-                    }
-                    else {
-                        $users = \CUser::GetList(
-                            ($by = "last_name"),
-                            ($order = "desc"),
-                            ['UF_DEPARTMENT' => [$us["UF_DEPARTMENT"][0]], 'ACTIVE' => 'Y']
-                        );
-                    }
-                }
-            }
-            else {
-                $users = \CUser::GetList(
-                    ($by="last_name"),
-                    ($order="desc"),
-                    ['ACTIVE' => 'Y', '!UF_DEPARTMENT' => '']
-                );
-            }
+            $users = \CUser::GetList(
+                 ($by="last_name"),
+                 ($order="desc"),
+                ['ACTIVE' => 'Y', '!UF_DEPARTMENT' => '']
+            );
 
             $idAllUsers = [];
 
@@ -614,47 +684,6 @@ class AppealPride extends CBitrixComponent
             self::$idAllUsers = $idAllUsers;
         }
 
-        if ($value["LIST"] == "SHOPS") // СПИСОК МАГАЗИНОВ
-        {
-            $shops = \CIBlockElement::GetList(
-                [],
-                [
-                    'IBLOCK_ID' => 858,
-                ],
-                false,
-                false,
-                ["NAME"]
-            );
-
-            while ($shop = $shops->Fetch())
-            {
-                $list .= '<option value = "'.$shop['NAME'].'"></option>';
-            }
-        }
-
-        if ($value["LIST"] == "MALLS") // СПИСОК ТОРГОВЫХ ЦЕНТРОВ
-        {
-            $malls = \CIBlockElement::GetList(
-                [],
-                [
-                    'IBLOCK_ID' => 52,
-                    'ACTIVE' => 'Y'
-                ],
-                false,
-                false,
-                ["NAME"]
-            );
-            $check = [];
-
-            while ($mall = $malls->Fetch())
-            {
-                if (!in_array($mall['NAME'], $check)) {
-                    $check[] = $mall['NAME'];
-                    $list .= '<option value = "' . $mall['NAME'] . '"></option>';
-                }
-            }
-        }
-
         $field = '<input list="'.$name.'" ';
         $field .= 'name = "'.$name.'" placeholder = "'.$value["PLACEHOLDER"].'"';
         $field .= (!empty($value["VALUE"]))? ' value = "'.$value["VALUE"].'"': ((!empty($value["DEFAULT"]))? ' value = "'.$value["DEFAULT"].'" ' : '');
@@ -665,10 +694,15 @@ class AppealPride extends CBitrixComponent
     }
 
 
+    /**
+     * @param array $newValues
+     * 
+     * @return [type]
+     */
     protected function addElement ($newValues = []) // ДОБАВЛЕНИЕ ЭЛЕМЕНТА
     {
         $element = new \CIBlockElement;
-        $newValues["NAME"] = (!empty($newValues["NAME"]))? $newValues["NAME"] : 'Обращение №';
+        $newValues["NAME"] = (!empty($newValues["NAME"]))? $newValues["NAME"] : 'Обращение';
         $dataOfElement = array(
             "ACTIVE_FROM" => date('d.m.Y H:i:s'),
             "MODIFIED_BY" => $this->userId,
@@ -700,11 +734,18 @@ class AppealPride extends CBitrixComponent
     }
 
 
-    protected function updateElement ($newValues = [], $arrProps = []) // ИЗМЕНЕНИЕ ЭЛЕМЕНТА
+    /**
+     * @param mixed $code
+     * @param array $newValues
+     * @param array $arrProps
+     * 
+     * @return [type]
+     */
+    protected function updateElement ($code, $newValues = [], $arrProps = []) // ИЗМЕНЕНИЕ ЭЛЕМЕНТА
     {
         $element = new \CIBlockElement;
         $updArr = $newValues + $arrProps;
-        $element->Update($this->arResult["APPEAL"], ["PROPERTY_VALUES" => $updArr, "MODIFIED_BY" => $this->userId]);
+        $element->Update($code, ["PROPERTY_VALUES" => $updArr, "MODIFIED_BY" => $this->userId]);
 
         if (!empty($this->arResult["ID_BP"]))
         {
@@ -712,7 +753,7 @@ class AppealPride extends CBitrixComponent
             $errorBp = [];
             $bp = \CBPDocument::StartWorkflow(
                 $this->arResult['ID_BP'],
-                array("lists", "BizprocDocument", $this->arResult["APPEAL"]),
+                array("lists", "BizprocDocument", $code),
                 array_merge($arWorkflowParameters, array("TargetUser" => "user_3275")),
                 $errorBp
             );
@@ -722,7 +763,12 @@ class AppealPride extends CBitrixComponent
     }
 
 
-    protected function annulElement () // АННУЛИРОВАНИЕ ЭЛЕМЕНТА
+    /**
+     * @param mixed $code
+     * 
+     * @return [type]
+     */
+    protected function annulElement ($code) // АННУЛИРОВАНИЕ ЭЛЕМЕНТА
     {
         if (!empty($this->arResult["ID_BP"]))
         {
@@ -730,7 +776,7 @@ class AppealPride extends CBitrixComponent
             $errorBp = [];
             $bp = \CBPDocument::StartWorkflow(
                 $this->arResult['ID_BP'],
-                array("lists", "BizprocDocument", $this->arResult["APPEAL"]),
+                array("lists", "BizprocDocument", $code),
                 array_merge($arWorkflowParameters, array("TargetUser" => "user_3275")),
                 $errorBp
             );
@@ -740,7 +786,12 @@ class AppealPride extends CBitrixComponent
     }
 
 
-    protected function restartElement () // ВОЗОБНОВЛЕНИЕ ЭЛЕМЕНТА
+    /**
+     * @param mixed $code
+     * 
+     * @return [type]
+     */
+    protected function restartElement ($code) // ВОЗОБНОВЛЕНИЕ ЭЛЕМЕНТА
     {
         if (!empty($this->arResult["ID_BP"]))
         {
@@ -748,7 +799,7 @@ class AppealPride extends CBitrixComponent
             $errorBp = [];
             $bp = \CBPDocument::StartWorkflow(
                 $this->arResult['ID_BP'],
-                array("lists", "BizprocDocument", $this->arResult["APPEAL"]),
+                array("lists", "BizprocDocument", $code),
                 array_merge($arWorkflowParameters, array("TargetUser" => "user_3275")),
                 $errorBp
             );
@@ -758,9 +809,14 @@ class AppealPride extends CBitrixComponent
     }
 
 
-    protected function setButtons () // ДОБАВЛЕНИЕ КНОПОК
+    /**
+     * @param mixed $code
+     * 
+     * @return [type]
+     */
+    protected function setButtons ($code) // ДОБАВЛЕНИЕ КНОПОК
     {
-        if (empty($this->arResult["APPEAL"]))
+        if (empty($code))
         {
             if ($this->checkAccess($this->arResult['ACCESS']['ADD']))
             {
@@ -768,37 +824,50 @@ class AppealPride extends CBitrixComponent
             }
         }
 
-        foreach ($this->arResult['VALUES'] as $key => $value)
-        {
-            if (!empty($value["IS_CHANGEABLE"]) && $this->checkAccess($this->arResult['ACCESS']['EDIT']))
-            {
-                $this->arResult["BUTTON_CHANGE"] = 'Y';
-                break;
-            }
-        }
+		else {
 
-        if (!empty($arResult["VALUES"]["STATUS"]) && $arResult["VALUES"]["STATUS"] == "Аннулировано" && $this->checkAccess($this->arResult['ACCESS']['DELETE']))
-        {
-            $this->arResult["BUTTON_RESTART"] = 'Y';
-        }
-
-        if (!empty($arResult["APPEAL"]) && $this->checkAccess($this->arResult['ACCESS']['DELETE']))
-        {
-            $this->arResult["BUTTON_DELETE"] = 'Y';
-        }
-
-        if (!empty($arResult["VALUES"]["FOR_PRINT"]))
-        {
-            $this->arResult["BUTTON_PRINT"] = 'Y';
-        }
+			foreach ($this->arResult['VALUES'] as $key => $value)
+			{
+				if (!empty($value["IS_CHANGEABLE"]) && $this->checkAccess($this->arResult['ACCESS']['EDIT']))
+				{
+                    if (!empty($this->arResult["VALUES"]["STATUS"]["VALUE"]) && ($this->arResult["VALUES"]["STATUS"]["VALUE"] != "Аннулировано") || empty($this->arResult["VALUES"]["STATUS"]["VALUE"]))
+					{
+                        $this->arResult["BUTTON_CHANGE"] = 'Y';
+                        break;
+                    }
+				}
+			}
+	
+			if (!empty($this->arResult["VALUES"]["STATUS"]["VALUE"]) && ($this->arResult["VALUES"]["STATUS"]["VALUE"] == "Аннулировано") && ($this->checkAccess($this->arResult['ACCESS']['DELETE'])))
+			{
+				$this->arResult["BUTTON_RESTART"] = 'Y';
+			}
+	
+			if (($this->arResult["VALUES"]["STATUS"]["VALUE"] != "Аннулировано") && $this->checkAccess($this->arResult['ACCESS']['DELETE']))
+			{
+				$this->arResult["BUTTON_DELETE"] = 'Y';
+			}
+	
+			if (!empty($this->arResult["VALUES"]["FOR_PRINT"]))
+			{
+				$this->arResult["BUTTON_PRINT"] = 'Y';
+			}
+		}
     }
 
 
+    /**
+     * @param mixed $arrAccess
+     * 
+     * @return [type]
+     */
     public function checkAccess ($arrAccess) // ПРОВЕРКА ПРАВ
     {
         $res = false;
 
         if ($arrAccess == 'all') return true;
+        if ($arrAccess == 'author') return true;
+
 
         foreach ($arrAccess as $access)
         {
@@ -837,6 +906,11 @@ class AppealPride extends CBitrixComponent
     }
 
 
+    /**
+     * @param mixed $dep
+     * 
+     * @return [type]
+     */
     public function checkDepartment ($dep) // ПРОВЕРКА ПРАВ ПО ДЕПАРТАМЕНТУ
     {
         $userDep = \Bitrix\Main\UserTable::getList([

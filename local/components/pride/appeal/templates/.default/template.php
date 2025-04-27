@@ -3,19 +3,19 @@
 <div class = "headAppealCreation">
 	<a class="linkDocs" href="<?php echo $arResult['TABLE_LINK']; ?>" target="_self">Открыть список</a> 
 	<?php if(!empty($arResult["ERROR"])){ ?> <span class = "errorLine"><?php echo $arResult["ERROR"]; ?></span> <?php } ?>
-	<?php if(!empty($arResult["VALUES"]["NAME"])){ ?> <H1 class = "titleAppeal"><?php echo $arResult["VALUES"]["NAME"]; ?></H1> <?php } ?>
+	<?php if(!empty($arResult["VALUES"]["NAME"]["VALUE"])){ ?> <H1 class = "titleAppeal"><?php echo $arResult["VALUES"]["NAME"]["VALUE"]; ?></H1> <?php } ?>
 
 	<?php 
-		if (!empty($arResult["VALUES"]["STATUS"])) // ЕСЛИ ЕСТЬ СТАТУС ИЛИ КОММЕНТАРИЙ - ВЫВОДИМ
+		if (!empty($arResult["VALUES"]["STATUS"]["VALUE"])) // ЕСЛИ ЕСТЬ СТАТУС ИЛИ КОММЕНТАРИЙ - ВЫВОДИМ
 		{
 			echo '<div class = "dataAppeal">';
 			echo '<p><b>Статус:</b></p>';
-			echo '<span><i>'.$arResult["VALUES"]["STATUS"].'</i></span>';
+			echo '<span><i>'.$arResult["VALUES"]["STATUS"]["VALUE"].'</i></span>';
 		}
-		if (!empty($arResult["VALUES"]["COMMENTS"]))
+		if (!empty($arResult["VALUES"]["COMMENTS"]["VALUE"]))
 		{
 			echo '<p><b>История документа: </b></p>';
-			echo '<span><i>'.$arResult["VALUES"]["COMMENTS"].'</i></span><br><br>';
+			echo '<span><i>'.$arResult["VALUES"]["COMMENTS"]["VALUE"].'</i></span><br><br>';
 			echo '</div>';
 		}
 	?>
@@ -24,9 +24,9 @@
 
 <div class="textForPrint" style="display:none;">
 	<?php
-		if (!empty($arResult["VALUES"]["FOR_PRINT"])) // ВСТАВИТЬ ТЕКСТ ДЛЯ ПЕЧАТИ ЕСЛИ ЕСТЬ
+		if (!empty($arResult["VALUES"]["FOR_PRINT"]["VALUE"])) // ВСТАВИТЬ ТЕКСТ ДЛЯ ПЕЧАТИ ЕСЛИ ЕСТЬ
 		{
-			echo $arResult["VALUES"]["FOR_PRINT"];
+			echo $arResult["VALUES"]["FOR_PRINT"]["VALUE"];
 		}
 	?>
 </div>
@@ -80,8 +80,8 @@
 			<?php if (!empty($arResult["BUTTON_SEND"])) { ?> <input type="submit" name="buttSend" value="Отправить" /> <?php } ?>
             <?php if (!empty($arResult["BUTTON_CHANGE"])) { ?> <input type="submit" name="buttChange" value="Изменить" /> <?php } ?>
             <?php if (!empty($arResult["BUTTON_RESTART"])) { ?> <input type="submit" name="buttRestart" value="Возобновить" /> <?php } ?>
-            <?php if (!empty($arResult["BUTTON_DELETE"])) { ?> <input type="submit" name="buttAnnul" value="Аннулировать" /> <?php } ?>
             <?php if (!empty($arResult["BUTTON_PRINT"])) { ?> <input type="button" name="buttPrint" value="Печать" /> <?php } ?>
+            <?php if (!empty($arResult["BUTTON_DELETE"])) { ?> <input type="submit" name="buttAnnul" value="Аннулировать" /> <?php } ?>
             <input type="button" name="buttCancel" value="Назад" />
 		</div>
 	</form>

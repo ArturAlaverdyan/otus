@@ -10,13 +10,7 @@ if (file_exists(__DIR__.'/vendor/autoload.php'))
     require_once(__DIR__.'/vendor/autoload.php');
 }
 
-if (file_exists(__DIR__.'/vendor/autoload.php'))
-{
-    require_once(__DIR__.'/vendor/autoload.php');
-}
-
-\Bitrix\Main\UI\Extension::load(['popup', 'crm.currency', 'timeman.custom']);
-\Bitrix\Main\UI\Extension::load(['main.footer_edit']);
+\Bitrix\Main\UI\Extension::load(['popup', 'timeman.custom']);
 
 $eventManager = \Bitrix\Main\EventManager::getInstance();
 
@@ -34,6 +28,16 @@ $eventManager->AddEventHandler(
     'OnIBlockPropertyBuildList',
     [
         'UserTypes\IBLink', // класс обработчик пользовательского типа свойства
+        'GetUserTypeDescription'
+    ]
+);
+
+
+$eventManager->AddEventHandler(
+    'iblock',
+    'OnIBlockPropertyBuildList',
+    [
+        'UserTypes\PrideField', // класс обработчик пользовательского типа свойства
         'GetUserTypeDescription'
     ]
 );
